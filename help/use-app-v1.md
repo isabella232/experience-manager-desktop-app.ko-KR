@@ -1,17 +1,15 @@
 ---
 title: AEM 데스크탑 앱 버전 1.x 사용
-seo-title: Adobe Experience Manager 데스크탑 앱 버전 1.x 사용
 description: Adobe Experience Manager 데스크탑 앱 버전 1.x를 사용하고 데스크탑에 설치된 에셋으로 작업을 최적화하는 방법을 살펴볼 수 있습니다.
-seo-description: 데스크탑 및 크리에이티브 워크플로우에서 Adobe Experience Manager 데스크탑 앱 버전 1.x를 사용하고 에셋을 사용하여 작업을 최적화하는 방법을 살펴볼 수 있습니다.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c305f57b8ad874bcffc250689d917e31820225e4
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
