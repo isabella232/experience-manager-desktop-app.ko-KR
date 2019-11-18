@@ -1,17 +1,15 @@
 ---
 title: AEM 데스크탑 앱 릴리스 노트
-seo-title: AEM 데스크탑 앱 릴리스 노트
-description: AEM 데스크탑 앱 v1.x에 대한 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.
-seo-description: AEM 데스크탑 앱 v1.x에 대한 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.
+description: AEM 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
