@@ -1,17 +1,15 @@
 ---
 title: AEM 데스크톱 앱 버전 1.x 설치 및 구성
-seo-title: AEM 데스크톱 앱 버전 1.x 설치 및 구성
 description: AEM 데스크톱 앱 버전 1.x를 설치 및 구성하여 AEM Assets 서버와 연동하고 자산을 데스크탑에서 드라이브로 마운트할 수 있습니다.
-seo-description: AEM 데스크톱 앱 버전 1.x를 설치 및 구성하여 AEM Assets 서버와 연동하고 자산을 데스크탑에서 드라이브로 마운트할 수 있습니다.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-03571942740
+discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7ce29042aff6d4caea0e7b8a56673d4bfed03a45
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
