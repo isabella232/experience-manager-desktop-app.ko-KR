@@ -1,17 +1,15 @@
 ---
 title: AEM 데스크탑 앱 설치 및 구성
-seo-title: AEM 데스크탑 앱 설치 및 구성
 description: AEM 자산 서버와 연동되도록 AEM 데스크탑 앱을 설치 및 구성하고 로컬 파일 시스템에서 자산을 다운로드합니다.
-seo-description: AEM 자산 서버와 연동되도록 AEM 데스크탑 앱을 설치 및 구성하고 로컬 파일 시스템에서 자산을 다운로드합니다.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-03571942740
+discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a46660a3d56100e0d767e7f2b54656782bb5e7a7
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
