@@ -1,18 +1,13 @@
 ---
 title: AEM 데스크탑 앱 사용
-seo-title: Adobe Experience Manager 데스크탑 앱 사용
 description: Win 또는 Mac 데스크탑에서 바로 AEM 자산에서 작업하기 위해 Adobe Experience Manager 데스크탑 앱을 설치하고 사용하는 방법에 대해 학습합니다. 모범 사례 및 문제 해결 정보를 확인하십시오.
-seo-description: Win 또는 Mac 데스크탑에서 바로 AEM 자산에서 작업하기 위해 Adobe Experience Manager 데스크탑 앱을 설치하고 사용하는 방법에 대해 학습합니다. 모범 사례 및 문제 해결 정보를 확인하십시오.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
-mini-toc-levels: '1'
+mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
