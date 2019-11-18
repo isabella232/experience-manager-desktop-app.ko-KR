@@ -1,16 +1,12 @@
 ---
 title: AEM 데스크탑 앱 소개
-seo-title: Adobe Experience Manager 데스크탑 앱 기술 설명서 및 자체 도움말
-description: AEM 데스크탑 앱이 데스크톱에서 직접 기업 자산을 사용할 때 크리에이티브 사용자의 워크플로우를 최적화하는 방법을 이해하는 기술 설명서 및 자체 도움말입니다.
-seo-description: AEM 데스크탑 앱이 데스크탑에서 바로 엔터프라이즈 자산을 사용할 때 크리에이티브 사용자의 워크플로우를 어떻게 최적화할 수 있는지 알아봅니다.
-contentOwner: asgupta
+description: AEM 데스크톱 앱을 사용하여 데스크톱에서 직접 AEM 자산을 사용할 때 크리에이티브 사용자를 위한 자산 관리 워크플로우를 최적화하는 방법을 알아봅니다.
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
