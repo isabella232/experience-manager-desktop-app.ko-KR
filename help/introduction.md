@@ -6,7 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -47,6 +47,6 @@ Adobe는 솔루션 전반에 걸쳐 긴밀하게 연결된 워크플로우를 �
 
 새 앱의 주요 사용 사례 및 개선 사항은 다음 그림에서 고객 여정에 매핑됩니다.
 
-![AEM 데스크탑 앱의 새로운 기능](assets/do-not-localize/whats-new-desktop-app-v2.png)
+![AEM 데스크탑 앱의 새로운 기능](assets/aem_desktop_app_usecases_v2.png)
 
 데스크톱 앱을 사용하면 앱 내에서 바로 위에 언급된 모든 사용 사례를 수행할 수 있습니다. 필요한 경우 웹 인터페이스에서 자산 검색을 수행한 다음 앱에 컨트롤을 전달하여 자산을 열고 편집할 수도 있습니다.
