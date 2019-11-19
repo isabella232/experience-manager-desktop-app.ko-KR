@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -84,7 +84,7 @@ AEM 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 
 다음 다이어그램은 사용자 작업에 의해 시작된 것처럼 클라우드에서 로컬 파일 시스템으로 에셋과 파일의 흐름을 보여 줍니다.
 
-![데스크탑 앱을 통해 AEM 서버에서 기본 데스크탑 앱으로의 자산 흐름](assets/do-not-localize/da20_flow_diagram.png)
+![데스크탑 앱을 통해 AEM 서버에서 기본 데스크탑 앱으로의 자산 흐름](assets/da20_flow_diagram.png)
 
 ## Known issues {#known-issues-v2}
 
