@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
 
@@ -59,13 +59,13 @@ Windows(인터넷 옵션 &gt; LAN 설정)에 대한 프록시 서버 설정을 �
 
 ## 디스패처 뒤의 AEM 인스턴스에 연결 {#connect-to-an-aem-instance-behind-a-dispatcher}
 
-자산 API의 복사 및 이동 메서드를 사용하려면 AEM에 다음과 같은 추가 헤더가 전달되어야 합니다.
+자산 API의 복사 및 이동 메서드는 다음과 같은 추가 헤더를 AEM에 전달해야 합니다.
 
 * X-대상
 * X-깊이
 * X-덮어쓰기
 
-AEM Desktop은 기본 포트가 포함된 URL을 사용하여 AEM에 연결합니다. 따라서 *발송자 구성의 가상* 호스트 설정은 기본 포트 번호를 포함해야 합니다. 가상 호스트 구성에 대한 자세한 내용은 가상 호스트 [식별을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM Desktop은 기본 포트가 포함된 URL을 사용하여 AEM에 연결합니다. 따라서 디스패처 구성의 `virtualhosts` 설정에 기본 포트 번호가 포함되어야 합니다. 구성에 대한 자세한 내용은 `virtualhosts` 가상 호스트 [식별을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 발송자가 이러한 추가 헤더를 통과하도록 구성하는 방법에 대한 자세한 내용은 HTTP [헤더 지정을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 
