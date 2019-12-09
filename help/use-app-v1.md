@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
 
@@ -36,7 +36,7 @@ AEM 데스크톱 앱 v1을 사용하는 주요 작업은 다음과 같습니다.
 
 ## 크리에이티브 워크플로우의 AEM 데스크탑 앱 터치 포인트 {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
-AEM Assets와 함께 AEM Desktop 앱은 크리에이티브 워크플로우에 통합되고 다음 터치포인트를 제공합니다.
+AEM Assets와 함께 AEM Desktop 앱은 크리에이티브 워크플로우에 통합되고 다음과 같은 터치 포인트를 제공합니다.
 
 ![AEM 데스크탑 앱 터치 - 크리에이티브 워크플로우](assets/aem_desktopapp_workflow.png)
 
@@ -212,7 +212,7 @@ AEM 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가
    ![체크 아웃 아이콘 전환](assets/chlimage_1-7.png)
 
 1. 자산을 마우스 오른쪽 단추로 클릭하고 컨텍스트 메뉴에서 웹에서 열기를 선택합니다.
-1. 자산 정보 대화 상자에서 체크아웃 아이콘을 클릭/탭합니다. 체크 아웃 아이콘은 체크 인 아이콘으로 전환합니다.
+1. 자산 정보 대화 상자에서 체크아웃 아이콘을 클릭/탭합니다. 체크 아웃 아이콘은 체크 인 아이콘으로 전환됩니다.
 
    ![체크 아웃 아이콘 전환](assets/chlimage_1-8.png)
 
@@ -221,7 +221,7 @@ AEM 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가
    >[!NOTE]
    >몇 분 정도 지연되면 잠금 아이콘이 나타날 수 있습니다. AEM 데스크톱 앱은 빠른 액세스를 위해 자산을 캐시하므로 잠긴 상태를 업데이트하는 데 몇 분 정도 걸릴 수 있습니다.
 
-1. 다른 사용자가 사용할 수 있도록 자산을 체크 인하려면 자산 정보 대화 상자에서 체크 인 아이콘을 클릭/ **탭합니다** .
+1. 다른 사용자가 사용할 수 있도록 자산을 체크 인하려면 [자산 정보] 대화 상자에서 체크 인 **아이콘을 클릭/탭합니다** .
 
 ### Finder 또는 탐색기를 사용하여 그리고 웹 인터페이스를 사용하여 자산 체크 인 {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
@@ -231,7 +231,7 @@ AEM 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가
 
 ![AEM 데스크톱 앱 파일 전송 및 업로드 상태 창](assets/aem_desktopapp_upload_status.png)
 
-또는 AEM 웹 인터페이스에서 자산을 체크 인할 수 있습니다. 체크 아웃된 자산을 클릭/탭하거나 선택합니다. 도구 모음에서 체크 인 아이콘 체크 인 아이콘을 클릭/ ![탭합니다](assets/aemassets_icon_checkin.png).
+또는 AEM 웹 인터페이스에서 자산을 체크 인할 수 있습니다. 체크 아웃된 자산을 클릭/탭하거나 선택합니다. 도구 모음에서 체크 인 아이콘 ![체크 인 아이콘을](assets/aemassets_icon_checkin.png)클릭/탭합니다.
 
 ### AEM 서버에 자산 및 폴더 일괄 업로드 {#bulkupload}
 
