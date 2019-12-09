@@ -9,12 +9,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
 
 ---
 
 
-# AEM 데스크탑 앱 문제 해결 {#troubleshoot-v2}
+# Troubleshoot AEM desktop app {#troubleshoot-v2}
 
 AEM(Adobe Experience Manager) 데스크탑 앱은 원격 AEM 배포의 DAM 파섹 저장소에 연결됩니다. 앱은 컴퓨터에서 저장소 정보와 검색 결과를 가져오고, 파일 및 폴더를 다운로드 및 업로드하며, AEM Assets 사용자 인터페이스와 충돌을 관리하는 기능을 포함합니다.
 
@@ -38,7 +38,7 @@ AEM(Adobe Experience Manager) 데스크탑 앱은 원격 AEM 배포의 DAM 파�
 
 * **네트워크**:네트워크 성능은 AEM 데스크톱 앱의 성능에 중요합니다. 파일 전송 또는 벌크 작업에 대한 응답 속도가 느려지면 네트워크 트래픽이 많을 수 있는 기능이나 앱을 끕니다.
 
-* **데스크톱 앱에**&#x200B;지원되지 않는 사용 사례:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구 필요).대량의 DAM 작업(큰 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용한 파일 찾기 등)동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 동기화 클라이언트와 다름)
+* **데스크톱 앱에**&#x200B;지원되지 않는 사용 사례:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구 필요).대량의 DAM 작업(큰 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용하여 파일 찾기 등)동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 동기화 클라이언트와 다름)
 
 ## 문제 해결 방법 {#troubleshooting-prep}
 
