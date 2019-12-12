@@ -8,21 +8,22 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
+mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+source-git-commit: b2015bd65db70a25e4c52e62a4de45a01a6748d5
 
 ---
 
 
-# AEM 데스크탑 앱 릴리스 노트 {#release-notes-v2}
+# AEM desktop app release notes {#release-notes-v2}
 
 | 제품 | AEM(Adobe Experience Manager) 데스크탑 앱 |
 |---------------|--------------------------------------------------------------------|
-| 앱 버전(개정) | 2.0(2.0.0.4) |
+| 앱 버전(개정) | 2.0 (2.0.1.1) |
 | 지원되는 AEM 버전 | AEM 6.5, AEM 6.4, AEM 6.3(호환성 패키지 포함) |
-| 유형 | 주요 릴리스 |
-| 릴리스 날짜 | 2019년 8월 30일(Mac), 2019년 9월 9일(Windows) |
-| 다운로드 URL | [MacOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.0.4.dmg), [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.0.4.exe), [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.0.4.exe) |
+| 유형 | 보조 릴리스 |
+| 릴리스 날짜 | 2019년 12월 12일 (Mac 및 Win) |
+| 다운로드 URL | [MacOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg), [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe), [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe) |
 
 ## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
 
@@ -36,12 +37,15 @@ AEM 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 * [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) 이상
 * [AEM 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 이상
 * AEM 6.4.0 - 6.4.3([호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 포함)
-* AEM 6.3.3.1 이상([호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 포함)
-* AEM 6.3의 경우 [계획된 서비스 팩](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)이 없습니다. 이후 AEM 버전으로 업그레이드하는 것이 좋습니다.
+
+>[!NOTE]
+>
+>AEM 6.3에 대한 데스크탑 앱 지원은 더 이상 필요하지 않습니다. 최신 지원 AEM 버전으로 업그레이드할 것을 권장합니다.
+>AEM 6.3.3.1 이상 버전은 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)설치한 후 데스크탑 앱에서 작동합니다. AEM 6.3에는 [서비스 팩이 계획이](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)없으므로 이러한 패키지를 사용할 수 없습니다.
 
 앱 버전을 로컬 컴퓨터에 설치하려면 특정 Adobe Experience Manager 서버 버전/서버측 추가 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. 도움말은 AEM 관리자에게 문의하십시오.
 
-### 다양한 자산 및 파일 유형 지원 {#support-for-file-types}
+### Support for different assets and file types {#support-for-file-types}
 
 기본 작업용 이진 파일을 나타내는 AEM에 저장된 자산을 애플리케이션에서 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
@@ -51,16 +55,22 @@ AEM 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 * Adobe Illustrator 파일(AI 형식)
 * Adobe Photoshop 파일(PS 형식)
 
-위의 애플리케이션의 Adobe Creative Cloud 2018 및 Creative Cloud 2019 버전에서 기능이 지원됩니다. 앱에서는 가장 일치하는 방식을 추론하여 연결된 자산의 로컬 데스크탑 경로를 AEM 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
+이 기능은 위의 애플리케이션의 Adobe Creative Cloud 2018 및 Adobe Creative Cloud 2019 버전에서 지원됩니다. 앱에서는 가장 일치하는 방식을 추론하여 연결된 자산의 로컬 데스크탑 경로를 AEM 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
 
-* 기본 애플리케이션에 배치된 파일까지 경로에는 글로벌 데스크탑 경로 사용("표시" 옵션이 표시된 로컬 네트워크 공유에서 배치됨)
-* 경로는 기본 앱에서 파일의 XMP 레코드에 저장합니다.
-* AEM에서는 자산의 메타데이터 레코드까지 경로로 XMP 레코드를 추출했음
-* 경로가 AEM의 자산에 일치할 수 있음(즉, 배치된 파일이 경로가 일치하는 AEM에도 있음)
+* Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
+* 경로는 기본 앱으로 파일의 XMP 레코드에 저장됩니다.
+* AEM에서는 자산의 메타데이터 레코드까지 경로로 XMP 레코드를 추출했음.
+* 경로는 AEM의 자산과 일치할 수 있습니다. 즉, 배치된 파일도 AEM에서 일치하는 경로에 있습니다.
 
 ## 새로운 기능 및 향상된 기능 {#whats-new-added}
 
-자세한 내용은 [앱의 새로운 기능](introduction.md#whats-new-v2)을 참조하십시오.
+To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
+
+v 2.0.1 릴리스에서 수행된 버그 수정 및 업데이트는 다음과 같습니다.
+
+* 경로 일치로 `%Temp%` `%APPDATA%` 디렉토리를 구성할 수 있는 옵션을 허용합니다. <!-- CQ-4282665 -->
+* 사용자가 Okta SAML 인증을 통해 AEM 작성자에 로그인할 수 있도록 허용합니다. <!-- CQ-4278134 -->
+
 
 ## 설치 지침 {#installation-instructions-v2}
 
@@ -89,6 +99,7 @@ AEM 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 ## 알려진 문제 {#known-issues-v2}
 
 **사용자 인터페이스 문제:**
+
 * 때때로 데스크탑 앱의 인터페이스는 비어 있을 수 있습니다. Right-click and click [!UICONTROL Refresh] to re-load the application. 새로 고친 후에는 DAM 저장소의 루트에서 시작합니다. 자산의 업데이트 또는 상태가 유지됩니다. <!-- CQ-4270267 -->
 * 트랙 패드나 마우스 포인터 없이 폴더/검색 결과를 탐색하기 어렵습니다. The scroll-bar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
 * 자산 업로드가 변경될 때 진행률 표시줄이 제대로 표시되지 않는 경우가 가끔 있습니다.
@@ -96,18 +107,20 @@ AEM 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 * 실행 중인 AEM 서버가 없는 URL에 연결하면 연결 화면이 응답하지 않는 경우가 가끔 있습니다. 애플리케이션을 종료하고 다시 시작합니다.
 
 **CRUD(만들기, 읽기, 업데이트 및 삭제) 문제:**
+
 * 잘못된 문자가 있어도 애플리케이션에서 파일 업로드를 시도하면 서버측 업로드가 실패할 수 있습니다. <!-- CQ-4273652 -->
 * 댓글이 있는 자산에 변경 사항을 업로드하면 댓글은 AEM의 자산에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 AEM 6.4.5 및 AEM 6.5.1에서 해결되었습니다.최신 서비스 팩을 설치하는 것이 좋습니다. <!-- CQ-4268990 -->
 * 사용자가 자산 전송을 취소할 수 없습니다. 의도하지 않은 대용량 전송을 트리거한 경우 애플리케이션을 종료하고 다시 시작합니다. <!-- CQ-4278940 -->
 
 **플랫폼 문제:**
+
 * 자산을 열면 해당 자산을 편집하지 않았더라도 [!UICONTROL Edited Locally] 상태로 즉시 변경되는 경우가 가끔 있습니다. [!UICONTROL Refresh] 아이콘을 클릭하여 업데이트합니다.
 
 >[!MORELIKETHIS]
 >
 >* [AEM 6.5 설명서](https://helpx.adobe.com/support/experience-manager/6-5.html)
->* [AEM Assets 6.5 설명서](https://docs.adobe.com/content/help/en/experience-manager-64/assets/home.html)
->* [AEM 데스크탑 앱 사용](using.md)
+>* [AEM Assets 6.5 설명서](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
+>* [AEM 데스크탑 앱 사용 방법](using.md)
 >* [데스크탑 앱 설치 및 업그레이드](install-upgrade.md)
 >* [우수 사례 및 문제 해결 팁](troubleshoot.md)
 
