@@ -9,14 +9,24 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 ---
 
 
 # AEM 데스크탑 앱 설치 {#install-app-v2}
 
-## 시스템 요구 사항 {#tech-specs-v2}
+AEM 데스크탑 앱을 사용하면 AEM 내의 에셋은 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산은 Mac Finder 또는 Windows 탐색기에서 쉽게 표시되며, 데스크톱 응용 프로그램에서 열리며 로컬에서 변경될 수 있습니다. 업로드하면 변경 내용이 AEM에 다시 저장되고 저장소에 새 버전이 만들어집니다.
+
+이러한 통합을 통해 조직의 다양한 역할이 AEM 자산에서 중앙에서 자산을 관리하고 Creative Cloud 및 기타 애플리케이션에서 이러한 에셋을 이용할 수 있으며 브랜딩을 비롯한 다양한 표준을 손쉽게 준수할 수 있습니다.
+
+AEM 데스크톱 앱을 사용하려면,
+
+* AEM 서버 버전이 AEM 데스크탑 앱에서 지원되는지 확인합니다. 호환성 [매트릭스를](release-notes-of-v1.md#compatibilitymatrix)참조하십시오.
+* 애플리케이션을 다운로드하여 설치합니다.
+* 몇 개의 자산을 사용하여 연결을 테스트합니다. 데스크톱에서 [자산 액세스 및 열기를 참조하십시오](use-app-v1.md#openondesktop).
+
+## 시스템 요구 사항 사전 요구 사항 및 다운로드 링크 {#tech-specs-v2}
 
 자세한 내용은 AEM [데스크톱 앱 릴리스 노트를](release-notes.md)참조하십시오.
 
@@ -35,7 +45,7 @@ v1.x에서 최신 버전의 앱으로 업그레이드하려면 다음 지침을 
 1. 시스템을 다시 시작합니다.
 1. 최신 앱을 다운로드하여 설치합니다. 아래 지침을 따르십시오.
 
-## 설치 {#install-v2}
+##  설치{#install-v2}
 
 데스크탑 앱을 설치하려면 다음 단계를 따르십시오. 최신 앱을 설치하기 전에 기존 Adobe Experience Manager 데스크탑 앱 v1.x를 제거합니다. 자세한 내용은 상기를 참조하십시오.
 
@@ -44,7 +54,7 @@ v1.x에서 최신 버전의 앱으로 업그레이드하려면 다음 지침을 
 1. 설치 프로그램 바이너리를 실행하고 화면에 표시되는 지침에 따라 설치합니다.
 1. Windows의 경우 설치 프로그램이 설치하라는 메시지가 표시될 수 `Visual Studio C++ Redistributable 2015`있습니다. 화면의 지침에 따라 설치합니다. 설치에 실패하면 수동으로 설치합니다. [여기에서](https://www.microsoft.com/en-us/download/details.aspx?id=52685) 설치 프로그램을 다운로드하고 `vc_redist.x64.exe` `vc_redist.x86.exe` 파일과 파일을 모두 설치합니다. AEM 데스크톱 앱 설치 관리자를 다시 실행합니다.
 1. 메시지가 표시되면 컴퓨터를 다시 시작합니다. 데스크톱 앱을 실행하여 구성합니다.
-1. 앱을 AEM 저장소에 연결하려면 트레이에서 앱 아이콘을 클릭하여 앱을 실행합니다. AEM 인스턴스의 주소를 제공합니다. 을 클릭하고 자격 증명을 **[!UICONTROL Connect]** 제공합니다.
+1. 앱을 AEM 저장소에 연결하려면 트레이에서 앱 아이콘을 클릭하여 앱을 실행합니다. AEM 인스턴스의 주소를 제공합니다. 을 클릭하고 자격 증명을 **[!UICONTROL Connect]**제공합니다.
 
    ![데스크탑 앱의 연결 화면입력 서버](assets/connect_da2.png "주소에 대한 연결 화면")
 
@@ -62,12 +72,12 @@ v1.x에서 최신 버전의 앱으로 업그레이드하려면 다음 지침을 
 
 ## 환경 설정 {#set-preferences}
 
-환경 설정을 변경하려면 추가 옵션 ![아이콘](assets/do-not-localize/more_options_da2.png) 및 **[!UICONTROL Preference]** 환경 설정 아이콘을 ![클릭합니다](assets/do-not-localize/preferences_icon_da2.png). 창에서 **[!UICONTROL Preferences]** 다음 값을 조정합니다.
+환경 설정을 변경하려면 추가 옵션 ![아이콘](assets/do-not-localize/more_options_da2.png) 및 **[!UICONTROL Preference]**환경 설정 아이콘을![클릭합니다](assets/do-not-localize/preferences_icon_da2.png). 창에서**[!UICONTROL Preferences]** 다음 값을 조정합니다.
 
 * [!UICONTROL Launch application on login].
 * [!UICONTROL Show window when application starts].
 * **[!UICONTROL Cache Directory]**:앱의 로컬 캐시 위치(로컬에서 다운로드한 에셋이 포함).
-* **[!UICONTROL Network Drive Letter]**:AEM DAM에 매핑하는 데 사용되는 드라이브 문자입니다. 확실하지 않으면 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자로 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 글자의 에셋을 배치하면 서로 배치된 에셋이 표시되지 않습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(예: INDD)에 그대로 유지되며 제거되지 않습니다. 앱은 사용 가능한 모든 드라이브 문자를 나열하고 기본적으로 일반적으로 사용 가능한 마지막 문자를 사용합니다 `Z`.
+* **[!UICONTROL Network Drive Letter]**:AEM DAM에 매핑하는 데 사용되는 드라이브 문자입니다. 확실하지 않으면 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자로 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 글자의 에셋을 배치하면 서로 배치된 에셋이 표시되지 않습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(예: INDD)에 그대로 유지되며 제거되지 않습니다. 앱은 사용 가능한 모든 드라이브 문자를 나열하고 기본적으로 일반적으로 사용 가능한 마지막 문자를 사용합니다`Z`.
 * **[!UICONTROL Maximum Cache Size]**:로컬로 다운로드된 에셋을 저장하는 데 사용되는 하드 디스크의 캐시(GB)가 허용됩니다.
 * **[!UICONTROL Current cache size]**:로컬에서 다운로드한 자산의 저장소 크기입니다. 이 정보는 앱을 사용하여 자산을 다운로드한 후에만 표시됩니다.
 * **[!UICONTROL Automatically download linked assets]**:지원되는 기본 Creative Cloud 앱에 배치된 에셋은 원본 파일을 다운로드하는 경우 자동으로 반입됩니다.
