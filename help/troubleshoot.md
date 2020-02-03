@@ -1,5 +1,5 @@
 ---
-title: AEM 데스크탑 앱 우수 사례 및 문제 해결
+title: Adobe Experience Manager 데스크탑 앱 모범 사례 및 문제 해결
 description: 모범 사례 및 문제 해결을 통해 설치, 업그레이드, 구성 등과 관련된 가끔 발생하는 문제를 해결할 수 있습니다.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
@@ -9,14 +9,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# Troubleshoot AEM desktop app {#troubleshoot-v2}
+# Troubleshoot Adobe Experience Manager desktop app {#troubleshoot-v2}
 
-AEM(Adobe Experience Manager) 데스크탑 앱은 원격 AEM 배포의 DAM 파섹 저장소에 연결됩니다. 앱은 컴퓨터에서 저장소 정보와 검색 결과를 가져오고, 파일 및 폴더를 다운로드 및 업로드하며, AEM Assets 사용자 인터페이스와 충돌을 관리하는 기능을 포함합니다.
+AEM(Adobe Experience Manager) 데스크탑 앱은 원격 Experience Manager 배포의 DAM 파섹 저장소에 연결됩니다. 앱은 컴퓨터에서 저장소 정보와 검색 결과를 가져오고, 파일 및 폴더를 다운로드 및 업로드하며, AEM Assets 사용자 인터페이스와 충돌을 관리하는 기능을 포함합니다.
 
 앱의 문제를 해결하고, 모범 사례에 대해 알아보고, 제한 사항을 살펴보십시오.
 
@@ -26,19 +26,21 @@ AEM(Adobe Experience Manager) 데스크탑 앱은 원격 AEM 배포의 DAM 파�
 
 * **데스크탑 앱의 작동**&#x200B;방식 이해:애플리케이션을 사용하기 전에 앱이 어떻게 작동하는지 알기 위해 몇 분 동안 시간을 할애할 수 있습니다. 웹 UI와 데스크탑 간의 연결, 저장소 매핑, 자산 캐싱, 로컬에 저장 및 백그라운드에서 업로드에 대해 알아봅니다. 작동 [방식](release-notes.md#how-app-works)보기
 
-* **폴더 이름에**&#x200B;지원되지 않는 문자를 사용하지 마십시오.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. AEM 자산에서 폴더 [만들기에서 문자 목록을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). 일부 AEM 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
+* **폴더 이름에**&#x200B;지원되지 않는 문자를 사용하지 마십시오.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. Experience Manager 자산에서 폴더 [만들기에서 문자 목록을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). 일부 Adobe Experience Manager 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
 
 * **충돌을**&#x200B;방지하기 위한 모범 사례:여러 자산에서 공동 작업할 때 발생할 수 있는 충돌을 방지하려면 편집 충돌을 [방지하십시오](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **대용량 계층적 폴더에**&#x200B;폴더 업로드 사용:자산 웹 인터페이스나 다른 방법을 사용하는 대신 AEM 데스크탑 앱을 사용하여 큰 폴더를 업로드합니다. 앱은 로깅 및 모니터링으로 자산을 백그라운드에서 업로드합니다. 자산 [일괄 업로드를](using.md#bulk-upload-assets)참조하십시오.
+* **대용량 계층적 폴더에**&#x200B;폴더 업로드 사용:Assets 웹 인터페이스나 다른 방법을 사용하는 대신 Experience Manager 데스크탑 앱을 사용하여 큰 폴더를 업로드하십시오. 앱은 로깅 및 모니터링으로 자산을 백그라운드에서 업로드합니다. 자산 [일괄 업로드를](using.md#bulk-upload-assets)참조하십시오.
 
-* **최신 버전**&#x200B;사용:최신 앱 버전을 사용하고 항상 호환성을 확인한 후 새 앱 버전을 설치하거나 최신 AEM 버전으로 업그레이드하십시오. 릴리스 [노트를](release-notes.md)참조하십시오.
+* **최신 버전**&#x200B;사용:최신 앱 버전을 사용하고 항상 호환성을 확인한 후 새 앱 버전을 설치하거나 최신 Adobe Experience Manager 버전으로 업그레이드하십시오. See [release notes](release-notes.md).
 
-* **동일한 드라이브 문자**&#x200B;사용:조직 전체에서 동일한 드라이브 문자를 사용하여 AEM DAM에 매핑합니다. 다른 사용자가 배치한 자산을 보려면 경로가 동일해야 합니다. 동일한 드라이브 문자를 사용하면 DAM 에셋에 대한 경로를 일관되게 유지할 수 있습니다. 다른 사용자가 다른 드라이브 문자를 사용하더라도 에셋은 배치된 상태로 유지되며 제거되지 않습니다.
+* **동일한 드라이브 문자**&#x200B;사용:조직 전체에서 동일한 드라이브 문자를 사용하여 Adobe Experience Manager DAM에 매핑할 수 있습니다. 다른 사용자가 배치한 자산을 보려면 경로가 동일해야 합니다. 동일한 드라이브 문자를 사용하면 DAM 에셋에 대한 경로를 일관되게 유지할 수 있습니다. 다른 사용자가 다른 드라이브 문자를 사용하더라도 에셋은 배치된 상태로 유지되며 제거되지 않습니다.
 
-* **네트워크**:네트워크 성능은 AEM 데스크톱 앱의 성능에 중요합니다. 파일 전송 또는 벌크 작업에 대한 응답 속도가 느려지면 네트워크 트래픽이 많을 수 있는 기능이나 앱을 끕니다.
+* **네트워크**:네트워크 성능은 Experience Manager 데스크탑 앱의 성능에 매우 중요합니다. 파일 전송 또는 벌크 작업에 대한 응답 속도가 느려지면 네트워크 트래픽이 많을 수 있는 기능이나 앱을 끕니다.
 
-* **데스크톱 앱에**&#x200B;지원되지 않는 사용 사례:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구 필요).대량의 DAM 작업(큰 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용하여 파일 찾기 등)동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 동기화 클라이언트와 다름)
+* **데스크톱 앱에**&#x200B;지원되지 않는 사용 사례:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구 필요).대량의 DAM 작업(큰 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용한 파일 찾기 등)동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 동기화 클라이언트와 다름)
+
+* **시간 초과**:현재 데스크톱 앱에는 고정 시간 간격 이후 Experience Manager 서버와 데스크톱 앱 간의 연결을 해제하는 구성 가능한 시간 초과 값이 없습니다. 대용량 자산을 업로드할 때 잠시 후 연결이 시간 초과되면 업로드 시간 초과를 증가시켜 앱이 자산을 몇 번 업로드하기 위해 다시 시도합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
 ## 문제 해결 방법 {#troubleshooting-prep}
 
@@ -80,7 +82,7 @@ AEM 데스크톱 앱의 캐시를 지우는 것은 몇 가지 문제를 해결�
 
 ### AEM 데스크탑 앱 버전 이해 {#know-app-version-v2}
 
-앱 ![메뉴를](assets/do-not-localize/more_options_da2.png) 클릭하여 앱의 메뉴를 열고 **[!UICONTROL Help]** &gt; **[!UICONTROL About]**&#x200B;을 클릭합니다.
+앱 ![메뉴를](assets/do-not-localize/more_options_da2.png) 클릭하여 앱의 메뉴를 열고 **[!UICONTROL Help]**>**[!UICONTROL About]**&#x200B;을 클릭합니다.
 
 ## 가져온 자산을 볼 수 없음 {#placed-assets-missing}
 
@@ -118,7 +120,7 @@ AEM 데스크톱 앱에서 HTTP 통신에 사용하는 라이브러리는 엄격
 
 거의 응용 프로그램이 응답하지 않거나 흰색 화면만 표시하거나 인터페이스 아래쪽에 오류가 표시되는 경우는 없습니다. 순서대로 다음 작업을 시도하십시오.
 
-1. 애플리케이션 인터페이스를 마우스 오른쪽 버튼으로 클릭한 다음 을 **[!UICONTROL Refresh]**&#x200B;클릭합니다.
+1. 애플리케이션 인터페이스를 마우스 오른쪽 버튼으로 클릭한 다음 을 **[!UICONTROL Refresh]**클릭합니다.
 1. 애플리케이션을 종료하고 다시 시작합니다.
 
 두 방법 모두에서 앱은 루트 DAM 폴더에서 시작됩니다.
