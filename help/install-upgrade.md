@@ -1,6 +1,6 @@
 ---
-title: AEM 데스크탑 앱 설치 및 구성
-description: AEM 자산 서버와 연동되도록 AEM 데스크탑 앱을 설치 및 구성하고 로컬 파일 시스템에서 자산을 다운로드합니다.
+title: Adobe Experience Manager 데스크탑 앱 설치 및 구성
+description: Adobe Experience Manager Assets 서버와 연동되고 로컬 파일 시스템에서 에셋을 다운로드할 수 있도록 Adobe Experience Manager 데스크탑 앱을 설치하고 구성합니다.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,26 +9,26 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# AEM 데스크탑 앱 설치 {#install-app-v2}
+# Install Adobe Experience Manager desktop app {#install-app-v2}
 
-AEM 데스크탑 앱을 사용하면 AEM 내의 에셋은 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산은 Mac Finder 또는 Windows 탐색기에서 쉽게 표시되며, 데스크톱 응용 프로그램에서 열리며 로컬에서 변경될 수 있습니다. 업로드하면 변경 내용이 AEM에 다시 저장되고 저장소에 새 버전이 만들어집니다.
+Adobe Experience Manager 데스크탑 앱을 사용하면 Adobe Experience Manager의 에셋을 로컬 데스크탑에서 손쉽게 이용할 수 있고 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산은 Mac Finder 또는 Windows 탐색기에서 쉽게 표시되며, 데스크톱 응용 프로그램에서 열렸으며 로컬에서 변경될 수 있습니다. 이렇게 하면 업로드한 후 저장소에 새 버전이 만들어질 때 변경 내용이 Experience Manager에 다시 저장됩니다.
 
-이러한 통합을 통해 조직의 다양한 역할이 AEM 자산에서 중앙에서 자산을 관리하고 Creative Cloud 및 기타 애플리케이션에서 이러한 에셋을 이용할 수 있으며 브랜딩을 비롯한 다양한 표준을 손쉽게 준수할 수 있습니다.
+이러한 통합을 통해 조직의 다양한 역할이 Adobe Experience Manager Assets의 자산을 중앙에서 관리하고 Creative Cloud 및 기타 애플리케이션에서 이러한 에셋을 이용할 수 있으며 브랜딩을 비롯한 다양한 표준을 손쉽게 준수할 수 있습니다.
 
-AEM 데스크톱 앱을 사용하려면,
+Experience Manager 데스크탑 앱을 사용하려면
 
-* AEM 서버 버전이 AEM 데스크탑 앱에서 지원되는지 확인합니다. 호환성 [매트릭스를](release-notes-of-v1.md#compatibilitymatrix)참조하십시오.
+* Experience Manager 데스크탑 앱에서 Experience Manager 서버 버전을 지원하는지 확인하십시오. 호환성 [매트릭스를](release-notes-of-v1.md#compatibilitymatrix)참조하십시오.
 * 애플리케이션을 다운로드하여 설치합니다.
 * 몇 개의 자산을 사용하여 연결을 테스트합니다. 데스크톱에서 [자산 액세스 및 열기를 참조하십시오](use-app-v1.md#openondesktop).
 
 ## 시스템 요구 사항 사전 요구 사항 및 다운로드 링크 {#tech-specs-v2}
 
-자세한 내용은 AEM [데스크톱 앱 릴리스 노트를](release-notes.md)참조하십시오.
+자세한 내용은 Experience Manager [데스크탑 앱 릴리스 노트를](release-notes.md)참조하십시오.
 
 ## 앱 v1.x에서 앱 v2로 업그레이드 {#upgrade-from-previous-version}
 
@@ -72,7 +72,7 @@ v1.x에서 최신 버전의 앱으로 업그레이드하려면 다음 지침을 
 
 ## 환경 설정 {#set-preferences}
 
-환경 설정을 변경하려면 추가 옵션 ![아이콘](assets/do-not-localize/more_options_da2.png) 및 **[!UICONTROL Preference]**&#x200B;환경 설정 아이콘을![클릭합니다](assets/do-not-localize/preferences_icon_da2.png). 창에서**[!UICONTROL Preferences]** 다음 값을 조정합니다.
+환경 설정을 변경하려면 추가 옵션 ![아이콘](assets/do-not-localize/more_options_da2.png) 및 **[!UICONTROL Preference]**환경 설정 아이콘을![클릭합니다](assets/do-not-localize/preferences_icon_da2.png). 창에서**[!UICONTROL Preferences]** 다음 값을 조정합니다.
 
 * [!UICONTROL Launch application on login].
 * [!UICONTROL Show window when application starts].
