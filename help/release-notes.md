@@ -1,6 +1,6 @@
 ---
-title: AEM 데스크탑 앱 릴리스 노트
-description: AEM 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.
+title: Adobe Experience Manager 데스크탑 앱 릴리스 노트
+description: Adobe Experience Manager 데스크탑 앱을 위한 릴리스 정보, 향상된 기능, 새로운 기능, 호환성 및 다운로드 링크.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -10,12 +10,12 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: b2015bd65db70a25e4c52e62a4de45a01a6748d5
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# AEM desktop app release notes {#release-notes-v2}
+# Adobe Experience Manager 데스크탑 앱 릴리스 노트 {#release-notes-v2}
 
 | 제품 | AEM(Adobe Experience Manager) 데스크탑 앱 |
 |---------------|--------------------------------------------------------------------|
@@ -27,56 +27,55 @@ source-git-commit: b2015bd65db70a25e4c52e62a4de45a01a6748d5
 
 ## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
 
-AEM 데스크탑 앱은 다음 운영 체제와 호환됩니다.
+Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 
 * Mac OS X 10.10 이상(최신 버그 수정 포함)
 * Windows 7 및 Windows 10(최신 서비스 팩 및 버그 수정 포함)
 
-이 앱은 배포 위치가 온-프레미스이거나 AMS(Adobe Managed Services)이거나 관계없이 다음 AEM 버전과 연동합니다.
+이 앱은 온프레미스 또는 Adobe Managed Services(AMS)에 배포되든 관계없이 다음과 같은 Experience Manager 버전에서 작동합니다.
 
-* [AEM 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) 이상
-* [AEM 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 이상
-* AEM 6.4.0 - 6.4.3([호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 포함)
+* [Experience Manager 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) 이상
+* [Experience Manager 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 이상
+* Experience Manager 6.4.0 - 6.4.3( [호환성 패키지 포함)](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->AEM 6.3에 대한 데스크탑 앱 지원은 더 이상 필요하지 않습니다. 최신 지원 AEM 버전으로 업그레이드할 것을 권장합니다.
->AEM 6.3.3.1 이상 버전은 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)설치한 후 데스크탑 앱에서 작동합니다. AEM 6.3에는 [서비스 팩이 계획이](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)없으므로 이러한 패키지를 사용할 수 없습니다.
+>Experience Manager 6.3에 대한 데스크탑 앱 지원은 더 이상 필요하지 않습니다. Adobe는 지원되는 최신 Adobe Experience Manager 버전으로 업그레이드할 것을 권장합니다.
+>Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)설치한 후 데스크탑 앱과 연동됩니다. Experience Manager 6.3에는 [서비스 팩이 계획이](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)없으므로 이러한 패키지를 사용할 수 없습니다.
 
-앱 버전을 로컬 컴퓨터에 설치하려면 특정 Adobe Experience Manager 서버 버전/서버측 추가 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. 도움말은 AEM 관리자에게 문의하십시오.
+앱 버전을 로컬 컴퓨터에 설치하려면 특정 Adobe Experience Manager 서버 버전/서버측 추가 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. 도움이 필요하면 Adobe Experience Manager 관리자에게 문의하십시오.
 
 ### Support for different assets and file types {#support-for-file-types}
 
-기본 작업용 이진 파일을 나타내는 AEM에 저장된 자산을 애플리케이션에서 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
+이 애플리케이션은 Adobe Experience Manager에 저장된 에셋을 지원하여 기본 작업을 위한 바이너리 파일을 나타냅니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
-몇 가지 파일 유형은 연결된 자산을 바이너리에 배치하는 것을 지원합니다. 데스크탑 앱을 사용하여 이진 파일을 열 때 자산이 AEM 저장소에 있는 경우 연결된 자산을 애플리케이션에서 미리 다운로드합니다. 현재 지원되는 파일 유형은 다음과 같습니다.
+몇 가지 파일 유형은 연결된 자산을 바이너리에 배치하는 것을 지원합니다. 데스크톱 앱을 사용하여 이진 파일을 열 때 Experience Manager 저장소에 자산이 있으면 응용 프로그램은 연결된 자산을 미리 다운로드합니다. 현재 지원되는 파일 유형은 다음과 같습니다.
 
 * Adobe InDesign 파일(INDD 형식)
 * Adobe Illustrator 파일(AI 형식)
 * Adobe Photoshop 파일(PS 형식)
 
-이 기능은 위의 애플리케이션의 Adobe Creative Cloud 2018 및 Adobe Creative Cloud 2019 버전에서 지원됩니다. 앱에서는 가장 일치하는 방식을 추론하여 연결된 자산의 로컬 데스크탑 경로를 AEM 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
+이 기능은 위의 애플리케이션의 Adobe Creative Cloud 2018 및 Adobe Creative Cloud 2019 버전에서 지원됩니다. 앱은 휴리스틱한 최적 일치 방법을 사용하여 연결된 자산의 로컬 데스크톱 경로를 Experience Manager 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
 
 * Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
 * 경로는 기본 앱으로 파일의 XMP 레코드에 저장됩니다.
-* AEM에서는 자산의 메타데이터 레코드까지 경로로 XMP 레코드를 추출했음.
-* 경로는 AEM의 자산과 일치할 수 있습니다. 즉, 배치된 파일도 AEM에서 일치하는 경로에 있습니다.
+* Experience Manager에서 자산의 메타데이터 레코드 경로를 사용하여 XMP 레코드를 추출했습니다.
+* 경로는 Adobe Experience Manager의 자산과 일치할 수 있습니다. 즉, 배치된 파일도 Experience Manager에서 일치하는 경로에 있습니다.
 
 ## 새로운 기능 및 향상된 기능 {#whats-new-added}
 
-To know the details, see [What's new in v2.0](introduction.md#whats-new-v2).
+To know the details, see [What&#39;s new in v2.0](introduction.md#whats-new-v2).
 
 v 2.0.1 릴리스에서 수행된 버그 수정 및 업데이트는 다음과 같습니다.
 
 * 경로 일치로 `%Temp%` `%APPDATA%` 디렉토리를 구성할 수 있는 옵션을 허용합니다. <!-- CQ-4282665 -->
 * 사용자가 Okta SAML 인증을 통해 AEM 작성자에 로그인할 수 있도록 허용합니다. <!-- CQ-4278134 -->
 
-
 ## 설치 지침 {#installation-instructions-v2}
 
-앱을 설치하고 구성하는 방법은 [AEM 데스크탑 앱 설치](install-upgrade.md)를 참조하십시오.
+To know how to install and configure the app, see [Install Experience Manager desktop app](install-upgrade.md).
 
-이전 AEM 데스크탑 앱에서 업그레이드하는 경우 [이전 버전에서 업그레이드](install-upgrade.md#upgrade-from-previous-version)에 나열된 전환 우수 사례를 따라야 합니다.
+If you are upgrading from a previous Experience Manager desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
 
 ## 앱 작동 방식에 대한 중요한 참고 사항 {#how-app-works}
 
@@ -85,7 +84,7 @@ v 2.0.1 릴리스에서 수행된 버그 수정 및 업데이트는 다음과 �
 * 자산 바이너리 전체를 AEM과 서로 전송해야 하는 작업에 대한 모든 권한을 애플리케이션에서 제공합니다(열기, 편집, 변경 내용 업로드 및 자산 업로드).
    * 데스크탑의 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
    * AEM에 업로드된 자산에 로컬 변경 내용을 가져오려면[!UICONTROL Upload Changes] 개별적으로 또는 다중 선택을 통해 선택해야 합니다.
-   * 애플리케이션이 데스크탑과 AEM 전체에서 자산을 동기화하는 '동기화 클라이언트'가 아닙니다.
+   * 애플리케이션이 데스크탑과 AEM 전체에서 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다.
    * AEM 저장소를 가상 폴더 구조로 매핑하는 네트워크 공유를 애플리케이션에서 제공하지 않습니다.
 * 애플리케이션에서 표시하는 자산 목록은 AEM Assets 저장소의 상태에 따라 다릅니다. 로컬에서 다운로드한 다음 로컬 파일 또는 캐시 폴더에서 이름을 변경한 파일은 애플리케이션에서 표시하거나 관리하지 않습니다.
 * 예상한 결과가 앱에서 표시되지 않으면 상단 표시줄의 새로 고침 아이콘을 클릭합니다.
@@ -120,7 +119,7 @@ v 2.0.1 릴리스에서 수행된 버그 수정 및 업데이트는 다음과 �
 >
 >* [AEM 6.5 설명서](https://helpx.adobe.com/support/experience-manager/6-5.html)
 >* [AEM Assets 6.5 설명서](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
->* [AEM 데스크탑 앱 사용 방법](using.md)
+>* [Experience Manager 데스크탑 앱 사용 방법](using.md)
 >* [데스크탑 앱 설치 및 업그레이드](install-upgrade.md)
 >* [우수 사례 및 문제 해결 팁](troubleshoot.md)
 
