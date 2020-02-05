@@ -72,7 +72,7 @@ v1.x에서 최신 버전의 앱으로 업그레이드하려면 다음 지침을 
 
 ## 환경 설정 {#set-preferences}
 
-환경 설정을 변경하려면 추가 옵션 ![아이콘](assets/do-not-localize/more_options_da2.png) 및 **[!UICONTROL Preference]**환경 설정 아이콘을![클릭합니다](assets/do-not-localize/preferences_icon_da2.png). 창에서**[!UICONTROL Preferences]** 다음 값을 조정합니다.
+환경 설정을 변경하려면 추가 옵션 ![아이콘](assets/do-not-localize/more_options_da2.png) 및 **[!UICONTROL Preference]** 환경 설정 아이콘을 ![클릭합니다](assets/do-not-localize/preferences_icon_da2.png). 창에서 **[!UICONTROL Preferences]** 다음 값을 조정합니다.
 
 * [!UICONTROL Launch application on login].
 * [!UICONTROL Show window when application starts].
