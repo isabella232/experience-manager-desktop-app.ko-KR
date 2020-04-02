@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
 solution-title: 학습 및 지원
-solution-hub-url: https://helpx.adobe.com/kr/support/experience-manager/6-4.html
+solution-hub-url: https://helpx.adobe.com/kr/support/experience-manager/6-5.html
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
 getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
 tutorials-title: 튜토리얼
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
-mini-toc-levels: 2
+tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html
+mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
-index: n
+index: y
 translation-type: tm+mt
-source-git-commit: f42f9437de9d9b96d1fcf1c3e1730fd74548eec1
+source-git-commit: e5e7f60d97bfb24bb4c668cd074430218a657db4
 
 ---
 
@@ -23,9 +23,9 @@ metadata.md 파일에는 보고서의 사용자 안내서 TOC.md 파일로 전�
 | 메타데이터 | 기능 |
 |--- |--- |
 | 솔루션 제목 | 아티클 헤더에 링크로 사용됨 |
-| solution-hub-url | helpx 허브 페이지를 엽니다. |
+| solution-hub-url | 지원 허브 페이지를 엽니다. |
 | 솔루션 아이콘 | 솔루션 제목 옆에 솔루션 아이콘이 표시됩니다. 아직 구현되지 않음 |
-| getting-started-url | 도움말 시작 페이지에 대한 링크 |
+| getting-started-url | 시작 페이지에 대한 링크 |
 | tutorials-url | 비디오 자습서로 연결되는 링크—도움말 자습서 또는 KT 자습서 |
 | mini-toc-levels | 오른쪽 레일에 표시되는 제목 수준 수를 결정합니다. 기본값은 2입니다. |
 | git-repo | 내부 사용을 위한 마스터 보고서의 위치를 지정합니다. |
