@@ -10,20 +10,20 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+source-git-commit: aca68b0c2eb363e33c8a6edec2370758124a4b9e
 
 ---
 
 
 # Adobe Experience Manager 데스크탑 앱 릴리스 노트 {#release-notes-v2}
 
-| 제품 | AEM(Adobe Experience Manager) 데스크탑 앱 |
-|---------------|--------------------------------------------------------------------|
-| 앱 버전(개정) | 2.0 (2.0.1.1) |
-| 지원되는 AEM 버전 | AEM 6.5, AEM 6.4, AEM 6.3(호환성 패키지 포함) |
+| 제품 | Adobe Experience Manager 데스크탑 앱 |
+|----|----|
+| 앱 버전(개정) | 2.0 (2.0.2.0) |
+| 지원되는 AEM 버전 | 클라우드 서비스로서의 AEM;AEM 6.5;AEM 6.4;AEM 6.3(호환성 패키지 포함) |
 | 유형 | 보조 릴리스 |
-| 릴리스 날짜 | 2019년 12월 12일 (Mac 및 Win) |
-| 다운로드 URL | [MacOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg), [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe), [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe) |
+| 릴리스 날짜 | 2020년 4월 15일 (Mac 및 Win) |
+| 다운로드 URL | [macOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg),Windows [64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe), [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
 
 ## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
 
@@ -32,16 +32,17 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 * Mac OS X 10.10 이상(최신 버그 수정 포함)
 * Windows 7 및 Windows 10(최신 서비스 팩 및 버그 수정 포함)
 
-이 앱은 온프레미스 또는 Adobe Managed Services(AMS)에 배포되든 관계없이 다음과 같은 Experience Manager 버전에서 작동합니다.
+이 앱은 클라우드 서비스로 배포되든, Adobe Managed Services(AMS) 또는 온프레미스 중 어느 것이든 다음의 Experience Manager 버전과 연동됩니다.
 
-* [Experience Manager 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) 이상
-* [Experience Manager 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 이상
+* [클라우드 서비스로서의 Experience Manager](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) 이상
+* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) 이상
 * Experience Manager 6.4.0 - 6.4.3( [호환성 패키지 포함)](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
 >Experience Manager 6.3에 대한 데스크탑 앱 지원은 더 이상 필요하지 않습니다. Adobe는 지원되는 최신 Adobe Experience Manager 버전으로 업그레이드할 것을 권장합니다.
->Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)설치한 후 데스크탑 앱과 연동됩니다. Experience Manager 6.3에는 [서비스 팩이 계획이](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)없으므로 이러한 패키지를 사용할 수 없습니다.
+>Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)설치한 후 데스크탑 앱과 연동됩니다. Experience Manager 6.3에는 [서비스 팩이 계획이](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html)없으므로 이러한 패키지를 사용할 수 없습니다.
 
 앱 버전을 로컬 컴퓨터에 설치하려면 특정 Adobe Experience Manager 서버 버전/서버측 추가 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. 도움이 필요하면 Adobe Experience Manager 관리자에게 문의하십시오.
 
@@ -66,7 +67,19 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 To know the details, see [What&#39;s new in v2.0](introduction.md#whats-new-v2).
 
-v 2.0.1 릴리스에서 수행된 버그 수정 및 업데이트는 다음과 같습니다.
+**앱 v2.0.2의 업데이트**
+
+버그 수정 및 업데이트는 다음과 같습니다.
+
+* 업로드 성능을 향상시키려면 업로드 가속을 늘립니다 [!UICONTROL Preferences]. 이 설정이 켜지면 앱은 더 많은 로컬 CPU 스레드를 사용하고 리소스를 많이 사용합니다.
+* 파일 이름 또는 경로에 특정 GB18030자가 포함될 때 자산 업로드 문제가 해결되었습니다. <!-- CQ-4283494 -->
+* 검색 결과에서 다른 정렬 유형으로 전환한 후 관련별 정렬 옵션을 사용할 수 있습니다. <!-- CQ-4286874 -->
+* 이제 데스크탑 앱은 명시적으로 새로 고칠 필요 없이 하위 폴더를 나열합니다. <!-- CQ-4285711 -->
+* (Windows) 일부 Windows 컴퓨터에서 사용할 수 없는 앱 인터페이스 문제를 해결했습니다. 인터페이스 요소의 클릭 영역이 &#39;이동됨&#39; 사이드로 잘못 표시되므로 사용자는 앱 인터페이스를 클릭할 수 없습니다. <!-- CQ-4280785 -->
+
+**앱 v2.0.1의 업데이트**
+
+버그 수정 및 업데이트는 다음과 같습니다.
 
 * 경로 일치로 `%Temp%` `%APPDATA%` 디렉토리를 구성할 수 있는 옵션을 허용합니다. <!-- CQ-4282665 -->
 * 사용자가 Okta SAML 인증을 통해 AEM 작성자에 로그인할 수 있도록 허용합니다. <!-- CQ-4278134 -->
@@ -117,8 +130,8 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 >[!MORELIKETHIS]
 >
->* [AEM 6.5 설명서](https://helpx.adobe.com/support/experience-manager/6-5.html)
->* [AEM Assets 6.5 설명서](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
+>* [AEM을 클라우드 서비스 설명서로 사용](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+>* [AEM을 클라우드 서비스 자산 설명서로 사용](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager 데스크탑 앱 사용 방법](using.md)
 >* [데스크탑 앱 설치 및 업그레이드](install-upgrade.md)
 >* [우수 사례 및 문제 해결 팁](troubleshoot.md)
