@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
@@ -38,7 +38,7 @@ AEM(Adobe Experience Manager) 데스크탑 앱은 원격 Experience Manager 배�
 
 * **네트워크**:네트워크 성능은 Experience Manager 데스크탑 앱의 성능에 매우 중요합니다. 파일 전송 또는 벌크 작업에 대한 응답 속도가 느려지면 네트워크 트래픽이 많을 수 있는 기능이나 앱을 끕니다.
 
-* **데스크톱 앱에**&#x200B;지원되지 않는 사용 사례:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구 필요).대량의 DAM 작업(큰 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용한 파일 찾기 등)동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 동기화 클라이언트와 다름)
+* **데스크톱 앱에**&#x200B;지원되지 않는 사용 사례:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구 필요).대량의 DAM 작업(큰 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용하여 파일 찾기 등)동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 동기화 클라이언트와 다름)
 
 * **시간 초과**:현재 데스크톱 앱에는 고정 시간 간격 이후 Experience Manager 서버와 데스크톱 앱 간의 연결을 해제하는 구성 가능한 시간 초과 값이 없습니다. 대용량 자산을 업로드할 때 잠시 후 연결이 시간 초과되면 업로드 시간 초과를 증가시켜 앱이 자산을 몇 번 업로드하기 위해 다시 시도합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
@@ -56,15 +56,15 @@ AEM(Adobe Experience Manager) 데스크탑 앱은 원격 Experience Manager 배�
 
 ### 로그 파일의 위치 {#check-log-files-v2}
 
-다음 위치에서 AEM 데스크탑 앱용 로그 파일을 찾을 수 있습니다. 많은 자산을 업로드할 때 일부 파일이 업로드되지 않는 경우 위 위치의 파일을 참조하여 실패한 업로드를 확인합니다 `backend.log` .
+다음 위치에서 AEM 데스크탑 앱용 로그 파일을 찾을 수 있습니다. 많은 자산을 업로드할 때 일부 파일이 업로드되지 않는 경우 파일을 참조하여 실패한 업로드를 확인합니다 `backend.log` .
 
-* Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Windows의 경로: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Mac의 경로: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->지원 요청/티켓을 통해 Adobe 고객 지원 센터에 문의할 때 지원 팀에서 문제를 이해하는 데 도움이 되도록 로그 파일을 공유하라는 메시지가 표시될 수 있습니다. 전체 `Logs` 폴더를 보관하고 고객 지원 센터와 공유합니다.
+>지원 요청/티켓을 통해 Adobe 고객 지원 센터에 문의할 때 고객 지원 팀에서 문제를 이해하는 데 도움이 되도록 로그 파일을 공유하라는 메시지가 표시될 수 있습니다. 전체 `Logs` 폴더를 보관하고 고객 지원 센터 담당자에게 공유합니다.
 
 ### 캐시 지우기 {#clear-cache-v2}
 
@@ -82,7 +82,7 @@ AEM 데스크톱 앱의 캐시를 지우는 것은 몇 가지 문제를 해결�
 
 ### AEM 데스크탑 앱 버전 이해 {#know-app-version-v2}
 
-앱 ![메뉴를](assets/do-not-localize/more_options_da2.png) 클릭하여 앱의 메뉴를 열고 **[!UICONTROL Help]**>**[!UICONTROL About]**&#x200B;을 클릭합니다.
+앱 ![메뉴를](assets/do-not-localize/more_options_da2.png) 클릭하여 앱의 메뉴를 열고 **[!UICONTROL Help]** > **[!UICONTROL About]**&#x200B;을 클릭합니다.
 
 ## 가져온 자산을 볼 수 없음 {#placed-assets-missing}
 
@@ -120,7 +120,7 @@ AEM 데스크톱 앱에서 HTTP 통신에 사용하는 라이브러리는 엄격
 
 거의 응용 프로그램이 응답하지 않거나 흰색 화면만 표시하거나 인터페이스 아래쪽에 오류가 표시되는 경우는 없습니다. 순서대로 다음 작업을 시도하십시오.
 
-1. 애플리케이션 인터페이스를 마우스 오른쪽 버튼으로 클릭한 다음 을 **[!UICONTROL Refresh]**클릭합니다.
+1. 애플리케이션 인터페이스를 마우스 오른쪽 버튼으로 클릭한 다음 을 **[!UICONTROL Refresh]**&#x200B;클릭합니다.
 1. 애플리케이션을 종료하고 다시 시작합니다.
 
 두 방법 모두에서 앱은 루트 DAM 폴더에서 시작됩니다.
