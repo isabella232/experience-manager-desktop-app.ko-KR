@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
 
 ---
 
@@ -33,26 +33,28 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 자세한 내용은 Experience Manager [데스크탑 앱 릴리스 노트를](release-notes.md)참조하십시오.
 
-## 앱 v1.x에서 앱 v2로 업그레이드 {#upgrade-from-previous-version}
+## Upgrade from a previous version {#upgrade-from-previous-version}
 
-기존 앱 사용자의 경우 이전 버전과 최신 버전의 차이점과 유사점을 파악할 수 있습니다. 또한 다음 지침을 따라 v1.x에서 최신 버전으로 전환할 수 있습니다.
+데스크탑 앱의 v1.x 사용자는 이전 버전과 최신 버전의 차이점과 유사점을 파악합니다. 데스크탑 앱의 [새로운 기능](introduction.md#whats-new-v2) 및 앱 [작동 방식 보기](release-notes.md#how-app-works)
 
 >[!NOTE]
 >
->데스크탑 앱 v1.x 및 v2는 컴퓨터에 함께 사용할 수 없습니다. 버전을 설치하기 전에 다른 버전을 제거합니다.
+>한 컴퓨터에 두 버전의 데스크탑 앱을 함께 사용할 수 없습니다. 버전을 설치하기 전에 다른 버전을 제거합니다.
 
-v1.x에서 최신 버전의 앱으로 업그레이드하려면 다음 지침을 따르십시오.
+이전 버전의 앱에서 업그레이드하려면 다음 지침을 따르십시오.
 
-1. 업그레이드하기 전에 모든 자산을 동기화하십시오. 앱 v1.x를 사용하여 모든 변경 내용을 업로드합니다.이는 앱 v1.x 제거 시 변경 사항이 손실되지 않도록 하기 위한 것입니다.
-1. 앱 v1.x 제거v1.x를 제거할 때 캐시를 지웁니다.
+1. 업그레이드하기 전에 모든 자산을 동기화하고 변경 내용을 Experience Manager에 업로드하십시오. 이는 앱을 제거할 때 편집된 내용이 손실되지 않도록 하기 위한 것입니다.
+1. 이전 버전의 앱을 제거합니다. 제거할 때 캐시 지우기 옵션을 선택합니다.
 1. 시스템을 다시 시작합니다.
-1. 최신 앱을 다운로드하여 설치합니다. 아래 지침을 따르십시오.
+1. [최신 앱을 다운로드하여](release-notes.md) [설치합니다](#install-v2) . 아래 지침을 따르십시오.
 
 ##  설치 {#install-v2}
 
 데스크탑 앱을 설치하려면 다음 단계를 따르십시오. 최신 앱을 설치하기 전에 기존 Adobe Experience Manager 데스크탑 앱 v1.x를 제거합니다. 자세한 내용은 상기를 참조하십시오.
 
+1. 릴리스 [정보](release-notes.md) 페이지에서 최신 설치 프로그램을 다운로드합니다.
 1. Adobe Experience Manager 배포의 URL과 자격 증명을 간편하게 이용하세요.
+1. 다른 버전의 앱에서 업그레이드하는 경우 데스크탑 앱 [](#upgrade-from-previous-version)업그레이드를 참조하십시오.
 1. Experience Manager를 클라우드 서비스, Experience Manager 6.4.4 이상 또는 Experience Manager 6.5.0 이상으로 사용하는 경우 이 단계를 건너뛸 수 있습니다. Experience Manager 설정이 [릴리스 노트에](release-notes.md)언급된 호환성 요구 사항을 충족하는지 확인하십시오. 필요한 경우 해당 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 다운로드하고 Experience Manager 패키지 관리자를 Experience Manager 관리자로 사용하여 설치합니다. 패키지를 설치하려면 패키지 [작업 방법을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 1. 설치 프로그램 바이너리를 실행하고 화면에 표시되는 지침에 따라 설치합니다.
 1. Windows의 경우 설치 프로그램이 설치하라는 메시지가 표시될 수 `Visual Studio C++ Redistributable 2015`있습니다. 화면의 지침에 따라 설치합니다. 설치에 실패하면 수동으로 설치합니다. [여기에서](https://www.microsoft.com/en-us/download/details.aspx?id=52685) 설치 프로그램을 다운로드하고 `vc_redist.x64.exe` `vc_redist.x86.exe` 파일과 파일을 모두 설치합니다. AEM 데스크톱 앱 설치 관리자를 다시 실행합니다.
