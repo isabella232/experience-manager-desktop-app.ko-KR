@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -80,7 +80,7 @@ AEM Desktop은 기본 포트가 포함된 URL을 사용하여 AEM에 연결합�
 * The Granite user interface page at `/libs/dam/gui/content/assets/moreinfo`
 * HTL 구성 `/css/javascript` 요소 `/libs/dam/gui/components/admin/moreinfo`
 
-오버레이되는 구성 요소는 사용자 정의 특성에 따라 다릅니다. [자산 정보] 대화 상자의 일부로 표시되는 구성 요소를 변경하려면 [화강암 사용자 인터페이스] 페이지를 오버레이하십시오. 대화 상자의 HTML/CSS/Javascript 내용을 변경하려면 HTL 구성 요소를 오버레이합니다.
+오버레이되는 구성 요소는 사용자 정의 특성에 따라 다릅니다. [자산 정보] 대화 상자의 일부로 표시되는 구성 요소를 변경하려면 [화강암 사용자 인터페이스] 페이지를 오버레이하십시오. 대화 상자의 HTML/CSS/Javascript 내용을 변경하려면 HTL 구성 요소를 오버레이하십시오.
 
 ## 캐시 관리 {#manage-cache}
 
@@ -90,7 +90,7 @@ Mac OS X의 경우 유사한 디렉토리가 에 `~/Library/Group Containers/gro
 
 ### 캐시 관리를 위한 인앱 옵션 {#in-app-option-to-manage-cache}
 
-로컬 캐싱을 위해 사용할 수 있는 디스크 공간의 양을 제어할 수 있습니다. AEM Assets 서버의 아티팩트는 보다 매끄러운 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 자산을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 애플리케이션의 아이콘을 클릭하고 **[!UICONTROL Advanced]**>**[!UICONTROL Manage Cache]**&#x200B;을 클릭합니다.****
+로컬 캐싱을 위해 사용할 수 있는 디스크 공간의 양을 제어할 수 있습니다. AEM Assets 서버의 아티팩트는 보다 매끄러운 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 자산을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 애플리케이션의 아이콘을 클릭하고 **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;을 클릭합니다.****
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ AEM 데스크톱 앱에 대한 캐시의 기본 위치는 다음과 같습니다
 
    이 파일에 대한 변경 내용을 저장하려면 관리자 권한이 필요합니다.
 
-1. &quot;ProxyCacheRoot&quot; 문자열을 검색합니다. 값이 캐시 위치 &quot;%LocalAppData%\Adobe\AssetsCompanion\Cache&quot;로 설정되어 있는 것을 확인할 수 있습니다. 이 값을 유효한 경로로 변경하면 됩니다.
+1. &quot;ProxyCacheRoot&quot; 문자열을 검색합니다. 값이 캐시 위치 &quot;%LocalAppData%\Adobe\AssetsCompanion\Cache&quot;으로 설정되어 있는 것을 확인할 수 있습니다. 이 값을 유효한 경로로 변경하면 됩니다.
 
    >[!NOTE]
    >
@@ -120,9 +120,9 @@ AEM 데스크톱 앱에 대한 캐시의 기본 위치는 다음과 같습니다
 
 ## 추가 리소스 {#additional-resources}
 
-* [AEM 데스크탑 앱 소개](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [AEM 데스크탑 앱 소개](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [AEM 데스크탑 앱 사용](use-app-v1.md)
 
-* [AEM 데스크탑 앱의 체크 인/체크 아웃 이해](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [AEM 자산에서 데스크탑 앱 사용](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [AEM 데스크탑 앱의 체크 인/체크 아웃 이해](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+* [AEM 자산에서 데스크탑 앱 사용](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [AEM 데스크탑 앱 문제 해결](troubleshoot-app-v1.md)
