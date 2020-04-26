@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 52f70e5b95318d8b3b3930be1233cc51aa997914
 
 ---
 
@@ -105,7 +105,7 @@ AEM 데스크톱 앱을 사용하는 사용자에게 좋은 환경은 데스크�
 
 AEM 자산 네트워크 구성에 대한 우수 사례를 이해하려면 AEM 자산 네트워크 고려 [사항 문서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html) . 사용자를 위한 AEM 데스크톱 앱 환경을 최적화하는 데 도움이 되는 몇 가지 중요한 사항은 다음과 같습니다.
 
-* **올바르게 구성된 발송자 사용:** 추가 보안을 위해 AEM Dispatcher를 사용하고 디스패처 [뒤의 AEM에 대한 AEM 데스크톱 앱 연결에 대해 구성되었는지 확인합니다.](using.md)
+* **올바르게 구성된 발송자 사용:** 추가 보안을 위해 AEM Dispatcher를 사용하고 디스패처 [뒤의 AEM에 대한 AEM 데스크톱 앱 연결에 대해 구성되었는지 확인합니다.](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
 * **대역폭 저장:** Finder를 사용하여 마운트된 저장소를 검색할 때 Mac의 Finder에서 아이콘 미리 보기를 끄는 것이 좋습니다. 파인더가 각 파일에 미리 보기를 요청하고 데스크톱 앱이 자산을 로컬로 다운로드 및 캐시하도록 합니다. 대역폭을 저장하는 동안 데스크탑에 있는 사용자의 사용자 환경도 감소하므로, 큰 자산 및/또는 제한된 대역폭의 저장소를 사용하여 작업할 때 수행해야 합니다.
 
