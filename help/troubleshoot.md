@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -26,7 +26,7 @@ AEM(Adobe Experience Manager) 데스크탑 앱은 원격 Experience Manager 배�
 
 * **데스크탑 앱의 작동**&#x200B;방식 이해:애플리케이션을 사용하기 전에 앱이 어떻게 작동하는지 알기 위해 몇 분 동안 시간을 할애할 수 있습니다. 웹 UI와 데스크탑 간의 연결, 저장소 매핑, 자산 캐싱, 로컬에 저장 및 백그라운드에서 업로드에 대해 알아봅니다. 작동 [방식](release-notes.md#how-app-works)보기
 
-* **폴더 이름에**&#x200B;지원되지 않는 문자를 사용하지 마십시오.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. Experience Manager 자산에서 폴더 [만들기에서 문자 목록을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). 일부 Adobe Experience Manager 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
+* **폴더 이름에**&#x200B;지원되지 않는 문자를 사용하지 마십시오.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. Experience Manager 자산에서 폴더 [만들기에서 문자 목록을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). 일부 Adobe Experience Manager 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
 
 * **충돌을**&#x200B;방지하기 위한 모범 사례:여러 자산에서 공동 작업할 때 발생할 수 있는 충돌을 방지하려면 편집 충돌을 [방지하십시오](using.md#adv-workflow-collaborate-avoid-conflicts).
 
