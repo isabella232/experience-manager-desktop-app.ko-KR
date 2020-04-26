@@ -1,15 +1,15 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager 데스크탑 앱
-audience: 최종 사용자
+product: Adobe Experience Manager desktop app
+audience: end-user
 user-guide-title: AEM 데스크탑 앱 도움말
 solution-title: AEM Assets
-solution-hub-url: https://helpx.adobe.com/kr/experience-manager/6-5/assets/user-guide.html
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html
 getting-started-url: https://docs.adobe.com/content/help/ko-KR/experience-manager-desktop-app/using/introduction.html
 tutorials-title: AEM 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-manager/kt/index/aem-tutorials.html
-translation-type: ht
-source-git-commit: ffc67d223f4db3a3a91cba5dfb5f725153319b02
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
