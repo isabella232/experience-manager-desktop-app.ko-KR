@@ -9,12 +9,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1ea381cc88b5382288b2479d26e976dc7289b88
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
 
-# AEM 데스크탑 앱 v1.x 릴리스 노트{#aem-desktop-app-release-notes}
+# AEM 데스크탑 앱 v1.x 릴리스 노트 {#aem-desktop-app-release-notes}
 
 데스크탑 앱 v1.x 릴리스의 경우 다운로드 링크 및 AEM 호환성 정보가 있습니다.
 
@@ -119,7 +119,7 @@ AEM 데스크탑 앱 1.9는 대용량 업로드와 관련된 사용자 경험, �
 **연결된 에셋**사전 페치 AEM에 저장된 연결된 에셋이 포함된 InDesign 문서를 사용하여 작업할 때 사용자 환경을 개선하기 위해 데스크탑 앱은 연결된 파일을 다운로드하고 InDesign 문서를 열기 전에 로컬 캐시에 미리 반입합니다. 이렇게 하면 사용자는 링크된 파일을 로컬에서 사용할 수 있고 링크 패널에서 이러한 파일에 액세스할 때 더 이상 기다릴 필요가 없습니다.
 사전 반입은 AEM이 서버측의 링크를 인식하는 경우에만 작동합니다. 링크가 인식된 자산은 InDesign 자산의 속성 보기에 나열된 &quot;참조&quot; 목록을 갖게 됩니다.
 
-### AEM 데스크톱 앱 1.8.x 이후 사용 가능한 개선 사항{#enhancements-available-since-aem-desktop-app-18x}
+### AEM 데스크톱 앱 1.8.x 이후 사용 가능한 개선 사항 {#enhancements-available-since-aem-desktop-app-18x}
 
 AEM 데스크톱 앱 1.8.1 빠른 후속 릴리스에서 AEM UI에서 1.8 릴리스로 여러 파일을 한 번에 열 때 향상된 기능이 추가되었습니다(CQ-4237747, CQ-4238780). AEM 데스크톱 앱 1.8의 개선 사항은 다음과 같습니다.
 
@@ -137,7 +137,7 @@ AEM 데스크톱 앱 1.8.1 빠른 후속 릴리스에서 AEM UI에서 1.8 릴리
    * 추가 자산 정보 대화 상자:때때로 작업 표시줄이 표시되지 않습니다(CQ-4208540).
    * (Win) 이제 AEM Assets UI에서 이전 버전으로 되돌아가서 파일을 동기화할 수 있습니다(CQ-4216411).
 
-### AEM 데스크톱 앱 1.7 이후 사용 가능한 개선 사항{#Enhancements-Available-Since-AEM-Desktop-App-17}
+### AEM 데스크톱 앱 1.7 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * 안정성:
    * AEM 데스크톱 앱이 오버로드된 AEM 서버에 연결할 때 안정성 개선(CQ-4224803)
@@ -157,7 +157,7 @@ AEM 데스크톱 앱 1.8.1 빠른 후속 릴리스에서 AEM UI에서 1.8 릴리
 >
 >AEM 데스크톱 앱 1.7 베타 로드에서 발견된 문제(1.6 릴리스에 없는 문제는 릴리스 정보에서 보고되지 않음).
 
-### AEM 데스크톱 앱 1.6 이후 사용 가능한 개선 사항{#Enhancements-Available-Since-AEM-Desktop-App-16}
+### AEM 데스크톱 앱 1.6 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * 설명서:v1 [.x 앱](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html) 설명서에 대한 새로운 모범 사례
 * AEM에 대한 로그인 프로세스 개선:
@@ -181,7 +181,7 @@ AEM 데스크톱 앱 1.8.1 빠른 후속 릴리스에서 AEM UI에서 1.8 릴리
    * 높은 CPU 사용량(CQ 파섹-4218070)
    * AEM에 업로드할 때 파일을 드래그 앤 드롭하여 오류가 발생합니다(CQ-4217006).
 
-### AEM 데스크톱 앱 1.5 이후 사용 가능한 개선 사항{#Enhancements-Available-Since-AEM-Desktop-App-15}
+### AEM 데스크톱 앱 1.5 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Mac OS X용 버전 1.5.1.5:** 1.5.1.5 릴리스는 다음과 같은 이점을 제공합니다.
 
@@ -222,7 +222,7 @@ AEM 데스크톱 앱 1.8.1 빠른 후속 릴리스에서 AEM UI에서 1.8 릴리
    * 다양한 안정성 개선(CQ-4207539, CQ-4200378)
    * 환경 설정에서 AEM 자산 URL 처리 개선(CQ-97388)
 
-### AEM 데스크톱 앱 1.4 이후 사용 가능한 개선 사항{#Enhancements-Available-Since-AEM-Desktop-App-14}
+### AEM 데스크톱 앱 1.4 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Touch UI의 새로운 만들기 > 폴더 업로드 작업을 통해 계층 폴더의 간소화된 업로드
    * 작업이 데스크톱 앱에서 수행한 폴더 업로드 작업을 시작합니다.
@@ -234,7 +234,7 @@ AEM 데스크톱 앱 1.8.1 빠른 후속 릴리스에서 AEM UI에서 1.8 릴리
 * 최신 OS 릴리스와의 호환성 향상
 * 고객이 보고한 수정 사항
 
-### AEM 데스크톱 앱 1.3 이후 사용 가능한 개선 사항{#Enhancements-Available-Since-AEM-Desktop-App-13}
+### AEM 데스크톱 앱 1.3 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * 효율성 향상 네트워크 작업이 완료되기를 기다리는 데 걸리는 시간을 줄일 수 있습니다.
 * 축소판과 같은 기능을 더욱 안정적으로 이용하고 액세스할 수 있는 파인더 통합 기능이 향상되었습니다.
