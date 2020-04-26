@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -78,7 +78,7 @@ AEM 데스크톱 앱을 사용하려면 AEM 데스크톱 앱에서 AEM 서버 �
 
 **옵션** AEM 데스크톱 앱 트레이에서 옵션을 클릭/탭하여 시스템이 시작될 때 응용 프로그램을 시작하는 설정에 액세스합니다.앱을 실행할 때 AEM 서버에 연결하는 방법를 클릭하여 AEM 자산을 마운트한 후 사용할 수 있는 로컬 드라이브 문자를 변경합니다.
 
-**[고급] &gt; [캐시** 관리]로컬 캐시 용도로 사용할 수 있는 디스크 공간의 크기를 제어할 수 있습니다. AEM Assets 서버의 아티팩트는 보다 매끄러운 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 자산을 새로 가져올 수 있습니다. 캐시를 지우면 저장하지 않은 변경 사항이 유지됩니다. AEM 서버에 체크 인되지 않은 모든 자산은 유지되며 삭제되지 않습니다.
+**[고급] > [캐시** 관리]로컬 캐시 용도로 사용할 수 있는 디스크 공간의 크기를 제어할 수 있습니다. AEM Assets 서버의 아티팩트는 보다 매끄러운 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 자산을 새로 가져올 수 있습니다. 캐시를 지우면 저장하지 않은 변경 사항이 유지됩니다. AEM 서버에 체크 인되지 않은 모든 자산은 유지되며 삭제되지 않습니다.
 
 ### AEM 서버에 연결 {#connect}
 
@@ -159,7 +159,7 @@ AEM 데스크톱 앱을 사용하여 자산에 액세스하고 열기 위한 컨
 
 AEM Assets에서는 편집할 자산을 확인하고 변경을 완료한 후 다시 체크 인할 수 있습니다. 자산을 체크 아웃한 후, 자신만 자산을 편집, 주석 달기, 게시, 이동 또는 삭제할 수 있습니다. 자산을 체크 아웃하면 자산이 잠기고 다른 사용자가 이러한 작업을 수행할 수 없습니다. 자산을 체크 아웃/체크 인하려면 해당 자산에 대해 쓰기 액세스 권한이 필요합니다.
 
-AEM 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가지가 있습니다. 첫 번째 방법에 대한 자세한 내용은 자산 UI에서 파일 [체크 인 및 체크 아웃을 참조하십시오](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/check-out-and-submit-assets.html). AEM Desktop 앱이 설치될 때 자산을 체크 아웃하고 여는 두 번째 방법은 다음 단계를 수행합니다.
+AEM 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가지가 있습니다. 첫 번째 방법에 대한 자세한 내용은 자산 UI에서 파일 [체크 인 및 체크 아웃을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/check-out-and-submit-assets.html). AEM Desktop 앱이 설치될 때 자산을 체크 아웃하고 여는 두 번째 방법은 다음 단계를 수행합니다.
 
 1. AEM 자산 인터페이스를 열고 폴더 또는 자산 위에 포인터를 두면 카드 보기에서 빠른 작업으로 데스크톱 작업을 표시할 수 있습니다.
 
@@ -252,11 +252,11 @@ AEM Desktop을 사용하여 로컬 파일 디렉토리의 에셋이 포함된 �
 
 Finder 또는 탐색기의 로컬 디스크에서 더 많은 파일/중첩된 폴더를 복사하여 AEM 데스크탑 앱으로 매핑되는 네트워크 공유 영역으로 드래그하는 것은 *권장되지* 않습니다. 위에 설명된 폴더 업로드 기능보다 훨씬 더 안정적입니다.
 
-데스크톱에서 작업하려는 다른 방법은 Finder 또는 탐색기에서 AEM에 업로드하려는 파일/폴더를 선택하고 시스템 클립보드로 복사한 다음 네트워크 공유 영역의 대상 폴더로 이동한 다음 AEM 데스크톱 앱 컨텍스트 메뉴에서 "자산 붙여넣기"를 선택하는 것입니다. 이렇게 하면 AEM 데스크톱 앱이 위에 설명된 업로드 폴더와 유사한 붙여넣은 자산을 업로드하기 시작합니다.
+데스크톱에서 작업하려는 다른 방법은 Finder 또는 탐색기에서 AEM에 업로드하려는 파일/폴더를 선택하고 시스템 클립보드로 복사한 다음 네트워크 공유 영역의 대상 폴더로 이동한 다음 AEM 데스크톱 앱 컨텍스트 메뉴에서 &quot;자산 붙여넣기&quot;를 선택하는 것입니다. 이렇게 하면 AEM 데스크톱 앱이 위에 설명된 업로드 폴더와 유사한 붙여넣은 자산을 업로드하기 시작합니다.
 
 >[!MORELIKETHIS]
 >
->* [AEM 데스크탑 앱 소개](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
->* [AEM 데스크탑 앱의 체크 인/체크 아웃 이해](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+>* [AEM 데스크탑 앱 소개](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
+>* [AEM 데스크탑 앱의 체크 인/체크 아웃 이해](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [AEM 데스크톱 응용 프로그램 문제 해결](troubleshoot-app-v1.md)
 
