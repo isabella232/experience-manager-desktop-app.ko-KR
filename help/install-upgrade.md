@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -55,7 +55,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 1. 릴리스 [정보](release-notes.md) 페이지에서 최신 설치 프로그램을 다운로드합니다.
 1. Adobe Experience Manager 배포의 URL과 자격 증명을 간편하게 이용하세요.
 1. 다른 버전의 앱에서 업그레이드하는 경우 데스크탑 앱 [](#upgrade-from-previous-version)업그레이드를 참조하십시오.
-1. Experience Manager를 클라우드 서비스, Experience Manager 6.4.4 이상 또는 Experience Manager 6.5.0 이상으로 사용하는 경우 이 단계를 건너뛸 수 있습니다. Experience Manager 설정이 [릴리스 노트에](release-notes.md)언급된 호환성 요구 사항을 충족하는지 확인하십시오. 필요한 경우 해당 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 다운로드하고 Experience Manager 패키지 관리자를 Experience Manager 관리자로 사용하여 설치합니다. 패키지를 설치하려면 패키지 [작업 방법을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+1. Experience Manager를 클라우드 서비스, Experience Manager 6.4.4 이상 또는 Experience Manager 6.5.0 이상으로 사용하는 경우 이 단계를 건너뛸 수 있습니다. Experience Manager 설정이 [릴리스 노트에](release-notes.md)언급된 호환성 요구 사항을 충족하는지 확인하십시오. 필요한 경우 해당 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 다운로드하고 Experience Manager 패키지 관리자를 Experience Manager 관리자로 사용하여 설치합니다. 패키지를 설치하려면 패키지 [작업 방법을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html).
 1. 설치 프로그램 바이너리를 실행하고 화면에 표시되는 지침에 따라 설치합니다.
 1. Windows의 경우 설치 프로그램이 설치하라는 메시지가 표시될 수 `Visual Studio C++ Redistributable 2015`있습니다. 화면의 지침에 따라 설치합니다. 설치에 실패하면 수동으로 설치합니다. [여기에서](https://www.microsoft.com/en-us/download/details.aspx?id=52685) 설치 프로그램을 다운로드하고 `vc_redist.x64.exe` `vc_redist.x86.exe` 파일과 파일을 모두 설치합니다. AEM 데스크톱 앱 설치 관리자를 다시 실행합니다.
 1. 메시지가 표시되면 컴퓨터를 다시 시작합니다. 데스크탑 앱을 실행하고 구성합니다.
@@ -71,7 +71,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
    ![로그인하면 앱에 DAM](assets/firstview_da2.png "콘텐츠가 표시됩니다 로그인하면 앱에 DAM 콘텐츠가 표시됩니다")
 
-1. (Experience Manager 6.5.1 이상) Experience Manager 6.5.1 이상 버전의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. Azure [커넥터](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) 또는 [S3 커넥터를](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore)참조하십시오.
+1. (Experience Manager 6.5.1 이상) Experience Manager 6.5.1 이상 버전의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. Azure [커넥터](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) 또는 [S3 커넥터를](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore)참조하십시오.
 
    AMS(Adobe Managed Services) 고객은 Adobe 고객 지원 센터에 문의하십시오.
 
