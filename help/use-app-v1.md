@@ -1,15 +1,9 @@
 ---
 title: AEM 데스크탑 앱 버전 1.x 사용
 description: Adobe Experience Manager 데스크탑 앱 버전 1.x를 사용하고 데스크탑에 설치된 에셋으로 작업을 최적화하는 방법을 살펴볼 수 있습니다.
-uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -22,16 +16,15 @@ source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 AEM 데스크톱 앱 v1을 사용하는 주요 작업은 다음과 같습니다.
 
-* [AEM 서버와 연결](#installandconnect)
+1. [AEM 서버와 연결](#installandconnect)
+1. [데스크탑에서 바로 에셋 열기](#openondesktop)
+1. [데스크탑에서 에셋 편집 및 체크 아웃](#workonassets)
+1. [자산 및 폴더 일괄 업로드](#bulkupload)
 
-* [데스크탑에서 바로 에셋 열기](#openondesktop)
-* [데스크탑에서 에셋 편집 및 체크 아웃](#workonassets)
-
-* [자산 및 폴더 일괄 업로드](#bulkupload)
-
-권장되는 다양한 방법과 그렇지 않은 경우 앱 [사용에 대한](best-practices-for-v1.md)우수 사례를 참조하십시오. 앱 사용 시 문제가 발생하는 경우 AEM Desktop [문제 해결 방법을 참조하십시오](troubleshoot-app-v1.md).
+권장되는 다양한 방법과 그렇지 않은 경우 앱 [사용에 대한](best-practices-for-v1.md)우수 사례를 참조하십시오. 앱 사용 시 문제가 발생하는 경우 AEM 데스크톱 [](troubleshoot-app-v1.md)문제 해결 방법을 참조하십시오.
 
 >[!NOTE]
+>
 >AEM 데스크톱 앱은 AEM 6.1 릴리스에서 도입되었으며 AEM Assets Companion App이라고 불렸습니다.
 
 ## 크리에이티브 워크플로우의 AEM 데스크탑 앱 터치 포인트 {#aem-desktop-app-touch-points-in-the-creative-workflow}
@@ -98,22 +91,39 @@ AEM 데스크톱 앱을 사용하려면 AEM 데스크톱 앱에서 AEM 서버 �
 
 ### AEM 웹 인터페이스에서 데스크탑 작업 활성화 {#desktopactions}
 
-브라우저의 자산 UI 내에서 자산 위치 또는 체크 아웃을 탐색하고 데스크톱 응용 프로그램에서 편집할 자산을 열 수 있습니다. 이러한 옵션은 데스크톱 작업이라고 하며 기본적으로 활성화되지 않습니다. 다음 단계에 따라 활성화합니다.
+자산 사용자 인터페이스 내에서 자산 위치 또는 체크 아웃을 탐색하고 자산을 열어 데스크탑 애플리케이션에서 편집할 수 있습니다. 이러한 옵션은 데스크톱 작업이라고 하며 기본적으로 활성화되지 않습니다. 다음 단계에 따라 활성화합니다.
 
-1. 자산 콘솔의 도구 모음에서 **사용자** 아이콘을 클릭/탭합니다.
-1. 을 클릭/탭하여 **[!UICONTROL My Preferences]** 대화 **[!UICONTROL Preferences]** 상자를 표시합니다.
-1. [사용자 환경 설정] 대화 상자에서 을 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;선택합니다. 클릭/탭합니다 **[!UICONTROL Accept]**.
+1. 자산 인터페이스에서 도구 모음의 오른쪽 상단에 있는 사용자 아이콘을 클릭/탭합니다.
+1. 을 **[!UICONTROL My Preferences]** 클릭하여 **[!UICONTROL Preferences]** 대화 상자를 표시합니다.
+
+   ![사용자 기본 설정이 있는 AEM 인터페이스](assets/aem_ui_user_preferences.png)
+
+1. [사용자 환경 설정] 대화 상자에서 을 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;선택합니다. 클릭 **[!UICONTROL Accept]**.
 
    ![데스크톱 작업을 활성화하려면 자산에 대한 데스크톱 작업 표시를 선택합니다.](assets/chlimage_1-3.png)
 
-   데스크톱 작업을 활성화하려면 자산에 대한 데스크톱 작업 표시를 선택합니다.
+   *그림:데스크톱 작업을 활성화하려면 자산에 대한 데스크톱 작업 표시를 선택합니다.*
 
 ## 데스크탑에서 에셋 액세스 및 열기 {#openondesktop}
+
+[열기] **를** 클릭하여 로컬 컴퓨터에서 자산을 열면 앱이 자산을 내부 캐시에 다운로드합니다. 앱이 다운로드한 자산의 파일 형식과 관련된 기본 데스크톱 응용 프로그램을 실행합니다.
+
+Mac의 경우 **컨텍스트** 메뉴에서 열기를 선택하여 AEM 데스크탑 앱을 통해 자산을 엽니다. Windows의 경우 컨텍스트 메뉴에서 웹에서 열기를 선택하여 자산을 엽니다. 자산 상태 창에서 데스크탑에서 열기 아이콘을 클릭/탭하여 ![자산을](assets/aemassets_icon_openondesktop.png) 엽니다.
+
+Adobe InDesign (INDD) 파일의 경우 컨텍스트 **[!UICONTROL Open]** 메뉴에서 선택합니다. 이 옵션을 클릭하면 앱은 연결된 에셋을 로컬 파일 시스템에 다운로드한 다음 Adobe InDesign에서 INDD 파일을 엽니다. 이 방법을 사용하면 INDD 파일을 편집할 때 필요한 에셋을 로컬에서 사용할 수 있습니다.
+
+![AEM 데스크톱 앱을 사용하여 자산에 액세스하고 열기 위한 컨텍스트 메뉴 옵션](assets/aem_desktopapp_mac_context_menu.png)
+
+*그림:AEM 데스크톱 앱을 사용하여 자산에 액세스하고 여는 컨텍스트 메뉴 옵션.*
 
 >[!NOTE]
 >Windows에서 [기본 Windows 7 설정은](https://support.microsoft.com/en-us/kb/2668751) AEM 데스크톱 앱이 50MB보다 큰 자산을 처리하지 못하게 합니다.
 
-### AEM 웹 인터페이스에서 매핑된 자산의 위치 표시 {#reveal-the-location-of-mapped-assets-from-aem-web-interface}
+>[!NOTE]
+>
+>Mac의 파인더 보기 옵션으로 이동하고 마운트된 AEM 자산 폴더에 **대한 옵션 항목 정보**&#x200B;표시, 항목 미리 보기 **표시**&#x200B;및 미리 보기 열 **표시를 비활성화하는 것이 좋습니다** . 성능이 향상됩니다.
+
+### AEM 인터페이스의 추가 옵션 {#additional-options-in-aem-assets}
 
 AEM 자산 저장소를 로컬 드라이브에 매핑하면, 매핑된 자산 및 폴더에 대해 추가 아이콘 및 폴더 업로드 기능이 표시되도록 할 수 있습니다.
 
@@ -121,31 +131,17 @@ AEM 자산 저장소를 로컬 드라이브에 매핑하면, 매핑된 자산 �
 
    ![자산 UI에서 빠른 작업 메뉴를 열어 데스크톱 작업을 봅니다](assets/chlimage_1-4.png)
 
-   자산 UI에서 빠른 작업 메뉴를 열어 데스크톱 작업을 봅니다
+   *그림:자산 UI에서 빠른 작업 메뉴를 열어 데스크톱 작업을 봅니다.*
 
-   이러한 데스크톱 작업은 자산을 선택한 후 도구 **모음에서** 데스크톱 작업 아이콘을 클릭/탭하거나 자산 페이지의 도구 모음에서 사용할 수도 있습니다.
+   이러한 데스크톱 작업은 자산을 선택한 **후 도구 모음에서** 데스크톱 작업 아이콘을 클릭하거나 자산 페이지의 도구 모음에서 사용할 수도 있습니다.
 
 1. 특정 파일 확장자와 연결된 데스크톱 응용 프로그램에서 자산을 열려면 데스크탑에서 **빠른 작업** 데스크탑에서 ![열기 아이콘을](assets/aemassets_icon_openondesktop.png)클릭/탭합니다.
 
    또는 도구 **모음의** [데스크톱 작업] **메뉴에서** 열기를 선택합니다.
 
-1. 빠른 작업 **표시** 표시 아이콘을 ![](assets/aemassets_reveal_icon.png) 클릭/탭하여 로컬 파일 시스템에서 특정 자산을 찾습니다.
+로컬 파일 시스템에서 특정 자산을 찾으려면 빠른 작업 **표시** 표시 ![아이콘을 클릭합니다](assets/aemassets_reveal_icon.png). 또는 도구 **모음의 [데스크톱** 작업] **메뉴에서** 표시를 선택합니다.
 
-   또는 도구 **모음의 [데스크톱** 작업] **메뉴에서** 표시를 선택합니다.
-
-### Finder 또는 탐색기에서 AEM 자산 열기 {#open-aem-assets-from-the-finder-or-the-explorer}
-
-Mac의 경우 컨텍스트 메뉴에서 열기를 선택하여 AEM Desktop을 통해 자산을 엽니다.
-
-Adobe InDesign (INDD) 파일의 경우 컨텍스트 **[!UICONTROL Open]** 메뉴에서 선택합니다. 이 옵션을 클릭하면 앱은 연결된 에셋을 로컬 파일 시스템에 다운로드한 다음 Adobe InDesign에서 INDD 파일을 엽니다. 이 방법을 사용하면 INDD 파일을 편집할 때 필요한 에셋을 로컬에서 사용할 수 있습니다.
-
-Windows의 경우 컨텍스트 메뉴에서 웹에서 열기를 선택하여 자산을 엽니다. 자산 상태 창에서 데스크탑에서 열기 아이콘을 클릭/탭하여 ![자산을](assets/aemassets_icon_openondesktop.png) 엽니다.
-
-![AEM 데스크톱 앱을 사용하여 자산에 액세스하고 열기 위한 컨텍스트 메뉴 옵션](assets/aem_desktopapp_mac_context_menu.png)
-
-AEM 데스크톱 앱을 사용하여 자산에 액세스하고 열기 위한 컨텍스트 메뉴 옵션
-
-### 자산 상태 이해 {#understand-the-asset-statuses}
+## 자산 상태 이해 {#understand-the-asset-statuses}
 
 | ![Windows 기본 앱 아이콘](assets/win_default.png) | 앱이 서버에 연결되어 있고 모든 자산이 동기화됩니다. |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -181,7 +177,7 @@ AEM 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가
 1. [열기] 메뉴 옵션을 선택합니다. 선택한 자산이 미리 보기 모드에서 열립니다.
 1. 자산을 편집하려면 편집 옵션을 선택합니다. 자산은 편집 모드에서 열립니다.
 
-### Mac에서 자산 확인 {#check-out-assets-on-mac}
+### Mac OS에서 Finder에서 자산 확인 {#check-out-assets-on-mac}
 
 이 앱을 사용하면 다른 사용자가 작업 중인 파일을 수정하지 못하도록 자산 파일을 체크 아웃할 수 있습니다.
 
@@ -219,19 +215,17 @@ AEM 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가
 1. 탐색기에서 자산을 검토합니다. 자산 잠금 아이콘의 ![잠금 아이콘은](assets/aemassets_icon_lockcheckout.png) 사용자가 자산을 체크 아웃했음을 나타냅니다.
 
    >[!NOTE]
-   >몇 분 정도 지연되면 잠금 아이콘이 나타날 수 있습니다. AEM 데스크톱 앱은 빠른 액세스를 위해 자산을 캐시하므로 잠긴 상태를 업데이트하는 데 몇 분 정도 걸릴 수 있습니다.
+   >일부 지연 후에 잠금 아이콘이 나타날 수 있습니다. AEM 데스크톱 앱은 빠른 액세스를 위해 자산을 캐시하므로 잠긴 상태를 업데이트하는 데 몇 분 정도 걸릴 수 있습니다.
 
 1. 다른 사용자가 사용할 수 있도록 자산을 체크 인하려면 [자산 정보] 대화 상자에서 체크 인 **아이콘을 클릭/탭합니다** .
 
 ### Finder 또는 탐색기를 사용하여 그리고 웹 인터페이스를 사용하여 자산 체크 인 {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
-에셋 편집이 완료되면 데스크탑 애플리케이션에 에셋을 저장합니다. 컨텍스트 메뉴에서 추가 자산 정보를 선택하고 체크 인을 클릭/탭합니다.
+에셋 편집이 완료되면 데스크탑 애플리케이션에 에셋을 저장합니다. 컨텍스트 메뉴에서 추가 자산 **정보를** 선택하고 체크 인을 클릭합니다.
 
-자산이 AEM 서버에 업로드됩니다. 트레이 아이콘에서 자산 상태 보기를 선택하여 업로드 상태를 확인할 수도 있습니다(선택 사항).
+자산이 AEM 서버에 업로드됩니다. 시스템 트레이 아이콘에서 자산 상태 보기를 선택하여 업로드 **상태를** 확인할 수 있습니다. 또는 AEM 웹 인터페이스에서 자산을 체크 인할 수 있습니다. 체크 아웃된 자산을 클릭하거나 선택합니다. 도구 모음에서 체크 인 아이콘 ![체크 인 아이콘을 클릭합니다](assets/aemassets_icon_checkin.png).
 
-![AEM 데스크톱 앱 파일 전송 및 업로드 상태 창](assets/aem_desktopapp_upload_status.png)
-
-또는 AEM 웹 인터페이스에서 자산을 체크 인할 수 있습니다. 체크 아웃된 자산을 클릭/탭하거나 선택합니다. 도구 모음에서 체크 인 아이콘 ![체크 인 아이콘을](assets/aemassets_icon_checkin.png)클릭/탭합니다.
+변경 사항이 로컬에 저장된 후 자산이 AEM에 자동으로 업로드됩니다. 이 체크 인을 사용하면 다른 AEM 사용자가 자산을 편집할 수 있습니다.
 
 ### AEM 서버에 자산 및 폴더 일괄 업로드 {#bulkupload}
 
@@ -250,13 +244,13 @@ AEM Desktop을 사용하여 로컬 파일 디렉토리의 에셋이 포함된 �
 
 1. 폴더 업로드 후 대화 상자를 닫고 자산 UI로 이동합니다. 업로드된 폴더가 웹 인터페이스에 표시됩니다.
 
-Finder 또는 탐색기의 로컬 디스크에서 더 많은 파일/중첩된 폴더를 복사하여 AEM 데스크탑 앱으로 매핑되는 네트워크 공유 영역으로 드래그하는 것은 *권장되지* 않습니다. 위에 설명된 폴더 업로드 기능보다 훨씬 더 안정적입니다.
+로컬 파일 시스템에서 네트워크 공유 영역으로 많은 수의 파일 또는 중첩된 폴더를 복사하여 붙여넣거나 드래그하는 것이 좋습니다. 기술적 제한으로 인해 앱에서 업로드 프로세스를 제어할 수 없고 성능이 좋지 않습니다.
 
-데스크톱에서 작업하려는 다른 방법은 Finder 또는 탐색기에서 AEM에 업로드하려는 파일/폴더를 선택하고 시스템 클립보드로 복사한 다음 네트워크 공유 영역의 대상 폴더로 이동한 다음 AEM 데스크톱 앱 컨텍스트 메뉴에서 &quot;자산 붙여넣기&quot;를 선택하는 것입니다. 이렇게 하면 AEM 데스크톱 앱이 위에 설명된 업로드 폴더와 유사한 붙여넣은 자산을 업로드하기 시작합니다.
+또는 Finder 또는 탐색기에서 AEM에 업로드할 파일/폴더를 선택하고, 시스템 클립보드로 복사하고, 네트워크 공유 영역의 대상 폴더로 이동하고, AEM 데스크톱 앱 컨텍스트 메뉴에서 자산 **붙여넣기를 선택합니다**. 이렇게 하면 AEM 데스크톱 앱이 AEM 웹 인터페이스에서 사용할 수 있는 폴더 **업로드** 옵션과 유사한 붙여넣은 자산을 업로드하기 시작합니다.
 
 >[!MORELIKETHIS]
 >
 >* [AEM 데스크탑 앱 소개](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 >* [AEM 데스크탑 앱의 체크 인/체크 아웃 이해](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
->* [AEM 데스크톱 응용 프로그램 문제 해결](troubleshoot-app-v1.md)
+>* [AEM 데스크탑 앱 애플리케이션 문제 해결](troubleshoot-app-v1.md)
 
