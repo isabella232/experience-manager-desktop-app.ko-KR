@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -24,7 +24,7 @@ AEM(Adobe Experience Manager) 데스크탑 앱은 원격 Experience Manager 배�
 
 몇 가지 일반적인 문제 및 문제 해결을 방지하려면 다음 우수 사례를 따르십시오.
 
-* **데스크탑 앱의 작동**&#x200B;방식 이해:애플리케이션을 사용하기 전에 앱이 어떻게 작동하는지 알기 위해 몇 분 동안 시간을 할애할 수 있습니다. 웹 UI와 데스크탑 간의 연결, 저장소 매핑, 자산 캐싱, 로컬에 저장 및 백그라운드에서 업로드에 대해 알아봅니다. 작동 [방식](release-notes.md#how-app-works)보기
+* **데스크탑 앱의 작동**&#x200B;방식 이해:애플리케이션을 사용하기 전에 앱이 어떻게 작동하는지 알기 위해 잠시 시간을 할애할 수 있습니다. Experience Manager 웹 인터페이스와 데스크탑 간의 연결, 저장소 매핑, 자산 캐싱, 로컬에 저장 및 백그라운드에서 업로드에 대해 알아보십시오. 작동 [방식](release-notes.md#how-app-works)보기
 
 * **폴더 이름에**&#x200B;지원되지 않는 문자를 사용하지 마십시오.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. Experience Manager 자산에서 폴더 [만들기에서 문자 목록을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). 일부 Adobe Experience Manager 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
 
@@ -134,8 +134,8 @@ AEM 데스크톱 앱에서 HTTP 통신에 사용하는 라이브러리는 엄격
 
 거의 응용 프로그램이 응답하지 않거나 흰색 화면만 표시하거나 인터페이스 아래쪽에 오류가 표시되는 경우는 없습니다. 순서대로 다음 작업을 시도하십시오.
 
-1. 애플리케이션 인터페이스를 마우스 오른쪽 버튼으로 클릭한 다음 을 **[!UICONTROL Refresh]**&#x200B;클릭합니다.
-1. 애플리케이션을 종료하고 다시 시작합니다.
+* 애플리케이션 인터페이스를 마우스 오른쪽 버튼으로 클릭한 다음 을 **[!UICONTROL Refresh]**&#x200B;클릭합니다.
+* 애플리케이션을 종료하고 다시 엽니다.
 
 두 방법 모두에서 앱은 루트 DAM 폴더에서 시작됩니다.
 
