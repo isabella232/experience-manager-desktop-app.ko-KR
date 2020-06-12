@@ -10,7 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 63cb82b6bdafeb87d296a895d68cb3912045839a
+source-git-commit: 2e634c13ef1bcb0cd1868100f5a2d7cb20c189be
+workflow-type: tm+mt
+source-wordcount: '1318'
+ht-degree: 50%
 
 ---
 
@@ -35,8 +38,8 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 이 앱은 클라우드 서비스로 배포되든, Adobe Managed Services(AMS) 또는 온프레미스 중 어느 것이든, 다음의 Experience Manager 버전과 연동됩니다.
 
 * [클라우드 서비스로서의 Experience Manager](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
-* [Experience Manager 6.5.0 이상](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html)
-* [Experience Manager 6.4.4 이상](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html)
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) 이상
+* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) 이상
 * Experience Manager 6.4.0 - 6.4.3( [호환성 패키지 포함)](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
