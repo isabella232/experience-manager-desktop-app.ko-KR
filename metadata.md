@@ -8,13 +8,13 @@ getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
 tutorials-title: 튜토리얼
 tutorials-url: https://helpx.adobe.com/kr/experience-manager/kt/index/aem-6-5-videos.html
 mini-toc-levels: 1
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.ko-KR
+git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
 index: y
 translation-type: tm+mt
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+source-git-commit: e9a59807d48ea2d8619d3b03255c4291fca85138
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 11%
+source-wordcount: '155'
+ht-degree: 13%
 
 ---
 
@@ -25,11 +25,11 @@ metadata.md 파일에는 보고서에서 사용자 안내서 TOC.md 파일로 �
 
 | 메타데이터 | what it&#39;s |
 |--- |--- |
-| 솔루션 제목 | 아티클 헤더에 링크로 사용됨 |
-| solution-hub-url | 지원 허브 페이지를 엽니다. |
-| solution-icon | 솔루션 제목 옆에 솔루션 아이콘이 표시됩니다. 아직 구현되지 않음 |
-| getting-started-url | 시작 페이지에 대한 링크 |
-| tutorials-url | 비디오 튜토리얼로 연결되는 링크—도움말 자습서 또는 KT 튜토리얼 |
+| 솔루션 제목 | 아티클 헤더에 링크로 사용됩니다. |
+| solution-hub-url | 학습 및 지원 허브 페이지를 엽니다. |
+| solution-icon | 솔루션 제목 옆에 솔루션 아이콘이 표시됩니다. 아직 구현되지 않았습니다. |
+| getting-started-url | 시작 페이지에 대한 링크입니다. |
+| tutorials-url | 비디오 자습서에 연결합니다. |
 | mini-toc 레벨 | 오른쪽 레일에 표시되는 제목 수준의 수를 결정합니다. 기본값은 2입니다. |
 | git-repo | 내부 사용을 위한 기본 보고서의 위치를 지정합니다. |
 
@@ -37,5 +37,5 @@ TOC.md 파일
 
 | 메타데이터 | what it&#39;s |
 |--- |--- |
-| user-guide-title | 아티클 헤더에 링크로 사용됨 |
-| user-guide-url | 도움말 허브 페이지를 엽니다. |
+| user-guide-title | 아티클 헤더에 링크로 사용됩니다. |
+| user-guide-url | 학습 및 지원 허브 페이지를 엽니다. |
