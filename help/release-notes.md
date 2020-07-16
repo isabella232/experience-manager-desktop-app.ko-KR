@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Manager 데스크탑 앱 릴리스 노트
-description: Adobe Experience Manager 데스크탑 앱용 릴리스 정보, 향상된 기능, 새로운 기능, 호환성 및 다운로드 링크
+title: Adobe Experience Manager 데스크탑 앱 릴리스 정보
+description: 릴리스 세부 사항, 개선 사항, 새로운 기능, 호환성 및 Adobe Experience Manager 데스크탑 앱용 다운로드 링크.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -10,20 +10,20 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
+source-git-commit: eda366b969edb3c266ae8a5900ea7c0409846db0
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 49%
+source-wordcount: '1326'
+ht-degree: 48%
 
 ---
 
 
-# Adobe Experience Manager 데스크탑 앱 릴리스 노트 {#release-notes-v2}
+# Adobe Experience Manager 데스크탑 앱 릴리스 정보 {#release-notes-v2}
 
 | 제품 | Adobe Experience Manager 데스크탑 앱 |
 |----|----|
 | 앱 버전(개정) | 2.0 (2.0.2.0) |
-| 지원되는 AEM 버전 | 클라우드 서비스로서의 AEM; AEM 6.5; AEM 6.4; AEM 6.3(호환성 패키지 포함) |
+| 지원되는 AEM 버전 | Cloud Service의 AEM AEM 6.5; AEM 6.4; AEM 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
 | 릴리스 날짜 | 2020년 4월 15일 (Mac 및 Win) |
 | 다운로드 URL | [macOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
@@ -35,36 +35,36 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 * Mac OS X 10.14 이상, 최신 버그 수정
 * Windows 7 및 Windows 10(최신 서비스 팩 및 버그 수정 포함)
 
-이 앱은 클라우드 서비스로 배포되든, Adobe Managed Services(AMS) 또는 온프레미스 중 어느 것이든, 다음의 Experience Manager 버전과 연동됩니다.
+이 앱은 Cloud Service, Adobe Managed Services(AMS) 또는 온-프레미스 중 어떤 Experience Manager 버전으로 배포되는지 상관없이 다음의 버전에서 작동합니다.
 
 * [클라우드 서비스로서의 Experience Manager](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html)
 * [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) 이상
 * [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) 이상
-* Experience Manager 6.4.0 - 6.4.3( [호환성 패키지 포함)](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* Experience Manager 6.4.0 - 6.4.3( [호환성 패키지)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->Experience Manager 6.3에 대한 데스크탑 앱 지원은 더 이상 필요하지 않습니다. Adobe는 최신 지원 Adobe Experience Manager 버전으로 업그레이드할 것을 권장합니다.
->Adobe Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지를 설치한 후 데스크탑 앱에서 작동합니다](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Experience Manager 6.3에는 [서비스 팩이 계획이 없으므로 이러한 패키지를 사용할 수 없습니다](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html).
+>Experience Manager 6.3에 대한 데스크탑 앱 지원은 더 이상 필요하지 않습니다. Adobe는 최신 Adobe Experience Manager 버전으로 업그레이드할 것을 권장합니다.
+>Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지를 설치한 후 데스크탑 앱에서 작동합니다](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Experience Manager 6.3에는 [서비스 팩이 계획이 없으므로 이러한 패키지를 사용할 수 없습니다](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html).
 
 앱 버전을 로컬 컴퓨터에 설치하려면 특정 Adobe Experience Manager 서버 버전/서버측 추가 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. Adobe Experience Manager 관리자에게 도움을 요청하십시오.
 
 ### Support for different assets and file types {#support-for-file-types}
 
-이 응용 프로그램은 기본 작업을 위해 이진 파일을 나타내는 Adobe Experience Manager에 저장된 에셋을 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
+응용 프로그램은 기본 작업을 위해 이진 파일을 나타내는 Adobe Experience Manager에 저장된 에셋을 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
-몇 가지 파일 유형은 연결된 자산을 바이너리에 배치하는 것을 지원합니다. 데스크톱 앱을 사용하여 이진 파일을 열 때 자산이 Experience Manager 저장소에 있으면 응용 프로그램은 연결된 에셋을 미리 다운로드합니다. 현재 지원되는 파일 유형은 다음과 같습니다.
+몇 가지 파일 유형은 연결된 자산을 바이너리에 배치하는 것을 지원합니다. 데스크톱 앱을 사용하여 이진 파일을 열 때 자산이 Experience Manager 저장소에 있는 경우 응용 프로그램은 연결된 자산을 미리 다운로드합니다. 현재 지원되는 파일 유형은 다음과 같습니다.
 
 * Adobe InDesign 파일(INDD 형식)
 * Adobe Illustrator 파일(AI 형식)
 * Adobe Photoshop 파일(PS 형식)
 
-이 기능은 위의 애플리케이션의 Adobe Creative Cloud 2018 및 Adobe Creative Cloud 2019 버전에서 지원됩니다. 앱은 지능적인 가장 일치하는 접근 방식을 사용하여 연결된 자산의 로컬 데스크탑 경로를 Experience Manager 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
+이 기능은 위의 애플리케이션의 Adobe Creative Cloud 2018 및 Adobe Creative Cloud 2019 버전에서 지원됩니다. 앱은 이성적인 최상의 일치 방법을 사용하여 연결된 자산의 로컬 데스크탑 경로를 Experience Manager 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
 
 * Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
 * 경로는 기본 앱을 통해 파일의 XMP 레코드에 저장됩니다.
-* Adobe Experience Manager에서 자산의 메타데이터 레코드 경로를 사용하여 XMP 레코드를 추출했습니다.
-* 경로는 Adobe Experience Manager의 자산과 일치할 수 있습니다. 즉, 배치된 파일도 Experience Manager에서 일치하는 경로에 있습니다.
+* Experience Manager에서 자산의 메타데이터 레코드 경로로 XMP 레코드를 추출했습니다.
+* 경로는 Experience Manager의 에셋과 일치할 수 있습니다. 즉, 배치된 파일도 일치하는 경로 아래 Experience Manager에 있습니다.
 
 ## 새로운 기능 및 향상된 기능 {#whats-new-added}
 
@@ -85,7 +85,7 @@ To know the details, see [What&#39;s new in v2.0](introduction.md#whats-new-v2).
 버그 수정 및 업데이트는 다음과 같습니다.
 
 * 경로 일치로 `%Temp%` 디렉토리를 구성하는 옵션을 `%APPDATA%` 허용합니다. <!-- CQ-4282665 -->
-* 사용자가 Okta SAML 인증을 통해 AEM 작성자에 로그인하도록 허용 <!-- CQ-4278134 -->
+* 사용자가 Okta SAML 인증을 통해 AEM Author에 로그인하도록 허용 <!-- CQ-4278134 -->
 
 ## 설치 지침 {#installation-instructions-v2}
 
@@ -133,8 +133,8 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 >[!MORELIKETHIS]
 >
->* [클라우드 서비스 설명서로 AEM 사용](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
->* [클라우드 서비스 자산 설명서의 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/home.html)
+>* [Cloud Service 설명서로 AEM 사용](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+>* [Cloud Service 자산 설명서의 AEM](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager 데스크탑 앱 사용 방법](using.md)
 >* [데스크탑 앱 설치 및 업그레이드](install-upgrade.md)
 >* [우수 사례 및 문제 해결 팁](troubleshoot.md)
