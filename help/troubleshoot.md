@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+source-git-commit: 4e2926adfe46265c78f85b63696c98859f895134
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -55,15 +55,15 @@ Adobe Experience Manager(AEM) 데스크탑 앱은 원격 Experience Manager 배�
 
 Windows에서 디버그 모드를 활성화하려면 다음 단계를 수행합니다.
 
-1. 데스크탑 앱 설치 폴더에서 `Adobe Experience Manager Desktop.exe.config` 파일을 찾습니다. 기본적으로 폴더는 입니다 `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. 파일을 저장하고 닫습니다.
+1. 데스크탑 앱 설치 폴더에서 `Adobe Experience Manager Desktop.exe.config` 파일을 찾습니다. 기본적으로 폴더는 입니다 `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
 
-1. 파일의 끝 `<level value="INFO"/>` 에 있는 위치를 찾습니다. 값을 다음으로 `DEBUG`변경합니다. 즉, `<level value="DEBUG"/>`.
+1. 파일의 끝 `<level value="INFO"/>` 에 있는 위치를 찾습니다. 값을 에서 `INFO` 로, 즉 `DEBUG`으로 변경합니다 `<level value="DEBUG"/>`. 파일을 저장하고 닫습니다.
 
 1. 데스크탑 앱 설치 폴더에서 `logging.json` 파일을 찾습니다. 기본적으로 폴더는 입니다 `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. 파일에서 매개 변수 `logging.json` 의 모든 인스턴스를 `level` 찾습니다. 값을 에서 로 `info` 변경합니다 `debug`. 파일을 저장하고 닫습니다.
+1. 파일에서 `logging.json` 의 모든 인스턴스를 찾습니다 `"level": "info"`. 값을 에서 로 `info` 변경합니다 `debug`. 파일을 저장하고 닫습니다.
 
-1. 앱 환경 설정에 설정된 위치에 있는 캐시된 디렉터리를 지웁니다.
+1. 응용 프로그램 기본 설정에 설정된 위치에 있는 캐시된 디렉토리를 [지웁니다](/help/install-upgrade.md#set-preferences).
 
 1. 데스크탑 앱을 다시 시작합니다.
 
