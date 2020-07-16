@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e2926adfe46265c78f85b63696c98859f895134
+source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Manager(AEM) 데스크탑 앱은 원격 Experience Manager 배�
 
 몇 가지 일반적인 문제 및 문제 해결을 방지하려면 다음 우수 사례를 따르십시오.
 
-* **데스크탑 앱의 작동 방식 이해**: 애플리케이션 사용을 시작하기 전에 앱이 작동하는 방식을 알기 위해 잠시 시간을 할애하십시오. Experience Manager 웹 인터페이스와 데스크탑 간 연결, 저장소 매핑, 에셋 캐싱, 로컬에 저장, 백그라운드에서 업로드 등에 대해 자세히 알아보십시오. 사용 [방법](release-notes.md#how-app-works)보기
+* **데스크탑 앱의 작동 방식 이해**: 애플리케이션 사용을 시작하기 전에 앱이 작동하는 방식을 알기 위해 잠시 시간을 할애하십시오. Experience Manager 웹 인터페이스와 데스크탑 간 연결, 저장소 매핑, 자산 캐싱, 로컬에 저장, 백그라운드에서 업로드 등에 대해 자세히 알아보십시오. 사용 [방법](release-notes.md#how-app-works)보기
 
 * **폴더 이름에 지원되지 않는 문자는 사용할 수 없습니다**. 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. Experience Manager 자산에 폴더 [만들기에서 문자 목록을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). 일부 Adobe Experience Manager 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
 
@@ -61,7 +61,7 @@ Windows에서 디버그 모드를 활성화하려면 다음 단계를 수행합�
 
 1. 데스크탑 앱 설치 폴더에서 `logging.json` 파일을 찾습니다. 기본적으로 폴더는 입니다 `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. 파일에서 `logging.json` 의 모든 인스턴스를 찾습니다 `"level": "info"`. 값을 에서 로 `info` 변경합니다 `debug`. 파일을 저장하고 닫습니다.
+1. 파일에서 `logging.json` 의 모든 인스턴스를 찾습니다 `"level": "info"`. 값을 에서 `info` 로, 즉 `debug`으로 변경합니다 `"level": "debug"`. 파일을 저장하고 닫습니다.
 
 1. 응용 프로그램 기본 설정에 설정된 위치에 있는 캐시된 디렉토리를 [지웁니다](/help/install-upgrade.md#set-preferences).
 
