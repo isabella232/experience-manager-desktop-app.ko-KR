@@ -219,7 +219,7 @@ Experience Manager 데스크탑 앱을 사용하는 주요 작업은 다음과 �
 
 응용 프로그램은 로컬로(또는 작업 **[!UICONTROL Edited locally]**&#x200B;을 통해) 다운로드한 다음 수정한 모든 파일에 빠르게 액세스할 수 있도록 하는 보기( [!UICONTROL Open] 또는 [!UICONTROL Edit] 보기)를 제공합니다. 이 앱을 사용하면 로컬에서 편집한 모든 에셋을 선택하고 몇 번의 클릭만으로 변경 내용을 업로드할 수 있습니다. 이 보기에는 편집과 충돌이 있는 로컬에서 편집된 에셋도 표시됩니다.
 
-![로컬에서 편집한 모든](assets/edited_locally_filter_da2.png "자산 보기 필터로컬에서 편집한 모든 자산 보기(편집 내용의 일괄 업로드)")
+![로컬에서 편집한 모든](assets/edited_locally_filter_da2.png "자산 보기 필터로컬에서 편집한 모든 자산 보기&#40;편집 내용의 일괄 업로드&#41;")
 
 ### 자산 일괄 업로드 {#bulk-upload-assets}
 
