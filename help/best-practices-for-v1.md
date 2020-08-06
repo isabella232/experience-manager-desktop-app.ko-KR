@@ -1,6 +1,6 @@
 ---
 title: AEM 데스크탑 앱 버전 1.x 모범 사례
-description: 주요 기능 및 Adobe Experience Manager 데스크탑 앱 버전 1.x의 권장 사용
+description: Adobe Experience Manager 데스크탑 앱 버전 1.x의 주요 기능 및 권장 사용
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 3e10be1fd9dd1ff5293e96b46565825e6be1fc4f
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe Experience Manager(AEM) 데스크탑 앱은 데스크탑에 DAM(디지털 
 
 AEM 데스크탑 앱을 사용하면 AEM에서 잘못된 로컬 복사본을 업데이트하거나 잘못된 자산을 업데이트할 가능성을 없앨 수 있습니다. 데스크탑 앱의 편리한 워크플로우는 데스크탑 운영 체제에서 제공하는 네트워크 공유 기술을 사용하여 가능합니다.
 
-데스크탑 앱은 AEM Assets 저장소를 데스크탑에서 네트워크 공유로 마운트합니다. 따라서 폴더 및 파일은 로컬인 것처럼 표시됩니다. 그러나 Finder 또는 탐색기에서 마운트된 네트워크 공유에서 데스크탑에서 직접 디지털 자산 관리 작업을 수행하는 것은 권장되지 않습니다. 대신 AEM Assets 웹 UI를 사용하여 많은 수의 자산을 복사하거나 이동하는 등의 작업을 수행하는 것이 좋습니다.
+데스크탑 앱은 AEM Assets 저장소를 데스크탑에서 네트워크 공유로 마운트합니다. 따라서 폴더 및 파일은 로컬인 것처럼 표시됩니다. 그러나 Finder 또는 탐색기에서 마운트된 네트워크 공유에서 데스크탑에서 직접 디지털 자산 관리 작업을 수행하는 것은 권장되지 않습니다. 대신 Adobe은 AEM Assets 웹 UI를 사용하여 많은 수의 자산을 복사하거나 이동하는 등의 작업을 수행하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ AEM 데스크탑 앱을 사용하면 AEM에서 잘못된 로컬 복사본을 업
 
 ## AEM desktop app architecture {#aem-desktop-app-architecture}
 
-AEM 데스크탑 앱은 WebDAV(Windows) 또는 SMB(Mac) 네트워크 공유를 사용하여 네트워크 공유를 마운트합니다. 마운트된 네트워크 공유는 로컬에만 있습니다. AEM 데스크탑 앱은 통화(열기, 읽기, 쓰기)를 가로채고 추가 로컬 캐시를 제공합니다. AEM Assets 서버에 대한 원격 호출을 최적화된 AEM HTTP 요청으로 변환합니다. 다음 다이어그램은 AEM 데스크탑 앱 아키텍처를 보여줍니다.
+AEM 데스크탑 앱은 WebDAV(Windows) 또는 SMB(Mac) 네트워크 공유를 사용하여 네트워크 공유를 마운트합니다. 마운트된 네트워크 공유는 로컬에만 있습니다. AEM 데스크탑 앱은 통화(열기, 읽기, 쓰기)를 가로채고 추가 로컬 캐시를 제공합니다. 또한 AEM Assets 서버에 대한 원격 호출을 최적화된 AEM HTTP 요청으로 변환합니다. 다음 다이어그램은 AEM 데스크탑 앱 아키텍처를 보여줍니다.
 
 ![AEM 데스크탑 앱 아키텍처](assets/chlimage_1.png)
 
@@ -71,7 +71,7 @@ AEM 데스크탑 앱의 주요 기능은 다음과 같습니다.
 
 * AEM 데스크탑 앱 네트워크 드라이브를 사용하여 자산을 자주 저장하지 마십시오. 모든 저장 작업은 AEM Assets으로 전송됩니다. 따라서 마운트된 AEM Assets 저장소에서 직접 집중 편집 작업을 수행하는 것은 비현실적입니다. 마운트된 저장소에서 바로 자산을 편집하면 관련 없는 버전과 함께 자산의 타임라인이 중단되고 추가 오버헤드가 서버에 추가됩니다.
 
-* 한 AEM 인스턴스에서 다른 인스턴스로 대량의 데이터를 마이그레이션하는 경우에는 AEM 데스크탑 앱을 사용하지 마십시오. 자산 마이그레이션을 계획 및 실행하려면 [마이그레이션](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html) 가이드를 참조하십시오. 반면 데스크탑 앱은 처음 [에 많은 양의 자산을 일괄 업로드할](use-app-v1.md#bulkupload) 수 있도록 지원합니다 [!DNL Adobe Experience Manager].
+* 한 AEM 인스턴스에서 다른 인스턴스로 대량의 데이터를 마이그레이션하는 경우에는 AEM 데스크탑 앱을 사용하지 마십시오. 자산 마이그레이션을 계획 및 [실행하려면 마이그레이션](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html) 가이드를 참조하십시오. 반면 데스크탑 앱은 처음 [에 많은 양의 자산을 일괄 업로드할](use-app-v1.md#bulkupload) 수 있도록 지원합니다 [!DNL Adobe Experience Manager].
 
 ## 선택한 사용 사례의 Recommendations {#recommendations-for-selected-use-cases}
 
@@ -79,11 +79,11 @@ AEM 데스크탑 앱의 주요 기능은 다음과 같습니다.
 
 AEM 데스크탑 앱은 전체 DAM 저장소에 대한 가상 액세스 기능을 제공하므로 데스크탑에 있는 크리에이티브 사용자가 데스크탑에서 원하는 에셋을 찾아 이용하는 것은 복잡할 수 있습니다. 이러한 모범 사례를 통해 이를 간소화할 수 있습니다.
 
-* AEM Assets 웹 UI의 공동 작업 기능을 사용하면 크리에이티브 사용자가 원하는 에셋에 보다 직접 액세스할 수 있습니다. 폴더 또는 컬렉션 공유, 스마트 컬렉션(저장된 검색) 제공, 올바른 자산 포인터를 사용하여 알림 전송 등이 이들 중 일부분입니다. 그러면 크리에이티브 사용자는 웹 UI에서 데스크탑 액션을 사용하여 데스크탑에서 이러한 에셋에 빠르게 액세스할 수 있습니다.
+* AEM Assets 웹 UI의 공동 작업 기능을 사용하면 크리에이티브 사용자를 위해 적합한 에셋에 보다 직접 액세스할 수 있습니다. 폴더 또는 컬렉션 공유, 스마트 컬렉션(저장된 검색) 제공, 올바른 자산 포인터를 사용하여 알림 전송 등이 이들 중 일부분입니다. 그러면 크리에이티브 사용자는 웹 UI에서 데스크탑 액션을 사용하여 데스크탑에서 이러한 에셋에 빠르게 액세스할 수 있습니다.
 
 * 에셋에 대한 올바른 권한(액세스 제어)을 고려하여 크리에이티브 사용자가 필요하거나 관심 있는 에셋에만 액세스할 수 있도록 DAM 저장소에 대한 보기를 단순화합니다.
 
-   * 크리에이티브 사용자와 관련이 없는 특정 영역은 사용자 그룹 보기에서 제거하기 위해, 데스크톱에서도 거부될 수 있습니다.
+   * 크리에이티브 사용자와 관련이 없는 특정 영역은 사용자 그룹에 대해 거부될 수 있으며 해당 영역을 자신의 보기에서 제거할 수도 있습니다(데스크탑).
 
    * DAM의 대부분의 에셋은 최종적으로 확정적이며 변경할 의도가 없습니다. 이러한 에셋은 크리에이티브 사용자가 읽기 전용으로 사용해야 합니다.
 
@@ -93,7 +93,7 @@ AEM 데스크탑 앱은 전체 DAM 저장소에 대한 가상 액세스 기능�
 
 데스크탑에서 열려는 파일을 검색하려면
 
-* AEM Assets 웹 UI를 사용하여 자산을 찾습니다. 강력한 AEM Assets 검색 기능(검색 패싯, 저장된 검색)뿐만 아니라 올바른 자산을 찾는 추가 기능을 제공합니다. 상태(승인, 만료), 컬렉션, 작업, 알림 및 다른 사용자/그룹과 폴더/컬렉션 공유를 기반으로 자산을 검색하는 기능과 같은 추가 필터가 포함되어 있습니다.
+* AEM Assets 웹 UI를 사용하여 자산을 찾습니다. AEM Assets의 강력한 검색 기능(검색 패싯, 저장된 검색)뿐만 아니라 적합한 자산을 찾는 추가 기능을 제공합니다. 상태(승인, 만료), 컬렉션, 작업, 알림 및 다른 사용자/그룹과 폴더/컬렉션 공유를 기반으로 자산을 검색하는 기능과 같은 추가 필터가 포함되어 있습니다.
 
 * 자산을 찾은 후 AEM UI의 데스크톱 작업을 사용하여 데스크탑의 자산에 액세스합니다.
 
@@ -115,7 +115,7 @@ AEM에 저장된 자산에 업데이트가 필요한 경우:
 
    * 바탕 화면에서 적절한 폴더를 열려면 표시 옵션을 사용합니다.
 
-   * 매핑된 AEM Assets 공유 외부의 WIP 폴더에 파일을 복사합니다(예: 파일을 Adobe Creative Cloud 데스크톱 앱과 동기화된 폴더에 복사).
+   * 매핑된 AEM Assets 공유 외부에 있는 WIP 폴더에 파일을 복사합니다(예: 파일을 Adobe Creative Cloud 데스크톱 앱과 동기화된 폴더에 복사).
 
    * 파일을 사용하여 간헐적으로 저장할 수 있습니다. 변경 사항은 AEM Assets에 저장되지 않습니다.
 
@@ -129,7 +129,7 @@ AEM 데스크탑 앱을 사용하는 사용자는 데스크탑과 AEM 서버 간
 
 AEM Assets 네트워크 구성에 대한 우수 사례를 이해하려면 [AEM Assets 네트워크 고려 사항](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html) 문서를 참조하십시오. 사용자를 위한 AEM 데스크탑 앱 환경을 최적화하는 데 도움이 되는 몇 가지 중요한 사항은 다음과 같습니다.
 
-* **적절하게 구성된 Dispatcher**&#x200B;사용 추가 보안을 위해 AEM Dispatcher을 사용하고 디스패처 뒤에 있는 AEM에 [AEM 데스크탑 앱 연결용으로 구성되어 있는지 확인합니다.](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
+* **올바르게 구성된 Dispatcher를 사용합니다**. 추가 보안을 위해 AEM Dispatcher를 사용하고 디스패처 뒤에 있는 AEM에 [AEM 데스크탑 앱 연결을 사용하도록 구성되어 있는지 확인합니다.](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
 * **대역폭을 저장합니다**. Finder를 사용하여 마운트된 저장소를 검색할 때 Mac의 Finder에서 아이콘 미리 보기를 끄는 것이 좋습니다. 파인더가 각 파일에 미리 보기를 요청하고 데스크톱 앱이 자산을 로컬로 다운로드 및 캐시하도록 합니다. 대역폭을 저장하는 동안 데스크탑에 있는 사용자에 대한 사용자 환경도 감소하므로, 큰 자산 및/또는 제한된 대역폭의 저장소를 사용하여 작업할 때 수행해야 합니다.
 
@@ -139,7 +139,7 @@ AEM Assets 네트워크 구성에 대한 우수 사례를 이해하려면 [AEM A
 
 ### 서버 성능 최적화 {#optimizing-server-performance}
 
-AEM Assets 서버의 성능 최적화 방법을 이해하려면 [AEM Assets 성능 조정 가이드를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html). AEM 데스크톱 응용 프로그램의 서버 성능에 대한 중요한 몇 가지 측면에서는 자산 업로드를 위해 제대로 수행되도록 워크플로우 구성을 최적화하는 것에 대해 설명합니다.
+AEM Assets 서버의 성능 최적화 방법에 대한 자세한 내용은 [AEM Assets 성능 조정 가이드를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html). AEM 데스크톱 응용 프로그램의 서버 성능에 대한 중요한 몇 가지 측면에서는 자산 업로드를 위해 제대로 수행되도록 워크플로우 구성을 최적화하는 것에 대해 설명합니다.
 
 * **더 많은 성능 에셋 업로드**. AEM [자산 업데이트 워크플로우 모델을 일시적으로](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html#Workflows)구성합니다.
 
