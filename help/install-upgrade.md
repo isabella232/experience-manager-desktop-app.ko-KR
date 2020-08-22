@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Manager 데스크탑 앱 설치 및 구성
-description: Adobe Experience Manager 에셋 서버와 연동되고 로컬 파일 시스템에서 에셋을 다운로드할 수 있도록 Adobe Experience Manager 데스크탑 앱을 설치하고 구성합니다.
+description: Adobe Experience Manager 데스크탑 앱을 설치하고 구성하여 Adobe Experience Manager 에셋 서버와 연동하고 로컬 파일 시스템에서 에셋을 다운로드할 수 있습니다.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Install Adobe Experience Manager desktop app {#install-app-v2}
 
-Adobe Experience Manager 데스크탑 앱을 사용하면 Experience Manager 내의 에셋을 로컬 데스크탑에서 손쉽게 이용할 수 있으며 모든 기본 데스크탑 애플리케이션에서 사용할 수 있습니다. 에셋은 미리 보거나 기본 데스크탑 애플리케이션에서 열 수 있으며, Mac Finder 또는 Windows 탐색기에서 다른 문서에 배치하기 위해 표시하거나 로컬로 변경할 수 있습니다. 업로드하면 변경 사항이 다시 Experience Manager으로 저장되고 저장소에 새 버전이 만들어집니다.
+Adobe Experience Manager 데스크탑 앱을 사용하면 Experience Manager 내의 에셋을 로컬 데스크탑에서 손쉽게 이용할 수 있으며 모든 기본 데스크탑 애플리케이션에서 사용할 수 있습니다. 에셋은 미리 보거나 기본 데스크탑 애플리케이션에서 열 수 있으며, Mac Finder 또는 Windows 탐색기에서 다른 문서에 배치하기 위해 표시하거나 로컬로 변경할 수 있습니다. 업로드하면 변경 내용이 다시 Experience Manager으로 저장되고 저장소에 새 버전이 만들어집니다.
 
 이러한 통합으로 조직의 다양한 역할을 수행할 수 있습니다.
 
@@ -49,7 +49,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 이전 버전의 앱에서 업그레이드하려면 다음 지침을 따르십시오.
 
-1. 업그레이드하기 전에 모든 자산을 동기화하고 변경 사항을 Experience Manager에 업로드하십시오. 이는 앱을 제거할 때 편집된 내용이 손실되지 않도록 하기 위한 것입니다.
+1. 업그레이드하기 전에 모든 자산을 동기화하고 변경 사항을 Experience Manager에 업로드합니다. 이는 앱을 제거할 때 편집된 내용이 손실되지 않도록 하기 위한 것입니다.
 
 1. 앱의 이전 버전을 제거합니다. 제거할 때 캐시 지우기 옵션을 선택합니다.
 
@@ -79,9 +79,9 @@ Experience Manager 데스크탑 앱을 사용하려면
 
    ![입력 서버 주소에 데스크탑 앱의 연결 화면](assets/connect_da2.png)
 
-   *그림: 입력 서버 주소에 대한 연결 화면*
+   *그림:입력 서버 주소에 대한 연결 화면*
 
-   >[!C자동]
+   >[!CAUTION]
    >
    >AEM 서버 주소 앞이나 뒤에 선행 또는 후행 공백이 없는지 확인합니다. 그렇지 않으면 앱이 AEM 서버에 연결할 수 없습니다.
 
@@ -89,11 +89,11 @@ Experience Manager 데스크탑 앱을 사용하려면
 
    ![로그인하면 앱에 DAM 콘텐츠가 표시됩니다.](assets/firstview_da2.png)
 
-   *그림: 응용 프로그램에 로그인 후 DAM 내용이 표시됩니다.*
+   *그림:응용 프로그램에 로그인 후 DAM 내용이 표시됩니다.*
 
 1. (Experience Manager 6.5.1 이상) Experience Manager 6.5.1 이상의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. Azure [커넥터](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) 또는 [S3 커넥터를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
-   Adobe Managed Services(AMS) 고객의 경우 Adobe 고객 지원 센터에 문의하십시오.
+   AMS(Adobe Managed Services) 고객의 경우 Adobe 고객 지원 센터에 문의하십시오.
 
 ## 환경 설정 {#set-preferences}
 
@@ -103,25 +103,25 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 * [!UICONTROL Show window when application starts].
 
-* **[!UICONTROL Cache Directory]**: 앱의 로컬 캐시 위치(로컬로 다운로드한 에셋이 포함되어 있음).
+* **[!UICONTROL Cache Directory]**:앱의 로컬 캐시 위치(로컬로 다운로드한 에셋이 포함되어 있음).
 
-* **[!UICONTROL Network Drive Letter]**: AEM DAM에 매핑하는 데 사용되는 드라이브 문자입니다. 확신이 없으면 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자로 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 문자의 에셋을 배치하면 서로 배치된 에셋이 표시되지 않습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(예: INDD)에 삽입되며 제거되지 않습니다. 앱은 사용 가능한 모든 드라이브 문자를 나열하고 기본적으로 일반적으로 사용 가능한 마지막 문자를 사용합니다 `Z`.
+* **[!UICONTROL Network Drive Letter]**:AEM DAM에 매핑하는 데 사용되는 드라이브 문자입니다. 확신이 없으면 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자로 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 문자의 에셋을 배치하면 서로 배치된 에셋이 표시되지 않습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(예: INDD)에 삽입되며 제거되지 않습니다. 앱은 사용 가능한 모든 드라이브 문자를 나열하고 기본적으로 일반적으로 사용 가능한 마지막 문자를 사용합니다 `Z`.
 
-* **[!UICONTROL Maximum Cache Size]**: 로컬에서 다운로드한 에셋을 저장하는 데 사용되는 하드 디스크의 캐시(GB)가 허용됩니다.
+* **[!UICONTROL Maximum Cache Size]**:로컬에서 다운로드한 에셋을 저장하는 데 사용되는 하드 디스크의 캐시(GB)가 허용됩니다.
 
-* **[!UICONTROL Current cache size]**: 로컬로 다운로드한 자산의 저장소 크기입니다. 이 정보는 자산을 앱을 사용하여 다운로드한 후에만 표시됩니다.
+* **[!UICONTROL Current cache size]**:로컬로 다운로드한 자산의 저장소 크기입니다. 이 정보는 자산을 앱을 사용하여 다운로드한 후에만 표시됩니다.
 
-* **[!UICONTROL Automatically download linked assets]**: 지원되는 기본 Creative Cloud 앱에 배치된 에셋은 원본 파일을 다운로드하는 경우 자동으로 가져옵니다.
+* **[!UICONTROL Automatically download linked assets]**:지원되는 기본 Creative Cloud 앱에 배치된 에셋은 원본 파일을 다운로드하는 경우 자동으로 가져옵니다.
 
-* **[!UICONTROL Maximum number of downloads]**: 자산 표시, 열기, 편집, 다운로드 또는 유사한 옵션을 통해 자산을 처음 다운로드할 경우, 배치에 이 수보다 작은 금액이 들어 있는 경우에만 자산이 다운로드됩니다. 기본값은 50입니다. 확신이 없으면 변경하지 마십시오. 값을 늘리면 대기 시간이 길어지고 값을 줄이면 필요한 자산이나 폴더를 한 번에 다운로드할 수 없습니다.
+* **[!UICONTROL Maximum number of downloads]**:자산 표시, 열기, 편집, 다운로드 또는 유사한 옵션을 통해 자산을 처음 다운로드할 경우, 배치에 이 수보다 작은 금액이 들어 있는 경우에만 자산이 다운로드됩니다. 기본값은 50입니다. 확신이 없으면 변경하지 마십시오. 값을 늘리면 대기 시간이 길어지고 값을 줄이면 필요한 자산이나 폴더를 한 번에 다운로드할 수 없습니다.
 
-* **[!UICONTROL Upload Acceleration]**: 자산을 업로드할 때 애플리케이션에서 동시 업로드를 사용하여 업로드 속도를 향상시킬 수 있습니다. 슬라이더를 오른쪽으로 이동하여 업로드의 동시 사용을 늘릴 수 있습니다. 맨 왼쪽에 있는 슬라이더는 동시성(단일 스레드 업로드)이 없으며, 중간 위치는 동시 스레드에 해당하며, 맨 오른쪽에 있는 최대 제한은 20개의 동시 스레드에 해당합니다. 동시 시청 제한이 클수록 로컬 컴퓨터의 프로세서가 더 많은 리소스를 소비해야 합니다.
+* **[!UICONTROL Upload Acceleration]**:자산을 업로드할 때 애플리케이션에서 동시 업로드를 사용하여 업로드 속도를 향상시킬 수 있습니다. 슬라이더를 오른쪽으로 이동하여 업로드의 동시 사용을 늘릴 수 있습니다. 맨 왼쪽에 있는 슬라이더는 동시성(단일 스레드 업로드)이 없으며, 중간 위치는 동시 스레드에 해당하며, 맨 오른쪽에 있는 최대 제한은 20개의 동시 스레드에 해당합니다. 동시 시청 제한이 클수록 로컬 컴퓨터의 프로세서가 더 많은 리소스를 소비해야 합니다.
 
 사용할 수 없는 기본 설정을 업데이트하려면 AEM 서버에서 로그아웃하십시오. 환경 설정을 업데이트한 후 ![환경 설정](assets/do-not-localize/save_preferences_da2.png) 저장을 클릭하여 변경 사항을 저장합니다.
 
 ![데스크탑 앱 환경 설정 및 설정](assets/preferences_da2.png)
 
-*그림: 데스크탑 앱 환경 설정*
+*그림:데스크탑 앱 환경 설정*
 
 ## 앱 제거 {#uninstall-the-app}
 
