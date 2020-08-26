@@ -10,7 +10,7 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 519fe85e5642eb88dd45515948e898185e262003
+source-git-commit: 6763474c278ab8d8f52a0a466657e66a08b0748b
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 45%
@@ -32,9 +32,9 @@ ht-degree: 45%
 
 Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 
-Mac OS X 10.14 이상, 최신 버그 수정
+* Mac OS X 10.14 이상, 최신 버그 수정
 
-최신 서비스 팩 및 버그 수정이 포함된 Windows 10
+* 최신 서비스 팩 및 버그 수정이 포함된 Windows 10
 
 >[!NOTE]
 >
