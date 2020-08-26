@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager 데스크탑 앱 릴리스 정보
+title: Adobe Experience Manager 데스크탑 앱 릴리스 노트
 description: 릴리스 세부 사항, 개선 사항, 새로운 기능, 호환성 및 Adobe Experience Manager 데스크탑 앱용 다운로드 링크.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
@@ -10,33 +10,37 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 519fe85e5642eb88dd45515948e898185e262003
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 47%
+source-wordcount: '1364'
+ht-degree: 45%
 
 ---
 
 
-# Adobe Experience Manager 데스크탑 앱 릴리스 정보 {#release-notes-v2}
+# Adobe Experience Manager 데스크탑 앱 릴리스 노트 {#release-notes-v2}
 
 | 제품 | Adobe Experience Manager 데스크탑 앱 |
 |--- |--- |
-| 앱 버전(개정) | 2.0 (2.0.2.0) |
-| 지원되는 AEM 버전 | AEM의 Cloud Service AEM 6.5; AEM 6.4; AEM 6.3(호환성 패키지 포함) |
+| 앱 버전(개정) | 2.0 (2.0.3.0) |
+| 지원되는 AEM 버전 | AEM의 Cloud ServiceAEM 6.5;AEM 6.4;AEM 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
-| 릴리스 날짜 | 2020년 4월 15일 (Mac 및 Win) |
-| 다운로드 URL | [macOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
+| 릴리스 날짜 | 2020년 8월 27일 (Mac 및 Win) |
+| 다운로드 URL | [macOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
 
 Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 
-* Mac OS X 10.14 이상, 최신 버그 수정
+Mac OS X 10.14 이상, 최신 버그 수정
 
-* Windows 7 및 Windows 10(최신 서비스 팩 및 버그 수정 포함)
+최신 서비스 팩 및 버그 수정이 포함된 Windows 10
 
-이 앱은 Cloud Service, Adobe Managed Services(AMS) 또는 온-프레미스 중 어떤 Experience Manager 버전으로 배포되는지 상관없이 다음의 버전에서 작동합니다.
+>[!NOTE]
+>
+>Windows 7은 더 이상 공급업체에서 지원하지 않습니다(https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+
+이 앱은 Cloud Service, AMS(Adobe Managed Services) 또는 온프레미스 중 어떤 Experience Manager 버전으로 배포되었든 다음 버전에서 작동합니다.
 
 * [클라우드 서비스로서의 Experience Manager](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html).
 
@@ -55,7 +59,7 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 ### Support for different assets and file types {#support-for-file-types}
 
-응용 프로그램은 기본 작업을 위해 이진 파일을 나타내는 Adobe Experience Manager에 저장된 에셋을 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
+이 응용 프로그램은 기본 작업을 위해 이진 파일을 나타내는 Adobe Experience Manager에 저장된 에셋을 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
 몇 가지 파일 유형은 연결된 자산을 바이너리에 배치하는 것을 지원합니다. 데스크톱 앱을 사용하여 이진 파일을 열 때 자산이 Experience Manager 저장소에 있는 경우 응용 프로그램은 연결된 자산을 미리 다운로드합니다. 현재 지원되는 파일 유형은 다음과 같습니다.
 
@@ -77,6 +81,12 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 To know the details, see [What&#39;s new in v2.0](introduction.md#whats-new-v2).
 
+**앱 v2.0.3의 업데이트**
+
+현재 버전에서 수정된 버그:
+
+* 앱을 사용하여 6.5.5.0 인스턴스에서 DAM 저장소에 액세스하려고 하는 Windows 사용자가 [!DNL Adobe Experience Manager] 직면한 로그인 문제를 수정했습니다.
+
 **앱 v2.0.2의 업데이트**
 
 버그 수정 및 업데이트는 다음과 같습니다.
@@ -97,7 +107,7 @@ To know the details, see [What&#39;s new in v2.0](introduction.md#whats-new-v2).
 
 * 경로 일치로 `%Temp%` 디렉토리를 구성하는 옵션을 `%APPDATA%` 허용합니다. <!-- CQ-4282665 -->
 
-* 사용자가 Okta SAML 인증을 통해 AEM Author에 로그인하도록 허용 <!-- CQ-4278134 -->
+* 사용자가 Okta SAML 인증을 통해 AEM 작성자에 로그인하도록 허용 <!-- CQ-4278134 -->
 
 ## 설치 지침 {#installation-instructions-v2}
 
