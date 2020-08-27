@@ -10,7 +10,7 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 6763474c278ab8d8f52a0a466657e66a08b0748b
+source-git-commit: 91de08ba317de97a1d1900dc2351efcb4d6cf95f
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 45%
@@ -22,7 +22,7 @@ ht-degree: 45%
 
 | 제품 | Adobe Experience Manager 데스크탑 앱 |
 |--- |--- |
-| 앱 버전(개정) | 2.0 (2.0.3.0) |
+| 앱 버전(개정) | 2.0 (2.0.3.2) |
 | 지원되는 AEM 버전 | AEM의 Cloud ServiceAEM 6.5;AEM 6.4;AEM 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
 | 릴리스 날짜 | 2020년 8월 27일 (Mac 및 Win) |
