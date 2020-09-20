@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
+source-git-commit: 29bbcc21f01dd0c1338fdbf3e979ef363a93533c
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,9 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 1. 메시지가 표시되면 컴퓨터를 다시 시작합니다. 데스크탑 앱을 실행하고 구성합니다.
 
-1. 앱을 AEM 리포지토리와 연결하려면 트레이에서 앱 아이콘을 클릭하여 앱을 실행합니다. AEM 인스턴스의 주소를 입력합니다. 자격 증명 **[!UICONTROL Connect]** 을 클릭하고 제공합니다.
+1. 앱을 AEM 리포지토리와 연결하려면 트레이에서 앱 아이콘을 클릭하고 앱을 실행합니다. AEM 서버의 주소를 형식으로 입력하십시오 `https://[aem-server-url]:[port]/`.
+
+   자격 증명 **[!UICONTROL Connect]** 을 클릭하고 제공합니다.
 
    ![입력 서버 주소에 데스크탑 앱의 연결 화면](assets/connect_da2.png)
 
