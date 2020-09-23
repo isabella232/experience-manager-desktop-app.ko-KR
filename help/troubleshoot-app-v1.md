@@ -3,13 +3,13 @@ title: AEM 데스크탑 앱 버전 1.x 문제 해결
 description: 설치, 업그레이드, 구성 등과 관련된 가끔 발생하는 문제를 해결하려면 AEM 데스크탑 앱 버전 1.x 문제를 해결하십시오.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 설치, 업그레이드, 구성 등과 관련된 가끔 발생하는 문제를 해결하려면 AEM 데스크탑 앱 문제를 해결하십시오.
 
-Adobe Experience Manager(AEM) 데스크탑 앱에는 AEM Assets 저장소를 데스크탑에서 네트워크 공유로 매핑하는 데 도움이 되는 유틸리티(Mac OS에서 SMB 공유)가 포함되어 있습니다. 네트워크 공유는 원격 소스를 컴퓨터의 로컬 파일 시스템의 일부처럼 처리할 수 있는 운영 체제 기술입니다. 데스크톱 앱의 경우 원격 AEM 인스턴스의 DAM(디지털 자산 관리) 저장소 구조가 원격 파일 소스로 타깃팅됩니다. 다음 다이어그램에서는 데스크탑 앱 토폴로지를 설명합니다.
+Adobe Experience Manager(AEM) 데스크탑 앱에는 AEM Assets 저장소를 데스크탑에서 네트워크 공유로 매핑하는 데 도움이 되는 유틸리티가 포함되어 있습니다(Mac OS에서 SMB 공유). 네트워크 공유는 원격 소스를 컴퓨터의 로컬 파일 시스템의 일부처럼 처리할 수 있는 운영 체제 기술입니다. 데스크톱 앱의 경우 원격 AEM 인스턴스의 DAM(디지털 자산 관리) 저장소 구조가 원격 파일 소스로 타깃팅됩니다. 다음 다이어그램에서는 데스크탑 앱 토폴로지를 설명합니다.
 
 ![데스크탑 앱 다이어그램](assets/aem-desktopapp-architecture.png)
 
@@ -31,15 +31,15 @@ Adobe Experience Manager(AEM) 데스크탑 앱에는 AEM Assets 저장소를 데
 
 데스크탑 앱에는 다음 구성 요소가 포함되어 있습니다.
 
-* **데스크탑 애플리케이션**: 이 애플리케이션은 DAM을 원격 파일 시스템으로 마운트 또는 마운트 해제하며 로컬에 마운트된 네트워크 공유와 연결된 원격 AEM 인스턴스 간에 파일 시스템 호출을 변환합니다.
-* **운영 체제 WebDAV/SMB 클라이언트**: Windows 탐색기/Finder 및 데스크탑 앱 간의 통신을 처리합니다. 파일을 불러오기, 생성, 수정, 삭제, 이동 또는 복사하면 OS(운영 체제) WebDAV/SMB 클라이언트는 이 작업을 데스크탑 앱으로 전달합니다. 통신을 수신한 후에 데스크탑 앱이 이를 기본 AEM 원격 API 호출로 변환합니다. 예를 들어, 사용자가 마운트된 디렉토리에 파일을 만드는 경우 WebDAV/SMB 클라이언트가 요청을 시작하면 데스크탑 앱이 DAM에서 파일을 만드는 HTTP 요청으로 변환됩니다. WebDAV/SMB 클라이언트는 OS에 내장된 구성 요소입니다. 어떤 식으로든 데스크탑 앱, AEM 또는 Adobe과 연계되어 있지 않습니다.
-* **Adobe Experience Manager 인스턴스**: AEM Assets DAM 저장소에 저장된 자산에 대한 액세스를 제공합니다. 또한, 마운트된 네트워크 공유와 상호 작용하는 로컬 데스크탑 애플리케이션을 대신하여 데스크탑 앱에서 요청한 작업을 수행합니다. 대상 AEM 인스턴스는 AEM 버전 6.1 이상을 실행해야 합니다. 이전 AEM 버전을 실행하는 AEM 인스턴스에는 추가 기능 팩과 핫픽스가 설치되어 제대로 작동해야 할 수 있습니다.
+* **데스크탑 애플리케이션**:이 애플리케이션은 DAM을 원격 파일 시스템으로 마운트 또는 마운트 해제하며 로컬에 마운트된 네트워크 공유와 연결된 원격 AEM 인스턴스 간에 파일 시스템 호출을 변환합니다.
+* **운영 체제 WebDAV/SMB 클라이언트**:Windows 탐색기/Finder 및 데스크탑 앱 간의 통신을 처리합니다. 파일을 불러오기, 생성, 수정, 삭제, 이동 또는 복사하면 OS(운영 체제) WebDAV/SMB 클라이언트는 이 작업을 데스크탑 앱으로 전달합니다. 통신을 수신한 후에 데스크탑 앱이 이를 기본 AEM 원격 API 호출로 변환합니다. 예를 들어, 사용자가 마운트된 디렉토리에 파일을 만드는 경우 WebDAV/SMB 클라이언트가 요청을 시작하면 데스크탑 앱이 DAM에서 파일을 만드는 HTTP 요청으로 변환됩니다. WebDAV/SMB 클라이언트는 OS에 내장된 구성 요소입니다. 어떤 식으로든 데스크탑 앱, AEM 또는 Adobe과 연계되어 있지 않습니다.
+* **Adobe Experience Manager 인스턴스**:AEM Assets DAM 저장소에 저장된 자산에 대한 액세스를 제공합니다. 또한, 마운트된 네트워크 공유와 상호 작용하는 로컬 데스크탑 애플리케이션을 대신하여 데스크탑 앱에서 요청한 작업을 수행합니다. 대상 AEM 인스턴스는 AEM 버전 6.1 이상을 실행해야 합니다. 이전 AEM 버전을 실행하는 AEM 인스턴스에는 추가 기능 팩과 핫픽스가 설치되어 제대로 작동해야 할 수 있습니다.
 
 ## AEM 데스크탑 앱의 사용 사례 {#intended-use-cases-for-aem-desktop-app}
 
-AEM 데스크탑 앱은 네트워크 공유 기술을 사용하여 원격 AEM 저장소를 로컬 데스크탑에 매핑합니다. 그러나 사용자가 로컬 데스크탑에서 직접 디지털 에셋 관리 작업을 수행하는 네트워크 공유 에셋을 대체할 목적이 아닙니다. 여기에는 여러 파일을 이동 또는 복사하거나, 큰 폴더 구조를 Finder/탐색기에서 직접 AEM Assets 네트워크로 드래그하는 작업이 포함됩니다.
+AEM 데스크탑 앱은 네트워크 공유 기술을 사용하여 원격 AEM 저장소를 로컬 데스크탑에 매핑합니다. 그러나 사용자가 로컬 데스크탑에서 직접 디지털 에셋 관리 작업을 수행하는 네트워크 공유 에셋을 대체할 목적이 아닙니다. 여기에는 여러 파일을 이동하거나 복사하거나, 큰 폴더 구조를 Finder/탐색기에서 직접 AEM Assets 네트워크 공유로 드래그하는 작업이 포함됩니다.
 
-AEM 데스크탑 앱은 AEM Assets 터치 UI와 로컬 데스크탑 간에 DAM 에셋을 액세스(열기)하고 편집(저장)하는 편리한 방법을 제공합니다. AEM Assets 서버의 에셋을 데스크탑 기반 워크플로우와 연결합니다.
+AEM 데스크탑 앱은 AEM Assets 터치 UI와 로컬 데스크탑 간에 DAM 에셋을 액세스(열기)하고 편집(저장)하는 편리한 방법을 제공합니다. 또한 AEM Assets 서버의 에셋을 데스크탑 기반 워크플로우와 연결합니다.
 
 다음 사용 사례에서는 AEM Desktop을 어떻게 사용해야 하는지를 보여 줍니다.
 
@@ -248,7 +248,7 @@ AEM Desktop 아이콘을 클릭한 다음 **정보를 선택합니다**. 버전 
 
 macOS에서 AEM 데스크탑 앱을 업그레이드할 때 가끔 문제가 발생할 수 있습니다. AEM 데스크탑 앱용 레거시 시스템 폴더에서 AEM Desktop의 새 버전이 올바르게 로드되지 않기 때문입니다. 이 문제를 해결하려면 다음 폴더 및 파일을 수동으로 제거할 수 있습니다.
 
-아래 단계를 실행하기 전에 macOS 애플리케이션 폴더의 &quot;Adobe Experience Manager 데스크톱&quot; 응용 프로그램을 휴지통으로 드래그합니다. 그런 다음 터미널을 열고 다음 명령을 실행하여 암호를 입력하라는 메시지가 나타나면 입력합니다.
+아래 단계를 실행하기 전에 macOS 애플리케이션 폴더의 &quot;Adobe Experience Manager 데스크탑&quot; 애플리케이션을 휴지통으로 드래그합니다. 그런 다음 터미널을 열고 다음 명령을 실행하여 암호를 입력하라는 메시지가 나타나면 입력합니다.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -269,7 +269,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## 파일 이동 문제 해결 {#troubleshooting-problems-around-moving-files}
 
-이동 및 복사 작업이 작동하려면 서버 API에 추가 헤더, X-Destination, X-Depth 및 X-Overwrite가 필요합니다. 디스패처는 기본적으로 이러한 헤더를 전달하지 않으므로 이러한 작업이 실패합니다. 자세한 내용은 Dispatcher [에서 AEM에 연결을 참조하십시오](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+이동 및 복사 작업이 작동하려면 서버 API에 추가 헤더, X-Destination, X-Depth 및 X-Overwrite가 필요합니다. 디스패처는 기본적으로 이러한 헤더를 전달하지 않으므로 이러한 작업이 실패합니다. 자세한 내용은 디스패처 [에서 AEM에 연결을 참조하십시오](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## AEM 데스크톱 연결 문제 해결 {#troubleshooting-aem-desktop-connection-issues}
 
