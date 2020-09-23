@@ -3,11 +3,11 @@ title: Adobe Experience Manager 데스크탑 앱 사용
 description: Win 또는 Mac 데스크탑에서 바로 Adobe Experience Manager 데스크탑 앱을 설치하고 사용하여 Adobe Experience Manager DAM 자산에서 작업하는 방법을 살펴봅니다. 모범 사례 및 문제 해결 정보를 확인하십시오.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 29bbcc21f01dd0c1338fdbf3e979ef363a93533c
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '3997'
 ht-degree: 0%
@@ -219,7 +219,7 @@ Experience Manager 데스크탑 앱을 사용하는 주요 작업은 다음과 �
 
 응용 프로그램은 로컬로(또는 작업 **[!UICONTROL Edited locally]**&#x200B;을 통해) 다운로드한 다음 수정한 모든 파일에 빠르게 액세스할 수 있도록 하는 보기( [!UICONTROL Open] 또는 [!UICONTROL Edit] 보기)를 제공합니다. 이 앱을 사용하면 로컬에서 편집한 모든 에셋을 선택하고 몇 번의 클릭만으로 변경 내용을 업로드할 수 있습니다. 이 보기에는 편집과 충돌이 있는 로컬에서 편집된 에셋도 표시됩니다.
 
-![로컬에서 편집한 모든](assets/edited_locally_filter_da2.png "자산 보기 필터로컬에서 편집한 모든 자산 보기&#40;편집 내용의 일괄 업로드&#41;")
+![로컬에서 편집한 모든](assets/edited_locally_filter_da2.png "자산 보기 필터로컬에서 편집한 모든 자산 보기(편집 내용의 일괄 업로드)")
 
 ### 자산 일괄 업로드 {#bulk-upload-assets}
 
