@@ -3,13 +3,13 @@ title: AEM 데스크탑 앱 버전 1.x 모범 사례
 description: Adobe Experience Manager 데스크탑 앱 버전 1.x의 주요 기능 및 권장 사용
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e10be1fd9dd1ff5293e96b46565825e6be1fc4f
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -37,7 +37,7 @@ AEM 데스크탑 앱은 WebDAV(Windows) 또는 SMB(Mac) 네트워크 공유를 �
 
 ![AEM 데스크탑 앱 아키텍처](assets/chlimage_1.png)
 
-*그림: 데스크탑 앱 아키텍처*
+*그림:데스크탑 앱 아키텍처*
 
 파일을 저장할 때 쓰기 시 추가 캐싱으로 인해 파일이 먼저 로컬에 저장되므로 사용자가 네트워크 전송을 기다릴 필요가 없습니다. 그런 다음 사전 정의된 지연 시간(30초)이 지나면 파일이 백그라운드에서 AEM에 업로드되고 자산이 AEM에 업로드됩니다. AEM 데스크탑 앱은 백그라운드 파일 업로드 상태를 모니터링하기 위한 UI를 제공합니다.
 
@@ -45,7 +45,7 @@ AEM 데스크탑 앱은 WebDAV(Windows) 또는 SMB(Mac) 네트워크 공유를 �
 
 AEM 데스크탑 앱의 주요 기능은 다음과 같습니다.
 
-* **데스크탑에서 AEM Assets 웹 UI에서 파일 열기**. 웹 UI에서 데스크탑에 자산을 표시하거나(Finder, 탐색기에서) 데스크탑 애플리케이션을 사용하여 자산을 열 수 있습니다.
+* **데스크탑에서 AEM Assets 웹 UI에서 파일 열기**. 웹 UI에서 데스크탑(Finder, 탐색기에서)에 자산을 표시하거나 데스크톱 응용 프로그램을 사용하여 자산을 열 수 있습니다.
 
 * **체크 아웃 및 체크 인**. 자산을 편집하기 위해 체크 아웃할 수 있으며 AEM Assets에서 사용자에 대해 잠긴 것으로 표시됩니다. 편집 후 자산을 체크 인하여 잠금을 해제할 수 있습니다.
 
@@ -67,7 +67,7 @@ AEM 데스크탑 앱의 주요 기능은 다음과 같습니다.
 
    * AEM 데스크탑 앱 [!UICONTROL Folder Upload] 을 사용하여 대용량 계층적 폴더를 업로드할 수 있습니다.
 
-* AEM 데스크탑 앱을 AEM Assets용 &quot;데스크탑 동기화&quot; 클라이언트로 취급하지 마십시오. AEM 데스크탑 앱의 주요 이점은 전체 저장소에 &quot;가상&quot; 액세스를 제공하고 데스크탑 동기화 애플리케이션은 일반적으로 한 사용자에 속하는 자산만 동기화한다는 것입니다. AEM 데스크탑 앱은 일부 수준의 캐싱 및 백그라운드 업로드를 제공합니다. 그러나 이 기능은 Adobe Creative Cloud 데스크탑 앱 또는 Microsoft OneDrive와 같은 일반적인 &quot;동기화&quot; 애플리케이션과 매우 다르게 작동합니다.
+* AEM 데스크탑 앱을 AEM Assets용 &quot;데스크탑 동기화&quot; 클라이언트로 취급하지 마십시오. AEM 데스크탑 앱의 주요 이점은 전체 저장소에 &quot;가상&quot; 액세스를 제공하고 데스크탑 동기화 애플리케이션은 일반적으로 한 사용자에 속하는 자산만 동기화한다는 것입니다. AEM 데스크탑 앱은 일부 수준의 캐싱 및 백그라운드 업로드를 제공합니다.그러나 이 기능은 Adobe Creative Cloud 데스크탑 앱 또는 Microsoft OneDrive와 같은 일반적인 &quot;동기화&quot; 애플리케이션과 매우 다르게 작동합니다.
 
 * AEM 데스크탑 앱 네트워크 드라이브를 사용하여 자산을 자주 저장하지 마십시오. 모든 저장 작업은 AEM Assets으로 전송됩니다. 따라서 마운트된 AEM Assets 저장소에서 직접 집중 편집 작업을 수행하는 것은 비현실적입니다. 마운트된 저장소에서 바로 자산을 편집하면 관련 없는 버전과 함께 자산의 타임라인이 중단되고 추가 오버헤드가 서버에 추가됩니다.
 
