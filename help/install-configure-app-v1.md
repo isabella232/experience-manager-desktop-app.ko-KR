@@ -1,15 +1,15 @@
 ---
 title: AEM 데스크탑 앱 버전 1.x 설치 및 구성
-description: AEM 데스크탑 앱 버전 1.x를 설치 및 구성하여 AEM Assets 서버와 연동하고 데스크탑에 드라이브로 자산을 매핑합니다.
+description: AEM 데스크탑 앱 버전 1.x를 설치 및 구성하여 AEM Assets 서버와 연동하고 에셋을 데스크탑에 드라이브로 매핑합니다.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS,SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM 데스크탑 앱을 사용하면 AEM 내의 에셋은 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 에셋은 Mac Finder 또는 Windows 탐색기에서 쉽게 표시되며, 데스크탑 애플리케이션에서 열었으며 로컬에서 변경될 수 있습니다. 업로드하면 변경 사항이 AEM에 다시 저장되고 저장소에 새 버전이 만들어집니다.
 
-이러한 통합을 통해 조직의 다양한 역할이 AEM Assets에서 중앙에서 자산을 관리하고 Creative Cloud 및 기타 애플리케이션에서 이러한 에셋을 이용할 수 있으며 브랜딩을 비롯한 다양한 표준을 손쉽게 준수할 수 있습니다.
+이러한 통합을 통해 조직의 다양한 역할이 AEM Assets의 자산을 중앙에서 관리하고 Creative Cloud 및 기타 애플리케이션에서 이러한 에셋을 이용할 수 있으며 브랜딩을 비롯한 다양한 표준을 손쉽게 준수할 수 있습니다.
 
 AEM 데스크탑 앱을 사용하려면
 
@@ -49,7 +49,7 @@ AEM 데스크탑 앱을 사용하려면
 
 두 번째 단계에서는 데스크탑 앱이 사전 정의된 지연(예: 30초) 후에 업데이트된 파일을 AEM 서버에 업로드합니다. 이 작업은 백그라운드에서 수행됩니다. 업로드 작업의 상태를 보려면 자산 상태 보기 옵션을 사용합니다.
 
-1. 자산을 AEM Assets에 업로드합니다.
+1. AEM Assets에 자산을 업로드합니다.
 
 1. 도구 모음에서 AEM 데스크탑 앱 아이콘을 클릭/탭합니다.
 
@@ -103,7 +103,7 @@ Mac OS X의 경우 유사한 디렉토리가 있습니다 `~/Library/Group Conta
 
 ### 캐시 관리를 위한 인앱 옵션 {#in-app-option-to-manage-cache}
 
-로컬 캐싱 용도로 사용할 수 있는 디스크 공간의 양을 제어할 수 있습니다. AEM Assets 서버의 아티팩트는 보다 원활한 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 자산을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 응용 프로그램 아이콘을 클릭하고 **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;를 클릭합니다. ***
+로컬 캐싱 용도로 사용할 수 있는 디스크 공간의 양을 제어할 수 있습니다. AEM Assets 서버의 아티팩트는 보다 매끄러운 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 자산을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 응용 프로그램 아이콘을 클릭하고 **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;를 클릭합니다. ***
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ AEM 데스크탑 앱의 기본 위치는 다음과 같습니다.
 
 * Mac `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`에서
 
-`EncodedAEMEndpoint` AEM 데스크톱 앱의 구성된 AEM 끝점 URL입니다. 값은 AEM 서버의 타깃팅 URL의 인코딩된 버전입니다. 예를 들어 응용 프로그램이 타깃팅하는 경우 디렉토리 이름 `http://localhost:4502`은 입니다 `http%3A%2F%2Flocalhost%3A4502`. 이 예제의 캐시 디렉터리에 대한 Windows 경로는 %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502입니다.
+`EncodedAEMEndpoint` aem 데스크톱 앱의 구성된 AEM 끝점 URL입니다. 값은 AEM 서버의 타깃팅 URL의 인코딩된 버전입니다. 예를 들어 응용 프로그램이 타깃팅하는 경우 디렉토리 이름 `http://localhost:4502`은 입니다 `http%3A%2F%2Flocalhost%3A4502`. 이 예제의 캐시 디렉터리에 대한 Windows 경로는 %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502입니다.
 
 응용 프로그램이 다른 폴더 또는 다른 드라이브를 가리키도록 지정하려면 응용 프로그램의 구성 파일을 편집합니다.
 
