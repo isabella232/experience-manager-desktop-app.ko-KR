@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ AEM 데스크탑 앱의 기본 위치는 다음과 같습니다.
 
 * Mac `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`에서
 
-`EncodedAEMEndpoint` aem 데스크톱 앱의 구성된 AEM 끝점 URL입니다. 값은 AEM 서버의 타깃팅 URL의 인코딩된 버전입니다. 예를 들어 응용 프로그램이 타깃팅하는 경우 디렉토리 이름 `http://localhost:4502`은 입니다 `http%3A%2F%2Flocalhost%3A4502`. 이 예제의 캐시 디렉터리에 대한 Windows 경로는 %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502입니다.
+`EncodedAEMEndpoint` aem 데스크톱 앱의 구성된 AEM 끝점 URL입니다. 값은 AEM 서버의 타깃팅 URL의 인코딩된 버전입니다. 예를 들어 응용 프로그램이 타깃팅하는 경우 디렉토리 이름 `http://localhost:4502`은 입니다 `http%3A%2F%2Flocalhost%3A4502`. 이 예제의 캐시 디렉토리에 대한 Windows 경로입니다 `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 응용 프로그램이 다른 폴더 또는 다른 드라이브를 가리키도록 지정하려면 응용 프로그램의 구성 파일을 편집합니다.
 
@@ -127,7 +127,7 @@ AEM 데스크탑 앱의 기본 위치는 다음과 같습니다.
 
    이 파일에 대한 변경 사항을 저장하려면 관리자 권한이 필요합니다.
 
-1. &quot;ProxyCacheRoot&quot; 문자열을 검색합니다. 값이 캐시 위치 &quot;%LocalAppData%\Adobe\AssetsCompanion\Cache&quot;으로 설정되어 있는 것이 보입니다. 이 값을 유효한 경로로 변경하기만 하면 됩니다.
+1. &quot;ProxyCacheRoot&quot; 문자열을 검색합니다. 값이 캐시 위치로 설정되어 있음을 확인할 수 있습니다 `%LocalAppData%\Adobe\AssetsCompanion\Cache`. 이 값을 유효한 경로로 변경하기만 하면 됩니다.
 
    >[!NOTE]
    >
