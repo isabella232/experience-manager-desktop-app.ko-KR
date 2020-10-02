@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_E
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: f5f65fa8ddceae62f2e046f2d20e853aef572f2c
 workflow-type: tm+mt
-source-wordcount: '3997'
+source-wordcount: '3999'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe Experience Manager(AEM) 데스크탑 앱을 사용하여 로컬 데스크�
 
 통합을 통해 조직의 다양한 역할이 Experience Manager 에셋에서 중앙에서 자산을 관리하고 Windows 또는 Mac OS의 기본 애플리케이션에서 로컬 데스크탑에 있는 에셋에 액세스할 수 있습니다.
 
-로그아웃한 후 또는 처음으로 응용 프로그램을 열 때는 Experience Manager 서버의 URL을 형식으로 제공하십시오 `https://[aem-server-url]:[port]/`. [연결]을 클릭합니다. 응용 프로그램을 서버와 연결하는 자격 증명을 제공합니다.
+로그아웃한 후 또는 처음으로 응용 프로그램을 열 때는 Experience Manager 서버의 URL을 형식으로 제공하십시오 `https://[aem-server-url]:[port]/`. 그런 다음 [!UICONTROL Connect] 옵션을 선택합니다. 응용 프로그램을 서버와 연결하는 자격 증명을 제공합니다.
 
 Experience Manager 데스크탑 앱을 사용하는 주요 작업은 다음과 같습니다.
 
@@ -219,7 +219,7 @@ Experience Manager 데스크탑 앱을 사용하는 주요 작업은 다음과 �
 
 응용 프로그램은 로컬로(또는 작업 **[!UICONTROL Edited locally]**&#x200B;을 통해) 다운로드한 다음 수정한 모든 파일에 빠르게 액세스할 수 있도록 하는 보기( [!UICONTROL Open] 또는 [!UICONTROL Edit] 보기)를 제공합니다. 이 앱을 사용하면 로컬에서 편집한 모든 에셋을 선택하고 몇 번의 클릭만으로 변경 내용을 업로드할 수 있습니다. 이 보기에는 편집과 충돌이 있는 로컬에서 편집된 에셋도 표시됩니다.
 
-![로컬에서 편집한 모든](assets/edited_locally_filter_da2.png "자산 보기 필터로컬에서 편집한 모든 자산 보기&#40;편집 내용의 일괄 업로드&#41;")
+![로컬에서 편집한 모든](assets/edited_locally_filter_da2.png "자산 보기 필터로컬에서 편집한 모든 자산 보기(편집 내용의 일괄 업로드)")
 
 ### 자산 일괄 업로드 {#bulk-upload-assets}
 
