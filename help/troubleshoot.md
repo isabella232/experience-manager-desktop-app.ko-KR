@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
+source-git-commit: b4add64df21991495d5cc01e6250bbc9fc444ff0
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ AEM 데스크톱 앱의 캐시를 지우려면 몇 가지 문제를 해결할 �
 
 앱 메뉴 ![를](assets/do-not-localize/more_options_da2.png) 클릭하여 앱의 메뉴를 열고 **[!UICONTROL Help]** > **[!UICONTROL About]**&#x200B;를 클릭합니다.
 
-## 배치된 자산을 볼 수 없음 {#placed-assets-missing}
+### 배치된 자산을 볼 수 없음 {#placed-assets-missing}
 
 사용자 또는 기타 크리에이티브 전문가가 지원 파일에 가져온 에셋을 볼 수 없는 경우(예: INDD 파일) 다음을 확인하십시오.
 
@@ -114,7 +114,7 @@ AEM 데스크톱 앱의 캐시를 지우려면 몇 가지 문제를 해결할 �
 * 일관된 문자 경험 제공 사용자나 다른 협력자가 AEM DAM을 다른 드라이브 문자로 매핑하는 동안 에셋을 배치하면 배치된 에셋이 표시되지 않습니다.
 * 권한. 가져온 자산을 가져올 권한이 있는지 확인하려면 AEM 관리자에게 문의하십시오.
 
-## macOS에서 업그레이드할 때 발생하는 문제 {#issues-when-upgrading-on-macos}
+### macOS에서 업그레이드할 때 발생하는 문제 {#issues-when-upgrading-on-macos}
 
 macOS에서 AEM 데스크탑 앱을 업그레이드할 때 가끔 문제가 발생할 수 있습니다. AEM 데스크탑 앱용 레거시 시스템 폴더에서 AEM 데스크톱 앱의 새 버전이 올바르게 로드되지 않기 때문입니다. 이 문제를 해결하려면 다음 폴더 및 파일을 수동으로 제거할 수 있습니다.
 
@@ -129,13 +129,28 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## 파일을 업로드할 수 없음 {#upload-fails}
+### 파일을 업로드할 수 없음 {#upload-fails}
 
 AEM 6.5.1 이상에서 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 업데이트는 [OAK-8599와 관련된 파일 업로드 실패 문제를 해결합니다](https://issues.apache.org/jira/browse/OAK-8599). 설치 [지침을 참조하십시오](install-upgrade.md#install-v2).
 
-## [!DNL Experience Manager] 데스크탑 앱 연결 문제 {#connection-issues}
+### [!DNL Experience Manager] 데스크탑 앱 연결 문제 {#connection-issues}
 
-### SAML 로그인 인증이 작동하지 않음 {#da-connection-issue-with-saml-aem}
+일반적인 연결 문제가 발생하는 경우 데스크톱 응용 프로그램의 기능에 대한 자세한 정보를 얻을 수 있는 몇 가지 방법이 [!DNL Experience Manager] 있습니다.
+
+**요청 로그 확인**
+
+[!DNL Experience Manager] 데스크탑 앱은 각 요청의 응답 코드와 함께 전송된 모든 요청을 전용 로그 파일에 기록합니다.
+
+1. 응용 프로그램 `request.log` 의 로그 디렉토리에서 열어 이러한 요청을 확인합니다.
+
+1. 로그의 각 줄은 요청이나 응답을 나타냅니다. 요청에는 `>` 문자가 뒤에 요청된 URL이 옵니다. 응답에는 `<` 문자 뒤에 응답 코드와 요청된 URL이 추가됩니다. 각 라인의 GUID를 사용하여 요청 및 응답을 일치시킬 수 있습니다.
+
+**응용 프로그램의 포함된 브라우저가 로드한 요청 확인**
+
+응용 프로그램 요청의 대부분은 요청 로그에 있습니다. 그러나 여기에 유용한 정보가 없으면 응용 프로그램의 임베디드 브라우저가 보낸 요청을 검토하는 것이 유용합니다.
+이러한 요청을 보는 방법에 대한 자세한 내용은 [SAML 섹션을](#da-connection-issue-with-saml-aem) 참조하십시오.
+
+#### SAML 로그인 인증이 작동하지 않음 {#da-connection-issue-with-saml-aem}
 
 데스크탑 [!DNL Experience Manager] [!DNL Adobe Experience Manager] 앱이 SSO 활성화(SAML) 인스턴스에 연결되지 않은 경우 이 섹션을 참조하여 문제를 해결하십시오. SSO 프로세스는 다양하며 복잡하기도 하며 이러한 유형의 연결을 수용할 수 있도록 애플리케이션의 디자인이 효과적입니다. 그러나 일부 설정에 추가적인 문제 해결 작업이 필요합니다.
 
@@ -186,11 +201,45 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 로드되고 있는 URL 시퀀스를 보면 SAML의 끝에서 문제를 해결하고 무엇이 잘못되었는지 확인하는 데 도움이 될 수 있습니다.
 
-### SSL 구성 문제 {#ssl-config-v2}
+#### SSL 구성 문제 {#ssl-config-v2}
 
 AEM 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 경우에 따라 브라우저 사용에 성공하지만 AEM 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절하게 구성하려면 Apache에 누락된 중간 인증서를 설치합니다. Apache [에서 중간 CA 인증서를 설치하는 방법을 참조하십시오](https://access.redhat.com/solutions/43575).
 
-## 앱이 응답하지 않음 {#unresponsive}
+
+AEM Desktop에서 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 따라서 [!DNL Adobe Experience Manager] 데스크탑 앱에서 브라우저를 통해 성공한 SSL 연결이 실패하는 인스턴스가 있을 수 있습니다. 이 기능은 SSL의 올바른 구성을 권장하고 보안을 강화하지만 응용 프로그램이 연결할 수 없을 때 좌절감을 줄 수 있습니다.
+
+이 경우 도구를 사용하여 서버의 SSL 인증서를 분석하고 문제를 식별하여 수정할 수 있도록 하는 것이 좋습니다. URL을 제공할 때 서버 인증서를 검사하는 웹 사이트가 있습니다.
+
+임시 측정은 데스크톱 앱에서 엄격한 SSL 적용을 비활성화할 수 [!DNL Adobe Experience Manager] 있습니다. SSL이 잘못 구성된 근본 원인을 숨겨서 보안을 낮추기 때문에 권장되는 장기 솔루션은 아닙니다. 엄격한 적용을 비활성화하려면
+
+1. 원하는 편집기를 사용하여 다음 위치(운영 체제에 따라)에서 기본적으로 찾을 수 있는 애플리케이션의 JavaScript 구성 파일을 편집합니다.
+
+   Mac: `/Applications/Adobe Experience Manager Desktop.app/Contents/Resources/javascript/lib-smb/config.json`
+
+   Windows: `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop\javascript\config.json`
+
+1. 파일에서 다음 섹션을 찾습니다.
+
+   ```shell
+   ...
+   "assetRepository": {
+       "options": {
+   ...
+   ```
+
+1. 다음과 같이 추가하여 섹션 `"strictSSL": false` 을 수정합니다.
+
+   ```shell
+   ...
+   "assetRepository": {
+       "options": {
+           "strictSSL": false,
+   ...
+   ```
+
+1. 파일을 저장하고 데스크탑 [!DNL Adobe Experience Manager] 앱을 다시 시작합니다.
+
+### 앱이 응답하지 않음 {#unresponsive}
 
 거의 애플리케이션이 응답하지 않거나 흰색 화면만 표시하거나 인터페이스 아래쪽에 오류가 표시되는 경우가 있습니다. 다음 순서대로 시도하십시오.
 
