@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -51,37 +51,41 @@ Adobe Experience Manager(AEM) 데스크탑 앱은 원격 Experience Manager 배�
 
 ### 디버그 모드 활성화 {#enable-debug-mode}
 
-문제를 해결하려면 디버그 모드를 활성화하고 로그에서 자세한 정보를 얻을 수 있습니다. Mac의 디버그 모드에서 앱을 사용하려면 터미널 또는 명령 프롬프트에서 다음 명령줄 옵션을 사용합니다. `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
-
-Windows에서 디버그 모드를 활성화하려면 다음 단계를 수행합니다.
-
-1. 데스크탑 앱 설치 폴더에서 `Adobe Experience Manager Desktop.exe.config` 파일을 찾습니다. 기본적으로 폴더는 입니다 `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
-
-1. 파일의 끝 `<level value="INFO"/>` 에 있는 위치를 찾습니다. 값을 에서 `INFO` 로, 즉 `DEBUG`으로 변경합니다 `<level value="DEBUG"/>`. 파일을 저장하고 닫습니다.
-
-1. 데스크탑 앱 설치 폴더에서 `logging.json` 파일을 찾습니다. 기본적으로 폴더는 입니다 `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
-
-1. 파일에서 `logging.json` 의 모든 인스턴스를 찾습니다 `"level": "info"`. 값을 에서 `info` 로, 즉 `debug`으로 변경합니다 `"level": "debug"`. 파일을 저장하고 닫습니다.
-
-1. 응용 프로그램 기본 설정에 설정된 위치에 있는 캐시된 디렉토리를 [지웁니다](/help/install-upgrade.md#set-preferences).
-
-1. 데스크탑 앱을 다시 시작합니다.
-
-<!-- The Windows command doesn't work for now.
-* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
--->
-
-### 로그 파일의 위치 {#check-log-files-v2}
-
-AEM 데스크탑 앱용 로그 파일은 다음 위치에서 찾을 수 있습니다. 많은 자산을 업로드할 때 일부 파일이 업로드되지 않으면 실패한 업로드를 식별하는 파일을 참조하십시오 `backend.log` .
-
-* Windows의 경로: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-* Mac의 경로: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+문제를 해결하려면 디버그 모드를 활성화하고 로그에서 자세한 정보를 얻을 수 있습니다.
 
 >[!NOTE]
 >
->지원 요청/티켓에 대해 Adobe 고객 지원 센터에서 작업할 때 고객 지원 센터 팀이 문제를 이해하는 데 도움이 되도록 로그 파일을 공유하라는 메시지가 표시될 수 있습니다. 전체 `Logs` 폴더를 보관하고 고객 지원 센터 담당자와 공유합니다.
+>유효한 로그 수준은 디버그, 정보, 경고 또는 오류입니다. 로그의 범위는 DEBUG에서 가장 높고 ERROR에서는 가장 낮습니다.
+
+Mac에서 디버그 모드에서 앱을 사용하려면:
+
+1. 터미널 창 또는 명령 프롬프트를 엽니다.
+
+1. 다음 명령을 실행하여 [!DNL Experience Manager] 데스크탑 앱을 실행합니다.
+
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+
+Windows에서 디버그 모드를 활성화하려면:
+
+1. 명령 창을 엽니다.
+
+1. 다음 명령을 실행하여 데스크탑 [!DNL Experience Manager] 앱을 실행합니다.
+
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+
+### 로그 파일의 위치 {#check-log-files-v2}
+
+[!DNL Experience Manager] 데스크탑 앱은 운영 체제에 따라 다음 위치에 로그 파일을 저장합니다.
+
+Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+많은 자산을 업로드할 때 일부 파일이 업로드되지 않으면 실패한 업로드를 식별하는 파일을 참조하십시오 `backend.log` .
+
+>[!NOTE]
+>
+>지원 요청이나 티켓 구입 시 Adobe 고객 지원 센터에 문의할 때 고객 지원 팀이 문제를 이해하는 데 도움이 되도록 로그 파일을 공유하라는 메시지가 나타납니다. 전체 `Logs` 폴더를 보관하고 고객 지원 센터 담당자와 공유합니다.
 
 ### 캐시 지우기 {#clear-cache-v2}
 
@@ -129,7 +133,60 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 AEM 6.5.1 이상에서 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 업데이트는 [OAK-8599와 관련된 파일 업로드 실패 문제를 해결합니다](https://issues.apache.org/jira/browse/OAK-8599). 설치 [지침을 참조하십시오](install-upgrade.md#install-v2).
 
-## SSL 구성 문제 {#ssl-config-v2}
+## [!DNL Experience Manager] 데스크탑 앱 연결 문제 {#connection-issues}
+
+### SAML 로그인 인증이 작동하지 않음 {#da-connection-issue-with-saml-aem}
+
+데스크탑 [!DNL Experience Manager] [!DNL Adobe Experience Manager] 앱이 SSO 활성화(SAML) 인스턴스에 연결되지 않은 경우 이 섹션을 참조하여 문제를 해결하십시오. SSO 프로세스는 다양하며 복잡하기도 하며 이러한 유형의 연결을 수용할 수 있도록 애플리케이션의 디자인이 효과적입니다. 그러나 일부 설정에 추가적인 문제 해결 작업이 필요합니다.
+
+경우에 따라 SAML 프로세스가 원래 요청된 경로로 리디렉션되지 않거나 최종 리디렉션이 [!DNL Adobe Experience Manager] 데스크탑 앱에서 구성된 것과 다른 호스트로 리디렉션되는 경우가 있습니다. 이러한 경우가 아님을 확인하려면
+
+1. 웹 브라우저를 엽니다.
+
+1. 주소 표시줄에 URL `<AEM host>/content/dam.json` 을 입력합니다.
+
+   예를 들어 대상 인스턴스 `<AEM host>` 로 [!DNL Adobe Experience Manager] 대체합니다 `http://localhost:4502/content/dam.json`.
+
+1. 인스턴스에 [!DNL Adobe Experience Manager] 로그인합니다.
+
+1. 로그인이 완료되면 주소 표시줄에서 브라우저의 현재 주소를 확인합니다. 처음에 입력한 URL과 정확하게 일치해야 합니다.
+
+1. 또한 이전의 모든 내용이 `/content/dam.json` 데스크톱 앱 설정에 구성된 대상 [!DNL Adobe Experience Manager] [!DNL Adobe Experience Manager] 값과 일치하는지 확인하십시오.
+
+**로그인 SAML 프로세스는 위의 단계에 따라 올바르게 작동하지만 사용자는 여전히 로그인할 수 없습니다**
+
+로그인 프로세스를 표시하는 [!DNL Adobe Experience Manager] 데스크톱 앱 내의 창은 단순히 대상 [!DNL Adobe Experience Manager] 인스턴스의 웹 사용자 인터페이스를 표시하는 웹 브라우저입니다.
+
+* Mac 버전에서는 [WebView를 사용합니다](https://developer.apple.com/documentation/webkit/webview).
+
+* Windows 버전은 Chromium 기반 CefSharp를 [사용합니다](https://cefsharp.github.io/).
+
+SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
+
+문제를 더 해결하기 위해 브라우저가 로드하려고 하는 정확한 URL을 볼 수 있습니다. 이 정보를 보려면:
+
+1. 디버그 모드에서 응용 프로그램을 시작하는 방법에 [따릅니다](#enable-debug-mode).
+
+1. 로그인 시도를 재현합니다.
+
+1. 애플리케이션의 [로그 디렉토리](#check-log-files-v2) 탐색
+
+1. Windows의 경우:
+
+   1. &quot;aemunowlog.txt&quot;를 엽니다.
+
+   1. &quot;로그인 브라우저 주소가 다음으로 변경됨&quot;으로 시작하는 메시지를 검색합니다. 이러한 항목에는 애플리케이션이 로드한 URL도 포함되어 있습니다.
+
+   Mac:
+
+   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`가 **있는** 경우 n이 최신 파일 이름에 있는 숫자로 대체됩니다.
+
+   1. &quot;로드된 프레임&quot;으로 시작하는 메시지를 검색합니다. 이러한 항목에는 애플리케이션이 로드한 URL도 포함되어 있습니다.
+
+
+로드되고 있는 URL 시퀀스를 보면 SAML의 끝에서 문제를 해결하고 무엇이 잘못되었는지 확인하는 데 도움이 될 수 있습니다.
+
+### SSL 구성 문제 {#ssl-config-v2}
 
 AEM 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 경우에 따라 브라우저 사용에 성공하지만 AEM 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절하게 구성하려면 Apache에 누락된 중간 인증서를 설치합니다. Apache [에서 중간 CA 인증서를 설치하는 방법을 참조하십시오](https://access.redhat.com/solutions/43575).
 
