@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7a334df5eaa2b8a8d0412bff1ed2a47d39ca1a2
+source-git-commit: 540821ad10f14ad855c66a2b93d356ba118515c7
 workflow-type: tm+mt
 source-wordcount: '2230'
 ht-degree: 0%
@@ -143,7 +143,7 @@ Windows에서 디버그 모드를 활성화하려면:
 
 캐시를 지우려면 원하는 인코딩 끝점 [!DNL Adobe Experience Manager] 디렉터리를 삭제합니다. 또는 환경 설정에 지정된 전체 디렉토리를 삭제하면 애플리케이션에서 사용한 모든 인스턴스에 대한 캐시가 지워집니다.
 
-데스크탑 앱 캐시 지우기 [!DNL Adobe Experience Manager]는 몇 가지 문제를 해결할 수 있는 임시 문제 해결 작업입니다. 앱 환경 설정에서 캐시를 지웁니다. 환경 설정 [설정을 참조하십시오](install-upgrade.md#set-preferences). 캐시 폴더의 기본 위치는 다음과 같습니다.
+데스크톱 [!DNL Adobe Experience Manager] 앱의 캐시를 지우려면 몇 가지 문제를 해결할 수 있는 임시 문제 해결 작업입니다. 앱 환경 설정에서 캐시를 지웁니다. 환경 설정 [설정을 참조하십시오](install-upgrade.md#set-preferences). 캐시 폴더의 기본 위치는 다음과 같습니다.
 
 ### 데스크탑 [!DNL Adobe Experience Manager] 앱 버전 이해 {#know-app-version-v2}
 
