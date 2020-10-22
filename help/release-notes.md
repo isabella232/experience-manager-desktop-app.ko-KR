@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 45%
+source-wordcount: '1415'
+ht-degree: 42%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 45%
 | 지원되는 AEM 버전 | AEM의 Cloud ServiceAEM 6.5;AEM 6.4;AEM 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
 | 릴리스 날짜 | 2020년 8월 27일 (Mac 및 Win) |
-| 다운로드 URL | [macOS 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.3.2.exe) |
+| 다운로드 URL | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
 
