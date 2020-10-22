@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
 workflow-type: tm+mt
-source-wordcount: '3869'
-ht-degree: 2%
+source-wordcount: '3920'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 | 버전 | 1.10(Mac의 경우 1.10.0.6 및 Windows의 경우 1.10.0.3) |
 | 유형 | 부 릴리스 |
 | 날짜 | 1.10.0.6(Mac):2020년 4월 15일1.10.0.3(Win):2018년 8월 31일 |
-| 다운로드 URL | [Mac OS X 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg), [Windows 32비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64비트](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| 다운로드 URL | [Mac OS X 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg), [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | 호환성 | AEM 6.5.x;AEM 6.4.x;AEM 6.3 SP2;AEM 6.2 SP1 CFP2+;AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
