@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager desktop app
+product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 데스크탑 앱 안내서
 breadcrumb-title: Desktop App 안내서
@@ -11,7 +11,7 @@ getting-started-url: https://docs.adobe.com/content/help/ko-KR/experience-manage
 tutorials-title: AEM 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-manager/kt/index/aem-tutorials.html
 translation-type: tm+mt
-source-git-commit: 7b2f16b35b89707e94c24f9d420080c9f13ea945
+source-git-commit: 93ff31a427ec2a19b56e029f7690383fe8ac5eab
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 95%
