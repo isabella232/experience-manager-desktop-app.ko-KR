@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,7 @@ AEM 데스크탑 앱의 기본 위치는 다음과 같습니다.
    >앱은 자동으로 *&lt;인코딩된 AEM 끝점>* 하위 디렉터리를 만듭니다. 이 동작을 구성할 수 없습니다.
 
 >[!MORELIKETHIS]
-* [AEM 데스크탑 앱 소개](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
-* [AEM 데스크탑 앱 사용](use-app-v1.md)
-* [AEM 데스크탑 앱의 체크인/체크아웃 이해](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [AEM Assets에서 데스크탑 앱 사용](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [AEM 데스크탑 앱 문제 해결](troubleshoot-app-v1.md)
+* [AEM 데스크탑 앱 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [AEM 데스크탑 앱 사용](use-app-v1.md).
+* [AEM 데스크탑 앱](troubleshoot-app-v1.md)문제 해결
 
