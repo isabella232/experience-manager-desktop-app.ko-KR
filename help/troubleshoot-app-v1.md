@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
 workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 0%
@@ -144,7 +144,7 @@ DAM 자산 업데이트 워크플로우에 대해 일시적인 워크플로우�
 
 [MOCK] Another method for improved AEM performance is to configure the maximum parallel job for the Granite Temporary Workflow Queue job. 권장 값은 서버에서 사용할 수 있는 CPU의 약 절반 수입니다. 값을 조정하려면 다음 단계를 수행하십시오.
 
-1. 구성할 AEM 인스턴스의 */system/console/configMgr* 로 이동합니다(예: <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
+1. 구성할 AEM 인스턴스의 */system/console/configMgr* 로 이동합니다(예: `http://[aem_server]:[port]/system/console/configMgr`).
 1. QueueConfiguration **을**&#x200B;검색하고, [Granite Temporary Workflow Queue **작업]을 찾을 때까지 각 작업을 클릭하여** 엽니다. 옆에 있는 편집을 클릭합니다.
 1. [ **최대 병렬 작업** ] 값을 변경하고 [저장]을 **클릭합니다**.
 
