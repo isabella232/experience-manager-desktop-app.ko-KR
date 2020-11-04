@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -35,7 +35,7 @@ AEM 데스크탑 앱을 사용하면 AEM에서 잘못된 로컬 복사본을 업
 
 AEM 데스크탑 앱은 WebDAV(Windows) 또는 SMB(Mac) 네트워크 공유를 사용하여 네트워크 공유를 마운트합니다. 마운트된 네트워크 공유는 로컬에만 있습니다. AEM 데스크탑 앱은 통화(열기, 읽기, 쓰기)를 가로채고 추가 로컬 캐시를 제공합니다. 또한 AEM Assets 서버에 대한 원격 호출을 최적화된 AEM HTTP 요청으로 변환합니다. 다음 다이어그램은 AEM 데스크탑 앱 아키텍처를 보여줍니다.
 
-![AEM 데스크탑 앱 아키텍처](assets/chlimage_1.png)
+![AEM 데스크탑 앱 아키텍처](assets/arch_v1.png)
 
 *그림:데스크탑 앱 아키텍처*
 
