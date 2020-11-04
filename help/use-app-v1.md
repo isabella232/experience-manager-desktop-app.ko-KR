@@ -3,9 +3,9 @@ title: AEM 데스크탑 앱 버전 1.x 사용
 description: Adobe Experience Manager 데스크탑 앱 버전 1.x를 사용하고 데스크탑에서 에셋으로 작업을 최적화하는 방법을 살펴보십시오.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2474'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,5 @@ Adobe에서는 로컬 파일 시스템에서 네트워크 공유 영역으로 �
 
 >[!MORELIKETHIS]
 >
->* [AEM 데스크탑 앱 소개](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
->* [AEM 데스크탑 앱의 체크 인/체크 아웃 이해](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [AEM 데스크탑 앱 애플리케이션 문제 해결](troubleshoot-app-v1.md)
 
