@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Adobe은 개별 사용자의 업로드 속도가 10Mbps에 가까운 것으로 �
 
 Windows에서 AEM을 실행하는 경우 WebDAV 클라이언트의 성능을 향상시키도록 Windows를 구성할 수 있습니다. 자세한 내용은 https://support.microsoft.com/en-us/kb/2445570을 [참조하십시오](https://support.microsoft.com/en-us/kb/2445570).
 
-Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있습니다. 자세한 내용은 http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/을 [참조하십시오](http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
+Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있습니다. 자세한 내용은 Windows 7에서 느린 WebDAV 성능을 [수정하는 방법을 참조하십시오](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 
 ## 동시 작업 {#concurrent-operations}
 
