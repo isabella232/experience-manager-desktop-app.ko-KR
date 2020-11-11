@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '1234'
+ht-degree: 1%
 
 ---
 
@@ -67,7 +67,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 1. 다른 버전의 앱에서 업그레이드하는 경우 데스크탑 앱 [업그레이드를 참조하십시오](#upgrade-from-previous-version).
 
-1. Cloud Service, Experience Manager 6.4.4 이상 또는 Experience Manager 6.5.0 이상으로 Experience Manager을 사용하는 경우 이 단계를 건너뛸 수 있습니다. Experience Manager 설정이 릴리스 노트에 나와 있는 호환성 요구 사항을 [충족하는지 확인하십시오](release-notes.md). 필요한 경우 해당 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 다운로드하고 Experience Manager 패키지 관리자를 Experience Manager 관리자로 사용하여 설치합니다. 패키지를 설치하려면 패키지 [를 사용하는 방법을 참조하십시오](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/administering/contentmanagement/package-manager.html).
+1. Cloud Service, Experience Manager 6.4.4 이상 또는 Experience Manager 6.5.0 이상으로 Experience Manager을 사용하는 경우 이 단계를 건너뛸 수 있습니다. Experience Manager 설정이 릴리스 노트에 나와 있는 호환성 요구 사항을 [충족하는지 확인하십시오](release-notes.md). 필요한 경우 해당 [호환성 패키지를](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 다운로드하고 Experience Manager 패키지 관리자를 Experience Manager 관리자로 사용하여 설치합니다. 패키지를 설치하려면 패키지 [를 사용하는 방법을 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 1. 설치 프로그램 바이너리를 실행하고 화면의 지침에 따라 설치합니다.
 
@@ -93,7 +93,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
    *그림:응용 프로그램에 로그인 후 DAM 내용이 표시됩니다.*
 
-1. (Experience Manager 6.5.1 이상) Experience Manager 6.5.1 이상의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. Azure [커넥터](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) 또는 [S3 커넥터를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 이상) Experience Manager 6.5.1 이상의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. Azure [커넥터](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) 또는 [S3 커넥터를 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
 
    AMS(Adobe Managed Services) 고객의 경우 Adobe 고객 지원 센터에 문의하십시오.
 
