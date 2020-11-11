@@ -3,9 +3,9 @@ title: AEM 데스크탑 앱 버전 1.x 사용
 description: Adobe Experience Manager 데스크탑 앱 버전 1.x를 사용하고 데스크탑에서 에셋으로 작업을 최적화하는 방법을 살펴보십시오.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ AEM Assets 리포지토리를 로컬 드라이브에 매핑한 후 매핑된 자
 
 AEM Assets을 사용하면 편집할 자산을 확인하고 변경을 완료한 후 다시 체크 인할 수 있습니다. 자산을 체크 아웃한 후, 자신만 자산을 편집, 주석 달기, 게시, 이동 또는 삭제할 수 있습니다. 자산을 체크 아웃하면 자산이 잠기고 다른 사용자가 이러한 작업을 수행할 수 없습니다. 자산을 체크 아웃/체크 인하려면 자산에 대해 쓰기 액세스 권한이 필요합니다.
 
-AEM 웹 인터페이스에서 자산을 확인하는 방법에는 두 가지가 있습니다. 첫 번째 방법에 대한 자세한 내용은 자산 UI에서 [파일 체크 인 및 체크 아웃을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/check-out-and-submit-assets.html). AEM 데스크탑 앱이 설치될 때 자산을 체크 아웃하고 여는 두 번째 방법은 다음 단계를 따릅니다.
+AEM 웹 인터페이스에서 자산을 확인하는 방법에는 두 가지가 있습니다. 첫 번째 방법에 대한 자세한 내용은 자산 UI에서 [파일 체크 인 및 체크 아웃을 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html). AEM 데스크탑 앱이 설치될 때 자산을 체크 아웃하고 여는 두 번째 방법은 다음 단계를 따릅니다.
 
 1. AEM Assets 인터페이스를 열고 포인터를 폴더 또는 자산 위로 가져가면 카드 보기에서 데스크탑 작업이 빠른 동작으로 표시됩니다.
 
