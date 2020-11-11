@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_E
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '3993'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Experience Manager 데스크탑 앱을 사용하는 주요 작업은 다음과 �
 * 자산을 먼저 확인하지 않고 편집을 시작했습니다(즉, 열기만 하면).
 * 에셋 편집을 곧 시작할 계획이며 다른 사람이 편집하기를 원하지 않습니다.
 
-편집을 완료하면 앱이 변경된 에셋의 **[!UICONTROL Edited Locally]** 상태를 표시합니다. AEM에 변경 내용을 업로드할 때까지 자산에 저장된 모든 변경 사항은 로컬 전용입니다. 개인 또는 일부 자산을 하나씩 업로드하려면 자산의 옵션 **[!UICONTROL Upload Changes]** 에서 을 클릭합니다. AEM에서 자산의 버전을 만듭니다. AEM Assets의 웹 인터페이스를 사용하면 [타임라인 보기에서 자산 내역을 볼 수 있습니다](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/activity-stream.html).
+편집을 완료하면 앱이 변경된 에셋의 **[!UICONTROL Edited Locally]** 상태를 표시합니다. AEM에 변경 내용을 업로드할 때까지 자산에 저장된 모든 변경 사항은 로컬 전용입니다. 개인 또는 일부 자산을 하나씩 업로드하려면 자산의 옵션 **[!UICONTROL Upload Changes]** 에서 을 클릭합니다. AEM에서 자산의 버전을 만듭니다. AEM Assets의 웹 인터페이스를 사용하면 [타임라인 보기에서 자산 내역을 볼 수 있습니다](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
 
 ![앱의 변경 내용 업로드 옵션](assets/upload_changes_single1_da2.png "앱의 변경 내용 업로드")
 
@@ -176,7 +176,7 @@ Experience Manager 데스크탑 앱을 사용하는 주요 작업은 다음과 �
 
 ## AEM에 새 에셋 업로드 및 추가 {#upload-and-add-new-assets-to-aem}
 
-사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어 사진 촬영에서 AEM 보관소에 많은 양의 사진을 추가하려는 에이전시 사진 작가 또는 계약업체일 수 있습니다. AEM에 새 콘텐츠를 추가하려면 앱의 상단 막대에서 ![클라우드에 업로드 아이콘](assets/do-not-localize/upload_to_cloud_da2.png) 을 클릭합니다. 로컬 파일 시스템에서 자산 파일을 탐색하고 을 클릭합니다 **[!UICONTROL Select]**. 앱이 자산을 업로드하기 시작하고 자산을 업로드하는 데 시간이 더 걸리는 경우 하단에 진행률 표시줄을 표시합니다. 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. AEM Assets에서 폴더 [만들기에서 문자 목록을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders).
+사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어 사진 촬영에서 AEM 보관소에 많은 양의 사진을 추가하려는 에이전시 사진 작가 또는 계약업체일 수 있습니다. AEM에 새 콘텐츠를 추가하려면 앱의 상단 막대에서 ![클라우드에 업로드 아이콘](assets/do-not-localize/upload_to_cloud_da2.png) 을 클릭합니다. 로컬 파일 시스템에서 자산 파일을 탐색하고 을 클릭합니다 **[!UICONTROL Select]**. 앱이 자산을 업로드하기 시작하고 자산을 업로드하는 데 시간이 더 걸리는 경우 하단에 진행률 표시줄을 표시합니다. 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. AEM Assets에서 폴더 [만들기에서 문자 목록을 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -231,7 +231,7 @@ Experience Manager 데스크탑 앱을 사용하는 주요 작업은 다음과 �
 
 >[!NOTE]
 >
->두 AEM 배포 간에 자산을 마이그레이션하는 데 업로드 기능을 사용하지 마십시오. 대신 [마이그레이션 안내서를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html).
+>두 AEM 배포 간에 자산을 마이그레이션하는 데 업로드 기능을 사용하지 마십시오. 대신 [마이그레이션 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html).
 
 ### 전송된 자산 목록 {#list-of-transferred-assets}
 
