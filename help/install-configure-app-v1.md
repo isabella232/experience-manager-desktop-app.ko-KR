@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+source-git-commit: 9c11f0b8ace17e7f596bcfe26e69f4ca649e0126
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ AEM 데스크탑 앱을 사용하려면
 * X-깊이
 * X-덮어쓰기
 
-AEM desktop은 기본 포트를 포함하는 URL을 사용하여 AEM에 연결합니다. 따라서 발송자 구성의 `virtualhosts` 설정에는 기본 포트 번호가 포함되어야 합니다. 구성에 대한 자세한 내용은 `virtualhosts` 가상 호스트 [식별을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM desktop은 기본 포트를 포함하는 URL을 사용하여 AEM에 연결합니다. 따라서 발송자 구성의 `virtualhosts` 설정에는 기본 포트 번호가 포함되어야 합니다. 구성에 대한 자세한 내용은 `virtualhosts` 가상 호스트 [식별을 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
-발송자가 이러한 추가 헤더를 통과하도록 구성하는 방법에 대한 자세한 내용은 HTTP 헤더 [지정을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+발송자가 이러한 추가 헤더를 통과하도록 구성하는 방법에 대한 자세한 내용은 HTTP 헤더 [지정을 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### 프록시 지원 {#proxy-support}
 
@@ -134,7 +134,7 @@ AEM 데스크탑 앱의 기본 위치는 다음과 같습니다.
    >앱은 자동으로 *&lt;인코딩된 AEM 끝점>* 하위 디렉터리를 만듭니다. 이 동작을 구성할 수 없습니다.
 
 >[!MORELIKETHIS]
-* [AEM 데스크탑 앱 소개](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [AEM 데스크탑 앱 소개](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
 * [AEM 데스크탑 앱 사용](use-app-v1.md).
 * [AEM 데스크탑 앱](troubleshoot-app-v1.md)문제 해결
 
