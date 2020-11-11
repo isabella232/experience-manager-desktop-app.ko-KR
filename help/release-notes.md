@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 42%
+source-wordcount: '1406'
+ht-degree: 41%
 
 ---
 
@@ -42,11 +42,11 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 이 앱은 Cloud Service, AMS(Adobe Managed Services) 또는 온프레미스 중 어떤 Experience Manager 버전으로 배포되었든 다음 버전에서 작동합니다.
 
-* [클라우드 서비스로서의 Experience Manager](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/release-notes/home.html).
+* [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 
-* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) 이상
+* [Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) 이상
 
-* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) 이상
+* [Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 이상
 
 * Experience Manager 6.4.0 - 6.4.3( [호환성 패키지 포함)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
 
@@ -169,8 +169,8 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 >[!MORELIKETHIS]
 >
->* [AEM(Cloud Service 설명서)](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
->* [AEM(Cloud Service 에셋 설명서)](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/home.html)
+>* [AEM(Cloud Service 설명서)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [AEM(Cloud Service 에셋 설명서)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager 데스크탑 앱 사용 방법](using.md)
 >* [데스크탑 앱 설치 및 업그레이드](install-upgrade.md)
 >* [우수 사례 및 문제 해결 팁](troubleshoot.md)
