@@ -6,15 +6,15 @@ user-guide-title: AEM 데스크탑 앱 안내서
 breadcrumb-title: Desktop App 안내서
 user-guide-description: AEM 데스크탑 앱을 사용하여 저장소 및 데스크탑 응용 프로그램을 연결하여 리소스를 신속하게 이용하고 작업 과정을 간소화하는 방법을 알아볼 수 있습니다.
 solution-title: AEM Assets
-solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html
-getting-started-url: https://docs.adobe.com/content/help/ko-KR/experience-manager-desktop-app/using/introduction.html
+solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html
+getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
 tutorials-title: AEM 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-manager/kt/index/aem-tutorials.html
 translation-type: tm+mt
-source-git-commit: 93ff31a427ec2a19b56e029f7690383fe8ac5eab
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 95%
+source-wordcount: '83'
+ht-degree: 80%
 
 ---
 
@@ -32,4 +32,3 @@ ht-degree: 95%
    + [앱 사용 v1](use-app-v1.md)
    + [우수 사례 v1](best-practices-for-v1.md)
    + [문제 해결 v1](troubleshoot-app-v1.md)
-
