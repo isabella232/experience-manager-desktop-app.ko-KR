@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Troubleshoot Adobe Experience Manager desktop app {#troubleshoot-v2}
 
-Adobe Experience Manager(AEM) 데스크탑 앱은 원격 Experience Manager 배포의 DAM(Digital Asset Management) 저장소에 연결됩니다. 이 앱은 저장소 정보 및 검색 결과를 컴퓨터에서 가져오고, 파일 및 폴더를 다운로드 및 업로드하며, AEM Assets 사용자 인터페이스와 충돌을 관리하는 기능을 포함합니다.
+Adobe Experience Manager 데스크탑 앱은 원격 Experience Manager 배포의 DAM(Digital Asset Management) 저장소에 연결됩니다. 이 앱은 컴퓨터에 저장소 정보 및 검색 결과를 가져오고, 파일 및 폴더를 다운로드 및 업로드하며, 자산 사용자 인터페이스와 충돌을 관리하는 기능을 포함합니다.
 
 앱 문제를 해결하고 모범 사례를 알아보고 제한 사항을 확인하십시오.
 
@@ -119,7 +119,7 @@ Windows에서 디버그 모드를 활성화하려면:
 
 다음 단계를 수행합니다.
 
-1. 응용 프로그램을 시작하고 AEM 인스턴스를 연결합니다.
+1. 응용 프로그램을 시작하고 Experience Manager 인스턴스를 연결합니다.
 
 1. 오른쪽 상단 모서리의 줄임표를 클릭하고 선택하여 애플리케이션의 기본 설정을 엽니다 [!UICONTROL Preferences].
 
@@ -163,9 +163,9 @@ Windows에서 디버그 모드를 활성화하려면:
 
 * 파일 크기. 대용량 에셋을 다운로드하고 표시하는 데 시간이 오래 걸립니다.
 
-* 일관된 문자 경험 제공 사용자나 다른 협력자가 AEM DAM을 다른 드라이브 문자로 매핑하는 동안 에셋을 배치하면 배치된 에셋이 표시되지 않습니다.
+* 일관된 문자 경험 제공 사용자나 다른 협력자가 Experience Manager DAM을 다른 드라이브 문자로 매핑하는 동안 에셋을 배치하면 배치된 에셋이 표시되지 않습니다.
 
-* 권한. 가져온 자산을 가져올 권한이 있는지 확인하려면 AEM 관리자에게 문의하십시오.
+* 권한. 가져온 자산을 가져올 권한이 있는지 확인하려면 Experience Manager 관리자에게 문의하십시오.
 
 ### 데스크톱 앱의 사용자 인터페이스에서 파일을 편집해도 [!DNL Adobe Experience Manager] 즉시 {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +173,7 @@ Windows에서 디버그 모드를 활성화하려면:
 
 ### macOS에서 업그레이드할 때 발생하는 문제 {#issues-when-upgrading-on-macos}
 
-macOS에서 AEM 데스크탑 앱을 업그레이드할 때 가끔 문제가 발생할 수 있습니다. AEM 데스크탑 앱용 레거시 시스템 폴더에서 AEM 데스크톱 앱의 새 버전이 올바르게 로드되지 않기 때문입니다. 이 문제를 해결하려면 다음 폴더 및 파일을 수동으로 제거할 수 있습니다.
+macOS에서 Experience Manager 데스크탑 앱을 업그레이드할 때 가끔 문제가 발생할 수 있습니다. 이는 Experience Manager 데스크탑 앱용 레거시 시스템 폴더를 통해 새로운 버전의 Experience Manager 데스크탑 앱이 올바르게 로드되지 않기 때문입니다. 이 문제를 해결하려면 다음 폴더 및 파일을 수동으로 제거할 수 있습니다.
 
 다음 단계를 실행하기 전에 macOS 응용 프로그램 폴더의 `Adobe Experience Manager Desktop` 응용 프로그램을 휴지통으로 드래그합니다. 그런 다음 터미널을 열고 다음 명령을 실행하고 메시지가 표시되면 암호를 입력합니다.
 
@@ -188,7 +188,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### 파일을 업로드할 수 없음 {#upload-fails}
 
-AEM 6.5.1 이상에서 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 업데이트는 [OAK-8599와 관련된 파일 업로드 실패 문제를 해결합니다](https://issues.apache.org/jira/browse/OAK-8599). 설치 [지침을 참조하십시오](install-upgrade.md#install-v2).
+Experience Manager 6.5.1 이상의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 업데이트는 [OAK-8599와 관련된 파일 업로드 실패 문제를 해결합니다](https://issues.apache.org/jira/browse/OAK-8599). 설치 [지침을 참조하십시오](install-upgrade.md#install-v2).
 
 ### [!DNL Experience Manager] 데스크탑 앱 연결 문제 {#connection-issues}
 
@@ -213,13 +213,9 @@ AEM 6.5.1 이상에서 데스크탑 앱을 사용하는 경우 S3 또는 Azure �
 
 경우에 따라 SAML 프로세스가 원래 요청된 경로로 리디렉션되지 않거나 최종 리디렉션이 [!DNL Adobe Experience Manager] 데스크탑 앱에서 구성된 것과 다른 호스트로 리디렉션되는 경우가 있습니다. 이러한 경우가 아님을 확인하려면
 
-1. 웹 브라우저를 엽니다.
+1. 웹 브라우저를 엽니다. URL에 `https://[aem_server]:[port]/content/dam.json` 액세스합니다.
 
-1. 주소 표시줄에 URL `<AEM host>/content/dam.json` 을 입력합니다.
-
-   예를 들어 대상 인스턴스 `<AEM host>` 로 [!DNL Adobe Experience Manager] 대체합니다 `http://localhost:4502/content/dam.json`.
-
-1. 인스턴스에 [!DNL Adobe Experience Manager] 로그인합니다.
+1. 배포에 [!DNL Adobe Experience Manager] 로그인합니다.
 
 1. 로그인이 완료되면 주소 표시줄에서 브라우저의 현재 주소를 확인합니다. 처음에 입력한 URL과 정확하게 일치해야 합니다.
 
@@ -260,10 +256,9 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 #### SSL 구성 문제 {#ssl-config-v2}
 
-AEM 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 경우에 따라 브라우저 사용에 성공하지만 AEM 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절하게 구성하려면 Apache에 누락된 중간 인증서를 설치합니다. Apache [에서 중간 CA 인증서를 설치하는 방법을 참조하십시오](https://access.redhat.com/solutions/43575).
+Experience Manager 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 경우에 따라 브라우저 사용에 성공하지만 Experience Manager 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절하게 구성하려면 Apache에 누락된 중간 인증서를 설치합니다. Apache [에서 중간 CA 인증서를 설치하는 방법을 참조하십시오](https://access.redhat.com/solutions/43575).
 
-
-AEM Desktop에서 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 따라서 [!DNL Adobe Experience Manager] 데스크탑 앱에서 브라우저를 통해 성공한 SSL 연결이 실패하는 인스턴스가 있을 수 있습니다. 이 기능은 SSL의 올바른 구성을 권장하고 보안을 강화하지만 응용 프로그램이 연결할 수 없을 때 좌절감을 줄 수 있습니다.
+Experience Manager Desktop이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 따라서 [!DNL Adobe Experience Manager] 데스크탑 앱에서 브라우저를 통해 성공한 SSL 연결이 실패하는 인스턴스가 있을 수 있습니다. 이 기능은 SSL의 올바른 구성을 권장하고 보안을 강화하지만 응용 프로그램이 연결할 수 없을 때 좌절감을 줄 수 있습니다.
 
 이 경우 도구를 사용하여 서버의 SSL 인증서를 분석하고 문제를 식별하여 수정할 수 있도록 하는 것이 좋습니다. URL을 제공할 때 서버 인증서를 검사하는 웹 사이트가 있습니다.
 
@@ -305,21 +300,23 @@ AEM Desktop에서 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL �
 
 두 방법 모두에서 앱은 루트 DAM 폴더에서 시작됩니다.
 
-### 데스크탑 앱에 대한 추가 도움말 [!DNL Experience Manager] 필요 {#additional-help}
+<!--
+### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
 
-다음 정보가 포함된 Jira 티켓을 만듭니다.
+Create Jira ticket with the following information:
 
-* 를 `DAM - Companion App` 사용하여 [!UICONTROL Component]작업하십시오.
+* Use `DAM - Companion App` as the [!UICONTROL Component].
 
-* 문제를 재현하는 자세한 단계입니다 [!UICONTROL Description].
+* Detailed steps to reproduce the issue in [!UICONTROL Description].
 
-* 문제를 복제하는 동안 캡처한 DEBUG 수준 로그.
+* DEBUG level logs that were captured while reproducing the issue.
 
-* Target AEM 버전.
+* Target Experience Manager version.
 
-* 운영 체제 버전.
+* Operating system version.
 
-* [!DNL Adobe Experience Manager] 데스크탑 앱 버전. 앱 버전을 확인하려면 데스크탑 앱 버전 [을 찾아보십시오](#know-app-version-v2).
+* [!DNL Adobe Experience Manager] desktop app version. To know your app version, see [finding the desktop app version](#know-app-version-v2).
+-->
 
 >[!MORELIKETHIS]
 >
