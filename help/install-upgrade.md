@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -71,23 +71,23 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 1. 설치 프로그램 바이너리를 실행하고 화면의 지침에 따라 설치합니다.
 
-1. Windows의 경우 설치 관리자가 설치 여부를 묻는 메시지가 나타날 수 있습니다 `Visual Studio C++ Redistributable 2015`. 화면의 지침에 따라 설치합니다. 설치에 실패하면 수동으로 설치합니다. 여기에서 설치 프로그램 [을](https://www.microsoft.com/en-us/download/details.aspx?id=52685) 다운로드하고 `vc_redist.x64.exe` 파일과 파일을 모두 `vc_redist.x86.exe` 설치합니다. AEM 데스크탑 앱 설치 프로그램을 다시 실행합니다.
+1. Windows의 경우 설치 관리자가 설치 여부를 묻는 메시지가 나타날 수 있습니다 `Visual Studio C++ Redistributable 2015`. 화면의 지침에 따라 설치합니다. 설치에 실패하면 수동으로 설치합니다. 여기에서 설치 프로그램 [을](https://www.microsoft.com/en-us/download/details.aspx?id=52685) 다운로드하고 `vc_redist.x64.exe` 파일과 파일을 모두 `vc_redist.x86.exe` 설치합니다. 데스크탑 앱 [!DNL Experience Manager] 설치 프로그램을 다시 실행합니다.
 
 1. 메시지가 표시되면 컴퓨터를 다시 시작합니다. 데스크탑 앱을 실행하고 구성합니다.
 
-1. 앱을 AEM 리포지토리와 연결하려면 트레이에서 앱 아이콘을 클릭하고 앱을 실행합니다. AEM 서버의 주소를 형식으로 입력하십시오 `https://[aem-server-url]:[port]/`.
+1. 앱을 [!DNL Experience Manager] 리포지토리와 연결하려면 트레이에서 앱 아이콘을 클릭하고 앱을 실행합니다. 서버 주소를 형식으로 [!DNL Experience Manager] 제공하십시오 `https://[aem_server]:[port]/`.
 
    자격 증명 **[!UICONTROL Connect]** 을 클릭하고 제공합니다.
 
    ![입력 서버 주소에 데스크탑 앱의 연결 화면](assets/connect_da2.png)
 
-   *그림:입력 서버 주소에 대한 연결 화면*
+   *그림:입력 서버 주소에 대한 연결 화면입니다.*
 
    >[!CAUTION]
    >
-   >AEM 서버 주소 앞이나 뒤에 선행 또는 후행 공백이 없는지 확인합니다. 그렇지 않으면 앱이 AEM 서버에 연결할 수 없습니다.
+   >서버 주소 앞이나 뒤에 선행 또는 후행 공백이 없는지 [!DNL Experience Manager] 확인합니다. 그렇지 않으면 응용 프로그램이 [!DNL Experience Manager] 서버에 연결할 수 없습니다.
 
-1. 연결이 성공하면 AEM DAM의 루트 폴더에서 사용할 수 있는 폴더 및 자산 목록을 볼 수 있습니다. 앱 내에서 폴더를 찾아볼 수 있습니다.
+1. 연결이 성공하면 DAM의 루트 폴더에서 사용할 수 있는 폴더 및 자산 목록을 볼 수 [!DNL Experience Manager] 있습니다. 앱 내에서 폴더를 찾아볼 수 있습니다.
 
    ![로그인하면 앱에 DAM 콘텐츠가 표시됩니다.](assets/firstview_da2.png)
 
@@ -107,7 +107,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 * **[!UICONTROL Cache Directory]**:앱의 로컬 캐시 위치(로컬로 다운로드한 에셋이 포함되어 있음).
 
-* **[!UICONTROL Network Drive Letter]**:AEM DAM에 매핑하는 데 사용되는 드라이브 문자입니다. 확신이 없으면 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자로 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 문자의 에셋을 배치하면 서로 배치된 에셋이 표시되지 않습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(예: INDD)에 삽입되며 제거되지 않습니다. 앱은 사용 가능한 모든 드라이브 문자를 나열하고 기본적으로 일반적으로 사용 가능한 마지막 문자를 사용합니다 `Z`.
+* **[!UICONTROL Network Drive Letter]**:DAM에 매핑하는 데 사용되는 드라이브 [!DNL Experience Manager] 문자입니다. 확신이 없으면 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자로 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 문자의 에셋을 배치하면 서로 배치된 에셋이 표시되지 않습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(예: INDD)에 삽입되며 제거되지 않습니다. 앱은 사용 가능한 모든 드라이브 문자를 나열하고 기본적으로 일반적으로 사용 가능한 마지막 문자를 사용합니다 `Z`.
 
 * **[!UICONTROL Maximum Cache Size]**:로컬에서 다운로드한 에셋을 저장하는 데 사용되는 하드 디스크의 캐시(GB)가 허용됩니다.
 
@@ -119,29 +119,29 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 * **[!UICONTROL Upload Acceleration]**:자산을 업로드할 때 애플리케이션에서 동시 업로드를 사용하여 업로드 속도를 향상시킬 수 있습니다. 슬라이더를 오른쪽으로 이동하여 업로드의 동시 사용을 늘릴 수 있습니다. 맨 왼쪽에 있는 슬라이더는 동시성(단일 스레드 업로드)이 없으며, 중간 위치는 동시 스레드에 해당하며, 맨 오른쪽에 있는 최대 제한은 20개의 동시 스레드에 해당합니다. 동시 시청 제한이 클수록 로컬 컴퓨터의 프로세서가 더 많은 리소스를 소비해야 합니다.
 
-사용할 수 없는 기본 설정을 업데이트하려면 AEM 서버에서 로그아웃하십시오. 환경 설정을 업데이트한 후 ![환경 설정](assets/do-not-localize/save_preferences_da2.png) 저장을 클릭하여 변경 사항을 저장합니다.
+사용할 수 없는 기본 설정을 업데이트하려면 [!DNL Experience Manager] 서버에서 로그아웃하십시오. 환경 설정을 업데이트한 후 ![환경 설정](assets/do-not-localize/save_preferences_da2.png) 저장을 클릭하여 변경 사항을 저장합니다.
 
 ![데스크탑 앱 환경 설정 및 설정](assets/preferences_da2.png)
 
-*그림:데스크탑 앱 환경 설정*
+*그림:데스크탑 앱 환경 설정.*
 
 ## 앱 제거 {#uninstall-the-app}
 
 Windows에서 응용 프로그램을 제거하려면 다음 단계를 수행합니다.
 
-1. AEM에 모든 변경 내용을 업로드하여 편집 내용이 손실되지 않도록 할 수 있습니다. 자세한 내용은 [자산 편집 및 업데이트된 에셋 업로드를 참조하십시오](using.md#edit-assets-upload-updated-assets). 로그오프하고 [!UICONTROL Exit] 앱을 실행합니다.
+1. 모든 변경 내용을 업로드하여 편집 내용 [!DNL Experience Manager] 이 손실되지 않도록 할 수 있습니다. 자산 [편집 및 업데이트된 자산 업로드를 참조하십시오 [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). 로그오프하고 [!UICONTROL Exit] 앱을 실행합니다.
 
 1. 다른 OS 응용 프로그램을 제거하는 동안 앱을 제거합니다. Windows에서 프로그램 추가 및 제거에서 제거합니다.
 
 1. 캐시와 로그를 제거하려면 필요한 확인란을 선택합니다.
 
-   ![제거 대화 상자를 사용하여 로그 및 캐시 제거](assets/uninstall_da2.png)
+   ![로그 및 캐시를 제거하려면 제거 대화 상자](assets/uninstall_da2.png)
 
 1. 화면의 지침에 따릅니다. 완료되면 컴퓨터를 다시 시작합니다.
 
 Mac에서 응용 프로그램을 제거하려면 다음 단계를 수행합니다.
 
-1. AEM에 모든 변경 내용을 업로드하여 편집 내용이 손실되지 않도록 할 수 있습니다. 자세한 내용은 [자산 편집 및 업데이트된 에셋 업로드를 참조하십시오](using.md#edit-assets-upload-updated-assets). 로그오프하고 [!UICONTROL Exit] 앱을 실행합니다.
+1. 모든 변경 내용을 업로드하여 편집 내용 [!DNL Experience Manager] 이 손실되지 않도록 할 수 있습니다. 자산 [편집 및 업데이트된 자산 업로드를 참조하십시오 [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). 로그오프하고 [!UICONTROL Exit] 앱을 실행합니다.
 
 1. 에서 을 `Adobe Experience Manager Desktop.app` 제거합니다 `/Applications`.
 
