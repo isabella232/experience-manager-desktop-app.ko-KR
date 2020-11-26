@@ -1,8 +1,8 @@
 ---
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -14,11 +14,11 @@ Adobe Experience Manager 데스크탑 앱 문서에 기고해 주셔서 감사�
 
 ## Adobe 오픈 소스 행동수칙
 
-이 프로젝트는 [Adobe 오픈 소스 행동 강령을 채택했다](code-of-conduct.md). AEM 문서에 증여하면 이 수칙을 준수하는 것에 동의하는 것입니다. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+이 프로젝트는 [Adobe 오픈 소스 행동 강령을 채택했다](code-of-conduct.md). 문서에 [!DNL Adobe Experience Manager] 참여하면 귀하는 본 수칙을 준수하는 것에 동의합니다. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## 기여 지침
 
-AEM 문서 개선을 위한 모든 노력을 환영하지만 가능한 한 특정 지침 및 표준을 준수하는 것을 권장합니다. 자세한 내용은 [AEM 문서](guidelines.md) 기여 지침을 참조하십시오.
+Adobe는 문서 개선을 위한 모든 노력을 환영하지만 가능한 한 특정 지침 및 표준을 준수하는 것을 권장합니다. [!DNL Experience Manager] 자세한 내용은 [문서에 [!DNL Experience Manager] 기여 지침](guidelines.md) 을검토하십시오.
 
 ## Contribute 방법
 
@@ -37,11 +37,11 @@ AEM 문서 개선을 위한 모든 노력을 환영하지만 가능한 한 특�
 
 현재 문서에 대한 제안, 관찰 또는 설명되는 방식에 의문을 가지고 있습니까? 그런 다음 문제를 만드십시오. 문제는 기여할 만한 점이 있다면 매우 뛰어나지만 문서를 편집하거나 직접 요청을 하는 것이 편하지 않습니다.
 
-문제를 통해 문서 및 AEM Docs Team 구성원이 검토할 수 있는 개선 사항에 대한 아이디어를 쉽게 설명할 수 있습니다. 문제 **를 만들려면 페이지의 오른쪽 탐색 패널 상단에 있는 문제** 기록 링크를 클릭하십시오.
+문제를 통해 문서 및 Docs Team 구성원이 검토할 수 있는 개선 사항에 대한 아이디어를 쉽게 설명할 수 [!DNL Experience Manager] 있습니다. 문제 **를 만들려면 페이지의 오른쪽 탐색 패널 상단에 있는 문제** 기록 링크를 클릭하십시오.
 
 ### 풀 요청 만들기 {#create-a-pull-request}
 
-문제가 발생하여 이를 수정하는 방법을 정확히 알고 있다면 끌어오기 요청을 만드는 것이 좋습니다. 끌어오기 요청을 사용하면 문서를 직접 편집한 다음 AEM Docs Team 구성원이 이를 검토할 수 있습니다. 페이지의 **오른쪽 탐색 패널 상단에 있는 이 페이지** 편집 링크를 클릭하면 제안된 변경 사항을 적용하고 가져오기 요청을 만들 수 있습니다.
+문제가 발생하여 이를 수정하는 방법을 정확히 알고 있다면 끌어오기 요청을 만드는 것이 좋습니다. 끌어오기 요청을 사용하면 문서를 직접 편집한 다음 문서 팀 구성원이 포함시킬 수 있도록 [!DNL Experience Manager] 검토합니다. 페이지의 **오른쪽 탐색 패널 상단에 있는 이 페이지** 편집 링크를 클릭하면 제안된 변경 사항을 적용하고 가져오기 요청을 만들 수 있습니다.
 
 모든 가져오기 요청에는 서명된 [기고자 라이선스 계약 또는 CLA가 포함되어야 합니다.](https://opensource.adobe.com/cla.html)  이를 통해 Adobe에 프로젝트의 일부로 기여도를 재배포할 수 있는 권한을 부여합니다. 한 번만 Adobe CLA를 제출하면 되므로 이전에 제출한 CLA를 이용하는 것이 좋습니다.
 
