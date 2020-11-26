@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 41%
+source-wordcount: '1422'
+ht-degree: 33%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 | 제품 | Adobe Experience Manager 데스크탑 앱 |
 |--- |--- |
 | 앱 버전(개정) | 2.0 (2.0.3.2) |
-| 지원되는 AEM 버전 | AEM의 Cloud ServiceAEM 6.5;AEM 6.4;AEM 6.3(호환성 패키지 포함) |
+| 지원되는 Experience Manager 버전 | Cloud Service의 Experience ManagerExperience Manager 6.5;Experience Manager 6.4;Experience Manager 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
 | 릴리스 날짜 | 2020년 8월 27일 (Mac 및 Win) |
 | 다운로드 URL | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
@@ -107,7 +107,7 @@ To know the details, see [What&#39;s new in v2.0](introduction.md#whats-new-v2).
 
 * 경로 일치로 `%Temp%` 디렉토리를 구성하는 옵션을 `%APPDATA%` 허용합니다. <!-- CQ-4282665 -->
 
-* 사용자가 Okta SAML 인증을 통해 AEM 작성자에 로그인하도록 허용 <!-- CQ-4278134 -->
+* 사용자가 Okta SAML 인증을 통해 Experience Manager 작성자에 로그인할 수 있도록 허용 <!-- CQ-4278134 -->
 
 ## 설치 지침 {#installation-instructions-v2}
 
@@ -119,17 +119,17 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 애플리케이션 및 애플리케이션 작동 방식에 대한 다음 내용을 알고 있어야 합니다.
 
-* 자산 바이너리 전체를 AEM과 서로 전송해야 하는 작업에 대한 모든 권한을 애플리케이션에서 제공합니다(열기, 편집, 변경 내용 업로드 및 자산 업로드).
+* 이 응용 프로그램은 자산 이진을 Experience Manager에서 전체 전송해야 하는 작업을 완벽하게 제어합니다(자산 열기, 편집, 변경 내용 업로드 및 업로드).
 
    * 데스크탑의 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
 
-   * AEM에 업로드된 자산에 로컬 변경 내용을 가져오려면[!UICONTROL Upload Changes] 개별적으로 또는 다중 선택을 통해 선택해야 합니다.
+   * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
 
-   * 애플리케이션이 데스크탑과 AEM 전체에서 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다.
+   * 응용 프로그램은 데스크톱 및 Experience Manager 간에 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다.
 
-   * AEM 저장소를 가상 폴더 구조로 매핑하는 네트워크 공유를 애플리케이션에서 제공하지 않습니다.
+   * 응용 프로그램은 Experience Manager 저장소를 가상 폴더 구조로 매핑하는 네트워크 공유를 제공하지 않습니다.
 
-* 애플리케이션에서 표시하는 자산 목록은 AEM Assets 저장소의 상태에 따라 다릅니다. 로컬에서 다운로드한 다음 로컬 파일 또는 캐시 폴더에서 이름을 변경한 파일은 애플리케이션에서 표시하거나 관리하지 않습니다.
+* 애플리케이션에서 표시하는 자산 목록은 Assets 저장소의 상태에 따라 다릅니다. 로컬에서 다운로드한 다음 로컬 파일 또는 캐시 폴더에서 이름을 변경한 파일은 애플리케이션에서 표시하거나 관리하지 않습니다.
 
 * 예상한 결과가 앱에서 표시되지 않으면 상단 표시줄의 새로 고침 아이콘을 클릭합니다.
 
@@ -139,7 +139,7 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 다음 다이어그램은 사용자 작업에서 시작된 자산과 파일의 클라우드와 로컬 파일 시스템 간 흐름을 보여줍니다.
 
-![데스크탑 앱을 통한 AEM 서버부터 기본 데스크탑 앱까지 자산 흐름](assets/da20_flow_diagram.png)
+![데스크탑 앱을 통해 Experience Manager 서버에서 기본 데스크탑 앱으로 에셋 흐름](assets/da20_flow_diagram.png)
 
 ## 알려진 문제 {#known-issues-v2}
 
@@ -153,13 +153,13 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 * 필터를 적용하고 제거하여 로컬에서 편집한 모든 자산을 찾으면 사용자가 시작한 검색 결과 또는 폴더 보기로 앱에서 이동하지 않습니다. DAM 저장소의 루트 폴더를 앱에서 표시합니다.
 
-* 실행 중인 AEM 서버가 없는 URL에 연결하면 연결 화면이 응답하지 않는 경우가 가끔 있습니다. 애플리케이션을 종료하고 다시 시작합니다.
+* Experience Manager 서버가 실행 중이 아닌 URL에 연결하면 연결 화면이 응답하지 않는 경우도 있습니다. 애플리케이션을 종료하고 다시 시작합니다.
 
 **CRUD(만들기, 읽기, 업데이트 및 삭제) 문제:**
 
 * 잘못된 문자가 있어도 애플리케이션에서 파일 업로드를 시도하면 서버측 업로드가 실패할 수 있습니다. <!-- CQ-4273652 -->
 
-* 댓글이 있는 자산에 변경 사항을 업로드하면 댓글은 AEM의 자산에 저장되지만 버전 관리 주석으로는 보이지 않습니다. 이 문제는 AEM 6.4.5 및 AEM 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치하는 것이 좋습니다. <!-- CQ-4268990 -->
+* 주석이 있는 자산에 변경 사항을 업로드할 때 주석은 Experience Manager의 자산에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 Experience Manager 6.4.5 및 Experience Manager 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치하는 것이 좋습니다. <!-- CQ-4268990 -->
 
 * 사용자가 자산 전송을 취소할 수 없습니다. 의도하지 않은 대용량 전송을 트리거한 경우 애플리케이션을 종료하고 다시 시작합니다. <!-- CQ-4278940 -->
 
@@ -169,8 +169,8 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 >[!MORELIKETHIS]
 >
->* [AEM(Cloud Service 설명서)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
->* [AEM(Cloud Service 에셋 설명서)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
+>* [Cloud Service 문서로서의 Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [Experience Manager을 Cloud Service 에셋 문서로 저장](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager 데스크탑 앱 사용 방법](using.md)
 >* [데스크탑 앱 설치 및 업그레이드](install-upgrade.md)
 >* [우수 사례 및 문제 해결 팁](troubleshoot.md)
