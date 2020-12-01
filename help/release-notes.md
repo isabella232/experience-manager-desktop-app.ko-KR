@@ -22,7 +22,7 @@ ht-degree: 33%
 
 | 제품 | Adobe Experience Manager 데스크탑 앱 |
 |--- |--- |
-| 앱 버전(개정) | 2.0 (2.0.3.2) |
+| 앱 버전(개정) | 2.0(2.0.3.2) |
 | 지원되는 Experience Manager 버전 | Cloud Service의 Experience ManagerExperience Manager 6.5;Experience Manager 6.4;Experience Manager 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
 | 릴리스 날짜 | 2020년 8월 27일 (Mac 및 Win) |
@@ -44,20 +44,20 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 * [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 
-* [Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) 이상
+* [Experience Manager 6.5.0 ](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) 이상
 
-* [Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 이상
+* [Experience Manager 6.4.4 ](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 이상
 
-* Experience Manager 6.4.0 - 6.4.3( [호환성 패키지 포함)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
+* Experience Manager 6.4.0 - 6.4.3 - [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)과 함께 사용할 수 있습니다.
 
 >[!NOTE]
 >
 >Experience Manager 6.3에 대한 데스크탑 앱 지원은 더 이상 필요하지 않습니다. Adobe은 최신 및 지원되는 Adobe Experience Manager 버전으로 업그레이드할 것을 권장합니다.
->Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지를 설치한 후 데스크탑 앱에서 작동합니다](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). Experience Manager 6.3에는 [서비스 팩이 계획이 없으므로 이러한 패키지를 사용할 수 없습니다](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html).
+>Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)을 설치한 후 데스크탑 앱에서 작동합니다. Experience Manager 6.3에는 [서비스 팩이 계획되어 있지 않으므로 이러한 패키지를 사용할 수 없습니다](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html).
 
 앱 버전을 로컬 컴퓨터에 설치하려면 특정 Adobe Experience Manager 서버 버전/서버측 추가 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. Adobe Experience Manager 관리자에게 도움을 요청하십시오.
 
-### Support for different assets and file types {#support-for-file-types}
+### 다양한 자산 및 파일 유형 지원 {#support-for-file-types}
 
 이 응용 프로그램은 기본 작업을 위해 이진 파일을 나타내는 Adobe Experience Manager에 저장된 에셋을 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
@@ -69,7 +69,7 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 이 기능은 위의 애플리케이션의 Adobe Creative Cloud 2018 및 Adobe Creative Cloud 2019 버전에서 지원됩니다. 앱은 이성적인 최상의 일치 방법을 사용하여 연결된 자산의 로컬 데스크탑 경로를 Experience Manager 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
 
-* Paths to placed files in the native application use a global desktop path (placed from the local network share shown with [!UICONTROL Reveal] option).
+* 기본 응용 프로그램에 배치된 파일에 대한 경로는 전역 데스크톱 경로를 사용합니다(&lt; a0/> 옵션과 함께 표시된 로컬 네트워크 공유에서 위치).[!UICONTROL Reveal]
 
 * 경로는 기본 앱을 통해 파일의 XMP 기록에 저장됩니다.
 
@@ -79,41 +79,41 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 ## 새로운 기능 및 향상된 기능 {#whats-new-added}
 
-To know the details, see [What&#39;s new in v2.0](introduction.md#whats-new-v2).
+자세한 내용은 [v2.0](introduction.md#whats-new-v2)의 새로운 기능을 참조하십시오.
 
 **앱 v2.0.3의 업데이트**
 
 현재 버전에서 수정된 버그:
 
-* 앱을 사용하여 6.5.5.0 인스턴스에서 DAM 저장소에 액세스하려고 하는 Windows 사용자가 [!DNL Adobe Experience Manager] 직면한 로그인 문제를 수정했습니다.
+* Windows 사용자가 앱을 사용하여 [!DNL Adobe Experience Manager] 6.5.5.0 인스턴스의 DAM 저장소에 액세스하려고 할 때 발생하는 로그인 문제가 해결되었습니다.
 
 **앱 v2.0.2의 업데이트**
 
 버그 수정 및 업데이트는 다음과 같습니다.
 
-* 업로드 성능을 향상시키려면 업로드 가속도가 증가합니다 [!UICONTROL Preferences]. 이 설정이 켜지면 앱은 더 많은 로컬 CPU 스레드를 사용하고 리소스를 많이 사용합니다.
+* 업로드 성능을 향상시키려면 [!UICONTROL Preferences]에서 업로드 가속화를 늘립니다. 이 설정이 켜지면 앱은 더 많은 로컬 CPU 스레드를 사용하고 리소스를 많이 사용합니다.
 
-* 파일 이름 또는 경로에 특정 GB18030자가 포함될 때 자산 업로드 문제가 해결되었습니다. <!-- CQ-4283494 -->
+* 파일 이름 또는 경로에 특정 GB18030자가 포함될 때 자산 업로드 문제가 해결되었습니다.<!-- CQ-4283494 -->
 
-* 검색 결과에서 다른 정렬 유형으로 전환한 후 연관성 기준 정렬 옵션을 사용할 수 있습니다. <!-- CQ-4286874 -->
+* 검색 결과에서 다른 정렬 유형으로 전환한 후 연관성 기준 정렬 옵션을 사용할 수 있습니다.<!-- CQ-4286874 -->
 
-* 이제 데스크탑 앱은 명시적으로 새로 고칠 필요 없이 하위 폴더를 나열합니다. <!-- CQ-4285711 -->
+* 이제 데스크탑 앱은 명시적으로 새로 고칠 필요 없이 하위 폴더를 나열합니다.<!-- CQ-4285711 -->
 
-* (Windows) 일부 Windows 컴퓨터에서 사용할 수 없는 앱 인터페이스 문제를 해결했습니다. 인터페이스 요소 &#39;이동됨&#39;의 클릭 영역에 맞게 변형된 앱 인터페이스를 클릭할 수 없습니다. <!-- CQ-4280785 -->
+* (Windows) 일부 Windows 컴퓨터에서 사용할 수 없는 앱 인터페이스 문제를 해결했습니다. 인터페이스 요소 &#39;이동됨&#39;의 클릭 영역에 맞게 변형된 앱 인터페이스를 클릭할 수 없습니다.<!-- CQ-4280785 -->
 
 **앱 v2.0.1의 업데이트**
 
 버그 수정 및 업데이트는 다음과 같습니다.
 
-* 경로 일치로 `%Temp%` 디렉토리를 구성하는 옵션을 `%APPDATA%` 허용합니다. <!-- CQ-4282665 -->
+* `%Temp%` 디렉토리를 `%APPDATA%` 경로와 일치하도록 구성하는 옵션을 허용합니다.<!-- CQ-4282665 -->
 
-* 사용자가 Okta SAML 인증을 통해 Experience Manager 작성자에 로그인할 수 있도록 허용 <!-- CQ-4278134 -->
+* 사용자가 Okta SAML 인증을 통해 Experience Manager 작성자에 로그인할 수 있도록 허용<!-- CQ-4278134 -->
 
 ## 설치 지침 {#installation-instructions-v2}
 
-To know how to install and configure the app, see [Install Experience Manager desktop app](install-upgrade.md).
+앱 설치 및 구성 방법을 알려면 [Experience Manager 데스크탑 앱 설치](install-upgrade.md)를 참조하십시오.
 
-If you are upgrading from a previous Experience Manager desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
+이전 Experience Manager 데스크탑 앱에서 업그레이드하는 경우 [업그레이드(이전 버전](install-upgrade.md#upgrade-from-previous-version)에서 업그레이드)에 나열된 전환 모범 사례를 따라야 합니다.
 
 ## 앱 작동 방식에 대한 중요한 참고 사항 {#how-app-works}
 
@@ -123,7 +123,7 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
    * 데스크탑의 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
 
-   * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
+   * Experience Manager에 업로드된 자산의 로컬 변경 사항을 가져오려면 개별적으로 또는 다중 선택을 통해 [!UICONTROL Upload Changes]을 선택해야 합니다.
 
    * 응용 프로그램은 데스크톱 및 Experience Manager 간에 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다.
 
@@ -145,9 +145,9 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 **사용자 인터페이스 문제:**
 
-* 때때로 데스크탑 앱의 인터페이스는 비어 있을 수 있습니다. Right-click and click [!UICONTROL Refresh] to re-load the application. 새로 고친 후에는 DAM 저장소의 루트에서 시작합니다. 자산의 업데이트 또는 상태는 유지됩니다. <!-- CQ-4270267 -->
+* 때때로 데스크탑 앱의 인터페이스는 비어 있을 수 있습니다. 마우스 오른쪽 버튼을 클릭하고 [!UICONTROL Refresh]을 클릭하여 애플리케이션을 다시 로드합니다. 새로 고친 후에는 DAM 저장소의 루트에서 시작합니다. 자산의 업데이트 또는 상태는 유지됩니다.<!-- CQ-4270267 -->
 
-* 트랙 패드나 마우스 포인터를 사용하지 않으면 폴더/검색 결과를 탐색하기가 어렵습니다. The scroll-bar might not appear with mouse devices without mouse wheel. <!-- CQ-4269947 -->
+* 트랙 패드나 마우스 포인터를 사용하지 않으면 폴더/검색 결과를 탐색하기가 어렵습니다. 마우스 휠이 없으면 스크롤 막대가 표시되지 않을 수 있습니다.<!-- CQ-4269947 -->
 
 * 자산 업로드가 변경될 때 진행률 표시줄이 제대로 표시되지 않는 경우가 가끔 있습니다.
 
@@ -159,7 +159,7 @@ If you are upgrading from a previous Experience Manager desktop app, you must fo
 
 * 잘못된 문자가 있어도 애플리케이션에서 파일 업로드를 시도하면 서버측 업로드가 실패할 수 있습니다. <!-- CQ-4273652 -->
 
-* 주석이 있는 자산에 변경 사항을 업로드할 때 주석은 Experience Manager의 자산에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 Experience Manager 6.4.5 및 Experience Manager 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치하는 것이 좋습니다. <!-- CQ-4268990 -->
+* 주석이 있는 자산에 변경 사항을 업로드할 때 주석은 Experience Manager의 자산에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 Experience Manager 6.4.5 및 Experience Manager 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치하는 것이 좋습니다.<!-- CQ-4268990 -->
 
 * 사용자가 자산 전송을 취소할 수 없습니다. 의도하지 않은 대용량 전송을 트리거한 경우 애플리케이션을 종료하고 다시 시작합니다. <!-- CQ-4278940 -->
 
