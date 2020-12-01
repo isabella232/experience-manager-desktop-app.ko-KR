@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# AEM 데스크탑 앱 v1.x 문제 해결 {#troubleshoot-aem-desktop-app}
+# AEM 데스크탑 앱 v1.x {#troubleshoot-aem-desktop-app} 문제 해결
 
 설치, 업그레이드, 구성 등과 관련된 가끔 발생하는 문제를 해결하려면 AEM 데스크탑 앱 문제를 해결하십시오.
 
@@ -25,9 +25,9 @@ Adobe Experience Manager(AEM) 데스크탑 앱에는 AEM Assets 저장소를 데
 
 ![데스크탑 앱 다이어그램](assets/aem-desktopapp-architecture.png)
 
-이 아키텍처를 통해 데스크탑 앱은 마운트된 네트워크 공유에 대한 파일 시스템 호출(열기, 닫기, 읽기, 쓰기 등)을 가로채서 AEM 서버에 대한 기본 AEM HTTP 호출로 변환합니다. 파일은 로컬에 캐시됩니다. 자세한 내용은 AEM [데스크탑 앱 v1.x 사용을 참조하십시오](use-app-v1.md).
+이 아키텍처를 통해 데스크탑 앱은 마운트된 네트워크 공유에 대한 파일 시스템 호출(열기, 닫기, 읽기, 쓰기 등)을 가로채서 AEM 서버에 대한 기본 AEM HTTP 호출로 변환합니다. 파일은 로컬에 캐시됩니다. 자세한 내용은 [AEM 데스크탑 앱 v1.x](use-app-v1.md) 사용을 참조하십시오.
 
-## AEM desktop app component overview {#desktop-app-component-overview}
+## AEM 데스크톱 앱 구성 요소 개요 {#desktop-app-component-overview}
 
 데스크탑 앱에는 다음 구성 요소가 포함되어 있습니다.
 
@@ -35,7 +35,7 @@ Adobe Experience Manager(AEM) 데스크탑 앱에는 AEM Assets 저장소를 데
 * **운영 체제 WebDAV/SMB 클라이언트**:Windows 탐색기/Finder 및 데스크탑 앱 간의 통신을 처리합니다. 파일을 불러오기, 생성, 수정, 삭제, 이동 또는 복사하면 OS(운영 체제) WebDAV/SMB 클라이언트는 이 작업을 데스크탑 앱으로 전달합니다. 통신을 수신한 후에 데스크탑 앱이 이를 기본 AEM 원격 API 호출로 변환합니다. 예를 들어, 사용자가 마운트된 디렉토리에 파일을 만드는 경우 WebDAV/SMB 클라이언트가 요청을 시작하면 데스크탑 앱이 DAM에서 파일을 만드는 HTTP 요청으로 변환됩니다. WebDAV/SMB 클라이언트는 OS에 내장된 구성 요소입니다. 어떤 식으로든 데스크탑 앱, AEM 또는 Adobe과 연계되어 있지 않습니다.
 * **Adobe Experience Manager 인스턴스**:AEM Assets DAM 저장소에 저장된 자산에 대한 액세스를 제공합니다. 또한, 마운트된 네트워크 공유와 상호 작용하는 로컬 데스크탑 애플리케이션을 대신하여 데스크탑 앱에서 요청한 작업을 수행합니다. 대상 AEM 인스턴스는 AEM 버전 6.1 이상을 실행해야 합니다. 이전 AEM 버전을 실행하는 AEM 인스턴스에는 추가 기능 팩과 핫픽스가 설치되어 제대로 작동해야 할 수 있습니다.
 
-## AEM 데스크탑 앱의 사용 사례 {#intended-use-cases-for-aem-desktop-app}
+## AEM 데스크톱 앱 {#intended-use-cases-for-aem-desktop-app}에 대한 사용 사례
 
 AEM 데스크탑 앱은 네트워크 공유 기술을 사용하여 원격 AEM 저장소를 로컬 데스크탑에 매핑합니다. 그러나 사용자가 로컬 데스크탑에서 직접 디지털 에셋 관리 작업을 수행하는 네트워크 공유 에셋을 대체할 목적이 아닙니다. 여기에는 여러 파일을 이동하거나 복사하거나, 큰 폴더 구조를 Finder/탐색기에서 직접 AEM Assets 네트워크 공유로 드래그하는 작업이 포함됩니다.
 
@@ -72,7 +72,7 @@ AEM Desktop은 다음을 포괄적으로 포함하는 강도 높은 파일 시�
 
 Experience Manager 데스크톱 앱에는 고정 시간 간격 이후 Experience Manager 서버와 데스크톱 앱 간의 연결을 연결하는 구성 가능한 시간 초과 값이 없습니다. 대용량 자산을 업로드할 때 잠시 후 연결이 시간 초과되면 업로드 시간 초과를 늘려 자산을 몇 번 업로드하기 위해 앱이 재시도합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
-## AEM을 사용한 캐싱 및 커뮤니케이션 {#caching-and-communication-with-aem}
+## AEM {#caching-and-communication-with-aem}을(를) 사용한 캐싱 및 통신
 
 AEM 데스크탑 앱은 최종 사용자 경험을 향상시키는 내부 캐싱 및 백그라운드 업로드 기능을 제공합니다. 대용량 파일을 저장할 때 로컬에 저장되므로 작업을 계속할 수 있습니다. 이후(현재 30초) 파일은 백그라운드에서 AEM 서버로 전송됩니다.
 
@@ -96,7 +96,7 @@ Creative Cloud 데스크탑 또는 기타 파일 동기화 솔루션과 달리 M
 
 ## 개별 작업 {#individual-operations}
 
-개별 사용자에 대해 하위 최적화 성능을 문제 해결할 때 먼저 제한 사항을 [검토하십시오](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations). 그 다음 섹션에는 개별 사용자에 대한 성능 향상을 위한 제안이 포함되어 있습니다.
+개별 사용자에 대해 하위 최적화 성능을 문제 해결할 때 먼저 [제한 사항](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations)을 검토하십시오. 그 다음 섹션에는 개별 사용자에 대한 성능 향상을 위한 제안이 포함되어 있습니다.
 
 ## 대역폭 권장 사항 {#bandwidth-recommendations}
 
@@ -104,11 +104,11 @@ Creative Cloud 데스크탑 또는 기타 파일 동기화 솔루션과 달리 M
 
 Adobe은 개별 사용자의 업로드 속도가 10Mbps에 가까운 것으로 권장합니다. 무선 연결의 경우 대역폭을 여러 사용자 간에 공유하는 경우가 많습니다. 여러 사용자가 네트워크 대역폭을 사용하는 작업을 동시에 수행하는 경우 성능이 더 저하될 수 있습니다. 이러한 문제를 방지하려면 유선 연결을 사용하십시오.
 
-## Windows별 구성 {#windows-specific-configurations}
+## Windows 특정 구성 {#windows-specific-configurations}
 
-Windows에서 AEM을 실행하는 경우 WebDAV 클라이언트의 성능을 향상시키도록 Windows를 구성할 수 있습니다. 자세한 내용은 https://support.microsoft.com/en-us/kb/2445570을 [참조하십시오](https://support.microsoft.com/en-us/kb/2445570).
+Windows에서 AEM을 실행하는 경우 WebDAV 클라이언트의 성능을 향상시키도록 Windows를 구성할 수 있습니다. 자세한 내용은 [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570)로 이동하십시오.
 
-Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있습니다. 자세한 내용은 Windows 7에서 느린 WebDAV 성능을 [수정하는 방법을 참조하십시오](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
+Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있습니다. 자세한 내용은 Windows 7[에서 느린 WebDAV 성능 수정 방법을 참조하십시오.](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)
 
 ## 동시 작업 {#concurrent-operations}
 
@@ -130,23 +130,23 @@ Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있�
 
 여러 사용자가 동시에 작업할 때 WebDAV/SMB 성능이 크게 저하되는 경우 AEM에서 몇 가지 사항을 구성하여 성능을 향상시킬 수 있습니다.
 
-## 일시적인 에셋 업데이트 워크플로우 {#update-asset-transient-workflows}
+## 자산 임시 워크플로 업데이트 {#update-asset-transient-workflows}
 
 DAM 자산 업데이트 워크플로우에 대해 일시적인 워크플로우를 활성화하여 AEM 측에서도 성능을 향상시킬 수 있습니다. 일시적인 워크플로우를 사용하면 AEM에서 에셋을 만들거나 수정할 때 에셋을 업데이트하는 데 필요한 처리 능력이 줄어듭니다.
 
-1. 구성할 AEM 인스턴스 `/miscadmin` (예: `http://[Server]:[Port]/miscadmin`)로 이동합니다.
-1. 탐색 트리에서 **도구** > **워크플로우** > **모델** > **** dam을확장합니다.
-1. DAM 자산 **업데이트를 두 번 클릭합니다**.
-1. 부동 도구 패널에서 **페이지** 탭으로 이동한 다음 **페이지 속성을 클릭합니다**.
-1. 임시 워크플로우 **확인란을** 선택하고 확인을 **클릭합니다**.
+1. 구성할 AEM 인스턴스의 `/miscadmin`으로 이동합니다(예: `http://[Server]:[Port]/miscadmin`).
+1. 탐색 트리에서 **도구** > **워크플로우** > **모델** > **dam**&#x200B;을 확장합니다.
+1. **DAM 자산 업데이트**&#x200B;를 두 번 클릭합니다.
+1. 부동 도구 패널에서 **페이지** 탭으로 전환한 다음 **페이지 속성**&#x200B;을 클릭합니다.
+1. **임시 워크플로** 확인란을 선택하고 **확인**&#x200B;을 클릭합니다.
 
 ### Granite Transient 워크플로 큐 조정 {#adjust-granite-transient-workflow-queue}
 
 [MOCK] Another method for improved AEM performance is to configure the maximum parallel job for the Granite Temporary Workflow Queue job. 권장 값은 서버에서 사용할 수 있는 CPU의 약 절반 수입니다. 값을 조정하려면 다음 단계를 수행하십시오.
 
-1. 구성할 AEM 인스턴스의 */system/console/configMgr* 로 이동합니다(예: `http://[aem_server]:[port]/system/console/configMgr`).
-1. QueueConfiguration **을**&#x200B;검색하고, [Granite Temporary Workflow Queue **작업]을 찾을 때까지 각 작업을 클릭하여** 엽니다. 옆에 있는 편집을 클릭합니다.
-1. [ **최대 병렬 작업** ] 값을 변경하고 [저장]을 **클릭합니다**.
+1. 구성할 AEM 인스턴스의 */system/console/configMgr*(예: `http://[aem_server]:[port]/system/console/configMgr`)로 이동합니다.
+1. **QueueConfiguration**&#x200B;을 검색하고 **Granite Temporary Workflow Queue** 작업을 찾을 때까지 각 작업을 클릭하여 엽니다. 옆에 있는 편집을 클릭합니다.
+1. **최대 병렬 작업** 값을 변경하고 **저장**&#x200B;을 클릭합니다.
 
 ## AWS 구성 {#aws-configuration}
 
@@ -154,11 +154,11 @@ DAM 자산 업데이트 워크플로우에 대해 일시적인 워크플로우�
 
 이 측정은 특히 서버에 사용할 수 있는 네트워크 대역폭의 양을 증가시킵니다. 다음은 자세한 사항입니다.
 
-* 인스턴스 크기가 증가하면 AWS 인스턴스에 전용 네트워크 대역폭이 증가합니다. 각 인스턴스 크기에 사용할 수 있는 대역폭에 대한 자세한 내용은 [AWS 설명서를 참조하십시오](https://aws.amazon.com/ec2/instance-types/).
+* 인스턴스 크기가 증가하면 AWS 인스턴스에 전용 네트워크 대역폭이 증가합니다. 각 인스턴스 크기에 사용할 수 있는 대역폭에 대한 자세한 내용은 [AWS 설명서](https://aws.amazon.com/ec2/instance-types/)를 참조하십시오.
 * 큰 클라이언트에 대한 문제 해결 시, Adobe은 AEM 인스턴스의 크기를 c4.8xlarge로 구성했는데, 이는 주로가 제공하는 전용 대역폭의 4000Mbps에 해당됩니다.
 * AEM 인스턴스 앞에 디스패처가 있으면 적절한 크기인지 확인합니다. AEM 인스턴스가 4000Mbps를 제공하지만 발송자가 500Mbps만 제공하는 경우 유효 대역폭은 500Mbps입니다. 디스패처가 네트워크 병목 현상을 만들기 때문입니다.
 
-## 체크 아웃 파일 제한 {#checked-out-file-limitations}
+## 체크 아웃된 파일 제한 사항 {#checked-out-file-limitations}
 
 탐색기/파인더를 통해 체크 아웃된 파일과 상호 작용할 수 있는 방법에는 몇 가지 알려진 제한 사항이 있습니다. 파일을 체크 아웃한 경우 해당 파일을 체크 아웃한 사용자를 제외한 모든 사람이 파일을 읽기 전용으로 사용해야 합니다. AEM에서 WebDAV/SMB1 프로토콜을 구현하면 이 규칙이 적용됩니다. 그러나 OS WebDAV/SMB 클라이언트는 체크 아웃된 파일과 상호 작용하지 않는 경우가 많습니다. 일부 문서는 아래에 설명되어 있습니다.
 
@@ -217,16 +217,16 @@ AEM Desktop은 지정된 파일을 세 번 동기화하려고 시도합니다. �
 
 이 상황을 해결하는 가장 간단한 방법은 충돌하는 파일을 열고 다시 저장하는 것입니다. AEM Desktop이 추가로 세 번 동기화를 시도하도록 합니다. 파일을 동기화하지 못하는 경우 아래 섹션을 참조하십시오.
 
-## AEM 데스크탑 캐시 지우기 {#clearing-aem-desktop-cache}
+## AEM 데스크톱 캐시 지우기 {#clearing-aem-desktop-cache}
 
 AEM Desktop의 캐시를 지우는 것은 여러 AEM Desktop 문제를 해결할 수 있는 예비 문제 해결 작업입니다.
 
 다음 위치에서 응용 프로그램의 캐시 디렉토리를 삭제하여 캐시를 지울 수 있습니다.
-Windows에서는 `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+Windows에서 `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-Mac에서는 `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+Mac에서 `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
-그러나 AEM Desktop에서 구성한 AEM 끝점에 따라 위치가 변경될 수 있습니다. 값은 타깃팅된 URL의 인코딩 버전입니다. 예를 들어 응용 프로그램이 타깃팅하는 경우 디렉토리 이름 `http://localhost:4502`은 입니다 `http%3A%2F%2Flocalhost%3A4502%2F`.
+그러나 AEM Desktop에서 구성한 AEM 끝점에 따라 위치가 변경될 수 있습니다. 값은 타깃팅된 URL의 인코딩 버전입니다. 예를 들어 응용 프로그램이 `http://localhost:4502`을(를) 타깃팅하는 경우 디렉토리 이름은 `http%3A%2F%2Flocalhost%3A4502%2F`입니다.
 
 캐시를 지우려면 &lt;인코딩된 AEM 끝점> 디렉터리를 삭제합니다.
 
@@ -238,13 +238,13 @@ Mac에서는 `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 >
 >AEM 데스크톱 앱 버전 1.5부터 데스크톱 앱 UI에 캐시를 지우라는 옵션이 있습니다.
 
-## AEM 데스크탑 버전 찾기 {#finding-the-aem-desktop-version}
+## AEM 데스크톱 버전 {#finding-the-aem-desktop-version} 찾기
 
 AEM 데스크탑 버전을 확인하는 절차는 Windows 및 Mac OS에서도 동일합니다.
 
-AEM Desktop 아이콘을 클릭한 다음 **정보를 선택합니다**. 버전 번호가 화면에 표시됩니다.
+AEM 데스크톱 아이콘을 클릭한 다음 **정보**&#x200B;를 선택합니다. 버전 번호가 화면에 표시됩니다.
 
-## macOS에서 AEM 데스크탑 앱 업그레이드 {#upgrading-aem-desktop-app-on-macos}
+## macOS {#upgrading-aem-desktop-app-on-macos}에서 AEM 데스크탑 앱 업그레이드
 
 macOS에서 AEM 데스크탑 앱을 업그레이드할 때 가끔 문제가 발생할 수 있습니다. AEM 데스크탑 앱용 레거시 시스템 폴더에서 AEM Desktop의 새 버전이 올바르게 로드되지 않기 때문입니다. 이 문제를 해결하려면 다음 폴더 및 파일을 수동으로 제거할 수 있습니다.
 
@@ -259,7 +259,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## 다른 사람이 체크 아웃한 파일 저장 {#saving-a-file-checked-out-by-others}
+## 다른 사용자가 체크 아웃한 파일 저장 {#saving-a-file-checked-out-by-others}
 
 운영 체제의 기술적 제한으로 인해 사용자가 다른 사람이 체크 아웃한 파일을 덮어쓸 때 일관된 경험을 제공하지 못합니다. 체험판은 체크 아웃된 파일을 편집하는 데 사용되는 애플리케이션에 따라 다릅니다. 디스크 쓰기 실패를 나타내는 오류 메시지가 표시되거나 관련되지 않은 것처럼 보이는 오류 또는 일반 오류가 표시됩니다. 다른 경우에는 오류 메시지가 표시되지 않고 작업이 성공한 것으로 표시됩니다.
 
@@ -269,7 +269,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## 파일 이동 문제 해결 {#troubleshooting-problems-around-moving-files}
 
-이동 및 복사 작업이 작동하려면 서버 API에 추가 헤더, X-Destination, X-Depth 및 X-Overwrite가 필요합니다. 디스패처는 기본적으로 이러한 헤더를 전달하지 않으므로 이러한 작업이 실패합니다. 자세한 내용은 디스패처 [에서 AEM에 연결을 참조하십시오](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+이동 및 복사 작업이 작동하려면 서버 API에 추가 헤더, X-Destination, X-Depth 및 X-Overwrite가 필요합니다. 디스패처는 기본적으로 이러한 헤더를 전달하지 않으므로 이러한 작업이 실패합니다. 자세한 내용은 [디스패처 뒤에 있는 AEM에 연결](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)을 참조하십시오.
 
 ## AEM 데스크톱 연결 문제 해결 {#troubleshooting-aem-desktop-connection-issues}
 
@@ -278,23 +278,23 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 AEM Desktop에서 SSO 지원(SAML) AEM 인스턴스에 연결하는 문제가 발생하는 가장 일반적인 이유는 SAML 프로세스가 원래 요청된 경로로 다시 리디렉션되지 않기 때문입니다. 또는 AEM 데스크탑에 구성되지 않은 호스트로 연결이 리디렉션될 수 있습니다. 로그인 프로세스를 확인하려면 다음 단계를 수행합니다.
 
 1. 웹 브라우저를 엽니다.
-1. 주소 표시줄에서 URL을 지정합니다 `/content/dam.json`.
-1. 예를 들어 URL을 대상 AEM 인스턴스로 바꿉니다 `http://localhost:4502/content/dam.json`.
+1. 주소 표시줄에서 URL `/content/dam.json`을 지정합니다.
+1. URL을 대상 AEM 인스턴스로 바꿉니다(예: `http://localhost:4502/content/dam.json`).
 1. AEM에 로그온합니다.
 1. 로그인한 후 주소 표시줄에서 브라우저의 현재 주소를 확인합니다. 처음 입력한 URL과 일치해야 합니다.
-1. 이전의 모든 내용이 AEM Desktop에 구성된 대상 AEM 값과 `/content/dam.json` 일치하는지 확인합니다.
+1. `/content/dam.json` 이전의 모든 항목이 AEM Desktop에 구성된 대상 AEM 값과 일치하는지 확인합니다.
 
 ### SSL 구성 문제 {#ssl-configuration-issue}
 
-AEM 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 경우에 따라 브라우저 사용에 성공하지만 AEM 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절하게 구성하려면 Apache에 누락된 중간 인증서를 설치합니다. Apache [에서 중간 CA 인증서를 설치하는 방법을 참조하십시오](https://access.redhat.com/solutions/43575).
+AEM 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 경우에 따라 브라우저 사용에 성공하지만 AEM 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절하게 구성하려면 Apache에 누락된 중간 인증서를 설치합니다. Apache[에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.](https://access.redhat.com/solutions/43575)
 
-## 디스패처와 함께 AEM Desktop 사용 {#using-aem-desktop-with-dispatcher}
+## AEM Desktop 사용 및 디스패처 {#using-aem-desktop-with-dispatcher}
 
-AEM Desktop은 AEM 서버에 대한 기본 및 권장 구성인 디스패처 뒤에 있는 AEM 배포과 연동됩니다. AEM 제작 환경 앞에 있는 AEM 디스패처는 일반적으로 DAM 에셋 캐싱을 생략하도록 구성되어 있습니다. 따라서 디스패처에서는 AEM Desktop 관점에서는 추가 캐싱을 제공하지 않습니다. 디스패처 구성이 AEM Desktop에서 작동하도록 조정되었는지 확인합니다. 자세한 내용은 디스패처 [에서 AEM에 연결을 참조하십시오](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+AEM Desktop은 AEM 서버에 대한 기본 및 권장 구성인 디스패처 뒤에 있는 AEM 배포과 연동됩니다. AEM 제작 환경 앞에 있는 AEM 디스패처는 일반적으로 DAM 에셋 캐싱을 생략하도록 구성되어 있습니다. 따라서 디스패처에서는 AEM Desktop 관점에서는 추가 캐싱을 제공하지 않습니다. 디스패처 구성이 AEM Desktop에서 작동하도록 조정되었는지 확인합니다. 자세한 내용은 [디스패처 뒤에 AEM에 연결](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)을 참조하십시오.
 
-## 로그 파일 확인 {#checking-for-log-files}
+## 로그 파일 확인 중 {#checking-for-log-files}
 
 운영 체제에 따라 다음 위치에서 AEM Desktop용 로그 파일을 찾을 수 있습니다.
 
 * Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-* Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Mac:`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
