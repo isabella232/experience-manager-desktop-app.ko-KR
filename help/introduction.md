@@ -14,7 +14,7 @@ ht-degree: 67%
 ---
 
 
-# Adobe Experience Manager desktop app overview {#overview-v2}
+# Adobe Experience Manager 데스크탑 앱 개요 {#overview-v2}
 
 Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생산성을 높일 수 있도록 전체 솔루션에 연결된 워크플로우를 제공합니다. Adobe Experience Manager 데스크탑 앱에서는 저장소와 데스크탑 애플리케이션(Adobe 및 타사 포함)을 연결하여 리소스 액세스 시간을 단축하고 워크플로우를 간소화합니다. 따라서 데스크탑 워크플로우에서 Adobe Experience Manager의 자산으로 작업하는 사용자의 효율성을 개선하는 시간이 절약되고 노력이 감소합니다.
 
