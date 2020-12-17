@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 33%
+source-wordcount: '1432'
+ht-degree: 32%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 33%
 
 | 제품 | Adobe Experience Manager 데스크탑 앱 |
 |--- |--- |
-| 앱 버전(개정) | 2.0 (2.0.3.2) |
-| 지원되는 Experience Manager 버전 | Cloud Service Experience ManagerExperience Manager 6.5;Experience Manager 6.4;Experience Manager 6.3(호환성 패키지 포함) |
+| 앱 버전(개정) | 2.1 (2.1.0.0) |
+| 지원되는 [!DNL Adobe Experience Manager] 버전 | [!DNL Experience Manager] as a  [!DNL Cloud Service]; [!DNL Experience Manager] 6.5 [!DNL Experience Manager] 6.4 [!DNL Experience Manager] 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
 | 릴리스 날짜 | 2020년 8월 27일 (Mac 및 Win) |
-| 다운로드 URL | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
+| 다운로드 URL | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
 
@@ -42,18 +42,18 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 
 이 앱은 Cloud Service, AMS(Adobe Managed Services) 또는 온-프레미스 중 어느 것이든 다음 Experience Manager 버전에서 작동합니다.
 
-* [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
+* [[!DNL Experience Manager] 를 [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html) 참조하십시오.
 
-* [Experience Manager 6.5.0 ](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) 이상
+* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) 이상
 
-* [Experience Manager 6.4.4 ](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 이상
+* [[!DNL Experience Manager] 6.4.4 ](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 이상.
 
-* Experience Manager 6.4.0 - [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)이(가) 있는 6.4.3.
+* [!DNL Experience Manager] 6.4.0 - 6.4.3  [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 포함
 
 >[!NOTE]
 >
->Experience Manager 6.3에 대한 데스크탑 앱 지원은 더 이상 사용되지 않습니다. Adobe은 지원되는 최신 Adobe Experience Manager 버전으로 업그레이드할 것을 권장합니다.
->Experience Manager 6.3.3.1 이상 버전은 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)을(를) 설치한 후 데스크탑 앱에서 작동합니다. [서비스 팩이 계획되지 않았으므로 Experience Manager 6.3에 사용할 수 있는 패키지가 없습니다](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3에 대한 데스크탑 앱 지원은 더 이상 사용되지 않습니다. Adobe은 지원되는 최신 [!DNL Adobe Experience Manager] 버전으로 업그레이드할 것을 권장합니다.
+>[!DNL Experience Manager] 6.3.3.1 이상 버전은 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)을(를) 설치한 후 데스크탑 앱에서 작동합니다. [서비스 팩이 계획되지 않았으므로 Experience Manager 6.3에 사용할 수 있는 패키지가 없습니다](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html).
 
 앱 버전을 로컬 컴퓨터에 설치하려면 특정 Adobe Experience Manager 서버 버전/서버측 추가 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. Adobe Experience Manager 관리자에게 도움을 요청하십시오.
 
@@ -80,6 +80,10 @@ Adobe Experience Manager 데스크탑 앱은 다음 운영 체제와 호환됩�
 ## 새로운 기능 및 향상된 기능 {#whats-new-added}
 
 자세한 내용은 [v2.0](introduction.md#whats-new-v2)의 새로운 기능을 참조하십시오.
+
+**앱 v2.1.0.0 업데이트**
+
+* 이제 사용자는 에셋을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 바로 응용 프로그램 인터페이스에 있는 파일이나 폴더를 드래그할 수 있습니다. 이는 이전에 애플리케이션에서 사용할 수 있었던 업로드 옵션 외에도 적용됩니다.
 
 **앱 v2.0.3 업데이트**
 
