@@ -3,9 +3,9 @@ title: Adobe Experience Manager 데스크탑 앱 사용
 description: Win 또는 Mac 데스크탑에서 바로 Adobe Experience Manager 데스크탑 앱을 설치하고 사용하여 Adobe Experience Manager DAM 자산에서 작업하는 방법을 살펴봅니다. 우수 사례 및 문제 해결 정보를 알아봅니다.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '4022'
+source-wordcount: '4028'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ Experience Manager 데스크탑 앱을 사용하여 수행하는 주요 작업�
 
 ## Experience Manager {#upload-and-add-new-assets-to-aem}에 새 에셋 업로드 및 추가
 
-사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어 사진촬영에서 Experience Manager 저장소에 많은 수의 사진을 추가하려는 에이전시 사진 작가 또는 계약업체일 수 있습니다. Experience Manager에 새 콘텐츠를 추가하려면 앱의 상단 표시줄에 있는 ![클라우드에 업로드 아이콘](assets/do-not-localize/upload_to_cloud_da2.png)을 클릭합니다. 로컬 파일 시스템에서 에셋 파일을 찾아 **[!UICONTROL Select]**&#x200B;을 클릭합니다. 앱이 자산 업로드를 시작하고 자산을 업로드하는 데 시간이 더 오래 걸리는 경우 하단에 진행률 표시줄을 표시합니다. 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [ [!DNL Assets]에서 폴더 만들기에 있는 문자 목록을 참조하십시오.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)
+사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어 사진 촬영 시 [!DNL Experience Manager] 저장소에 많은 수의 사진을 추가하려는 에이전시 사진 작가 또는 계약업체일 수 있습니다. 새 콘텐츠를 [!DNL Experience Manager]에 추가하려면 앱의 상단 막대에서 ![클라우드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)에 업로드를 선택합니다. 로컬 파일 시스템에서 에셋 파일을 찾아 **[!UICONTROL Select]**&#x200B;을 클릭합니다. 또는 응용 프로그램 인터페이스에서 파일이나 폴더를 드래그합니다. 앱이 자산 업로드를 시작합니다. 업로드가 더 오래 걸리는 경우 앱은 맨 아래에 진행률 표시줄을 표시합니다. 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [ [!DNL Assets]에서 폴더 만들기에 허용되는 문자 목록을 참조하십시오.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
