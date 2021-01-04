@@ -1,25 +1,18 @@
 ---
-title: Adobe Experience Manager 데스크탑 앱 문제 해결에 대한 우수 사례
+title: '데스크톱 응용 프로그램에 대한 우수 사례 및 문제 해결 [!DNL Adobe Experience Manager] '
 description: 모범 사례 및 문제 해결을 따라 설치, 업그레이드, 구성 등과 관련하여 가끔 발생하는 문제를 해결합니다.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2120'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Experience Manager 데스크톱 앱 문제 해결 {#troubleshoot-v2}
+# [!DNL Adobe Experience Manager] 데스크톱 앱 {#troubleshoot-v2} 문제 해결
 
-Adobe Experience Manager 데스크탑 앱은 원격 Experience Manager 배포의 DAM(Digital Asset Management) 저장소에 연결됩니다. 이 앱은 시스템에 저장소 정보 및 검색 결과를 가져오고, 파일 및 폴더를 다운로드 및 업로드하며, 자산 사용자 인터페이스와 충돌을 관리하는 기능을 포함합니다.
+[!DNL Adobe Experience Manager] 데스크탑 앱은 배포의  [!DNL Experience Manager] DAM(Digital Asset Management) 저장소에 연결됩니다. 이 앱은 시스템에 저장소 정보 및 검색 결과를 가져오고, 파일 및 폴더를 다운로드 및 업로드하며, 자산 사용자 인터페이스와 충돌을 관리하는 기능을 포함합니다.
 
 앱 문제를 해결하고 모범 사례에 대해 알아보고 제한 사항을 확인하십시오.
 
@@ -27,23 +20,23 @@ Adobe Experience Manager 데스크탑 앱은 원격 Experience Manager 배포의
 
 몇 가지 일반적인 문제 및 문제 해결을 방지하려면 다음 우수 사례를 따르십시오.
 
-* **데스크탑 앱의 작동** 방식 이해:애플리케이션을 사용하기 전에 앱이 작동하는 방식을 알기 위해 잠시 시간을 할애하십시오. Experience Manager 웹 인터페이스와 데스크탑 간 연결, 저장소 매핑, 에셋 캐싱, 로컬에 저장, 백그라운드에서 업로드 등에 대해 알아보십시오. [작동 방식](release-notes.md#how-app-works)을 참조하십시오.
+* **데스크탑 앱의 작동** 방식 이해:애플리케이션을 사용하기 전에 앱이 작동하는 방식을 알기 위해 잠시 시간을 할애하십시오. [!DNL Experience Manager] 웹 인터페이스와 데스크탑 간 연결, 저장소 매핑, 에셋 캐싱, 로컬에 저장, 백그라운드에서 업로드 등에 대해 알아보십시오. [작동 방식](release-notes.md#how-app-works)을 참조하십시오.
 
-* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [Experience Manager 자산에 폴더 만들기](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)의 문자 목록을 참조하십시오. 일부 Adobe Experience Manager 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
+* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [ [!DNL Experience Manager Assets]에서 폴더 만들기에 있는 문자 목록을 참조하십시오. ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders) 일부 [!DNL Experience Manager] 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
 
 * **충돌을 방지하기 위한 우수 사례**:여러 에셋에서 공동 작업할 때 발생할 수 있는 충돌을 방지하려면 편집 충돌 [을 방지하십시오](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **대용량 계층적 폴더에 대해 폴더 업로드 사용**:자산 웹 인터페이스나 다른 방법을 사용하는 대신 Experience Manager 데스크탑 앱을 사용하여 큰 폴더를 업로드합니다. 앱은 로깅 및 모니터링을 통해 백그라운드에서 자산을 업로드합니다. [자산 일괄 업로드](using.md#bulk-upload-assets)를 참조하십시오.
+* **대용량 계층적 폴더에 대해 폴더 업로드 사용**:자산 웹 인터페이스나 다른 방법을 사용하는 대신  [!DNL Experience Manager] 데스크탑 앱을 사용하여 큰 폴더를 업로드합니다. 앱은 로깅 및 모니터링을 통해 백그라운드에서 자산을 업로드합니다. [자산 일괄 업로드](using.md#bulk-upload-assets)를 참조하십시오.
 
-* **최신 버전** 사용:최신 앱 버전을 사용하고 새 앱 버전을 설치하거나 최신 Adobe Experience Manager 버전으로 업그레이드하기 전에 항상 호환성을 확인하십시오. [릴리스 노트](release-notes.md)를 참조하십시오.
+* **최신 버전** 사용:최신 앱 버전을 사용하고 새 앱 버전을 설치하거나 최신 버전으로 업그레이드하기 전에 항상 호환성을  [!DNL Experience Manager] 확인하십시오. [릴리스 노트](release-notes.md)를 참조하십시오.
 
-* **동일한 드라이브 문자** 사용:조직에서 동일한 드라이브 문자를 사용하여 Adobe Experience Manager DAM에 매핑합니다. 다른 사용자가 배치한 자산을 보려면 경로가 동일해야 합니다. 동일한 드라이브 문자를 사용하면 DAM 자산에 대한 경로를 일관되게 유지할 수 있습니다. 다른 사용자가 다른 드라이브 문자를 사용하더라도 에셋은 배치된 상태로 유지되며 제거되지 않습니다.
+* **동일한 드라이브 문자** 사용:조직 전체에서 동일한 드라이브 문자를 사용하여  [!DNL Experience Manager] DAM에 매핑합니다. 다른 사용자가 배치한 자산을 보려면 경로가 동일해야 합니다. 동일한 드라이브 문자를 사용하면 DAM 자산에 대한 경로를 일관되게 유지할 수 있습니다. 다른 사용자가 다른 드라이브 문자를 사용하더라도 에셋은 배치된 상태로 유지되며 제거되지 않습니다.
 
-* **네트워크**:네트워크 성능은 Experience Manager 데스크탑 앱의 성능에 매우 중요합니다. 파일 전송 또는 벌크 작업에 대한 응답이 느려지면 네트워크 트래픽이 많을 수 있는 기능이나 앱을 끕니다.
+* **네트워크**:네트워크 성능은  [!DNL Experience Manager] 데스크탑 앱 성능에 매우 중요합니다. 파일 전송 또는 벌크 작업에 대한 응답이 느려지면 네트워크 트래픽이 많을 수 있는 기능이나 앱을 끕니다.
 
 * **데스크탑 앱에 지원되지 않는 사용 사례**:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구가 필요함).대량의 DAM 작업(큰 폴더 이동, 큰 업로드, 고급 메타데이터 검색을 사용한 파일 찾기 등);동기화 클라이언트로 사용하십시오(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 in-sync 클라이언트와 다름).
 
-* **시간 초과**:현재, 데스크톱 앱에는 고정 시간 간격 이후 Experience Manager 서버와 데스크톱 앱 간의 연결을 끊는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후 연결이 시간 초과되면 업로드 시간 초과를 증가시켜 앱이 자산을 몇 번 업로드하도록 다시 시도합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
+* **시간 초과**:현재, 데스크톱 앱에는 고정 시간 간격 이후 서버와 데스크톱 앱 간의 연결을  [!DNL Experience Manager] 연결하는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후 연결이 시간 초과되면 업로드 시간 초과를 증가시켜 앱이 자산을 몇 번 업로드하도록 다시 시도합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
 ## {#troubleshooting-prep} 문제 해결 방법
 
@@ -119,7 +112,7 @@ Windows에서 디버그 모드를 활성화하려면:
 
 다음 단계를 수행합니다.
 
-1. 응용 프로그램을 시작하고 Experience Manager 인스턴스를 연결합니다.
+1. 응용 프로그램을 시작하고 [!DNL Experience Manager] 인스턴스를 연결합니다.
 
 1. 오른쪽 위 모서리의 줄임표를 클릭하고 [!UICONTROL Preferences]을 선택하여 응용 프로그램의 기본 설정을 엽니다.
 
@@ -163,9 +156,9 @@ Windows에서 디버그 모드를 활성화하려면:
 
 * 파일 크기. 대용량 에셋을 다운로드하고 표시하는 데 시간이 오래 걸립니다.
 
-* 문자 일관성 향상 사용자나 다른 협력자가 Experience Manager DAM을 다른 드라이브 문자로 매핑하는 동안 에셋을 배치하면 가져온 에셋이 표시되지 않습니다.
+* 문자 일관성 향상 사용자나 다른 협력자가 [!DNL Experience Manager] DAM을 다른 드라이브 문자로 매핑하는 동안 에셋을 배치했다면 가져온 에셋이 표시되지 않습니다.
 
-* 권한. 가져온 자산을 가져올 권한이 있는지 확인하려면 Experience Manager 관리자에게 문의하십시오.
+* 권한. 가져온 자산을 가져올 권한이 있는지 확인하려면 [!DNL Experience Manager] 관리자에게 문의하십시오.
 
 ### 데스크톱 앱 사용자 인터페이스에서 파일을 편집해도 [!DNL Adobe Experience Manager] 즉시 {#changes-on-da-not-visible-on-aem}에 반영되지 않습니다.
 
@@ -173,7 +166,7 @@ Windows에서 디버그 모드를 활성화하려면:
 
 ### macOS {#issues-when-upgrading-on-macos}에서 업그레이드할 때 발생하는 문제
 
-macOS에서 Experience Manager 데스크탑 앱을 업그레이드할 때 간혹 문제가 발생할 수 있습니다. 이는 새 버전의 Experience Manager 데스크탑 앱이 올바로 로드되지 못하는 Experience Manager 데스크탑 앱용 레거시 시스템 폴더 때문에 발생합니다. 이 문제를 해결하려면 다음 폴더 및 파일을 수동으로 제거할 수 있습니다.
+macOS에서 [!DNL Experience Manager] 데스크탑 앱을 업그레이드할 때 간혹 문제가 발생할 수 있습니다. 이는 [!DNL Experience Manager] 데스크톱 앱에 대한 레거시 시스템 폴더 때문에 새 버전의 [!DNL Experience Manager] 데스크톱 앱이 올바로 로드되지 않습니다. 이 문제를 해결하려면 다음 폴더 및 파일을 수동으로 제거할 수 있습니다.
 
 다음 단계를 실행하기 전에 macOS 응용 프로그램 폴더의 `Adobe Experience Manager Desktop` 응용 프로그램을 휴지통으로 드래그합니다. 그런 다음 터미널을 열고 다음 명령을 실행하고 메시지가 표시되면 암호를 입력합니다.
 
@@ -188,7 +181,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### {#upload-fails} 파일을 업로드할 수 없습니다.
 
-Experience Manager 6.5.1 이상의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 업데이트는 [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하십시오.
+[!DNL Experience Manager] 6.5.1 이상 버전의 데스크톱 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 업데이트는 [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하십시오.
 
 ### [!DNL Experience Manager] 데스크탑 앱 연결 문제  {#connection-issues}
 
@@ -256,9 +249,9 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 #### SSL 구성 문제 {#ssl-config-v2}
 
-Experience Manager 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 때때로 브라우저 사용에 성공하지만 Experience Manager 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절히 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache[에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.](https://access.redhat.com/solutions/43575)
+엄격한 SSL 적용을 활용하는 HTTP 통신에 대해 [!DNL Experience Manager] 데스크톱 앱이 사용하는 라이브러리입니다. 때때로 브라우저 사용에 성공하지만 [!DNL Experience Manager] 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절히 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache[에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.](https://access.redhat.com/solutions/43575)
 
-Experience Manager Desktop에서 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 따라서 브라우저 간 SSL 연결에 [!DNL Adobe Experience Manager] 데스크탑 앱이 실패할 수 있습니다. 이 기능은 SSL의 올바른 구성을 권장하고 보안을 강화하지만 응용 프로그램이 연결할 수 없을 때 좌절감을 줄 수 있습니다.
+HTTP 통신을 위해 [!DNL Experience Manager] 데스크톱 앱이 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 따라서 브라우저 간 SSL 연결에 [!DNL Adobe Experience Manager] 데스크탑 앱이 실패할 수 있습니다. 이 기능은 SSL의 올바른 구성을 권장하고 보안을 강화하지만 응용 프로그램이 연결할 수 없을 때 좌절감을 줄 수 있습니다.
 
 이 경우 도구를 사용하여 서버의 SSL 인증서를 분석하고 문제를 식별하여 문제를 수정할 수 있는 것이 좋습니다. URL 제공에 대한 서버 인증서를 검사하는 웹 사이트가 있습니다.
 
