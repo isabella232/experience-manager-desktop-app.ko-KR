@@ -1,9 +1,8 @@
 ---
 title: ' [!DNL Experience Manager] 데스크탑 앱 버전 1.x를 사용합니다.'
 description: Adobe Experience Manager 데스크탑 앱 버전 1.x를 사용하고 데스크탑에 설치된 에셋으로 작업을 최적화하는 방법을 살펴봅니다.
-contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 0%
@@ -68,7 +67,7 @@ ht-degree: 0%
 
 ### 인앱 옵션 및 환경 설정 {#inapppref} 이해
 
-응용 프로그램에서는 [!DNL Experience Manager] 서버에 연결 및 연결을 해제하고, 업로드 상태를 보고, 로컬 캐시를 관리하는 등의 설정을 허용합니다. 기본 설정은 응용 프로그램의 일반 사용자에게 작동합니다. 설정을 수정하여 응용 프로그램에서 더 많은 정보를 얻고 [!DNL Experience Manager] 서버와의 통합에서 벗어날 수 있습니다. 다양한 설정에 대해서는 아래에 자세히 설명합니다.
+응용 프로그램에서는 [!DNL Experience Manager] 서버에 연결 및 연결을 해제하고, 업로드 상태를 보고, 로컬 캐시를 관리하는 등의 설정을 허용합니다. 기본 설정은 응용 프로그램의 일반적인 사용자에 대해 작동합니다. 설정을 수정하여 응용 프로그램에서 더 많은 정보를 얻고 [!DNL Experience Manager] 서버와의 통합에서 벗어날 수 있습니다. 다양한 설정에 대해서는 아래에 자세히 설명합니다.
 
 **자산** 탐색저장소가 마운트된 로컬  [!DNL Assets] 드라이브를 엽니다. 즉, 로컬 시스템에서 사용 가능한 에셋을 살펴보십시오.
 
