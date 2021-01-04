@@ -1,35 +1,28 @@
 ---
-title: Adobe Experience Manager 데스크탑 앱 설치 및 구성
-description: Adobe Experience Manager Assets 서버와 연동되고 로컬 파일 시스템에서 에셋을 다운로드할 수 있도록 Adobe Experience Manager 데스크탑 앱을 설치하고 구성합니다.
-uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-035719422740
-index: y
-internal: n
-snippet: y
+title: '데스크톱 앱 설치 및 구성 [!DNL Adobe Experience Manager] '
+description: '서버를 설치 및 구성하고 로컬 파일 시스템에 자산을 다운로드합니다. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1162'
 ht-degree: 1%
 
 ---
 
 
-# Adobe Experience Manager 데스크톱 앱 {#install-app-v2} 설치
+# [!DNL Adobe Experience Manager] 데스크탑 앱 {#install-app-v2} 설치
 
-Adobe Experience Manager 데스크탑 앱을 사용하면 Experience Manager 내의 에셋을 로컬 데스크탑에서 손쉽게 이용할 수 있으며 모든 기본 데스크탑 애플리케이션에서 사용할 수 있습니다. 에셋은 미리 보거나 기본 데스크톱 응용 프로그램에서 열 수 있으며, Mac Finder 또는 Windows 탐색기에서 다른 문서에 배치하기 위해 표시하거나 로컬로 변경할 수 있습니다. 업로드하면 변경 내용이 다시 Experience Manager에 저장되고 저장소에 새 버전이 만들어집니다.
+[!DNL Adobe Experience Manager] 데스크탑 앱을 사용하면 [!DNL Experience Manager] 내의 에셋을 로컬 데스크탑에서 쉽게 사용할 수 있으며 모든 기본 데스크탑 애플리케이션에서 사용할 수 있습니다. 에셋은 미리 보거나 기본 데스크톱 응용 프로그램에서 열 수 있으며 다른 문서에 배치하기 위해 Mac Finder 또는 Windows 탐색기에 표시되며 로컬에서 변경할 수 있습니다. 업로드하면 변경 내용이 다시 [!DNL Experience Manager]에 저장되고 저장소에 새 버전이 만들어집니다.
 
 이러한 통합을 통해 조직의 다양한 역할이
 
-* Experience Manager 자산에 있는 자산을 중앙에서 관리합니다.
+* [!DNL Experience Manager Assets]에서 중앙에서 자산을 관리합니다.
 
 * 제3자 응용 프로그램 및 Adobe Creative Cloud을 비롯한 모든 기본 데스크탑 응용 프로그램의 에셋에 액세스합니다. 이렇게 하면 브랜딩을 비롯한 다양한 표준을 쉽게 준수할 수 있습니다.
 
-Experience Manager 데스크탑 앱을 사용하려면
+[!DNL Experience Manager] 데스크탑 앱을 사용하려면
 
-* Experience Manager 버전이 Experience Manager 데스크탑 앱에서 지원되는지 확인하십시오. 아래의 [시스템 요구 사항](release-notes.md#system-requirements-and-prerequisites-v2)을 참조하십시오.
+* [!DNL Experience Manager] 버전이 [!DNL Experience Manager] 데스크탑 앱에서 지원되는지 확인하십시오. 아래의 [시스템 요구 사항](release-notes.md#system-requirements-and-prerequisites-v2)을 참조하십시오.
 
 * 애플리케이션을 다운로드하여 설치합니다. 아래의 [데스크탑 앱 설치](#install-v2)를 참조하십시오.
 
@@ -37,7 +30,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 ## 시스템 요구 사항, 사전 요구 사항 및 다운로드 링크 {#tech-specs-v2}
 
-자세한 내용은 [Experience Manager 데스크탑 앱 릴리스 노트](release-notes.md)를 참조하십시오.
+자세한 내용은 [[!DNL Experience Manager] 데스크탑 앱 릴리스 노트](release-notes.md)를 참조하십시오.
 
 ## 이전 버전 {#upgrade-from-previous-version}에서 업그레이드
 
@@ -49,7 +42,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 이전 버전의 앱에서 업그레이드하려면 다음 지침을 따르십시오.
 
-1. 업그레이드하기 전에 모든 자산을 동기화하고 변경 사항을 Experience Manager에 업로드합니다. 이는 앱을 제거할 때 편집된 내용이 손실되지 않도록 하기 위한 것입니다.
+1. 업그레이드하기 전에 모든 자산을 동기화하고 변경 내용을 [!DNL Experience Manager]에 업로드합니다. 이는 앱을 제거할 때 편집된 내용이 손실되지 않도록 하기 위한 것입니다.
 
 1. 이전 버전의 앱을 제거합니다. 제거할 때 캐시를 지우려면 옵션을 선택합니다.
 
@@ -59,15 +52,15 @@ Experience Manager 데스크탑 앱을 사용하려면
 
 ##  설치 {#install-v2}
 
-데스크탑 앱을 설치하려면 다음 단계를 따르십시오. 최신 앱을 설치하기 전에 기존 Adobe Experience Manager 데스크탑 앱 v1.x를 제거합니다. 자세한 내용은 상기를 참조하십시오.
+데스크탑 앱을 설치하려면 다음 단계를 따르십시오. 최신 앱을 설치하기 전에 기존 Adobe [!DNL Experience Manager] 데스크탑 앱 v1.x를 제거합니다. 자세한 내용은 상기를 참조하십시오.
 
 1. [릴리스 노트](release-notes.md) 페이지에서 최신 설치 프로그램을 다운로드합니다.
 
-1. Experience Manager 배포의 URL 및 자격 증명을 바로 사용할 수 있도록 보관하십시오.
+1. [!DNL Experience Manager] 배포의 URL 및 자격 증명을 바로 사용할 수 있도록 보관하십시오.
 
 1. 다른 버전의 앱에서 업그레이드하는 경우 [데스크탑 앱 업그레이드](#upgrade-from-previous-version)를 참조하십시오.
 
-1. Experience Manager을 Cloud Service, Experience Manager 6.4.4 이상 또는 Experience Manager 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. Experience Manager 설정이 [릴리스 노트](release-notes.md)에 명시된 호환성 요구 사항을 충족하는지 확인합니다. 필요한 경우 해당 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)를 다운로드하고 Experience Manager 패키지 관리자를 Experience Manager 관리자로 사용하여 설치합니다. 패키지를 설치하려면 [패키지 사용 방법](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)을 참조하십시오.
+1. [!DNL Experience Manager]을(를) [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 이상 또는 [!DNL Experience Manager] 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. [!DNL Experience Manager] 설정이 [릴리스 노트](release-notes.md)에 명시된 호환성 요구 사항을 충족하는지 확인합니다. 필요한 경우 해당 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)을 다운로드하고 [!DNL Experience Manager] 패키지 관리자를 [!DNL Experience Manager] 관리자로 사용하여 설치합니다. 패키지를 설치하려면 [패키지 사용 방법](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)을 참조하십시오.
 
 1. 설치 프로그램 바이너리를 실행하고 화면의 지침에 따라 설치합니다.
 
@@ -93,7 +86,7 @@ Experience Manager 데스크탑 앱을 사용하려면
 
    *그림:응용 프로그램에 로그인 후 DAM 내용이 표시됩니다.*
 
-1. (Experience Manager 6.5.1 이상) Experience Manager 6.5.1 이상 버전의 데스크톱 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [Azure 커넥터](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) 또는 [S3 커넥터](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store)을 참조하십시오.
+1. ([!DNL Experience Manager] 6.5.1 이상) [!DNL Experience Manager] 6.5.1 이상 버전의 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [Azure 커넥터](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) 또는 [S3 커넥터](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store)을 참조하십시오.
 
    AMS(Adobe Managed Services) 고객의 경우 Adobe 고객 지원 센터에 문의하십시오.
 
