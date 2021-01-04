@@ -1,8 +1,8 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18cebce065f9b55259bf96d14cb50cf5bc6c8ec6
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ### Adobe 직원의 기여도
 
-Adobe 직원이고 기여도가 있는 경우 회사 git에서 `AdobeDocs` org를 사용할 것을 요청합니다. GitHub.com의 이 공용 리포지토리에 기여할 수 있지만 회사 보고서로 쉽게 처리할 수 있습니다. 독점 정보 또는 미출시 정보가 회사 보고서로 논의되어 있는지 확인하십시오.
+Adobe 직원이고 기여도가 있는 경우 회사 git에서 `AdobeDocs` org를 사용할 것을 요청합니다. GitHub.com의 이 공용 리포지토리에 기여할 수 있지만 회사 보고서로 쉽게 처리할 수 있습니다. 독점 정보 또는 미출시 정보가 회사 보고서로 논의되어 있는지 확인하십시오. Adobe 직원은 CLA에 서명할 필요가 없습니다.
 
 ## Adobe의 GitHub 저작 플랫폼 및 Markdown 정보
 
