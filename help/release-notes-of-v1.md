@@ -1,27 +1,20 @@
 ---
 title: 버전 1.x용 AEM 데스크탑 앱 릴리스 노트
 description: AEM 데스크탑 앱 버전 1.x용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3906'
 ht-degree: 1%
 
 ---
 
 
-# AEM 데스크탑 앱 v1.x 릴리스 노트 {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] 데스크탑 앱 v1.x 릴리스 정보  {#aem-desktop-app-release-notes}
 
 데스크탑 앱 v1.x 릴리스의 경우 다운로드 링크 및 AEM 호환성 정보는 다음과 같습니다.
 
-| 제품 | AEM(Adobe Experience Manager) 데스크탑 앱 |
+| 제품 | [!DNL Adobe Experience Manager] 데스크탑 앱 |
 |--- |--- |
 | 버전 | 1.10(Mac의 경우 1.10.0.6, Windows의 경우 1.10.0.3) |
 | 유형 | 부 릴리스 |
@@ -75,7 +68,7 @@ AEM 데스크탑 앱 1.10은 연결된 파일(예: InDesign)을 사용하여 자
 
 ## 이전 버전의 개선 사항 {#enhancements-in-the-previous-versions}
 
-이 릴리스는 다음과 같은 향상된 주요 기능을 제공하는 이전 버전의 Experience Manager 데스크탑 앱을 연장하고 대체합니다.
+이 릴리스는 다음 주요 개선 사항을 제공하는 이전 버전의 [!DNL Experience Manager] 데스크탑 앱을 확장 및 대체합니다.
 
 * **버전 1.9/1.9.1**:다시 시작 가능한 업로드, 향상된 상태 창, 응용 프로그램/연결 상태를 나타내는 응용 프로그램 아이콘, InDesign 파일에 대한 연결된 에셋 사전 가져오기
 
@@ -93,7 +86,7 @@ AEM 데스크탑 앱 1.10은 연결된 파일(예: InDesign)을 사용하여 자
 
 ### AEM 데스크톱 앱 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x} 이후 개선 사항
 
-Adobe Experience Manager(AEM) 데스크탑 앱 1.9.1은 자산 체크아웃 및 네트워크 공유의 파일을 로컬 디렉토리로 복사하는 것과 관련된 몇 가지 주요 고객 문제를 해결하는 패치 릴리스였습니다.
+[!DNL Adobe Experience Manager] 데스크탑 앱 1.9.1은 자산 체크아웃 및 네트워크 공유의 파일을 로컬 디렉토리로 복사하는 것과 관련된 몇 가지 주요 고객 문제를 해결하는 패치 릴리스였습니다.
 
 * 한 사용자가 체크 아웃한 자산은 다른 사용자가 수정할 수 없습니다(CQ-4246009).
 
@@ -135,7 +128,7 @@ AEM 데스크탑 앱 1.9는 연결된 파일(예: InDesign)을 사용하여 자�
 
 * Footer는 다운로드한 파일의 총 수와 평균 전송 속도를 보여줍니다.
 
-* 사용자가 Experience Manager 에셋 웹 UI에서 여러 파일을 열거나 편집하도록 선택하면 함께 그룹화됩니다. 예: myasset.jpeg 및 4개 이상의 파일.
+* 사용자가 [!DNL Experience Manager Assets] 웹 인터페이스에서 여러 파일을 열거나 편집하도록 선택하면 함께 그룹화됩니다. 예: myasset.jpeg 및 4개 이상의 파일.
 
 * AEM Assets에 저장되어 있는 연결된 에셋을 포함한 InDesign 문서를 다운로드할 때 데스크톱 응용 프로그램은 [!UICONTROL Adobe InDesign] 문서를 열기 전에 먼저 연결된 모든 에셋을 다운로드하고 연결된 에셋 다운로드를 나타냅니다. 예: 24개 중 5개.
 
