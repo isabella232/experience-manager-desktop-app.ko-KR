@@ -1,27 +1,20 @@
 ---
-title: AEM 데스크탑 앱 버전 1.x 문제 해결
-description: 설치, 업그레이드, 구성 등과 관련된 가끔 발생하는 문제를 해결하려면 AEM 데스크탑 앱 버전 1.x 문제를 해결하십시오.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
+title: 문제 해결 [!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.x
+description: 설치, 업그레이드 및 구성과 관련된 가끔 발생하는 문제를 해결하려면  [!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.x를 문제 해결합니다.
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3366'
 ht-degree: 0%
 
 ---
 
 
-# AEM 데스크톱 앱 v1.x {#troubleshoot-aem-desktop-app} 문제 해결
+# [!DNL Adobe Experience Manager] 데스크탑 앱 v1.x {#troubleshoot-aem-desktop-app} 문제 해결
 
 설치, 업그레이드, 구성 등과 관련하여 가끔 발생하는 문제를 해결하려면 AEM 데스크탑 앱 문제를 해결하십시오.
 
-AEM(Adobe Experience Manager) 데스크탑 앱에는 AEM Assets 저장소를 데스크탑에서 네트워크 공유로 매핑하는 데 도움이 되는 유틸리티(Mac OS에서 SMB 공유)가 포함되어 있습니다. 네트워크 공유는 원격 소스가 컴퓨터의 로컬 파일 시스템의 일부처럼 처리되는 운영 체제 기술입니다. 데스크톱 앱의 경우 원격 AEM 인스턴스의 DAM(디지털 자산 관리) 저장소 구조가 원격 파일 소스로 타깃팅됩니다. 다음 다이어그램에서는 데스크탑 앱 토폴로지를 설명합니다.
+[!DNL Adobe Experience Manager] 데스크탑 앱에는 데스크탑에서 AEM Assets 저장소를 네트워크 공유로 매핑하는 데 도움이 되는 유틸리티(Mac OS에서 SMB 공유)가 포함되어 있습니다. 네트워크 공유는 원격 소스가 컴퓨터의 로컬 파일 시스템의 일부처럼 처리되는 운영 체제 기술입니다. 데스크톱 앱의 경우 원격 AEM 인스턴스의 DAM(디지털 자산 관리) 저장소 구조가 원격 파일 소스로 타깃팅됩니다. 다음 다이어그램에서는 데스크탑 앱 토폴로지를 설명합니다.
 
 ![데스크탑 앱 다이어그램](assets/aem-desktopapp-architecture.png)
 
@@ -70,7 +63,7 @@ AEM Desktop은 다음을 포괄적으로 포함하여 강도 높은 파일 시�
 
 운영 체제의 제한 사항으로 인해 Windows의 파일 크기는 4,294,967,295바이트(약 4.29GB)로 제한됩니다. 네트워크 공유의 파일 크기를 정의하는 레지스트리 설정 때문입니다. 레지스트리 설정의 값은 참조된 번호와 같은 최대 크기의 DWORD입니다.
 
-Experience Manager 데스크톱 앱에는 고정 시간 간격 이후 Experience Manager 서버와 데스크톱 앱 간의 연결을 끊는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후 연결이 시간 초과되면 업로드 시간 초과를 증가시켜 앱이 자산을 몇 번 업로드하도록 다시 시도합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
+[!DNL Experience Manager] 데스크탑 앱에는 고정 시간 간격 이후 서버와 데스크톱 앱 간의 연결을  [!DNL Experience Manager] 끊는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후 연결이 시간 초과되면 업로드 시간 초과를 증가시켜 앱이 자산을 몇 번 업로드하도록 다시 시도합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
 ## AEM {#caching-and-communication-with-aem}을(를) 사용한 캐싱 및 통신
 
@@ -213,7 +206,7 @@ AEM 성능을 향상시키기 위한 또 다른 방법은 Granite Tranent Workfl
 
 1. 시스템을 다시 시작합니다.
 
-AEM Desktop은 지정된 파일을 세 번 동기화하려고 시도합니다. 세 번째 시도 후 파일을 동기화하지 못하면 AEM Desktop은 파일이 충돌하는 것으로 간주하고 백그라운드 업로드 상태 창을 통해 알려줍니다. 충돌 상태는 최신 변경 내용이 아직 로컬에서 사용 가능하지만 AEM에 다시 동기화되지 않음을 나타냅니다. AEM 데스크탑 앱이 더 이상 동기화하려고 하지 않습니다.
+AEM Desktop은 지정된 파일을 세 번 동기화합니다. 세 번째 시도 후 파일을 동기화하지 못하면 AEM Desktop은 파일이 충돌하는 것으로 간주하고 백그라운드 업로드 상태 창을 통해 알려줍니다. 충돌 상태는 최신 변경 내용이 아직 로컬에서 사용 가능하지만 AEM에 다시 동기화되지 않음을 나타냅니다. AEM 데스크탑 앱이 더 이상 동기화하려고 하지 않습니다.
 
 이 상황을 해결하는 가장 간단한 방법은 충돌하는 파일을 열고 다시 저장하는 것입니다. AEM Desktop이 추가로 3회 동기화를 시도하도록 합니다. 파일을 아직 동기화하지 못한 경우 아래 섹션을 참조하십시오.
 
