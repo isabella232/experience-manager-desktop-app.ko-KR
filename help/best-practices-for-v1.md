@@ -1,10 +1,10 @@
 ---
-title: AEM 데스크탑 앱 버전 1.x 모범 사례
-description: Adobe Experience Manager 데스크탑 앱 버전 1.x의 주요 기능 및 권장 사용
+title: '[!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.x 모범 사례'
+description: '주요 기능 및 권장 데스크탑 앱 버전 1.x 사용 [!DNL Adobe Experience Manager] '
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 개요 {#overview}
 
-Adobe Experience Manager(AEM) 데스크탑 앱은 데스크탑에 디지털 에셋 관리(DAM) 솔루션을 연결하여 데스크탑에서 바로 AEM 웹 UI에서 사용할 수 있는 파일을 열 수 있습니다. 데스크톱에서 자산을 저장하면 적절한 위치의 AEM에 업로드됩니다.
+[!DNL Adobe Experience Manager] 데스크탑 앱은 데스크탑에 DAM(Digital Asset Management) 솔루션을 연결하여 데스크탑에서 바로 AEM 웹 UI에서 사용할 수 있는 파일을 열 수 있습니다. 데스크톱에서 자산을 저장하면 적절한 위치의 AEM에 업로드됩니다.
 
 AEM 데스크탑 앱을 사용하면 AEM에서 잘못된 로컬 복사본을 업데이트하거나 잘못된 에셋을 업데이트할 수 없습니다. 데스크탑 앱의 사용이 간편한 워크플로우는 데스크탑 운영 체제에서 제공하는 네트워크 공유 기술을 사용하여 활성화됩니다.
 
