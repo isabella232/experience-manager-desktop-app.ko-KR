@@ -2,9 +2,9 @@
 title: '[!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.x 모범 사례'
 description: '주요 기능 및 권장 데스크탑 앱 버전 1.x 사용 [!DNL Adobe Experience Manager] '
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ AEM Assets 네트워크 구성에 대한 우수 사례를 이해하려면 [AEM A
 
 >[!NOTE]
 >
->아이콘 미리 보기를 해제하려면 Finder에서 보기로 이동하여 보기 옵션을 선택한 다음 &quot;아이콘 미리 보기 표시&quot; 옵션을 선택 해제합니다. 현재 폴더에만 사용할 수 있습니다. 이 폴더를 기본값으로 설정하려면 동일한 창에서 &quot;기본값으로 사용&quot; 단추를 클릭합니다.
+>아이콘 미리 보기를 해제하려면 Finder에서 [!UICONTROL View]으로 이동하여 [!UICONTROL View Options]을 선택한 다음 [!UICONTROL Show icon preview] 옵션을 선택 해제합니다. 현재 폴더에만 사용할 수 있습니다. 기본적으로 설정하려면 동일한 대화 상자에서 [!UICONTROL Use as default] 옵션을 클릭합니다.
 
 ### 서버 성능 최적화 {#optimizing-server-performance}
 
