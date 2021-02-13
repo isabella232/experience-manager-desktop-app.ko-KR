@@ -1,11 +1,11 @@
 ---
-title: '데스크탑 앱 소개 [!DNL Adobe Experience Manager] '
+title: '데스크탑 앱 소개 [!DNL Experience Manager] '
 description: 데스크톱에서 직접 [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] 을 사용하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 67%
+source-wordcount: '619'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생�
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 데스크탑 앱은  [!DNL Adobe Experience Manager] 6.1 릴리스에서 도입되었으며 이전에  [!DNL Adobe Experience Manager Assets] Companion App이라고 불렀습니다. 앱 버전 1.x의 도움말은 왼쪽 사이드바의 TOC를 참조하십시오. 최신 버전 2로 업그레이드하는 것이 좋습니다.
+>이 앱은 [!DNL Adobe Experience Manager] 6.1 릴리스에서 도입되었으며 이전에 [!DNL Adobe Experience Manager Assets] 컴패니언 앱이라고 불렀습니다. 앱 버전 1.x에 대한 도움말은 왼쪽 사이드바의 목차를 참조하십시오. Adobe은 최신 버전으로 업그레이드할 것을 권장합니다.
 
 다음 역할 및 사용 사례에 대한 정보가 데스크탑 앱 설명서에 있습니다.
 
@@ -33,7 +33,7 @@ Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생�
 | 찾아보기, 검색, 편집, 업로드, 충돌 해결, 일괄 작업 등에 사용하는 방법을 알아봅니다. | [데스크탑  [!DNL Experience Manager] 앱 사용](using.md) |
 | 문제가 발생했습니까? 문제 해결 도움말이 필요하십니까? | [ [!DNL Experience Manager]  데스크탑 앱 문제 해결](troubleshoot.md) |
 
-## 앱의 새로운 기능 {#whats-new-v2}
+## 앱 {#whats-new-v2}의 새로운 기능
 
 앱의 버전 2.0은 이전 버전보다 개선된 내용을 많이 제공하기 위해 완전히 새로 만들었습니다. 새 앱은 더 사용자 친화적이며 전용 데스크탑 환경에서 새로운 애플리케이션 UI를 제공합니다. 사용자는 [!DNL Experience Manager] 인터페이스를 사용하지 않고도 검색 또는 탐색, 열기, 편집 및 업로드를 통해 자산을 검색할 수 있을 뿐만 아니라 새 자산을 업로드할 수도 있습니다. 이 버전은 [!DNL Experience Manager] 인터페이스에서 파일을 열 수도 있습니다.
 
