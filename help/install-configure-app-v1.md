@@ -1,16 +1,16 @@
 ---
-title: ' [!DNL Experience Manager] 데스크탑 앱 버전 1.x 설치 및 구성'
-description: ' [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] 서버를 설치 및 구성하고 자산을 데스크탑에 드라이브로 마운트할 수 있도록 매핑합니다.'
+title: 데스크탑 앱 v1.10 설치 및 구성
+description: ' [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] 서버를 설치 및 구성하고 자산을 데스크탑에 드라이브로 마운트할 수 있도록 매핑합니다.'
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL Experience Manager] 데스크탑 앱 v1.x {#install-and-configure-aem-desktop-app} 설치 및 구성
+# [!DNL Experience Manager] 데스크탑 앱 v1.10 {#install-and-configure-aem-desktop-app} 설치 및 구성
 
 [!DNL Experience Manager] 데스크탑 앱을 사용하면 [!DNL Experience Manager] 내의 에셋은 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산은 Mac Finder 또는 Windows 탐색기에서 쉽게 표시되며, 데스크톱 응용 프로그램에서 열렸으며 로컬로 변경될 수 있습니다. 업로드하고 저장소에 새 버전이 만들어질 때 변경 내용이 다시 [!DNL Experience Manager]에 저장됩니다.
 
