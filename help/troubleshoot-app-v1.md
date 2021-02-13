@@ -1,10 +1,10 @@
 ---
-title: 문제 해결 [!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.x
-description: 설치, 업그레이드 및 구성과 관련된 가끔 발생하는 문제를 해결하려면  [!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.x를 문제 해결합니다.
+title: 데스크탑 앱 버전 1.10 문제를 해결합니다.
+description: 설치, 업그레이드 및 구성과 관련된 가끔 발생하는 문제를 해결하려면  [!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.10 문제를 해결하십시오.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '3366'
+source-wordcount: '3364'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Adobe에서는 개별 사용자의 업로드 속도가 10Mbps에 가까운 것�
 
 Windows에서 AEM을 실행하는 경우 WebDAV 클라이언트의 성능을 향상시키도록 Windows를 구성할 수 있습니다. 자세한 내용은 [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570)로 이동하십시오.
 
-Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있습니다. 자세한 내용은 Windows 7[에서 느린 WebDAV 성능 수정 방법을 참조하십시오.](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)
+Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있습니다. 자세한 내용은 Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)에서 느린 WebDAV 성능 수정 방법을 참조하십시오.[
 
 ## 동시 작업 {#concurrent-operations}
 
@@ -279,7 +279,7 @@ AEM Desktop에서 SSO 지원(SAML) AEM 인스턴스에 연결하는 문제가 �
 
 ### SSL 구성 문제 {#ssl-configuration-issue}
 
-AEM 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 때때로 브라우저 사용에 성공하지만 AEM 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절히 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache[에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.](https://access.redhat.com/solutions/43575)
+AEM 데스크톱 앱이 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 때때로 브라우저 사용에 성공하지만 AEM 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절히 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache](https://access.redhat.com/solutions/43575)에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.[
 
 ## 디스패처 {#using-aem-desktop-with-dispatcher}에서 AEM Desktop 사용
 
