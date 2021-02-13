@@ -1,8 +1,8 @@
 ---
-title: '데스크톱 앱 설치 및 구성 [!DNL Adobe Experience Manager] '
+title: 데스크탑 앱 설치 및 구성
 description: '서버를 설치 및 구성하고 로컬 파일 시스템에 자산을 다운로드합니다. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 이전 버전 {#upgrade-from-previous-version}에서 업그레이드
 
-데스크탑 앱의 v1.x 사용자는 이전 버전과 최신 버전의 앱 간의 차이점과 유사점을 파악합니다. 데스크톱 앱[ 및 ](introduction.md#whats-new-v2)앱의 작동 방식[을 참조하십시오.](release-notes.md#how-app-works)
+데스크탑 앱의 v1.x 사용자는 이전 버전과 최신 버전의 앱 간의 차이점과 유사점을 파악합니다. 데스크톱 앱](introduction.md#whats-new-v2) 및 [앱의 작동 방식](release-notes.md#how-app-works)을 참조하십시오.[
 
 >[!NOTE]
 >
