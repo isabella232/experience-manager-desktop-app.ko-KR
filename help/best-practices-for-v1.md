@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.x 모범 사례'
-description: '주요 기능 및 권장 데스크탑 앱 버전 1.x 사용 [!DNL Adobe Experience Manager] '
+title: 데스크탑 앱 v1.10 우수 사례
+description: '주요 기능 및 권장 데스크탑 앱 버전 1.10 사용 [!DNL Adobe Experience Manager] '
 translation-type: tm+mt
-source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
 
 
-# AEM 데스크탑 앱 v1.x 모범 사례 {#aem-desktop-app-best-practices}
+# AEM 데스크톱 앱 v1.10 우수 사례 {#aem-desktop-app-best-practices}
 
 ## 개요 {#overview}
 
