@@ -1,9 +1,9 @@
 ---
-title: ' [!DNL Adobe Experience Manager] 데스크탑 앱 사용'
+title: ' [!DNL Experience Manager] 데스크탑 앱 사용'
 description: Win 또는 Mac 데스크탑에서 바로 [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM 에셋을 사용하고 다른 응용 프로그램에서 사용합니다.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 응용 프로그램 사용을 시작하기 전에 [앱이 작동하는 방식을 이해합니다](release-notes.md#how-app-works). 또한 다음 용어를 숙지하십시오.
 
-* **[!UICONTROL Desktop Actions]**:자산 웹 인터페이스에서 브라우저 내에서 자산 위치를 탐색하거나 체크 아웃하고 기본 데스크탑 애플리케이션에서 편집할 자산을 열 수 있습니다. 이러한 작업은 웹 인터페이스에서 사용할 수 있으며 데스크탑 앱 기능을 사용합니다. 데스크톱 작업[을 활성화하는 방법을 참조하십시오.](using.md#desktopactions-v2)
+* **[!UICONTROL Desktop Actions]**:자산 웹 인터페이스에서 브라우저 내에서 자산 위치를 탐색하거나 체크 아웃하고 기본 데스크탑 애플리케이션에서 편집할 자산을 열 수 있습니다. 이러한 작업은 웹 인터페이스에서 사용할 수 있으며 데스크탑 앱 기능을 사용합니다. 데스크톱 작업](using.md#desktopactions-v2)을 활성화하는 방법을 참조하십시오.[
 
 * 파일 상태는 **[!UICONTROL Cloud Only]**&#x200B;입니다.이러한 자산은 로컬 컴퓨터에서 다운로드되지 않으며 [!DNL Experience Manager] 서버에서만 사용할 수 있습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * 파일 상태는 **[!UICONTROL Edited locally]**&#x200B;입니다.이러한 자산은 로컬에서 수정되며 변경 내용은 [!DNL Experience Manager] 서버에 업로드된 상태로 유지됩니다. 업로드 후 상태가 [!UICONTROL Available locally]으로 변경됩니다. [자산 편집](using.md#edit-assets-upload-updated-assets)을 참조하십시오.
 
-* 파일 상태는 **[!UICONTROL Editing conflict]**&#x200B;입니다.사용자와 다른 사용자가 동시에 자산을 수정하는 경우 앱은 편집 충돌이 발생했음을 나타냅니다. 또한 이 앱은 변경 사항을 유지하거나 취소할 수 있는 옵션도 제공합니다. [편집 충돌을 피하는 방법](using.md#adv-workflow-collaborate-avoid-conflicts)을 참조하십시오.
+* 파일 상태는 **[!UICONTROL Editing conflict]**&#x200B;입니다.사용자와 다른 사용자가 자산을 동시에 수정하는 경우 앱은 편집 충돌이 발생했음을 나타냅니다. 또한 이 앱은 변경 사항을 유지하거나 취소할 수 있는 옵션도 제공합니다. [편집 충돌을 피하는 방법](using.md#adv-workflow-collaborate-avoid-conflicts)을 참조하십시오.
 
 * 파일 상태는 **[!UICONTROL Modified remotely]**&#x200B;입니다.앱은 다운로드한 자산이 [!DNL Experience Manager] 서버에서 변경되었는지 여부를 나타냅니다. 또한 앱은 최신 버전을 다운로드하고 로컬 복사본을 업데이트하는 옵션도 제공합니다. [편집 충돌을 피하는 방법](using.md#adv-workflow-collaborate-avoid-conflicts)을 참조하십시오.
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 >
 >큰 파일이나 여러 파일을 다운로드하거나 업로드할 때 응용 프로그램은 자산 및 폴더에 대한 작업을 끕니다. 다운로드 또는 업로드가 완료되면 작업을 사용할 수 있습니다.
 
-큐 크기가 크거나 네트워크 문제가 발생하는 경우 여러 에셋을 다운로드할 경우 성능이 저하될 수 있습니다. 또한 폴더를 다운로드할 때 많은 에셋을 모르고 대기열에 보관할 수 있습니다. 장시간 대기 시간을 방지하기 위해 앱은 한 번에 다운로드한 에셋 수를 제한합니다. 구성 방법을 알려면 [환경 설정 지정](install-upgrade.md#set-preferences)을 참조하십시오. 이 제한보다 낮더라도, 응용 프로그램은 때때로 큰 폴더를 다운로드하기 전에 확인을 요청할 수 있습니다.
+큐 크기가 크거나 네트워크 문제가 발생하는 경우 여러 에셋을 다운로드하면 성능이 저하될 수 있습니다. 또한 폴더를 다운로드할 때 많은 에셋을 모르고 대기열에 보관할 수 있습니다. 장시간 대기 시간을 방지하기 위해 앱은 한 번에 다운로드한 에셋 수를 제한합니다. 구성 방법을 알려면 [환경 설정 지정](install-upgrade.md#set-preferences)을 참조하십시오. 이 제한보다 낮더라도, 응용 프로그램은 때때로 큰 폴더를 다운로드하기 전에 확인을 요청할 수 있습니다.
 
 ![앱이 상대적으로 많은 수의 ](assets/download_confirmation_da2.png "에셋 다운로드를 확인앱은 비교적 많은 수의 에셋 다운로드를 확인하는 메시지")
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 ## [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}에 새 에셋 업로드 및 추가
 
-사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어 사진 촬영 시 [!DNL Experience Manager] 저장소에 많은 수의 사진을 추가하려는 에이전시 사진 작가 또는 계약업체일 수 있습니다. 새 콘텐츠를 [!DNL Experience Manager]에 추가하려면 앱의 상단 막대에서 ![클라우드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)에 업로드를 선택합니다. 로컬 파일 시스템에서 에셋 파일을 찾아 **[!UICONTROL Select]**&#x200B;을 클릭합니다. 또는 응용 프로그램 인터페이스에서 파일이나 폴더를 드래그합니다. 앱이 자산 업로드를 시작합니다. 업로드가 더 오래 걸리는 경우 앱은 맨 아래에 진행률 표시줄을 표시합니다. 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [ [!DNL Assets]에서 폴더 만들기에 허용되는 문자 목록을 참조하십시오.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)
+사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어 사진 촬영 시 [!DNL Experience Manager] 저장소에 많은 수의 사진을 추가하려는 에이전시 사진 작가 또는 계약업체일 수 있습니다. 새 콘텐츠를 [!DNL Experience Manager]에 추가하려면 앱의 상단 막대에서 ![클라우드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)에 업로드를 선택합니다. 로컬 파일 시스템에서 에셋 파일을 찾아 **[!UICONTROL Select]**&#x200B;을 클릭합니다. 또는 응용 프로그램 인터페이스에서 파일이나 폴더를 드래그합니다. 앱이 자산 업로드를 시작합니다. 업로드가 더 오래 걸리는 경우 앱은 맨 아래에 진행률 표시줄을 표시합니다. 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오.  [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)에서 폴더 만들기에 허용되는 문자 목록을 참조하십시오.[
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -283,7 +283,7 @@ ht-degree: 0%
 
 ![편집 충돌 해결 ](assets/editing_conflict_dialog_da2.png "옵션편집 충돌을 해결하는 옵션")
 
-## 고급 워크플로우:indesign 파일 {#adv-workflow-place-assets-indesign}에 에셋 배치 및 연결
+## 고급 워크플로우:InDesign 파일 {#adv-workflow-place-assets-indesign}에 에셋 배치 및 연결
 
 [!DNL Experience Manager] 데스크탑 앱을 사용하여 연결된 에셋이 있는 파일을 열면 에셋이 미리 다운로드되어 기본 애플리케이션에 표시됩니다. 이 워크플로우가 작동하려면 기본 응용 프로그램에서 로컬 에셋에 대한 링크 가져오기를 지원해야 하며, 이진 파일의 이러한 링크를 서버측 참조로 해결하는 것을 지원해야 합니다.[!DNL Experience Manager]
 
