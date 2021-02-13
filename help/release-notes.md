@@ -3,9 +3,9 @@ title: '[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보'
 description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: b5292d9386432bd7c6ba5d7117dbc9fd9f014941
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1418'
 ht-degree: 34%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 34%
 | 지원되는 [!DNL Adobe Experience Manager] 버전 | [!DNL Experience Manager] as a  [!DNL Cloud Service]; [!DNL Experience Manager] 6.5 [!DNL Experience Manager] 6.4 [!DNL Experience Manager] 6.3(호환성 패키지 포함) |
 | 유형 | 부 릴리스 |
 | 릴리스 날짜 | 2020년 12월 17일 (Mac 및 Win) |
-| 다운로드 URL | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
+| AEM 6.x용 URL 다운로드 | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
+| AEM용 URL을 [!DNL Cloud Service](으)로 다운로드 | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
 
