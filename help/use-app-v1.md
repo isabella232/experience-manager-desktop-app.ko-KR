@@ -1,16 +1,16 @@
 ---
-title: ' [!DNL Experience Manager] 데스크탑 앱 버전 1.x를 사용합니다.'
-description: Adobe Experience Manager 데스크탑 앱 버전 1.x를 사용하고 데스크탑에 설치된 에셋으로 작업을 최적화하는 방법을 살펴봅니다.
+title: ' [!DNL Experience Manager] 데스크톱 앱 버전 1.10을 사용합니다.'
+description: Adobe Experience Manager 데스크톱 앱 버전 1.10을 사용하고 데스크탑에 있는 에셋으로 작업을 최적화하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2377'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL Experience Manager] 데스크탑 앱 v1.x {#use-aem-desktop-app-v1x} 사용
+# [!DNL Experience Manager] 데스크탑 앱 v1.10 {#use-aem-desktop-app-v1x} 사용
 
 앱을 사용하면 [!DNL Experience Manager] 내의 에셋은 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산은 Mac Finder 또는 Windows 탐색기에서 쉽게 표시되며, 데스크톱 응용 프로그램에서 열리며 로컬에서 변경될 수 있습니다. 변경 사항은 저장소에 새로 만든 버전으로 [!DNL Experience Manager]에 다시 저장됩니다.
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Experience Manager] 데스크탑 앱은  [!DNL Experience Manager] 6.1 릴리스에서 도입되었으며  [!DNL Experience Manager Assets Companion App]호출됩니다.
+>데스크탑 앱은 [!DNL Experience Manager] 6.1 릴리스에서 도입되었으며 [!DNL Experience Manager Assets Companion App]이라고 합니다.
 
 ## [!DNL Experience Manager] 크리에이티브 워크플로우의 데스크탑 앱 터치 포인트  {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ### 인앱 옵션 및 환경 설정 {#inapppref} 이해
 
-응용 프로그램에서는 [!DNL Experience Manager] 서버에 연결 및 연결을 해제하고, 업로드 상태를 보고, 로컬 캐시를 관리하는 등의 설정을 허용합니다. 기본 설정은 응용 프로그램의 일반적인 사용자에 대해 작동합니다. 설정을 수정하여 응용 프로그램에서 더 많은 정보를 얻고 [!DNL Experience Manager] 서버와의 통합에서 벗어날 수 있습니다. 다양한 설정에 대해서는 아래에 자세히 설명합니다.
+응용 프로그램에서는 [!DNL Experience Manager] 서버에 연결 및 연결을 해제하고, 업로드 상태를 보고, 로컬 캐시를 관리하는 등의 설정을 허용합니다. 기본 설정은 응용 프로그램의 일반 사용자에게 작동합니다. 설정을 수정하여 응용 프로그램에서 더 많은 정보를 얻고 [!DNL Experience Manager] 서버와의 통합에서 벗어날 수 있습니다. 다양한 설정에 대해서는 아래에 자세히 설명합니다.
 
 **자산** 탐색저장소가 마운트된 로컬  [!DNL Assets] 드라이브를 엽니다. 즉, 로컬 시스템에서 사용 가능한 에셋을 살펴보십시오.
 
