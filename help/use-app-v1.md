@@ -2,9 +2,9 @@
 title: ' [!DNL Experience Manager] 데스크톱 앱 버전 1.10을 사용합니다.'
 description: Adobe Experience Manager 데스크톱 앱 버전 1.10을 사용하고 데스크탑에 있는 에셋으로 작업을 최적화하는 방법을 알아봅니다.
 translation-type: tm+mt
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 네트워크 및 시스템 환경 설정에 따라 자세한 구성이 필요할 수 있습니다. 자세한 내용은 [설치 및 구성 [!DNL Experience Manager] 데스크탑 앱](install-configure-app-v1.md)을 참조하십시오.
 
-1. [[!DNL Experience Manager] 데스크탑 앱 다운로드 페이지](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html)로 이동하여 운영 체제에 적합한 바이너리를 다운로드합니다.
+1. [[!DNL Experience Manager] 데스크탑 앱 v1.10 다운로드 페이지](/help/release-notes-of-v1.md)로 이동하여 운영 체제에 적합한 바이너리를 다운로드합니다.
 1. 다운로드한 설치 파일을 실행하고 화면의 지침에 따라 앱을 설치합니다.
 
    >[!NOTE]
@@ -123,6 +123,9 @@ Adobe InDesign(INDD) 파일의 경우 컨텍스트 메뉴에서 **[!UICONTROL Op
 >[!NOTE]
 >
 >Windows의 경우 [기본 Windows 7 설정](https://support.microsoft.com/en-us/kb/2668751) 데스크톱 앱이 50MB보다 큰 자산을 처리하지 못하게 합니다.[!DNL Experience Manager]
+
+<!-- TBD: The above note is for Windows 7 which is not supported by the app anymore. Remove it later.
+-->
 
 >[!NOTE]
 >
