@@ -3,10 +3,10 @@ title: '[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보'
 description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: b5292d9386432bd7c6ba5d7117dbc9fd9f014941
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 34%
+source-wordcount: '1424'
+ht-degree: 33%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->Windows 7은 더 이상 공급업체에서 지원하지 않습니다(https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7은 더 이상 지원되지 않습니다. [Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020)의 EOL에 대한 문서를 참조하십시오.
 
 이 앱은 [!DNL Cloud Service], Adobe Managed Services(AMS) 또는 온-프레미스 중 어느 것으로 배포되었든 다음 [!DNL Experience Manager] 버전과 작동합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 34%
 >[!NOTE]
 >
 >[!DNL Experience Manager] 6.3에 대한 데스크탑 앱 지원은 더 이상 사용되지 않습니다. Adobe은 지원되는 최신 [!DNL Adobe Experience Manager] 버전으로 업그레이드할 것을 권장합니다.
->[!DNL Experience Manager] 6.3.3.1 이상 버전은 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)을(를) 설치한 후 데스크탑 앱에서 작동합니다. [서비스 팩은 계획되지 않았으므로 [!DNL Experience Manager] 6.3에 사용할 수 있는 패키지가 없습니다](https://helpx.adobe.com/kr/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3.3.1 이상 버전은 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)을(를) 설치한 후 데스크탑 앱에서 작동합니다. [서비스 팩은 계획되지 않았으므로 [!DNL Experience Manager] 6.3에 사용할 수 있는 패키지가 없습니다](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html).
 
 로컬 컴퓨터에 설치하려는 앱 버전에는 특정 [!DNL Adobe Experience Manager] 서버 버전/추가 서버측 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. 도움이 필요하면 [!DNL Experience Manager] 관리자에게 문의하십시오.
 
