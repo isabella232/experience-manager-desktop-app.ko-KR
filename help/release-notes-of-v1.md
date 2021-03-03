@@ -2,9 +2,9 @@
 title: 데스크탑 앱 v1.10 릴리스 노트
 description: AEM 데스크탑 앱 버전 1.10용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.
 translation-type: tm+mt
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
 workflow-type: tm+mt
-source-wordcount: '3901'
+source-wordcount: '3897'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Windows 7은 더 이상 공급업체에서 지원하지 않습니다(https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7은 더 이상 지원되지 않습니다. [Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020)의 EOL에 대한 문서를 참조하십시오.
 
 Adobe은 최신 기능, 최신 버그 수정 및 최상의 성능을 위해 최신 버전의 AEM 데스크탑 앱을 사용하는 것이 좋습니다.
 
@@ -217,7 +217,7 @@ AEM 데스크탑 앱 1.8.1 빠른 팔로우 릴리스에서 AEM UI에서 1.8 릴
 
 ### AEM 데스크톱 앱 1.6{#Enhancements-Available-Since-AEM-Desktop-App-16} 이후 사용 가능한 개선 사항
 
-* 설명서:새 [v1.x 앱](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html) 설명서에 대한 우수 사례입니다.
+* 설명서:새 [v1.x 앱](/help/best-practices-for-v1.md) 설명서에 대한 우수 사례입니다.
 
 * AEM 로그인 프로세스 개선:
 
@@ -421,7 +421,7 @@ MacOS 10.12(Sierra) 이후 Apple은 네트워크 드라이브 및 장치를 마�
 
 ## 유용한 리소스 {#helpful-resources}
 
-* [AEM 설명서](https://helpx.adobe.com/kr/support/experience-manager/6-4.html)
+* [AEM 설명서](https://experienceleague.adobe.com/docs/)
 * [AEM 데스크탑 앱 v1.x 사용](use-app-v1.md)
 * [AEM 데스크탑 앱 v1.x 모범 사례](best-practices-for-v1.md)
 
