@@ -2,9 +2,9 @@
 title: 데스크탑 앱 버전 1.10 문제를 해결합니다.
 description: 설치, 업그레이드 및 구성과 관련된 가끔 발생하는 문제를 해결하려면  [!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.10 문제를 해결하십시오.
 translation-type: tm+mt
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
 workflow-type: tm+mt
-source-wordcount: '3364'
+source-wordcount: '3363'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Creative Cloud 데스크탑 또는 기타 파일 동기화 솔루션(예: Micros
 
 ## 개별 작업 {#individual-operations}
 
-개별 사용자에 대해 최적화된 하위 성능을 문제 해결할 때 먼저 [제한](https://helpx.adobe.com/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations)을 검토하십시오. 그 다음 섹션에는 개별 사용자에 대한 성능 향상을 위한 제안 사항이 포함됩니다.
+개별 사용자에 대해 최적화된 하위 성능을 문제 해결할 때 먼저 [앱 제한 사항](#limitations)을 검토하십시오. 그 다음 섹션에는 개별 사용자에 대한 성능 향상을 위한 제안 사항이 포함됩니다.
 
 ## 대역폭 권장 사항 {#bandwidth-recommendations}
 
@@ -99,9 +99,12 @@ Adobe에서는 개별 사용자의 업로드 속도가 10Mbps에 가까운 것�
 
 ## Windows 전용 구성 {#windows-specific-configurations}
 
-Windows에서 AEM을 실행하는 경우 WebDAV 클라이언트의 성능을 향상시키도록 Windows를 구성할 수 있습니다. 자세한 내용은 [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570)로 이동하십시오.
+Windows에서 Experience Manager을 사용하는 경우 WebDAV 클라이언트의 성능을 향상시키도록 Windows를 구성할 수 있습니다. 자세한 내용은 [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570)로 이동하십시오.
 
 Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상될 수 있습니다. 자세한 내용은 Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)에서 느린 WebDAV 성능 수정 방법을 참조하십시오.[
+
+<!-- TBD: The above performance tip is for Windows 7 which is not supported by the app anymore. Remove it later.
+-->
 
 ## 동시 작업 {#concurrent-operations}
 
