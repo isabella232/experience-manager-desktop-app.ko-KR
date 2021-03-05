@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보'
 description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 784ffb2468d856589fbf29b10b965b3c3d919a2f
+source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 27%
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 최신 데스크탑 앱 버전 2.1(2.1.1.0)에 대한 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 3월 5일입니다. 향상된 기능을 갖춘 작은 버전입니다.
 
-지원되는 [!DNL Experience Manager] 버전은 다음과 같습니다.
+**지원되는 [!DNL Experience Manager] 버전**&#x200B;은 다음과 같습니다.
 
 * [!DNL Experience Manager] 를  [!DNL Cloud Service]참조하십시오. [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html)를 참조하십시오.
 * [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 온프레미스 6.5.0 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)를 참조하십시오.
@@ -24,12 +24,12 @@ ht-degree: 27%
 * [!DNL Experience Manager] 6.3(호환성 패키지 포함)
 * [!DNL Experience Manager] 호환성 패키지가 설치된  [6.3.3.1 ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 이상 데스크탑 앱은 [!DNL Experience Manager] 6.3.3.0 또는 이전 버전에 대해 지원되지 않습니다.
 
-[!DNL Adobe Experience Manager] 데스크탑 앱은 다음 운영 체제에서 사용할 수 있습니다.
+[!DNL Adobe Experience Manager] 데스크탑 앱은 다음  **운영 체제에서 사용할 수 있습니다**.
 
 * macOS X 10.14 이상, 최신 버그 수정
 * 최신 서비스 팩 및 버그 수정이 포함된 Windows 10.
 
-지원되는 OS용 다운로드 URL은 다음과 같습니다.
+지원되는 OS의 **다운로드 URL**&#x200B;은 다음과 같습니다.
 
 | 운영 체제 | [!DNL Experience Manager]로서의 [!DNL Cloud Service]  | [!DNL Experience Manager] 6.x |
 |---|---|---|
