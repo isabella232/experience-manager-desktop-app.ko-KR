@@ -3,55 +3,50 @@ title: '[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보'
 description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+source-git-commit: 4288c77036ba992c37ceafc158e0503244a1e600
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 33%
+source-wordcount: '1468'
+ht-degree: 27%
 
 ---
 
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보  {#release-notes-v2}
 
-| 제품 | [!DNL Adobe Experience Manager] 데스크탑 앱 |
-|--- |--- |
-| 앱 버전(개정) | 2.1 (2.1.0.0) |
-| 지원되는 [!DNL Adobe Experience Manager] 버전 | [!DNL Experience Manager] as a  [!DNL Cloud Service]; [!DNL Experience Manager] 6.5 [!DNL Experience Manager] 6.4 [!DNL Experience Manager] 6.3(호환성 패키지 포함) |
-| 유형 | 부 릴리스 |
-| 릴리스 날짜 | 2020년 12월 17일 (Mac 및 Win) |
-| AEM 6.x용 URL 다운로드 | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
-| AEM용 URL을 [!DNL Cloud Service](으)로 다운로드 | [macOS 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
+<!-- TBD: Update 6 links and 1 date below. -->
 
-## 시스템 요구 사항 및 사전 요구 사항 {#system-requirements-and-prerequisites-v2}
+최신 데스크탑 앱 버전 2.1(2.1.1.0)에 대한 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 3월 5일입니다. 향상된 기능을 갖춘 작은 버전입니다.
 
-[!DNL Adobe Experience Manager] 데스크탑 앱은 다음 운영 체제와 호환됩니다.
+지원되는 [!DNL Experience Manager] 버전은 다음과 같습니다.
 
-* Mac OS X 10.14 이상, 최신 버그 수정
+* [!DNL Experience Manager] 를  [!DNL Cloud Service]참조하십시오. [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html)를 참조하십시오.
+* [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 온프레미스 6.5.0 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)를 참조하십시오.
+* [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 온프레미스 6.4.4 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)를 참조하십시오.
+* [!DNL Experience Manager] 6.4.0 - 6.4.3 Adobe Managed Services( [AMS) 또는 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 온-프레미스 호환성 패키지가 설치된 상태로.
+* [!DNL Experience Manager] 6.3(호환성 패키지 포함)
+* [!DNL Experience Manager] 호환성 패키지가 설치된  [6.3.3.1 ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 이상 데스크탑 앱은 [!DNL Experience Manager] 6.3.3.0 또는 이전 버전에 대해 지원되지 않습니다.
 
+[!DNL Adobe Experience Manager] 데스크탑 앱은 다음 운영 체제에서 사용할 수 있습니다.
+
+* macOS X 10.14 이상, 최신 버그 수정
 * 최신 서비스 팩 및 버그 수정이 포함된 Windows 10.
+
+지원되는 OS용 다운로드 URL은 다음과 같습니다.
+
+| 운영 체제 | [!DNL Experience Manager]로서의 [!DNL Cloud Service]  | [!DNL Experience Manager] 6.x |
+|---|---|---|
+| macOS 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.1.0.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.1.0.dmg) |
+| Windows 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.1.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.1.0.exe) |
+| Windows 32비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.1.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.1.0.exe) |
 
 >[!NOTE]
 >
 >Windows 7은 더 이상 지원되지 않습니다. [Windows 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020)의 EOL에 대한 문서를 참조하십시오.
 
-이 앱은 [!DNL Cloud Service], Adobe Managed Services(AMS) 또는 온-프레미스 중 어느 것으로 배포되었든 다음 [!DNL Experience Manager] 버전과 작동합니다.
+<!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
+-->
 
-* [[!DNL Experience Manager] 를 [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html) 참조하십시오.
-
-* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) 이상
-
-* [[!DNL Experience Manager] 6.4.4 ](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 이상.
-
-* [!DNL Experience Manager] 6.4.0 - 6.4.3  [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 포함
-
->[!NOTE]
->
->[!DNL Experience Manager] 6.3에 대한 데스크탑 앱 지원은 더 이상 사용되지 않습니다. Adobe은 지원되는 최신 [!DNL Adobe Experience Manager] 버전으로 업그레이드할 것을 권장합니다.
->[!DNL Experience Manager] 6.3.3.1 이상 버전은 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)을(를) 설치한 후 데스크탑 앱에서 작동합니다. [서비스 팩은 계획되지 않았으므로 [!DNL Experience Manager] 6.3에 사용할 수 있는 패키지가 없습니다](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html).
-
-로컬 컴퓨터에 설치하려는 앱 버전에는 특정 [!DNL Adobe Experience Manager] 서버 버전/추가 서버측 구성 요소(서비스 팩, 핫픽스 또는 기능 팩)가 필요합니다. 도움이 필요하면 [!DNL Experience Manager] 관리자에게 문의하십시오.
-
-### 다른 자산 및 파일 유형 지원 {#support-for-file-types}
+## 다른 자산 및 파일 유형 지원 {#support-for-file-types}
 
 응용 프로그램은 기본 작업의 이진 파일을 나타내는 [!DNL Experience Manager]에 저장된 에셋을 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
@@ -71,27 +66,31 @@ ht-degree: 33%
 
 * 경로는 [!DNL Experience Manager]의 에셋과 일치할 수 있습니다. 즉, 배치된 파일도 일치하는 경로 아래 [!DNL Experience Manager]에 있습니다.
 
-## 새로운 기능 및 향상된 기능 {#whats-new-added}
+## 새로운 기능, 개선 사항 및 버그 수정 {#what-is-new}
 
 자세한 내용은 [v2.0](introduction.md#whats-new-v2)의 새로운 기능을 참조하십시오.
 
-**앱 v2.1.0.0 업데이트**
+**앱 v2.1.1.0에서 업데이트**
 
-* 이제 사용자는 에셋을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 바로 응용 프로그램 인터페이스에 있는 파일이나 폴더를 드래그할 수 있습니다. 이는 이전에 애플리케이션에서 사용할 수 있었던 업로드 옵션 외에도 적용됩니다.
+* 고급 설정을 사용하면 앱이 폴더를 업로드할 때 v1.10 앱 비헤이비어를 에뮬레이션할 수 있습니다. v1.10에서 저장소에 만들어진 노드 이름은 사용자가 제공하는 폴더 이름의 공백과 대소문자를 구분합니다. v2.1의 기본 동작은 동일하게 유지됩니다. 즉, 폴더 이름에 있는 여러 공백을 저장소 노드 이름에 하이픈으로 대체하고 소문자 노드 이름으로 변환합니다. [앱 환경 설정](/help/install-upgrade.md#set-preferences)을 참조하십시오.
 
-**앱 v2.0.3 업데이트**
+**앱 v2.1.0.0에서 업데이트**
+
+* 이제 사용자는 에셋을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 바로 응용 프로그램 인터페이스에 있는 파일이나 폴더를 드래그할 수 있습니다. 이는 이전에 애플리케이션에서 사용할 수 있었던 업로드 옵션 외에도 적용됩니다.<!-- CQ-4309527 -->
+
+**앱 v2.0.3에서 업데이트**
 
 현재 버전에서 수정된 버그:
 
-* Windows 사용자가 앱을 사용하여 [!DNL Adobe Experience Manager] 6.5.5.0 인스턴스에서 DAM 저장소에 액세스하려고 할 때 발생하는 로그인 문제를 수정했습니다.
+* [!DNL Adobe Experience Manager] 6.5.5.0에서 DAM 저장소에 액세스하려고 하는 Windows의 앱 사용자에 대한 로그인 문제가 해결되었습니다.
 
 **앱 v2.0.2 업데이트**
 
 버그 수정 및 업데이트는 다음과 같습니다.
 
-* 업로드 성능을 높이려면 [!UICONTROL Preferences]의 업로드 가속을 늘립니다. 이 설정을 활성화하면 응용 프로그램은 더 많은 로컬 CPU 스레드를 사용하며 더 많은 리소스를 사용합니다.
+* 업로드 성능을 높이기 위해 이제 업로드 가속 설정을 사용할 수 있게 되었습니다. 이 설정이 켜지면, 응용 프로그램이 더 많은 로컬 CPU 스레드를 사용하여 더 빠르게 업로드되고 더 많은 리소스가 소모됩니다.
 
-* 파일 이름 또는 경로에 특정 GB18030자가 들어 있을 때 자산 업로드 관련 문제가 해결되었습니다.<!-- CQ-4283494 -->
+* 특정 GB18030자를 포함하는 파일 이름 또는 경로가 수정될 때 에셋 업로드<!-- CQ-4283494 -->
 
 * 검색 결과에서 다른 정렬 유형으로 전환한 후 관련성별로 정렬 옵션을 사용할 수 있습니다.<!-- CQ-4286874 -->
 
@@ -119,7 +118,7 @@ ht-degree: 33%
 
 * 응용 프로그램은 자산 이진을 [!DNL Experience Manager](자산 열기, 편집, 업로드 변경 사항 및 업로드)에서 전체 전송해야 하는 작업을 완벽하게 제어합니다.
 
-   * 데스크탑의 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
+   * 데스크탑에서 에셋을 사용하여 작업하려면 명시적으로 데스크탑을 열기, 편집 또는 다운로드해야 합니다. 개별적으로 또는 폴더에서, 또는 다중 선택을 통해 실행해야 합니다.
 
    * [!DNL Experience Manager]에 업로드된 자산에 대한 로컬 변경 사항을 가져오려면 개별적으로 또는 다중 선택을 통해 [!UICONTROL Upload Changes]을 선택해야 합니다.
 
@@ -135,7 +134,7 @@ ht-degree: 33%
 
 * SMB(Mac)/WebDAV(Windows) 로컬 네트워크 공유는 Creative Cloud 앱의 기본 파일에 연결/배치된 자산 파일을 Adobe Creative Cloud 앱에서 읽을 때 사용됩니다.
 
-다음 다이어그램은 사용자 작업에서 시작된 자산과 파일의 클라우드와 로컬 파일 시스템 간 흐름을 보여줍니다.
+다음 다이어그램은 사용자 작업에 의해 시작된 것과 같이 클라우드에서 로컬 파일 시스템으로 에셋과 파일의 흐름을 보여 줍니다.
 
 ![[!DNL Experience Manager]데스크탑 앱을 통한 서버부터 기본 데스크탑 앱까지 자산 흐름](assets/da20_flow_diagram.png)
 
