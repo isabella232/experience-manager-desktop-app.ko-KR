@@ -2,9 +2,9 @@
 title: 데스크탑 앱 설치 및 구성
 description: '서버를 설치 및 구성하고 로컬 파일 시스템에 자산을 다운로드합니다. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
 translation-type: tm+mt
-source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1300'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 [!DNL Experience Manager] 데스크탑 앱을 사용하려면
 
-* [!DNL Experience Manager] 버전이 [!DNL Experience Manager] 데스크탑 앱에서 지원되는지 확인하십시오. 아래의 [시스템 요구 사항](release-notes.md#system-requirements-and-prerequisites-v2)을 참조하십시오.
+* [!DNL Experience Manager] 버전이 [!DNL Experience Manager] 데스크탑 앱에서 지원되는지 확인하십시오. [시스템 요구 사항](release-notes.md)을 참조하십시오.
 
 * 애플리케이션을 다운로드하여 설치합니다. 아래의 [데스크탑 앱 설치](#install-v2)를 참조하십시오.
 
@@ -108,11 +108,15 @@ ht-degree: 1%
 
 * **[!UICONTROL Automatically download linked assets]**:지원되는 기본 Creative Cloud 앱에 있는 에셋은 원본 파일을 다운로드한 경우 자동으로 가져옵니다.
 
-* **[!UICONTROL Maximum number of downloads]**:자산을 처음 다운로드할 때(표시, 열기, 편집, 다운로드 또는 유사한 옵션을 통해), 일괄 처리에서 이 수보다 작은 경우에만 자산이 다운로드됩니다. 기본값은 50입니다. 확실하지 않은 경우 변경하지 마십시오. 값을 늘리면 대기 시간이 길어지고 값을 줄이면 필요한 자산이나 폴더를 한 번에 다운로드할 수 없습니다.
+* **[!UICONTROL Maximum number of downloads]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 자산을 처음 다운로드할 때(표시, 열기, 편집, 다운로드 또는 유사한 옵션을 통해), 일괄 처리에서 이 수보다 작은 경우에만 자산이 다운로드됩니다. 기본값은 50입니다. 확실하지 않은 경우 변경하지 마십시오. 값을 늘리면 대기 시간이 길어지고 값을 줄이면 필요한 자산이나 폴더를 한 번에 다운로드할 수 없습니다.
 
-* **[!UICONTROL Upload Acceleration]**:자산을 업로드할 때 애플리케이션에서 동시 업로드를 사용하여 업로드 속도를 향상시킬 수 있습니다. 슬라이더를 오른쪽으로 이동하여 업로드의 동시 사용을 늘릴 수 있습니다. 맨 왼쪽에 있는 슬라이더는 동시 실행 없음(단일 스레드 업로드)을 의미하고, 중간 위치는 동시 스레드 10개에 해당하며, 맨 오른쪽에 있는 최대 제한은 20개의 동시 스레드에 해당합니다. 동시 시청 제한이 클수록 로컬 컴퓨터의 프로세서가 더 많은 리소스를 사용해야 합니다.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 이 설정을 사용하면 앱이 폴더를 업로드할 때 v1.10 앱 비헤이비어를 에뮬레이션할 수 있습니다. v1.10에서 저장소에 만들어진 노드 이름은 사용자가 제공하는 폴더 이름의 공백과 대소문자를 구분합니다. 그러나 앱의 v2.1에서는 폴더 이름의 추가 공백이 대시로 변환됩니다. 예를 들어 `New Folder` 또는 `new   folder` 업로드는 옵션을 선택하지 않고 v2.1의 기본 비헤이비어가 유지되면 저장소에 동일한 노드를 만듭니다. 이 옵션을 선택하면 위의 두 폴더에 대해 저장소에 다른 노드가 만들어지고 v1.10 앱의 비헤이비어와 일치합니다.
 
-사용할 수 없는 환경 설정을 업데이트하려면 [!DNL Experience Manager] 서버에서 로그아웃하십시오. 환경 설정을 업데이트한 후 ![환경 설정 저장](assets/do-not-localize/save_preferences_da2.png)을 클릭하여 변경 내용을 저장합니다.
+   v2.1의 기본 동작은 동일하게 유지됩니다. 즉, 폴더 이름의 여러 공백을 저장소 노드 이름의 대시로 대체하고 소문자 노드 이름으로 변환합니다.
+
+* **[!UICONTROL Upload Acceleration]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 자산을 업로드할 때 애플리케이션에서 동시 업로드를 사용하여 업로드 속도를 향상시킬 수 있습니다. 슬라이더를 오른쪽으로 이동하여 업로드의 동시 사용을 늘릴 수 있습니다. 맨 왼쪽에 있는 슬라이더는 동시 실행 없음(단일 스레드 업로드)을 의미하고, 중간 위치는 동시 스레드 10개에 해당하며, 맨 오른쪽에 있는 최대 제한은 20개의 동시 스레드에 해당합니다. 동시 시청 제한이 클수록 리소스가 많이 소모됩니다.
+
+사용할 수 없는 환경 설정을 업데이트하려면 [!DNL Experience Manager] 서버에서 로그아웃한 다음 업데이트하십시오. 환경 설정을 업데이트한 후 ![환경 설정 저장](assets/do-not-localize/save_preferences_da2.png)을 클릭합니다.
 
 ![데스크탑 앱 환경 설정 및 설정](assets/preferences_da2.png)
 
