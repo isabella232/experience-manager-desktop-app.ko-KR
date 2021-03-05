@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보'
 description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 4288c77036ba992c37ceafc158e0503244a1e600
+source-git-commit: 784ffb2468d856589fbf29b10b965b3c3d919a2f
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 27%
@@ -12,8 +12,6 @@ ht-degree: 27%
 
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보  {#release-notes-v2}
-
-<!-- TBD: Update 6 links and 1 date below. -->
 
 최신 데스크탑 앱 버전 2.1(2.1.1.0)에 대한 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 3월 5일입니다. 향상된 기능을 갖춘 작은 버전입니다.
 
