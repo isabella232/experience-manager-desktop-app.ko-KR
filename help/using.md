@@ -3,7 +3,7 @@ title: ' [!DNL Experience Manager] 데스크탑 앱 사용'
 description: Win 또는 Mac 데스크탑에서 바로 [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM 에셋을 사용하고 다른 응용 프로그램에서 사용합니다.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 0%
@@ -293,7 +293,7 @@ ht-degree: 0%
 >
 >데스크탑 앱은 Windows의 모든 드라이브에 매핑할 수 있습니다. 그러나 원활한 작업을 위해 기본 드라이브 문자를 변경하지 마십시오. 동일한 조직의 사용자가 다른 드라이브 문자를 사용하는 경우 다른 사용자가 배치한 에셋을 볼 수 없습니다. 가져온 에셋은 경로 변경으로 가져오는 것이 아닙니다. 가져온 자산은 계속 이진 파일(INDD)에 배치되며 제거되지 않습니다.
 
-이 작업 과정의 제한 사항을 알려면 [시스템 요구 사항 및 지원되는 버전](release-notes.md#system-requirements-and-prerequisites-v2)을 참조하십시오.
+이 작업 과정의 제한 사항을 알려면 [시스템 요구 사항 및 지원되는 버전](release-notes.md)을 참조하십시오.
 
 이미지 자산 및 InDesign에서 이 작업 과정을 사용하려면 다음 단계를 따르십시오.
 
