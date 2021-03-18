@@ -2,11 +2,12 @@
 title: '[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보'
 description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
+feature: Experience Manager 데스크탑 앱, 릴리스 정보
 translation-type: tm+mt
-source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
+source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
