@@ -5,16 +5,14 @@ audience: end-user
 user-guide-title: Experience Manager 데스크탑 앱 안내서
 breadcrumb-title: Desktop App 안내서
 user-guide-description: Experience Manager 데스크탑 앱을 사용하여 저장소 및 데스크탑 응용 프로그램을 연결하여 리소스를 신속하게 이용하고 작업 과정을 간소화하는 방법을 알아볼 수 있습니다.
-solution-title: AEM Assets
-solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
-tutorials-title: AEM 자습서
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
+feature-set: Experience Manager Assets
+feature: Experience Manager 데스크탑 앱
+role: 비즈니스 전문가, 관리자
 translation-type: tm+mt
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 75%
+source-wordcount: '70'
+ht-degree: 84%
 
 ---
 
