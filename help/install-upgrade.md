@@ -3,7 +3,7 @@ title: 데스크탑 앱 설치 및 구성
 description: '서버를 설치 및 구성하고 로컬 파일 시스템에 자산을 다운로드합니다. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
 feature: Experience Manager 데스크탑 앱, 릴리스 정보
 translation-type: tm+mt
-source-git-commit: 3804d684a3a7e78eda7692969f312ef023965ffd
+source-git-commit: 7204e3afb6d3a0908c076cf042072e3157572797
 workflow-type: tm+mt
 source-wordcount: '1405'
 ht-degree: 1%
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Maximum number of downloads]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 자산을 처음 다운로드할 때(표시, 열기, 편집, 다운로드 또는 유사한 옵션을 통해), 일괄 처리에서 이 수보다 작은 경우에만 자산이 다운로드됩니다. 기본값은 50입니다. 확실하지 않은 경우 변경하지 마십시오. 값을 늘리면 대기 시간이 길어지고 값을 줄이면 필요한 자산이나 폴더를 한 번에 다운로드할 수 없습니다.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 이 설정을 사용하면 앱이 폴더를 업로드할 때 v1.10 앱 비헤이비어를 에뮬레이션할 수 있습니다. v1.10에서 저장소에 만들어진 노드 이름은 사용자가 제공하는 폴더 이름의 공백과 대소문자를 구분합니다. 그러나 앱의 v2.1에서는 폴더 이름의 추가 공백이 대시로 변환됩니다. 예를 들어 `New Folder` 또는 `new   folder` 업로드는 옵션을 선택하지 않고 v2.1의 기본 비헤이비어가 유지되면 저장소에 동일한 노드를 만듭니다. 이 옵션을 선택하면 위의 두 폴더에 대해 저장소에 다른 노드가 만들어지고 v1.10 앱의 비헤이비어와 일치합니다.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 이 설정을 사용하면 앱이 폴더를 업로드할 때 v1.10 앱 비헤이비어를 에뮬레이션할 수 있습니다. v1.10에서 저장소에 만들어진 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 구분합니다. 그러나 앱의 v2.1에서는 폴더 이름의 추가 공백이 대시로 변환됩니다. 예를 들어 `New Folder` 또는 `new   folder` 업로드는 옵션을 선택하지 않고 v2.1의 기본 비헤이비어가 유지되면 저장소에 동일한 노드를 만듭니다. 이 옵션을 선택하면 위의 두 폴더에 대해 저장소에 다른 노드가 만들어지고 v1.10 앱의 비헤이비어와 일치합니다.
 
    v2.1의 기본 동작은 동일하게 유지됩니다. 즉, 폴더 이름의 여러 공백을 저장소 노드 이름의 대시로 대체하고 소문자 노드 이름으로 변환합니다.
 
