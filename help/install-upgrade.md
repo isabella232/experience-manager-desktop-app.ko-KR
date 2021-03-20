@@ -3,10 +3,10 @@ title: 데스크탑 앱 설치 및 구성
 description: '서버를 설치 및 구성하고 로컬 파일 시스템에 자산을 다운로드합니다. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
 feature: Experience Manager 데스크탑 앱, 릴리스 정보
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: f9d982d3039d04abf53e10b78e0e7a89e673ca04
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1405'
+ht-degree: 1%
 
 ---
 
@@ -122,6 +122,14 @@ ht-degree: 0%
 ![데스크탑 앱 환경 설정 및 설정](assets/preferences_da2.png)
 
 *그림:데스크탑 앱 환경 설정.*
+
+### 프록시 지원 {#proxy-support}
+
+[!DNL Experience Manager] 데스크탑 앱은 시스템의 사전 정의된 프록시를 사용하여 HTTPS를 통해 인터넷에 연결합니다. 앱은 추가 인증이 필요하지 않은 네트워크 프록시를 사용해야만 연결할 수 있습니다.
+
+Windows(인터넷 옵션 > LAN 설정)에 대한 프록시 서버 설정을 구성하거나 수정하는 경우 변경 사항을 적용하려면 [!DNL Experience Manager] 데스크탑 앱을 다시 시작하십시오. 프록시 구성은 데스크톱 앱을 시작할 때 적용됩니다. 변경 사항이 적용되려면 앱을 닫고 다시 실행하십시오.
+
+프록시에 인증이 필요한 경우 IT 팀은 프록시 서버 설정의 [!DNL Experience Manager Assets] URL을 사용하여 응용 프로그램 트래픽이 통과하도록 허용할 수 있습니다.
 
 ## 앱 {#uninstall-the-app} 제거
 
