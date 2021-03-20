@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세
 mini-toc-levels: 1
 feature: Experience Manager 데스크탑 앱, 릴리스 정보
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: 7204e3afb6d3a0908c076cf042072e3157572797
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1474'
+ht-degree: 27%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 **앱 v2.1.1.0에서 업데이트**
 
-* 고급 설정을 사용하면 앱이 폴더를 업로드할 때 v1.10 앱 비헤이비어를 에뮬레이션할 수 있습니다. v1.10에서 저장소에 만들어진 노드 이름은 사용자가 제공하는 폴더 이름의 공백과 대소문자를 구분합니다. v2.1의 기본 동작은 동일하게 유지됩니다. 즉, 폴더 이름에 있는 여러 공백을 저장소 노드 이름에 하이픈으로 대체하고 소문자 노드 이름으로 변환합니다. [앱 환경 설정](/help/install-upgrade.md#set-preferences)을 참조하십시오.
+* 고급 설정을 사용하면 앱이 폴더를 업로드할 때 v1.10 앱 비헤이비어를 에뮬레이션할 수 있습니다. v1.10에서 저장소에 만들어진 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 구분합니다. v2.1의 기본 동작은 동일하게 유지됩니다. 즉, 폴더 이름에 있는 여러 공백을 저장소 노드 이름에 하이픈으로 대체하고 소문자 노드 이름으로 변환합니다. [앱 환경 설정](/help/install-upgrade.md#set-preferences)을 참조하십시오.
 
 **앱 v2.1.0.0에서 업데이트**
 
