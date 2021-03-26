@@ -2,9 +2,9 @@
 title: '데스크톱 응용 프로그램에 대한 우수 사례 및 문제 해결 [!DNL Adobe Experience Manager] '
 description: 모범 사례 및 문제 해결을 따라 설치, 업그레이드, 구성 등과 관련하여 가끔 발생하는 문제를 해결합니다.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * **데스크탑 앱의 작동** 방식 이해:애플리케이션을 사용하기 전에 앱이 작동하는 방식을 알기 위해 잠시 시간을 할애하십시오. [!DNL Experience Manager] 웹 인터페이스와 데스크탑 간 연결, 저장소 매핑, 에셋 캐싱, 로컬에 저장, 백그라운드에서 업로드 등에 대해 알아보십시오. [작동 방식](release-notes.md#how-app-works)을 참조하십시오.
 
-* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [ [!DNL Experience Manager Assets]에서 폴더 만들기에 있는 문자 목록을 참조하십시오. ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders) 일부 [!DNL Experience Manager] 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
+* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**.폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오.  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)에서 폴더 만들기에 있는 문자 목록을 참조하십시오. [ 일부 [!DNL Experience Manager] 사용 사례는 폴더 이름에 지원되지 않는 문자로 인해 영향을 받을 수 있습니다.
 
 * **충돌을 방지하기 위한 우수 사례**:여러 에셋에서 공동 작업할 때 발생할 수 있는 충돌을 방지하려면 편집 충돌 [을 방지하십시오](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -202,7 +202,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 #### {#da-connection-issue-with-saml-aem}이(가) 작동하지 않는 SAML 로그인 인증
 
-[!DNL Experience Manager] 데스크탑 앱이 SSO 지원(SAML) [!DNL Adobe Experience Manager] 인스턴스에 연결되지 않은 경우 이 섹션을 참조하여 문제를 해결하십시오. SSO 프로세스는 다양하며, 때로 복잡하며, 이러한 유형의 연결을 수용하기 위해 애플리케이션의 디자인이 가장 적합합니다. 그러나 일부 설정은 추가 문제 해결을 필요로 합니다.
+[!DNL Experience Manager] 데스크탑 앱이 SSO 지원(SAML) 배포에 연결할 수  [!DNL Adobe Experience Manager] 없습니다. 응용 프로그램의 디자인이 SSO 연결 및 프로세스의 변형과 복잡성을 수용하려고 시도합니다. 그러나 설치 시 추가 문제 해결이 필요할 수 있습니다.
 
 경우에 따라 SAML 프로세스가 원래 요청된 경로로 다시 리디렉션되지 않거나 최종 리디렉션은 [!DNL Adobe Experience Manager] 데스크탑 앱에서 구성된 것과 다른 호스트로 리디렉션됩니다. 이러한 경우가 아님을 확인하려면
 
@@ -249,7 +249,7 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 #### SSL 구성 문제 {#ssl-config-v2}
 
-엄격한 SSL 적용을 활용하는 HTTP 통신에 대해 [!DNL Experience Manager] 데스크톱 앱이 사용하는 라이브러리입니다. 때때로 브라우저 사용에 성공하지만 [!DNL Experience Manager] 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절히 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache[에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.](https://access.redhat.com/solutions/43575)
+엄격한 SSL 적용을 활용하는 HTTP 통신에 대해 [!DNL Experience Manager] 데스크톱 앱이 사용하는 라이브러리입니다. 때때로 브라우저 사용에 성공하지만 [!DNL Experience Manager] 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절히 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache](https://access.redhat.com/solutions/43575)에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.[
 
 HTTP 통신을 위해 [!DNL Experience Manager] 데스크톱 앱이 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 따라서 브라우저 간 SSL 연결에 [!DNL Adobe Experience Manager] 데스크탑 앱이 실패할 수 있습니다. 이 기능은 SSL의 올바른 구성을 권장하고 보안을 강화하지만 응용 프로그램이 연결할 수 없을 때 좌절감을 줄 수 있습니다.
 
