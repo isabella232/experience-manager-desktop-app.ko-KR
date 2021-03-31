@@ -4,9 +4,9 @@ description: Win 또는 Mac 데스크탑에서 바로 [!DNL Adobe Experience Man
 mini-toc-levels: 1
 feature: Experience Manager 데스크탑 앱, 자산 관리
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: d345a0f0ac6826cf623f6e8bbbcc132481ea557c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3907'
 ht-degree: 0%
 
 ---
@@ -61,15 +61,17 @@ ht-degree: 0%
 
 ## [!DNL Experience Manager] 웹 인터페이스 {#desktopactions-v2}에서 데스크톱 작업 활성화
 
-브라우저의 자산 사용자 인터페이스 내에서 자산 위치를 탐색하거나 체크 아웃하고 데스크톱 응용 프로그램에서 편집할 자산을 열 수 있습니다. 이러한 옵션은 [!UICONTROL Desktop Actions]이라고 하며 기본적으로 활성화되지 않습니다. 이를 활성화하려면 다음 단계를 수행합니다.
+브라우저의 [!DNL Assets] 사용자 인터페이스 내에서 자산 위치를 탐색하거나 체크 아웃하고 데스크톱 응용 프로그램에서 편집할 자산을 열 수 있습니다. 이러한 옵션은 [!UICONTROL Desktop Actions]이라고 하며 기본적으로 활성화되지 않습니다. 이를 활성화하려면 다음 단계를 수행합니다.
 
-1. 자산 콘솔의 도구 모음에서 **[!UICONTROL User]** 아이콘을 클릭/탭합니다.
-1. **[!UICONTROL My Preferences]**&#x200B;을 클릭/탭하여 **[!UICONTROL Preferences]** 대화 상자를 표시합니다.
-1. [사용자 환경 설정] 대화 상자에서 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;을 선택합니다. **[!UICONTROL Accept]**&#x200B;을(를) 클릭/탭합니다.
+1. [!DNL Assets] 콘솔의 도구 모음에서 **[!UICONTROL User]** 아이콘을 클릭합니다.
+1. **[!UICONTROL My Preferences]**&#x200B;을 클릭하여 **[!UICONTROL Preferences]** 대화 상자를 표시합니다.
+
+1. [사용자 환경 설정] 대화 상자에서 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;을 선택합니다. 클릭 **[!UICONTROL Accept]**.
+
 
    ![데스크톱 작업을 활성화하려면 자산에 대한 데스크톱 작업 표시를 선택합니다.](assets/enable_desktop_actions.png)
 
-   데스크톱 작업을 활성화하려면 [!UICONTROL Show Desktop Actions For Assets]을 선택합니다.
+   *그림:데스크탑 작업 [!UICONTROL Show Desktop Actions For Assets] 을 활성화하려면 선택합니다.*
 
 ## 자산 찾아보기, 검색 및 미리 보기 {#browse-search-preview-assets}
 
@@ -106,7 +108,7 @@ ht-degree: 0%
 >
 >큰 파일이나 여러 파일을 다운로드하거나 업로드할 때 응용 프로그램은 자산 및 폴더에 대한 작업을 끕니다. 다운로드 또는 업로드가 완료되면 작업을 사용할 수 있습니다.
 
-큐 크기가 크거나 네트워크 문제가 발생하는 경우 여러 에셋을 다운로드하면 성능이 저하될 수 있습니다. 또한 폴더를 다운로드할 때 많은 에셋을 모르고 대기열에 보관할 수 있습니다. 장시간 대기 시간을 방지하기 위해 앱은 한 번에 다운로드한 에셋 수를 제한합니다. 구성 방법을 알려면 [환경 설정 지정](install-upgrade.md#set-preferences)을 참조하십시오. 이 제한보다 낮더라도, 응용 프로그램은 때때로 큰 폴더를 다운로드하기 전에 확인을 요청할 수 있습니다.
+큐 크기가 크거나 네트워크 문제가 발생하는 경우 여러 에셋을 다운로드할 경우 성능이 저하될 수 있습니다. 또한 폴더를 다운로드할 때 많은 에셋을 모르고 대기열에 보관할 수 있습니다. 장시간 대기 시간을 방지하기 위해 앱은 한 번에 다운로드한 에셋 수를 제한합니다. 구성 방법을 알려면 [환경 설정 지정](install-upgrade.md#set-preferences)을 참조하십시오. 이 제한보다 낮더라도, 응용 프로그램은 때때로 큰 폴더를 다운로드하기 전에 확인을 요청할 수 있습니다.
 
 ![앱이 상대적으로 많은 수의 ](assets/download_confirmation_da2.png "에셋 다운로드를 확인앱은 비교적 많은 수의 에셋 다운로드를 확인하는 메시지")
 
