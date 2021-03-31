@@ -2,9 +2,9 @@
 title: '데스크톱 응용 프로그램에 대한 우수 사례 및 문제 해결 [!DNL Adobe Experience Manager] '
 description: 모범 사례 및 문제 해결을 따라 설치, 업그레이드, 구성 등과 관련하여 가끔 발생하는 문제를 해결합니다.
 translation-type: tm+mt
-source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2175'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ Windows에서 디버그 모드를 활성화하려면:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
+### [!DNL Adobe Experience Manager] 데스크탑 앱 버전 {#know-app-version-v2} 알아보기
+
+버전 번호를 보려면:
+
+1. 애플리케이션을 시작합니다.
+
+1. 오른쪽 위 모서리의 줄임표를 클릭하고 [!UICONTROL Help] 위로 마우스를 가져간 다음 [!UICONTROL About] 을 클릭합니다.
+
+   버전 번호가 이 화면에 나열됩니다.
+
 ### 캐시 지우기 {#clear-cache-v2}
 
 다음 단계를 수행합니다.
@@ -138,17 +148,7 @@ Windows에서 디버그 모드를 활성화하려면:
 
 데스크톱 앱의 캐시를 지우려면 몇 가지 문제를 해결할 수 있는 사전 문제 해결 작업입니다. [!DNL Adobe Experience Manager] 앱 환경 설정에서 캐시를 지웁니다. [환경 설정](install-upgrade.md#set-preferences) 설정을 참조하십시오. 캐시 폴더의 기본 위치는 다음과 같습니다.
 
-### [!DNL Adobe Experience Manager] 데스크탑 앱 버전 {#know-app-version-v2} 알아보기
-
-버전 번호를 보려면:
-
-1. 애플리케이션을 시작합니다.
-
-1. 오른쪽 위 모서리의 줄임표를 클릭하고 [!UICONTROL Help] 위로 마우스를 가져간 다음 [!UICONTROL About] 을 클릭합니다.
-
-   버전 번호가 이 화면에 나열됩니다.
-
-### 가져온 자산 {#placed-assets-missing}을(를) 볼 수 없습니다.
+## 가져온 자산 {#placed-assets-missing}을(를) 볼 수 없습니다.
 
 사용자 또는 다른 크리에이티브 전문가가 지원 파일에 가져온 에셋(예: INDD 파일)이 표시되지 않으면 다음을 확인하십시오.
 
@@ -179,11 +179,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-### {#upload-fails} 파일을 업로드할 수 없습니다.
+## {#upload-fails} 파일을 업로드할 수 없습니다.
 
 [!DNL Experience Manager] 6.5.1 이상 버전의 데스크톱 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 업데이트는 [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하십시오.
 
-### [!DNL Experience Manager] 데스크탑 앱 연결 문제  {#connection-issues}
+## [!DNL Experience Manager] 데스크탑 앱 연결 문제  {#connection-issues}
 
 일반적인 연결 문제가 발생하는 경우 데스크톱 응용 프로그램에서 수행하는 작업에 대한 자세한 정보를 얻을 수 있는 몇 가지 방법이 있습니다.[!DNL Experience Manager]
 
@@ -200,7 +200,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 응용 프로그램 요청의 대부분은 요청 로그에 있습니다. 그러나 여기에 유용한 정보가 없는 경우 응용 프로그램의 포함된 브라우저가 보낸 요청을 확인하는 데 유용합니다.
 이러한 요청을 보는 방법에 대한 자세한 내용은 [SAML 섹션](#da-connection-issue-with-saml-aem)을 참조하십시오.
 
-#### {#da-connection-issue-with-saml-aem}이(가) 작동하지 않는 SAML 로그인 인증
+### {#da-connection-issue-with-saml-aem}이(가) 작동하지 않는 SAML 로그인 인증
 
 [!DNL Experience Manager] 데스크탑 앱이 SSO 지원(SAML) 배포에 연결할 수  [!DNL Adobe Experience Manager] 없습니다. 응용 프로그램의 디자인이 SSO 연결 및 프로세스의 변형과 복잡성을 수용하려고 시도합니다. 그러나 설치 시 추가 문제 해결이 필요할 수 있습니다.
 
@@ -247,7 +247,7 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 로드되는 URL 시퀀스를 보면 SAML의 끝에서 문제를 해결하는 데 도움이 되어 잘못된 점을 파악할 수 있습니다.
 
-#### SSL 구성 문제 {#ssl-config-v2}
+### SSL 구성 문제 {#ssl-config-v2}
 
 엄격한 SSL 적용을 활용하는 HTTP 통신에 대해 [!DNL Experience Manager] 데스크톱 앱이 사용하는 라이브러리입니다. 때때로 브라우저 사용에 성공하지만 [!DNL Experience Manager] 데스크탑 앱을 사용하지 못할 수도 있습니다. SSL을 적절히 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache](https://access.redhat.com/solutions/43575)에서 중간 CA 인증서를 설치하는 방법을 참조하십시오.[
 
@@ -284,7 +284,13 @@ HTTP 통신을 위해 [!DNL Experience Manager] 데스크톱 앱이 사용하는
 
 1. 파일을 저장하고 [!DNL Adobe Experience Manager] 데스크탑 앱을 다시 시작합니다.
 
-### 앱이 응답하지 않음 {#unresponsive}
+### 다른 서버 {#cannot-login-cookies-issue}로 전환할 때 로그인 문제
+
+[!DNL Experience Manager] 서버를 사용한 후 다른 서버에 대한 연결을 변경하려고 하면 로그인 문제가 발생할 수 있습니다. 기존 쿠키가 새로운 인증에 방해가 되기 때문입니다. [!UICONTROL Clear Cookies]에 대한 주 메뉴의 옵션이 도움이 됩니다. 앱의 현재 세션에서 로그아웃한 다음 연결을 진행하기 전에 [!UICONTROL Clear Cookies]을 선택합니다.
+
+![서버 전환 시 쿠키 지우기](assets/main_menu_logout_da2.png)
+
+## 앱이 응답하지 않음 {#unresponsive}
 
 거의 응용 프로그램이 응답하지 않거나, 흰색 화면만 표시하거나, 인터페이스 아래쪽에 아무 옵션도 없는 오류를 표시하는 경우가 있습니다. 순서대로 다음을 시도해 보십시오.
 
