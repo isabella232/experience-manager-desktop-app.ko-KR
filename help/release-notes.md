@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세
 mini-toc-levels: 1
 feature: Experience Manager 데스크탑 앱, 릴리스 정보
 translation-type: tm+mt
-source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
+source-git-commit: 861f2e8994ae7eb9b35c78036479fe47dc793cf3
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1512'
 ht-degree: 26%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 26%
 
 **앱 v2.1.2.0에서 업데이트**
 
-* 응용 프로그램의 주 메뉴에 [!UICONTROL Clear Cookies]에 대한 새 옵션이 추가됩니다. 서버에서 다른 서버로 연결을 변경하는 등 잠재적인 로그인 문제가 발생하는 데 도움이 됩니다.
+* 응용 프로그램의 주 메뉴에 [!UICONTROL Clear Cookies]에 대한 새 옵션이 추가됩니다. 서버에서 다른 서버로 연결을 변경하는 등 잠재적인 로그인 문제가 발생하는 데 도움이 됩니다. ](/help/troubleshoot.md#cannot-login-cookies-issue)에 연결하기 전에 [쿠키 지우기를 참조하십시오.
 
 **앱 v2.1.1.0에서 업데이트**
 
