@@ -1,14 +1,14 @@
 ---
 title: '데스크톱 응용 프로그램에 대한 우수 사례 및 문제 해결 [!DNL Adobe Experience Manager] '
 description: 모범 사례 및 문제 해결을 따라 설치, 업그레이드, 구성 등과 관련하여 가끔 발생하는 문제를 해결합니다.
+exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 translation-type: tm+mt
-source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
+source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Experience Manager] 데스크톱 앱 {#troubleshoot-v2} 문제 해결
 
@@ -298,6 +298,13 @@ HTTP 통신을 위해 [!DNL Experience Manager] 데스크톱 앱이 사용하는
 * 애플리케이션을 종료하고 다시 엽니다.
 
 두 방법 모두에서 앱은 루트 DAM 폴더에서 시작됩니다.
+
+## 만료된 자산 {#hide-expired-assets} 숨기기
+
+[!DNL Experience Manager] 사용자 인터페이스 내에서 자산을 검색할 때 만료된 자산이 표시되지 않습니다. 데스크탑 앱 및 에셋 링크에서 에셋을 검색할 때 만료된 에셋을 보고, 검색하고, 가져오는 것을 방지하기 위해 관리자는 다음 구성을 수행할 수 있습니다. 구성은 관리자 권한에 관계없이 모든 사용자에 대해 작동합니다.
+
+* [만료된 자산을 숨기도록 Experience Manager 6.5의 구성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api).
+* [만료된 자산을 숨기기 위한 Cloud Service의 구성입니다](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
