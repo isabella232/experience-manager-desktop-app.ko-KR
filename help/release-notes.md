@@ -2,15 +2,15 @@
 title: '[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보'
 description: ' [!DNL Adobe Experience Manager] 데스크탑 앱용 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
-feature: Experience Manager 데스크탑 앱, 릴리스 정보
+feature: 데스크탑 앱,릴리스 정보
+exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 translation-type: tm+mt
-source-git-commit: 861f2e8994ae7eb9b35c78036479fe47dc793cf3
+source-git-commit: 4616934e8923693106401da008e2510310d0742a
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1510'
 ht-degree: 26%
 
 ---
-
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 정보  {#release-notes-v2}
 
@@ -18,9 +18,9 @@ ht-degree: 26%
 
 **지원되는 [!DNL Experience Manager] 버전**&#x200B;은 다음과 같습니다.
 
-* [!DNL Experience Manager] 를  [!DNL Cloud Service]참조하십시오. [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html)를 참조하십시오.
-* [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 온프레미스 6.5.0 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)를 참조하십시오.
-* [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 온프레미스 6.4.4 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html)를 참조하십시오.
+* [!DNL Experience Manager] 를  [!DNL Cloud Service]참조하십시오. [릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ko-KR)를 참조하십시오.
+* [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 온프레미스 6.5.0 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ko-KR)를 참조하십시오.
+* [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 온프레미스 6.4.4 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ko-KR)를 참조하십시오.
 * [!DNL Experience Manager] 6.4.0 - 6.4.3 Adobe Managed Services( [AMS) 또는 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 온-프레미스 호환성 패키지가 설치된 상태로.
 * [!DNL Experience Manager] 6.3(호환성 패키지 포함)
 * [!DNL Experience Manager] 호환성 패키지가 설치된  [6.3.3.1 ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 이상 데스크탑 앱은 [!DNL Experience Manager] 6.3.3.0 또는 이전 버전에 대해 지원되지 않습니다.
