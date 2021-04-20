@@ -6,7 +6,7 @@ user-guide-title: Experience Manager 데스크탑 앱 안내서
 breadcrumb-title: Desktop App 안내서
 user-guide-description: Experience Manager 데스크탑 앱을 통해 저장소와 데스크탑 애플리케이션을 연결하여 리소스를 신속하게 이용하고 작업 과정을 간소화하는 방법을 알아봅니다.
 feature-set: Experience Manager Assets,Experience Manager
-feature: 데스크탑 앱
+feature: Desktop App
 role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a

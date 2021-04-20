@@ -1,7 +1,7 @@
 ---
 title: ' [!DNL Experience Manager] 데스크톱 앱 버전 1.10을 사용합니다.'
 description: Adobe Experience Manager 데스크톱 앱 버전 1.10을 사용하고 데스크탑에 있는 에셋으로 작업을 최적화하는 방법을 알아봅니다.
-feature: 데스크탑 앱,자산 관리
+feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a

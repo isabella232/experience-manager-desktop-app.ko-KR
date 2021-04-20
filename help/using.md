@@ -2,7 +2,7 @@
 title: ' [!DNL Experience Manager] 데스크탑 앱 사용'
 description: Win 또는 Mac 데스크탑에서 바로 [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM 에셋을 사용하고 다른 응용 프로그램에서 사용합니다.
 mini-toc-levels: 1
-feature: 데스크탑 앱,자산 관리
+feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
