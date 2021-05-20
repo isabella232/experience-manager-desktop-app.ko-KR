@@ -1,27 +1,26 @@
 ---
-title: '데스크탑 앱 소개 [!DNL Experience Manager] '
-description: 데스크톱에서 직접 [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] 을 사용하는 방법을 알아봅니다.
+title: ' [!DNL Experience Manager] 데스크탑 앱 소개'
+description: 데스크탑에서 직접 [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] 을 사용하는 방법을 알아봅니다.
 role: Business Practitioner, Administrator, Leader
-translation-type: tm+mt
-source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
+exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
+source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 62%
 
 ---
 
-
 # [!DNL Adobe Experience Manager] 데스크탑 앱 개요  {#overview-v2}
 
-Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생산성을 높일 수 있도록 전체 솔루션에 연결된 워크플로우를 제공합니다. [!DNL Adobe Experience Manager] 데스크탑 앱은 저장소 및 Adobe, 제3자 애플리케이션을 비롯한 데스크탑 애플리케이션을 연결하여 리소스에 빠르게 액세스하고 워크플로우를 간소화할 수 있습니다. 이렇게 시간을 절약하고 노력을 줄이면 데스크탑 워크플로우에서 [!DNL Adobe Experience Manager]의 에셋을 사용하여 작업하는 사용자의 효율성이 향상됩니다.
+Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생산성을 높일 수 있도록 전체 솔루션에 연결된 워크플로우를 제공합니다. [!DNL Adobe Experience Manager] 데스크탑 앱에서는 저장소와 데스크탑 애플리케이션(Adobe 및 타사 포함)을 연결하여 리소스를 신속하게 이용하고 워크플로우를 간소화합니다. 따라서 데스크탑 워크플로우에서 [!DNL Adobe Experience Manager]의 자산으로 작업하는 사용자의 효율성을 개선하는 시간이 절약되고 노력이 감소합니다.
 
-앱을 사용하면 [!DNL Experience Manager Assets] 내의 에셋은 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 원하는 데스크탑 애플리케이션에서 자산을 열고 편집할 수 있습니다. 로컬 편집 내용은 변경 내용을 업로드하도록 선택한 경우에만 [!DNL Experience Manager]에서 새로운 버전의 에셋으로 사용할 수 있으며, 이를 통해 데스크탑에서 효율적인 방식으로 에셋의 진행 중인 편집 작업을 처리할 수 있습니다. 이 앱은 에셋 및 중첩된 폴더의 업로드를 [!DNL Experience Manager]에 지원하므로 저장소에 새 컨텐츠를 추가하는 과정을 간소화할 수 있습니다.
+앱을 사용하면 로컬 데스크탑에서 [!DNL Experience Manager Assets] 내의 자산에 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 원하는 데스크탑 애플리케이션에서 자산을 열고 편집할 수 있습니다. 로컬 편집 내용은 변경 내용 업로드를 선택하는 경우에만 [!DNL Experience Manager]에서 새로운 자산 버전으로 사용할 수 있습니다. 이 경우 데스크탑에서 진행 중인 자산 편집 작업을 효율적인 방식으로 처리할 수 있습니다. 이 앱에서는 자산 및 중첩된 폴더를 [!DNL Experience Manager]에 업로드하여 저장소에 간단하게 새 콘텐츠를 추가할 수 있습니다.
 
-이러한 통합을 통해 조직의 다양한 역할이 [!DNL Experience Manager Assets]에서 중앙에서 자산을 관리할 수 있습니다. 마케터와 비즈니스 사용자가 브랜딩과 라이센싱을 포함한 다양한 표준 준수를 확보할 수 있습니다. Adobe Photoshop, Illustrator 및 InDesign의 자산으로 작업하는 전용 [Adobe Asset Link](https://www.adobe.com/kr/marketing/experience-manager-assets/adobe-asset-link.html) 도구가 있는 크리에이티브 사용자도 Creative Cloud와 기타 기본 애플리케이션에서 데스크탑의 자산에 액세스할 수 있습니다.
+이러한 통합을 통해 조직에서 다양한 역할이 [!DNL Experience Manager Assets]에서 자산을 중앙에서 관리할 수 있습니다. 마케터와 비즈니스 사용자가 브랜딩과 라이센싱을 포함한 다양한 표준 준수를 확보할 수 있습니다. Adobe Photoshop, Illustrator 및 InDesign의 자산으로 작업하는 전용 [Adobe Asset Link](https://www.adobe.com/kr/marketing/experience-manager-assets/adobe-asset-link.html) 도구가 있는 크리에이티브 사용자도 Creative Cloud와 기타 기본 애플리케이션에서 데스크탑의 자산에 액세스할 수 있습니다.
 
 >[!NOTE]
 >
->이 앱은 [!DNL Adobe Experience Manager] 6.1 릴리스에서 도입되었으며 이전에 [!DNL Adobe Experience Manager Assets] 컴패니언 앱이라고 불렀습니다. 앱 버전 1.x에 대한 도움말은 왼쪽 사이드바의 목차를 참조하십시오. Adobe은 최신 버전으로 업그레이드할 것을 권장합니다.
+>이 앱은 [!DNL Adobe Experience Manager] 6.1 릴리스에서 도입되었으며 이전에 [!DNL Adobe Experience Manager Assets] Companion App이라고 불렀습니다. 앱 버전 1.x의 도움말은 왼쪽 사이드바의 목차 를 참조하십시오. Adobe은 최신 버전으로 업그레이드할 것을 권장합니다.
 
 다음 역할 및 사용 사례에 대한 정보가 데스크탑 앱 설명서에 있습니다.
 
@@ -31,12 +30,12 @@ Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생�
 | 사전 요구 사항과 기술 사양이 궁금하십니까? 다운로드 링크가 필요하십니까? | [릴리스 노트](release-notes.md) |
 | 데스크탑 앱을 사용하신 적이 있습니까? 업그레이드하여 원활하게 전환하시겠습니까? | [이전 버전에서 업그레이드](install-upgrade.md#upgrade-from-previous-version) |
 | 시작하여 실행 중입니다. 기본 환경 설정을 조정하시겠습니까? | [앱 설치 및 구성](install-upgrade.md) |
-| 찾아보기, 검색, 편집, 업로드, 충돌 해결, 일괄 작업 등에 사용하는 방법을 알아봅니다. | [데스크탑  [!DNL Experience Manager] 앱 사용](using.md) |
+| 찾아보기, 검색, 편집, 업로드, 충돌 해결, 일괄 작업 등에 사용하는 방법을 알아봅니다. | [ [!DNL Experience Manager] 데스크탑 앱 사용](using.md) |
 | 문제가 발생했습니까? 문제 해결 도움말이 필요하십니까? | [ [!DNL Experience Manager]  데스크탑 앱 문제 해결](troubleshoot.md) |
 
-## 앱 {#whats-new-v2}의 새로운 기능
+## 앱의 새로운 기능 {#whats-new-v2}
 
-앱의 버전 2.0은 이전 버전보다 개선된 내용을 많이 제공하기 위해 완전히 새로 만들었습니다. 새 앱은 더 사용자 친화적이며 전용 데스크탑 환경에서 새로운 애플리케이션 UI를 제공합니다. 사용자는 [!DNL Experience Manager] 인터페이스를 사용하지 않고도 검색 또는 탐색, 열기, 편집 및 업로드를 통해 자산을 검색할 수 있을 뿐만 아니라 새 자산을 업로드할 수도 있습니다. 이 버전은 [!DNL Experience Manager] 인터페이스에서 파일을 열 수도 있습니다.
+앱의 버전 2.0은 이전 버전보다 개선된 내용을 많이 제공하기 위해 완전히 새로 만들었습니다. 새 앱은 더 사용자 친화적이며 전용 데스크탑 환경에서 새로운 애플리케이션 UI를 제공합니다. 사용자는 검색 또는 탐색을 통해 자산을 찾고 열기, 편집 및 변경 내용 업로드를 수행하며 새 자산을 업로드할 수도 있습니다. [!DNL Experience Manager] 인터페이스를 사용하지 않아도 됩니다. 이 버전은 [!DNL Experience Manager] 인터페이스에서 파일을 열 수도 있습니다.
 
 새 앱은 사용자 경험을 상당히 개선하는 동시에 이전과 동일한 사용 사례를 제공합니다. 다음은 최상위 개선 사항입니다.
 
