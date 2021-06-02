@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱에 대한 릴리
 mini-toc-levels: 1
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
+source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1525'
 ht-degree: 26%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 26%
 
 **앱 v2.1.0.0에서 업데이트**
 
-* 이제 자산을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 직접 애플리케이션 인터페이스의 파일 또는 폴더를 드래그할 수 있습니다. 이 기능은 애플리케이션에서 이전에 사용할 수 있었던 업로드 옵션 외에도 작동합니다.<!-- CQ-4309527 -->
+* 이제 자산을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 직접 애플리케이션 인터페이스의 파일 또는 폴더를 드래그할 수 있습니다. 애플리케이션에서 사용할 수 있는 업로드 옵션 외에도 작동합니다. [자산 업로드](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->를 참조하십시오
 
 **앱 v2.0.3에서 업데이트**
 
