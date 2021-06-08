@@ -4,16 +4,16 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱에 대한 릴리
 mini-toc-levels: 1
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
+source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 26%
+source-wordcount: '1649'
+ht-degree: 23%
 
 ---
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트  {#release-notes-v2}
 
-최신 데스크탑 앱 버전 2.1(2.1.2.0)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 3월 26일입니다. 개선 사항이 있는 부 릴리스입니다.
+최신 데스크탑 앱 버전 2.1(2.1.3.1)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 6월 8일입니다.
 
 지원되는 **버전**&#x200B;은 다음과 같습니다.[!DNL Experience Manager]
 
@@ -33,9 +33,9 @@ ht-degree: 26%
 
 | 운영 체제 | [!DNL Experience Manager]로서의 [!DNL Cloud Service]  | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.2.0.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.2.0.dmg) |
-| Windows 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.2.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.2.0.exe) |
-| Windows 32비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.2.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.2.0.exe) |
+| macOS 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) |
+| Windows 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) |
+| Windows 32비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
@@ -68,6 +68,16 @@ ht-degree: 26%
 
 자세한 내용은 [v2.0의 새로운 기능](introduction.md#whats-new-v2)을 참조하십시오.
 
+**앱 v2.1.3.1의 업데이트**
+
+* (선택된 경우) 앱이 폴더 및 파일을 업로드하여 [!DNL Adobe Experience Manager]에서 생성된 해당 노드 이름이 로컬 파일 및 폴더 이름과 동일하도록 하는 옵션이 추가되었습니다.
+
+   이 동작은 데스크탑 앱 버전 1 의 기본 동작과 비슷합니다. 반면에 현재 버전에서는 옵션이 활성화되지 않으면 공백 및 폴더 이름의 `% ; # , + ? ^ { } "` 문자가 폴더 경로에서 대시로 대체됩니다. 또한 폴더 경로에서는 대문자가 소문자로 변환됩니다. 그러나 파일 이름에서 `# % { } ? &` 문자는 대시로 대체됩니다.하지만 공백과 케이스는 유지됩니다. 자세한 내용은 [앱 환경 설정](/help/install-upgrade.md#set-preferences) 및 [새 자산 업로드 및 추가](/help/using.md#upload-and-add-new-assets-to-aem)를 참조하십시오.
+
+현재 버전에서 해결된 버그는 다음과 같습니다.
+
+* 자산이 많은 경우에도 자산 업로드 및 다운로드 속도가 향상되었습니다. 대용량 파일이 업로드될 때 [!DNL desktop app]을(를) 사용한 자산 업로드가 점점 실패하던 문제를 해결했습니다.
+
 **앱 v2.1.2.0에서 업데이트**
 
 * [!UICONTROL Clear Cookies]에 대한 새 옵션이 응용 프로그램의 기본 메뉴에 추가됩니다. 따라서 서버에서 다른 서버로 연결을 변경하는 등 잠재적인 로그인 문제가 발생합니다. ](/help/troubleshoot.md#cannot-login-cookies-issue)에 연결하기 전에 [쿠키 지우기 를 참조하십시오.
@@ -82,7 +92,7 @@ ht-degree: 26%
 
 **앱 v2.0.3에서 업데이트**
 
-현재 버전에서 해결된 버그는 다음과 같습니다.
+이 버전에서 수정되었습니다.
 
 * [!DNL Adobe Experience Manager] 6.5.5.0에서 DAM 저장소에 액세스하려고 하는 Windows의 앱 사용자에 대한 로그인 문제를 해결했습니다.
 
@@ -155,8 +165,6 @@ ht-degree: 26%
 * 실행 중인 [!DNL Experience Manager] 서버가 없는 URL에 연결하면 연결 화면이 응답하지 않는 경우가 가끔 있습니다. 애플리케이션을 종료하고 다시 시작합니다.
 
 **CRUD(만들기, 읽기, 업데이트 및 삭제) 문제:**
-
-* 잘못된 문자가 있어도 애플리케이션에서 파일 업로드를 시도하면 서버측 업로드가 실패할 수 있습니다. <!-- CQ-4273652 -->
 
 * 변경 내용을 주석과 함께 자산에 업로드할 때 주석이 자산과 함께 [!DNL Experience Manager]에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 [!DNL Experience Manager] 6.4.5 및 [!DNL Experience Manager] 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치하는 것이 좋습니다.<!-- CQ-4268990 -->
 
