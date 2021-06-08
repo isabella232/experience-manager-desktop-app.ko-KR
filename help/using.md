@@ -4,9 +4,9 @@ description: Win 또는 Mac 데스크탑에서 바로 [!DNL Adobe Experience Man
 mini-toc-levels: 1
 feature: 데스크탑 앱,자산 관리
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
+source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
-source-wordcount: '3923'
+source-wordcount: '3999'
 ht-degree: 0%
 
 ---
@@ -175,9 +175,19 @@ ht-degree: 0%
 
 ## 새 자산을 업로드하고 [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}에 추가
 
-사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어, 사진 촬영에서 [!DNL Experience Manager] 리포지토리에 많은 수의 사진을 추가하려는 에이전시 사진사나 계약자일 수 있습니다. 새 콘텐츠를 [!DNL Experience Manager]에 추가하려면 앱의 맨 위 막대에서 ![클라우드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)을(를) 선택합니다. 로컬 파일 시스템에서 자산 파일을 탐색하고 **[!UICONTROL Select]** 을 클릭합니다. 또는 자산을 업로드하려면 애플리케이션 인터페이스에서 파일 또는 폴더를 드래그합니다. Windows에서 자산을 앱 내의 폴더로 드래그하면 자산이 폴더에 업로드됩니다.
+사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어, 사진 촬영에서 [!DNL Experience Manager] 리포지토리에 많은 수의 사진을 추가하려는 에이전시 사진사나 계약자일 수 있습니다. 새 콘텐츠를 [!DNL Experience Manager]에 추가하려면 앱의 맨 위 막대에서 ![클라우드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)을(를) 선택합니다. 로컬 파일 시스템에서 자산 파일을 탐색하고 **[!UICONTROL Select]** 을 클릭합니다. 또는 자산을 업로드하려면 애플리케이션 인터페이스에서 파일 또는 폴더를 드래그합니다. Windows에서 자산을 앱 내의 폴더로 드래그하면 자산이 폴더에 업로드됩니다. 업로드하는 데 시간이 오래 걸리는 경우 앱에 진행률 표시줄이 표시됩니다.
 
-업로드하는 데 시간이 오래 걸리는 경우 앱은 맨 아래에 진행률 표시줄을 표시합니다. 폴더를 만들거나 업로드할 때 공백 및 잘못된 문자를 사용하지 마십시오.  [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)에서 폴더를 만들 때 허용되는 문자 목록을 참조하십시오.[
+파일 및 폴더의 이름을 지정할 때는 다음(공백으로 구분된 목록) 문자를 사용하지 마십시오.
+
+* 파일 이름 `\\`에 있습니다.
+
+   `# % { } ? & . / : [ | ] *` 문자는 [!DNL Adobe Experience Manager]에서 생성된 노드 이름에서 대시로 대체됩니다.하지만 공백과 케이스는 유지됩니다.
+
+* 폴더 이름 `\\ \t &`에 있습니다.
+
+   폴더 이름에 있는 공백 및 `% ; # , + ? ^ { } " . / : [ ] | *` 문자는 [!DNL Adobe Experience Manager]에 작성된 노드 이름에서 폴더 경로에서 대시로 대체됩니다. 또한 폴더 경로에서 대문자가 소문자로 변환됩니다.
+
+그러나 [!UICONTROL Preferences]에서 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]이 활성화되어 있으면 폴더는 폴더를 업로드할 때 v1.10 앱 동작을 에뮬레이션합니다. v1.10에서 리포지토리에서 생성된 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 따릅니다. 자세한 내용은 [앱 환경 설정](/help/install-upgrade.md#set-preferences)을 참조하십시오.
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
