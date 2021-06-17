@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱에 대한 릴리
 mini-toc-levels: 1
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
+source-git-commit: d642a33c8e8c2f771a6f996a76167b7f6e42c1ce
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 23%
@@ -70,10 +70,6 @@ ht-degree: 23%
 
 **앱 v2.1.3.1의 업데이트**
 
-* (선택된 경우) 앱이 폴더 및 파일을 업로드하여 [!DNL Adobe Experience Manager]에서 생성된 해당 노드 이름이 로컬 파일 및 폴더 이름과 동일하도록 하는 옵션이 추가되었습니다.
-
-   이 동작은 데스크탑 앱 버전 1 의 기본 동작과 비슷합니다. 반면에 현재 버전에서는 옵션이 활성화되지 않으면 공백 및 폴더 이름의 `% ; # , + ? ^ { } "` 문자가 폴더 경로에서 대시로 대체됩니다. 또한 폴더 경로에서는 대문자가 소문자로 변환됩니다. 그러나 파일 이름에서 `# % { } ? &` 문자는 대시로 대체됩니다.하지만 공백과 케이스는 유지됩니다. 자세한 내용은 [앱 환경 설정](/help/install-upgrade.md#set-preferences) 및 [새 자산 업로드 및 추가](/help/using.md#upload-and-add-new-assets-to-aem)를 참조하십시오.
-
 현재 버전에서 해결된 버그는 다음과 같습니다.
 
 * 자산이 많은 경우에도 자산 업로드 및 다운로드 속도가 향상되었습니다. 대용량 파일이 업로드될 때 [!DNL desktop app]을(를) 사용한 자산 업로드가 점점 실패하던 문제를 해결했습니다.
@@ -81,6 +77,10 @@ ht-degree: 23%
 **앱 v2.1.2.0에서 업데이트**
 
 * [!UICONTROL Clear Cookies]에 대한 새 옵션이 응용 프로그램의 기본 메뉴에 추가됩니다. 따라서 서버에서 다른 서버로 연결을 변경하는 등 잠재적인 로그인 문제가 발생합니다. ](/help/troubleshoot.md#cannot-login-cookies-issue)에 연결하기 전에 [쿠키 지우기 를 참조하십시오.
+
+* (선택된 경우) 앱이 폴더 및 파일을 업로드하여 [!DNL Adobe Experience Manager]에서 생성된 해당 노드 이름이 로컬 파일 및 폴더 이름과 동일하도록 하는 옵션이 추가되었습니다.
+
+   이 동작은 데스크탑 앱 버전 1 의 기본 동작과 비슷합니다. 반면에 현재 버전에서는 옵션이 활성화되지 않으면 공백 및 폴더 이름의 `% ; # , + ? ^ { } "` 문자가 폴더 경로에서 대시로 대체됩니다. 또한 폴더 경로에서는 대문자가 소문자로 변환됩니다. 그러나 파일 이름에서 `# % { } ? &` 문자는 대시로 대체됩니다.하지만 공백과 케이스는 유지됩니다. 자세한 내용은 [앱 환경 설정](/help/install-upgrade.md#set-preferences) 및 [새 자산 업로드 및 추가](/help/using.md#upload-and-add-new-assets-to-aem)를 참조하십시오.
 
 **앱 v2.1.1.0에서 업데이트**
 
