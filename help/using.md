@@ -4,9 +4,9 @@ description: Win 또는 Mac 데스크탑에서 바로 [!DNL Adobe Experience Man
 mini-toc-levels: 1
 feature: 데스크탑 앱,자산 관리
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
+source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '4054'
 ht-degree: 0%
 
 ---
@@ -177,18 +177,6 @@ ht-degree: 0%
 
 사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어, 사진 촬영에서 [!DNL Experience Manager] 리포지토리에 많은 수의 사진을 추가하려는 에이전시 사진사나 계약자일 수 있습니다. 새 콘텐츠를 [!DNL Experience Manager]에 추가하려면 앱의 맨 위 막대에서 ![클라우드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)을(를) 선택합니다. 로컬 파일 시스템에서 자산 파일을 탐색하고 **[!UICONTROL Select]** 을 클릭합니다. 또는 자산을 업로드하려면 애플리케이션 인터페이스에서 파일 또는 폴더를 드래그합니다. Windows에서 자산을 앱 내의 폴더로 드래그하면 자산이 폴더에 업로드됩니다. 업로드하는 데 시간이 오래 걸리는 경우 앱에 진행률 표시줄이 표시됩니다.
 
-파일 및 폴더의 이름을 지정할 때는 다음(공백으로 구분된 목록) 문자를 사용하지 마십시오.
-
-* 파일 이름 `\\`에 있습니다.
-
-   `# % { } ? & . / : [ | ] *` 문자는 [!DNL Adobe Experience Manager]에서 생성된 노드 이름에서 대시로 대체됩니다.하지만 공백과 케이스는 유지됩니다.
-
-* 폴더 이름 `\\ \t &`에 있습니다.
-
-   폴더 이름에 있는 공백 및 `% ; # , + ? ^ { } " . / : [ ] | *` 문자는 [!DNL Adobe Experience Manager]에 작성된 노드 이름에서 폴더 경로에서 대시로 대체됩니다. 또한 폴더 경로에서 대문자가 소문자로 변환됩니다.
-
-그러나 [!UICONTROL Preferences]에서 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]이 활성화되어 있으면 폴더는 폴더를 업로드할 때 v1.10 앱 동작을 에뮬레이션합니다. v1.10에서 리포지토리에서 생성된 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 따릅니다. 자세한 내용은 [앱 환경 설정](/help/install-upgrade.md#set-preferences)을 참조하십시오.
-
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
@@ -204,9 +192,76 @@ ht-degree: 0%
 >
 >전송 목록은 영구적이지 않으며 앱을 종료하고 다시 여는 경우에는 사용할 수 없습니다.
 
+### 자산 이름 {#special-characters-in-filename}의 특수 문자 관리
+
+레거시 앱에서 저장소에서 생성된 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 유지합니다. 현재 응용 프로그램에서 v1.10 앱의 노드 이름 지정 규칙을 에뮬레이션하려면 [!UICONTROL Preferences]에서 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]을 활성화합니다. [앱 환경 설정](/help/install-upgrade.md#set-preferences)을 참조하십시오. 이 레거시 기본 설정은 기본적으로 비활성화됩니다.
+
 >[!NOTE]
 >
->파일이 업로드되지 않고 [!DNL Experience Manager] 6.5.1 이상 배포에 연결하는 경우 이 [문제 해결 정보](troubleshoot.md#upload-fails)를 참조하십시오.
+>이 앱은 다음 이름 지정 규칙을 사용하여 저장소의 노드 이름만 변경합니다. 앱은 자산의 `Title`을 있는 그대로 유지합니다.
+
+<!-- TBD: Do NOT use this table.
+
+| Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
+|---|---|---|---|---|
+| In file name extension | `.` | Enabled or disabled | Retained as is | NA |
+| File or folder name | `. / : [ ] | *` | Enabled or disabled | Replaced with a `-` (hyphen) | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
+| Folder name | `% ; # , + ? ^ { } "` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | `% # ? { } &` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Whitespaces | Enabled or disabled | Retained as is | NA |
+| Folder name | Whitespaces | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Uppercase characters | Disabled | Retained as is | tbd |
+| Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
+-->
+
+| 문자 ‡ | 앱의 기존 환경 설정 | 파일 이름에서 발생하는 경우 | 폴더 이름에서 발생하는 경우 | 예 |
+|---|---|---|---|---|
+| `. / : [ ] | *` | 활성화 또는 비활성화 | `-`(하이픈)으로 대체되었습니다. 파일 이름 확장명의 `.`(점)은 그대로 유지됩니다. | `-`(하이픈)으로 대체되었습니다. | `myimage.jpg` 는 그대로 유지되며  `my.image.jpg` 변경 사항이  `my-image.jpg`적용됩니다. |
+| `% ; # , + ? ^ { } "` 및 공백 | ![iconDisabled 선택 ](assets/do-not-localize/deselect-icon.png) 취소 | 공백은 유지됩니다. | `-`(하이픈)으로 대체되었습니다. | `My Folder.` 변경  `my-folder-`. |
+| `# % { } ? & .` | ![iconDisabled 선택 ](assets/do-not-localize/deselect-icon.png) 취소 | `-`(하이픈)으로 대체되었습니다. | NA. | `#My New File.` 변경  `-My New File-`. |
+| 대문자 | ![iconDisabled 선택 ](assets/do-not-localize/deselect-icon.png) 취소 | 케이스는 그대로 유지됩니다. | 소문자로 변경되었습니다. | `My New Folder` 변경  `my-new-folder`. |
+| 대문자 | ![선택 선택됨 ](assets/do-not-localize/selection-checked-icon.png) 아이콘사용 | 케이스는 그대로 유지됩니다. | 케이스는 그대로 유지됩니다. | 나. |
+
+문자 ‡ 목록은 공백으로 구분된 목록입니다.
+
+<!-- TBD: Check if the following is to be included in the footnote.
+
+Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
+-->
+
+
+<!-- TBD: Securing the below presentation of the same content in a comment.
+
+**File names**
+
+| Characters | Replaced by |
+|---|---|
+| &#35; &#37; &#123; &#63; &#125; &#38; &#46; &#47; &#58; &#91; &#124; &#93; &#42; | hyphen (-) |
+| whitespaces | whitespaces are retained |
+| capital case | casing is retained |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; in file names.
+
+**Folder names**
+
+| Characters | Replaced by |
+|---|---|
+| Characters | Replaced by |
+| &#37; &#59; &#35; &#44; &#43; &#63; &#94; &#123; &#123; &#34; &#46; &#47; &#59; &#91; &#93; &#124; &#42; | hyphen (-) |
+| whitespaces | hyphen (-) |
+| capital case | lower case |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; &#92;&#116; &#38; in folder names.
+
+>[!NOTE]
+>
+>If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
+
+-->
 
 ## 여러 자산 작업 {#work-with-multiple-assets}
 
