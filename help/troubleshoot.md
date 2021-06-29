@@ -2,9 +2,9 @@
 title: '데스크탑 앱 및 문제 해결 우수 사례 [!DNL Adobe Experience Manager] '
 description: 모범 사례 및 문제 해결을 따라 설치, 업그레이드, 구성 등과 관련된 간혹 문제가 해결됩니다.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
+source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2260'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * **시간 제한**:현재 데스크탑 앱에는 고정된 시간 간격 후 서버 [!DNL Experience Manager] 와 데스크탑 앱 간의 연결을 해제하는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후에 연결이 시간 초과되면 업로드 시간 제한을 높여 자산을 몇 번 다시 업로드합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
-## {#troubleshooting-prep} 문제 해결 방법
+## 문제 해결 방법 {#troubleshooting-prep}
 
 데스크탑 앱 문제를 해결하려면 다음 정보를 참조하십시오. 또한 지원을 원하는 경우 고객 지원 센터에 문제를 보다 잘 전달할 수 있도록 준비합니다.
 
@@ -55,7 +55,7 @@ Mac의 경우:`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 >
 >지원 요청 또는 티켓에서 Adobe 고객 지원 팀과 작업할 때 고객 지원 센터에서 문제를 이해하는 데 도움이 되도록 로그 파일을 공유하도록 요청할 수 있습니다. 전체 `Logs` 폴더를 보관하고 고객 지원 팀과 공유합니다.
 
-### 로그 파일 {#level-of-details-in-log}의 세부 정보 수준 변경
+### 로그 파일의 세부 정보 수준 변경 {#level-of-details-in-log}
 
 로그 파일의 세부 정보 수준을 변경하려면
 
@@ -83,7 +83,7 @@ Mac의 경우:`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 유효한 로그 수준은 DEBUG, INFO, WARN 또는 ERROR입니다. 로그 부위는 DEBUG에서 가장 높으며 ERROR에서는 가장 낮습니다.
 
-### 디버그 모드 {#enable-debug-mode} 사용
+### 디버그 모드 활성화 {#enable-debug-mode}
 
 문제를 해결하려면 디버그 모드를 활성화하고 로그에 자세한 정보를 가져올 수 있습니다.
 
@@ -107,7 +107,7 @@ Windows에서 디버그 모드를 활성화하려면
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### [!DNL Adobe Experience Manager] 데스크탑 앱 버전 {#know-app-version-v2}을 알고 있습니다.
+### [!DNL Adobe Experience Manager] 데스크탑 앱 버전을 알아봅니다 {#know-app-version-v2}
 
 버전 번호를 보려면 다음을 수행하십시오.
 
@@ -147,7 +147,7 @@ Windows에서 디버그 모드를 활성화하려면
 
 데스크톱 앱의 캐시를 지우려면 몇 가지 문제를 해결할 수 있는 사전 문제 해결 작업입니다. [!DNL Adobe Experience Manager] 앱 환경 설정에서 캐시를 지웁니다. [환경 설정 지정](install-upgrade.md#set-preferences)을 참조하십시오. 캐시 폴더의 기본 위치는 다음과 같습니다.
 
-## 배치된 자산 {#placed-assets-missing}을 볼 수 없습니다.
+## 배치된 자산을 볼 수 없음 {#placed-assets-missing}
 
 본인 또는 다른 크리에이티브 전문가가 지원 파일(예: INDD 파일)에 배치한 자산을 볼 수 없는 경우 다음을 확인하십시오.
 
@@ -159,11 +159,11 @@ Windows에서 디버그 모드를 활성화하려면
 
 * 권한. 배치된 자산을 가져올 수 있는 권한이 있는지 확인하려면 [!DNL Experience Manager] 관리자에게 문의하십시오.
 
-### 데스크탑 앱의 사용자 인터페이스에 있는 파일에 대한 편집 내용은 [!DNL Adobe Experience Manager] 즉시 {#changes-on-da-not-visible-on-aem}에 반영되지 않습니다
+### 데스크탑 앱의 사용자 인터페이스에 있는 파일에 대한 편집 내용은 [!DNL Adobe Experience Manager]에 즉시 반영되지 않습니다 {#changes-on-da-not-visible-on-aem}
 
 [!DNL Adobe Experience Manager] 데스크탑 앱에서는 파일의 모든 편집 작업이 완료되는 시점을 사용자가 결정합니다. 파일의 크기와 복잡성에 따라 새 버전의 파일을 다시 [!DNL Adobe Experience Manager]으로 전송하는 데 상당한 시간이 소요됩니다. 응용 프로그램의 설계에서는 파일 편집이 완료되고 자동으로 업로드되는 시기를 예측하는 대신 파일을 앞뒤로 전송하는 횟수를 최소화해야 합니다. 파일의 변경 내용을 업로드하도록 선택하여 사용자가 파일을 다시 [!DNL Adobe Experience Manager]으로 전송하는 것을 시작하는 것이 좋습니다.
 
-### macOS {#issues-when-upgrading-on-macos}에서 업그레이드할 때 발생하는 문제
+### macOS에서 업그레이드할 때 발생하는 문제 {#issues-when-upgrading-on-macos}
 
 macOS에서 [!DNL Experience Manager] 데스크탑 앱을 업그레이드할 때 가끔 문제가 발생할 수 있습니다. 이 문제는 [!DNL Experience Manager] 데스크탑 앱의 기존 시스템 폴더가 있기 때문에 새 버전의 [!DNL Experience Manager] 데스크탑 앱이 올바르게 로드되지 않습니다. 이 문제를 해결하려면 다음 폴더와 파일을 수동으로 제거할 수 있습니다.
 
@@ -178,11 +178,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## {#upload-fails} 파일을 업로드할 수 없습니다.
+## 파일을 업로드할 수 없습니다. {#upload-fails}
 
 [!DNL Experience Manager] 6.5.1 이상에서 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. 이 변수는 [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하십시오.
 
-## [!DNL Experience Manager] 데스크탑 앱 연결 문제  {#connection-issues}
+## [!DNL Experience Manager] 데스크탑 앱 연결 문제 {#connection-issues}
 
 일반 연결 문제가 발생하는 경우 [!DNL Experience Manager] 데스크탑 앱에서 수행하는 작업에 대한 자세한 정보를 얻는 몇 가지 방법이 있습니다.
 
@@ -199,7 +199,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 대부분의 응용 프로그램 요청은 요청 로그에 있습니다. 그러나 여기에 유용한 정보가 없다면 애플리케이션의 포함 브라우저에서 보낸 요청을 확인하는 것이 유용할 수 있습니다.
 이러한 요청을 보는 방법에 대한 지침은 [SAML 섹션](#da-connection-issue-with-saml-aem)을 참조하십시오.
 
-### SAML 로그인 인증이 {#da-connection-issue-with-saml-aem} 작동하지 않습니다.
+### SAML 로그인 인증이 작동하지 않음 {#da-connection-issue-with-saml-aem}
 
 [!DNL Experience Manager] 데스크탑 앱은 SSO 사용(SAML) 배포에 연결할 수  [!DNL Adobe Experience Manager] 없습니다. 애플리케이션의 설계는 SSO 연결 및 프로세스의 변형과 복잡성을 수용하려고 합니다. 하지만, 설정에 추가 문제 해결 필요 가 있을 수 있습니다.
 
@@ -283,7 +283,7 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 1. 파일을 저장하고 [!DNL Adobe Experience Manager] 데스크탑 앱을 다시 시작합니다.
 
-### 다른 서버 {#cannot-login-cookies-issue}로 전환할 때 로그인 문제가 발생합니다
+### 다른 서버로 전환할 때 로그인 문제 {#cannot-login-cookies-issue}
 
 [!DNL Experience Manager] 서버를 사용한 후에 다른 서버로 연결을 변경하려고 하면 로그인 문제가 발생할 수 있습니다. 새 인증을 방해하는 오래된 쿠키 때문입니다. 주 메뉴의 [!UICONTROL Clear Cookies] 옵션이 도움이 됩니다. 앱의 현재 세션에서 로그아웃하고 [!UICONTROL Clear Cookies] 을 선택하고 연결을 계속 진행합니다.
 
