@@ -4,14 +4,14 @@ description: Win 또는 Mac 데스크탑에서 바로 [!DNL Adobe Experience Man
 mini-toc-levels: 1
 feature: 데스크탑 앱,자산 관리
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4053'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] 데스크탑 앱 {#use-aem-desktop-app-v2} 사용
+# [!DNL Adobe Experience Manager] 데스크탑 앱 사용 {#use-aem-desktop-app-v2}
 
 로컬 데스크탑의 [!DNL Adobe Experience Manager] DAM 저장소에 저장된 디지털 자산에 쉽게 액세스하고 모든 데스크탑 애플리케이션에서 이러한 자산을 사용하려면 [!DNL Adobe Experience Manager] 데스크탑 앱을 사용합니다. 데스크탑 애플리케이션에서 자산을 열고 자산을 로컬로 편집할 수 있습니다. 변경 내용을 버전 제어로 [!DNL Experience Manager]에 다시 업로드하여 다른 사용자와 업데이트를 공유할 수 있습니다. 새 파일 및 폴더 계층을 [!DNL Experience Manager]에 업로드하고, 폴더를 만들고, [!DNL Experience Manager] DAM에서 자산 또는 폴더를 삭제할 수도 있습니다.
 
@@ -58,14 +58,14 @@ ht-degree: 0%
 
 * **[!UICONTROL Upload Changes]**:데스크탑 앱은 사용자가 서버에 명시적으로 업로드할 때만 업데이트된 자산을  [!DNL Experience Manager] 업로드합니다. 편집 내용을 저장하면 변경 사항이 로컬 시스템에만 저장됩니다. 업로드하면 자산이 자동으로 체크 인되고 잠금 아이콘이 제거됩니다. [자산 편집](using.md#edit-assets-upload-updated-assets)을 참조하십시오.
 
-## [!DNL Experience Manager] 웹 인터페이스에서 데스크톱 작업을 사용하도록 설정 {#desktopactions-v2}
+## [!DNL Experience Manager] 웹 인터페이스에서 데스크톱 작업 활성화 {#desktopactions-v2}
 
 브라우저의 [!DNL Assets] 사용자 인터페이스 내에서 자산 위치를 탐색하거나 체크 아웃하고 데스크탑 애플리케이션에서 편집할 자산을 열 수 있습니다. 이러한 옵션을 [!UICONTROL Desktop Actions]이라고 하며 기본적으로 활성화되지 않습니다. 활성화하려면 다음 단계를 수행하십시오.
 
 1. [!DNL Assets] 콘솔의 도구 모음에서 **[!UICONTROL User]** 아이콘을 클릭합니다.
 1. **[!UICONTROL My Preferences]** 을 클릭하여 **[!UICONTROL Preferences]** 대화 상자를 표시합니다.
 
-1. 사용자 환경 설정 대화 상자에서 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;을 선택합니다. 클릭 **[!UICONTROL Accept]**.
+1. [!UICONTROL User Preferences] 대화 상자에서 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;을 선택한 다음 **[!UICONTROL Accept]**&#x200B;를 클릭합니다.
 
 
    ![자산에 대한 데스크톱 작업 표시 를 선택하여 데스크톱 작업을 활성화합니다](assets/enable_desktop_actions.png)
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 자산의 로컬 다운로드 폴더를 열려면 ![추가 작업 아이콘](assets/do-not-localize/more2_da2.png)을 클릭하고 ![표시 아이콘](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** 작업을 클릭합니다.
 
-## 자산을 기본 문서 {#place-assets-in-native-documents}에 사용하거나 배치합니다.
+## 자산을 기본 문서에 사용하거나 배치합니다 {#place-assets-in-native-documents}
 
 자산을 기본 문서에 배치할 때 Windows 탐색기 또는 Mac Finder에서 파일에 액세스하는 경우가 있습니다. 로컬에서 다운로드한 파일의 파일 시스템 위치에 액세스하려면 ![표시 아이콘](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** 옵션을 사용합니다.
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 >
 >기본 애플리케이션에서 자산을 편집하려면 **[!UICONTROL Reveal File]** 옵션을 사용하지 마십시오. 대신 **[!UICONTROL Edit]** 작업을 사용하십시오. 자세한 내용은 [고급 워크플로우 를 참조하십시오.동일한 파일에서 공동 작업하고 편집 충돌을 방지합니다](#adv-workflow-collaborate-avoid-conflicts).
 
-## 자산을 편집하고 업데이트된 자산을 [!DNL Experience Manager] {#edit-assets-upload-updated-assets}에 업로드합니다.
+## 자산을 편집하고 업데이트된 자산을 [!DNL Experience Manager]에 업로드합니다. {#edit-assets-upload-updated-assets}
 
 변경 작업을 수행할 때 편집할 자산을 열고 업데이트된 자산을 Experience ManagerEM 서버에 업로드합니다. 다른 사용자의 편집과 충돌을 방지하려면 앱을 사용하여 편집 세션을 시작합니다. 편집을 시작하기 전에 자산에 잠금 아이콘이 없는지 확인합니다. 즉, 다른 사용자가 자산을 편집하지 않습니다.
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 필요한 경우 체크 아웃을 전환합니다. 업데이트된 자산이 로컬 캐시 폴더에서 제거되고 편집하거나 열 때 다시 다운로드됩니다.
 
-## 새 자산을 업로드하고 [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}에 추가
+## 새 자산을 업로드하고 [!DNL Experience Manager]에 추가 {#upload-and-add-new-assets-to-aem}
 
 사용자는 DAM 저장소에 새 자산을 추가할 수 있습니다. 예를 들어, 사진 촬영에서 [!DNL Experience Manager] 리포지토리에 많은 수의 사진을 추가하려는 에이전시 사진사나 계약자일 수 있습니다. 새 콘텐츠를 [!DNL Experience Manager]에 추가하려면 앱의 맨 위 막대에서 ![클라우드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)을(를) 선택합니다. 로컬 파일 시스템에서 자산 파일을 탐색하고 **[!UICONTROL Select]** 을 클릭합니다. 또는 자산을 업로드하려면 애플리케이션 인터페이스에서 파일 또는 폴더를 드래그합니다. Windows에서 자산을 앱 내의 폴더로 드래그하면 자산이 폴더에 업로드됩니다. 업로드하는 데 시간이 오래 걸리는 경우 앱에 진행률 표시줄이 표시됩니다.
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 >
 >전송 목록은 영구적이지 않으며 앱을 종료하고 다시 여는 경우에는 사용할 수 없습니다.
 
-### 자산 이름 {#special-characters-in-filename}의 특수 문자 관리
+### 자산 이름의 특수 문자 관리 {#special-characters-in-filename}
 
 레거시 앱에서 저장소에서 생성된 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 유지합니다. 현재 응용 프로그램에서 v1.10 앱의 노드 이름 지정 규칙을 에뮬레이션하려면 [!UICONTROL Preferences]에서 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]을 활성화합니다. [앱 환경 설정](/help/install-upgrade.md#set-preferences)을 참조하십시오. 이 레거시 기본 설정은 기본적으로 비활성화됩니다.
 
@@ -263,11 +263,11 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 -->
 
-## 여러 자산 작업 {#work-with-multiple-assets}
+## 여러 자산으로 작업 {#work-with-multiple-assets}
 
 사용자는 한 번에 모든 편집 내용을 업로드하거나 몇 번의 클릭으로 중첩된 폴더를 업로드하는 등의 작업을 사용하여 여러 자산으로 쉽게 작업하고 관리할 수 있습니다.
 
-### 큰 폴더 {#browse-large-folders} 찾아보기
+### 큰 폴더 찾아보기 {#browse-large-folders}
 
 많은 자산이 포함된 폴더로 작업할 경우 스크롤하여 더 많은 자산을 확인합니다. 키보드를 사용하여 스크롤하려면 Tab 키를 여러 번 눌러 맨 위에 있는 자산을 선택합니다. 강조 표시된 자산을 선택하여 언제 선택하는지 확인합니다. 이제 아래쪽 화살표 키를 사용하여 자산 목록을 이동합니다.
 
@@ -332,7 +332,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 반대로 **[!UICONTROL Open In Web]** 작업을 사용하여 데스크탑 앱에서 시작되는 웹 인터페이스에서 자산을 열 수 있습니다.
 
-## 고급 워크플로우:동일한 파일에 대해 공동 작업을 수행하고 편집 충돌을 방지합니다. {#adv-workflow-collaborate-avoid-conflicts}
+## 고급 워크플로우:동일한 파일에 대한 공동 작업 및 편집 충돌 방지 {#adv-workflow-collaborate-avoid-conflicts}
 
 공동 작업 환경에서는 여러 사용자가 버전 관리 충돌을 야기할 수 있는 동일한 자산 세트에서 작업할 수 있습니다. 충돌을 방지하려면 다음 우수 사례를 따르십시오.
 
@@ -352,7 +352,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 ![편집 충돌 해결 ](assets/editing_conflict_dialog_da2.png "옵션편집 충돌을 해결하는 옵션")
 
-## 고급 워크플로우:InDesign 파일 {#adv-workflow-place-assets-indesign}에 자산 배치 및 연결
+## 고급 워크플로우:InDesign 파일에 자산 배치 및 연결 {#adv-workflow-place-assets-indesign}
 
 [!DNL Experience Manager] 데스크탑 앱을 사용하여 연결된 자산이 있는 파일을 열면 자산이 미리 다운로드되어 기본 애플리케이션에 표시됩니다. 이 워크플로우가 작동하려면 기본 응용 프로그램이 로컬 자산에 대한 링크 배치를 지원해야 하며 이진 파일의 이러한 링크를 서버측 참조에 대한 해결을 지원해야 합니다.[!DNL Experience Manager]
 
@@ -373,7 +373,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 1. 노출된 자산을 InDesign 문서에 배치합니다. 문서에 링크가 만들어집니다.
 1. InDesign 문서에서 편집 내용을 완료하면 저장하고 데스크탑 앱을 사용하여 [!DNL Experience Manager]에 업로드합니다.
 
-## 고급 워크플로우:로컬로 자산 {#adv-workflow-download-assets-locally} 다운로드
+## 고급 워크플로우:로컬로 자산 다운로드 {#adv-workflow-download-assets-locally}
 
 이 앱은 많은 시나리오에서 파일 시스템의 [!DNL Experience Manager] 서버에서 로컬로 자산을 다운로드합니다. 이 다운로드는 대역폭 및 디스크 공간을 소모합니다. 이 시나리오를 이해하면 다운로드가 완료될 때까지 대기시간을 최적화하는 데 도움이 됩니다.
 
