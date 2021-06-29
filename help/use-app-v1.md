@@ -3,14 +3,14 @@ title: ' [!DNL Experience Manager] 데스크탑 앱 버전 1.10을 사용하십�
 description: Adobe Experience Manager 데스크탑 앱 버전 1.10을 사용하고 데스크탑의 자산으로 작업을 최적화하는 방법을 알아봅니다.
 feature: 데스크탑 앱,자산 관리
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
 
-# [!DNL Experience Manager] 데스크탑 앱 v1.10 {#use-aem-desktop-app-v1x} 사용
+# [!DNL Experience Manager] 데스크탑 앱 v1.10 사용 {#use-aem-desktop-app-v1x}
 
 앱을 사용하면 로컬 데스크탑에서 [!DNL Experience Manager] 내의 자산에 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산은 Mac Finder 또는 Windows Explorer에서 쉽게 표시되며, 데스크탑 애플리케이션에서 열고, 로컬로 변경할 수 있습니다. 변경 사항은 리포지토리에서 생성된 새 버전으로 다시 [!DNL Experience Manager]에 저장됩니다.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >데스크탑 앱은 [!DNL Experience Manager] 6.1 릴리스에서 도입되었으며 [!DNL Experience Manager Assets Companion App]라고 했습니다.
 
-## [!DNL Experience Manager] 크리에이티브 워크플로우의 데스크탑 앱 터치 포인트  {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## [!DNL Experience Manager] 크리에이티브 워크플로우의 데스크탑 앱 터치 포인트 {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 [!DNL Experience Manager] 데스크탑 앱은  [!DNL Assets]와 함께 크리에이티브 워크플로우에 통합되고 다음과 같은 터치 포인트를 제공합니다.
 
@@ -102,11 +102,11 @@ Assets 사용자 인터페이스 내에서 자산 위치를 탐색하거나 체�
 
    ![[!DNL Experience Manager] 사용자 환경 설정을 사용한 인터페이스](assets/aem_ui_user_preferences.png)
 
-1. 사용자 환경 설정 대화 상자에서 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;을 선택합니다. 클릭 **[!UICONTROL Accept]**.
+1. [!UICONTROL User Preferences] 대화 상자에서 **[!UICONTROL Show Desktop Actions For Assets]**&#x200B;을 선택한 다음 **[!UICONTROL Accept]**&#x200B;를 클릭합니다.
 
    ![데스크톱 작업 [!UICONTROL Show Desktop Actions For Assets] 을 활성화하려면 확인](assets/enable_desktop_actions.png)
 
-   *그림:자산에 대한 데스크톱 작업 표시 를 선택하여 데스크톱 작업을 활성화합니다.*
+   *그림:데스크탑 작업 [!UICONTROL Show Desktop Actions For Assets] 을 활성화하려면 를 선택합니다.*
 
 ## 데스크탑에서 자산 액세스 및 열기 {#openondesktop}
 
@@ -149,7 +149,7 @@ INDD(Adobe InDesign) 파일의 경우 컨텍스트 메뉴에서 **[!UICONTROL Op
 
 로컬 파일 시스템에서 특정 자산을 찾으려면 **표시** 빠른 작업 ![표시 아이콘](assets/do-not-localize/aemassets_reveal_icon.png)을 클릭합니다. 또는 도구 모음의 **데스크톱 작업** 메뉴에서 **표시**&#x200B;를 선택합니다.
 
-## 자산 상태 {#understand-the-asset-statuses} 이해
+## 자산 상태 이해 {#understand-the-asset-statuses}
 
 | ![Windows 기본 앱 아이콘](assets/do-not-localize/win_default.png) | 앱이 서버에 연결되고 모든 자산이 동기화됩니다. |
 --- |--- |
@@ -204,7 +204,7 @@ INDD(Adobe InDesign) 파일의 경우 컨텍스트 메뉴에서 **[!UICONTROL Op
 
 1. 다른 사용자가 사용할 수 있도록 자산을 체크 인하려면 자산 정보 대화 상자에서 체크인 아이콘을 클릭/탭합니다.
 
-### Windows {#check-out-assets-on-windows}에서 자산 확인
+### Windows에서 자산 확인 {#check-out-assets-on-windows}
 
 이 앱을 사용하면 다른 사용자가 작업 중인 파일을 수정하지 못하도록 자산 파일을 체크 아웃할 수 있습니다.
 
@@ -223,7 +223,7 @@ INDD(Adobe InDesign) 파일의 경우 컨텍스트 메뉴에서 **[!UICONTROL Op
 
 1. 다른 사용자가 사용할 수 있도록 자산을 체크 인하려면 **자산 정보** 대화 상자에서 체크인 아이콘을 클릭/탭합니다.
 
-### Finder 또는 Explorer를 사용하여 자산을 확인하고 웹 인터페이스 {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}을 사용합니다.
+### Finder 또는 Explorer와 웹 인터페이스를 사용하여 자산 확인 {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 자산 편집을 완료하면 데스크탑 애플리케이션에 자산을 저장합니다. 컨텍스트 메뉴에서 **추가 자산 정보**&#x200B;를 선택하고 체크 인을 클릭합니다.
 
