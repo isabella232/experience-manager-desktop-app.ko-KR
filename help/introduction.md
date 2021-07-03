@@ -1,16 +1,16 @@
 ---
 title: ' [!DNL Experience Manager] 데스크탑 앱 소개'
 description: 데스크탑에서 직접 [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] 을 사용하는 방법을 알아봅니다.
-role: Business Practitioner, Administrator, Leader
+role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 62%
 
 ---
 
-# [!DNL Adobe Experience Manager] 데스크탑 앱 개요  {#overview-v2}
+# [!DNL Adobe Experience Manager] 데스크탑 앱 개요 {#overview-v2}
 
 Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생산성을 높일 수 있도록 전체 솔루션에 연결된 워크플로우를 제공합니다. [!DNL Adobe Experience Manager] 데스크탑 앱에서는 저장소와 데스크탑 애플리케이션(Adobe 및 타사 포함)을 연결하여 리소스를 신속하게 이용하고 워크플로우를 간소화합니다. 따라서 데스크탑 워크플로우에서 [!DNL Adobe Experience Manager]의 자산으로 작업하는 사용자의 효율성을 개선하는 시간이 절약되고 노력이 감소합니다.
 
