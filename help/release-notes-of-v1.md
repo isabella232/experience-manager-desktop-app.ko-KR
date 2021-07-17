@@ -2,14 +2,14 @@
 title: 데스크탑 앱 v1.10 릴리스 노트
 description: AEM 데스크탑 앱 버전 1.10의 릴리스 세부 정보, 향상된 기능, 새로운 기능, 호환성 및 다운로드 링크.
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
-source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
 workflow-type: tm+mt
-source-wordcount: '3897'
+source-wordcount: '3898'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Experience Manager] 데스크탑 앱 v1.10 릴리스 노트  {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] 데스크탑 앱 v1.10 릴리스 노트 {#aem-desktop-app-release-notes}
 
 데스크탑 앱 v1.x 릴리스의 경우 다운로드 링크 및 AEM 호환성 정보는 다음과 같습니다.
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 |--- |--- |
 | 버전 | 1.10(Mac의 1.10.0.6 및 Windows의 1.10.0.3) |
 | 유형 | 부 릴리스 |
-| 날짜 | 1.10.0.6 (Mac):2020년 4월 15일1.10.0.3(Win):2018년 8월 31일 |
-| 다운로드 URL | [Mac OS X 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
-| 호환성 | AEM 6.5.x;AEM 6.4.x;AEM 6.3 SP2;AEM 6.2 SP1 CFP2+;AEM 6.1 SP2 CFP7+ |
+| 날짜 | 1.10.0.6 (Mac): 2020년 4월 15일 1.10.0.3(Win): 2018년 8월 31일 |
+| 다운로드 URL | [Mac OS X 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg);  [Windows 32비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe);  [Windows 64비트](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| 호환성 | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Adobe은 최신 기능, 최신 버그 수정 및 최상의 성능을 이용할 �
 
 설치 사전 요구 사항을 평가하려면 이 문서의 끝에 있는 [자세한 호환성 매트릭스](#compatibilitymatrix)를 참조하십시오.
 
-## 데스크탑 앱 v1.10 {#what-s-new-in-aem-desktop-app}의 새로운 기능
+## 데스크탑 앱 v1.10의 새로운 기능 {#what-s-new-in-aem-desktop-app}
 
 AEM 데스크탑 앱 1.10은 연결된 파일(예: InDesign)이 있는 자산을 열 때 대규모 업로드와 관련된 사용자 환경, 배경 작업에 대한 정보 및 최적화된 경험을 개선하는 데 중점을 둡니다.
 
@@ -51,7 +51,7 @@ AEM 데스크탑 앱 1.10은 연결된 파일(예: InDesign)이 있는 자산을
 >
 >macOS 10.15.4 이상을 사용하는 경우 앱의 버전 1.10.0.6 이상을 사용하십시오. 이 패치 릴리스는 [Apple notification 요구 사항](https://developer.apple.com/news/?id=04102019a)을 준수합니다.
 
-**로컬 편집/체크아웃**:자산에 저장된 변경 내용의 자동 업로드는 상태 창에서 비활성화할 수 있습니다. 이렇게 하면 사용자가 파일에 대해 계속 작업을 수행하고 변경 사항을 저장한 다음, 준비가 되면 모든 변경 사항을 업로드하도록 결정합니다.
+**로컬 편집/체크아웃**: 자산에 저장된 변경 내용의 자동 업로드는 상태 창에서 비활성화할 수 있습니다. 이렇게 하면 사용자가 파일에 대해 계속 작업을 수행하고 변경 사항을 저장한 다음, 준비가 되면 모든 변경 사항을 업로드하도록 결정합니다.
 
 **간소화된 자산 상태 창**. 상태 창이 단순해졌습니다. 이제 [!UICONTROL Uploads] 탭에는 개별 자산과 폴더 또는 벌크 업로드가 모두 표시됩니다. 이전 일괄 업로드 탭이 제거되었습니다.
 
@@ -65,25 +65,25 @@ AEM 데스크탑 앱 1.10은 연결된 파일(예: InDesign)이 있는 자산을
 
 자세한 지침은 [AEM 데스크탑 앱 설치 및 구성](install-configure-app-v1.md)을 참조하십시오.
 
-## 이전 버전 {#enhancements-in-the-previous-versions}의 개선 사항
+## 이전 버전의 개선 사항 {#enhancements-in-the-previous-versions}
 
 이 릴리스는 다음 주요 개선 사항을 제공하는 [!DNL Experience Manager] 데스크탑 앱의 이전 버전을 확장 및 대체합니다.
 
-* **버전 1.9/1.9.1**:다시 시작 가능한 업로드, 향상된 상태 창, 응용 프로그램/연결의 상태를 나타내는 응용 프로그램 아이콘, InDesign 파일에 대한 연결된 자산의 사전 가져오기.
+* **버전 1.9/1.9.1**: 다시 시작 가능한 업로드, 향상된 상태 창, 응용 프로그램/연결의 상태를 나타내는 응용 프로그램 아이콘, InDesign 파일에 대한 연결된 자산의 사전 가져오기.
 
-* **버전 1.8**:사용자에 대한 캐시 크기 제어 개선, Windows에서 SAML/SSO에 대한 로그인 환경 개선, Mac에서 .pac 네트워크 프록시 지원, 고객이 보고한 문제
+* **버전 1.8**: 사용자에 대한 캐시 크기 제어 개선, Windows에서 SAML/SSO에 대한 로그인 환경 개선, Mac에서 .pac 네트워크 프록시 지원, 고객이 보고한 문제
 
-* **버전 1.7**:안정성 및 캐싱 로직의 개선, 네트워크 프록시에 대한 지원 개선, 제거 후 내부 파일 정리 기능 개선.
+* **버전 1.7**: 안정성 및 캐싱 로직의 개선, 네트워크 프록시에 대한 지원 개선, 제거 후 내부 파일 정리 기능 개선.
 
-* **버전 1.6**:다양한 AEM 보안 구성 및 응용 프로그램 안정성 및 성능에 대한 로그인 프로세스의 개선 사항.
+* **버전 1.6**: 다양한 AEM 보안 구성 및 응용 프로그램 안정성 및 성능에 대한 로그인 프로세스의 개선 사항.
 
-* **버전 1.5**:다양한 네트워킹 문제에 대한 어플리케이션 안정성 및 탄력성, 향상된 지원 기능.
+* **버전 1.5**: 다양한 네트워킹 문제에 대한 어플리케이션 안정성 및 탄력성, 향상된 지원 기능.
 
-* **버전 1.4**:진행 모니터링을 사용하여 백그라운드에서 계층 폴더를 업로드하는 기능.
+* **버전 1.4**: 진행 모니터링을 사용하여 백그라운드에서 계층 폴더를 업로드하는 기능.
 
-* **버전 1.3**:특히 InDesign, Illustrator 또는 Photoshop과 같은 Creative Cloud 데스크탑 응용 프로그램에서 파일에 액세스하고 변경 사항을 AEM에 저장하는 것과 관련된 성능 향상 및 안정성. Launch는 파일을 사용하면서도 동시에 백그라운드에서 네트워크 데이터 전송 작업을 처리할 때 더욱 로컬 데스크탑과 같은 환경을 사용자에게 제공하기 위한 것입니다.
+* **버전 1.3**: 특히 InDesign, Illustrator 또는 Photoshop과 같은 Creative Cloud 데스크탑 응용 프로그램에서 파일에 액세스하고 변경 사항을 AEM에 저장하는 것과 관련된 성능 향상 및 안정성. Launch는 파일을 사용하면서도 동시에 백그라운드에서 네트워크 데이터 전송 작업을 처리할 때 더욱 로컬 데스크탑과 같은 환경을 사용자에게 제공하기 위한 것입니다.
 
-### AEM 데스크탑 앱 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x} 이후 사용 가능한 개선 사항
+### AEM 데스크탑 앱 1.9 이후 향상된 기능 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
 [!DNL Adobe Experience Manager] 데스크탑 앱 1.9.1은 자산 체크아웃 및 네트워크 공유에서 로컬 디렉터리로 파일 복사와 관련된 몇 가지 주요 고객 문제를 해결하는 패치 릴리스입니다.
 
@@ -152,11 +152,11 @@ AEM Web UI에서 [!UICONTROL Create] [!UICONTROL Upload Folder]을 통해 큰 �
 AEM에 저장된 연결된 자산을 포함하는 InDesign 문서를 사용하여 작업할 때 사용자 경험을 향상시키기 위해 데스크탑 앱에서는 연결된 파일을 로컬 캐시에 미리 가져온 후에 다운로드하여 InDesign 문서를 엽니다. 이러한 방식으로 사용자는 연결된 파일을 로컬에서 사용할 수 있으며, InDesign([링크] 패널)에서 이러한 파일에 액세스할 때 더 이상 기다릴 필요가 없습니다.
 사전 가져오기는 AEM이 서버 쪽의 링크를 인식하는 경우에만 작동합니다. 링크가 인식된 자산에 InDesign 자산의 속성 보기에 나열된 &quot;참조&quot; 목록이 있습니다.
 
-### AEM 데스크탑 앱 1.8.x {#enhancements-available-since-aem-desktop-app-18x} 이후에 사용할 수 있는 개선 사항
+### AEM 데스크탑 앱 1.8.x 이후 향상된 기능을 사용할 수 있습니다. {#enhancements-available-since-aem-desktop-app-18x}
 
 AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 1.8 릴리스로 여러 파일을 한 번에 열 때 향상된 기능이 추가되었습니다(CQ-4237747, CQ-4238780). AEM 데스크탑 앱 1.8의 향상된 기능은 다음과 같습니다.
 
-* 캐싱:다음을 포함한 AEM 데스크탑 앱 캐시 관리를 위한 새로운 UI(CQ-4208690)
+* 캐싱: 다음을 포함한 AEM 데스크탑 앱 캐시 관리를 위한 새로운 UI(CQ-4208690)
 
    * 현재 캐시 크기 보기
 
@@ -166,7 +166,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
    * 이제 새 UI에서 캐시 지우기 단추를 사용할 수 있습니다
 
-* 로그인:(Win) SAML 및 SSL을 사용하도록 구성된 AEM 인스턴스에 대한 로그인을 수정했습니다(CQ-4216353)
+* 로그인: (Win) SAML 및 SSL을 사용하도록 구성된 AEM 인스턴스에 대한 로그인을 수정했습니다(CQ-4216353)
 
 * 네트워크:
 
@@ -178,7 +178,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
 * 버그 수정:
 
-   * 추가 자산 정보 대화 상자:작업 표시줄이 보이지 않는 경우가 있습니다(CQ-4208540).
+   * 추가 자산 정보 대화 상자: 작업 표시줄이 보이지 않는 경우가 있습니다(CQ-4208540).
 
    * (Win) 이제 AEM Assets UI에서 이전 버전으로 돌아온 후 파일을 동기화할 수 있습니다(CQ-4216411).
 
@@ -198,9 +198,9 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
    * 크기가 0인 바이너리를 방지하기 위해 캐싱이 개선되었습니다(CQ-4216599).
 
-* 로그인:특수 구성(로컬로 발급된 인증서 등)에 사용할 수 없는 strictSSL과 연결할 수 있도록 허용합니다(CQ-4223949).
+* 로그인: 특수 구성(로컬로 발급된 인증서 등)에 사용할 수 없는 strictSSL과 연결할 수 있도록 허용합니다(CQ-4223949).
 
-* 네트워킹:네트워크 프록시를 통한 연결 지원이 개선되었습니다(CQ-4223477, CQ-4221280, CQ-4206854).
+* 네트워킹: 네트워크 프록시를 통한 연결 지원이 개선되었습니다(CQ-4223477, CQ-4221280, CQ-4206854).
 
 * 설치 및 제거:
 
@@ -214,9 +214,9 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 >
 >AEM 데스크탑 앱 1.7 베타 로드에서 발견된 문제(1.6 릴리스에 없는 문제)는 릴리스 노트에 보고되지 않습니다.
 
-### AEM 데스크탑 앱 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16} 이후 사용 가능한 개선 사항
+### AEM 데스크탑 앱 1.6 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* 설명서:새 [v1.x app](/help/best-practices-for-v1.md) 설명서에 대한 우수 사례
+* 설명서: 새 [v1.x app](/help/best-practices-for-v1.md) 설명서에 대한 우수 사례
 
 * AEM에 대한 로그인 프로세스 개선:
 
@@ -224,7 +224,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
    * 환경 설정에서 별도의 로그인 URL을 구성하는 기능을 추가합니다(CQ-4214052, CQ-4214051).
 
-* 유용성:더 큰 자산에 대해 자산을 계속 다운로드하는 경우 사용자에게 알립니다(CQ-4216284).
+* 유용성: 더 큰 자산에 대해 자산을 계속 다운로드하는 경우 사용자에게 알립니다(CQ-4216284).
 
 * 네트워킹:
 
@@ -262,7 +262,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
 **Mac OS X용 버전 1.5.1.5:**  1.5 릴리스는 다음과 같은 이점을 제공합니다.
 
-* 새로운 기능 및 개선 사항:데스크탑에서 AEM으로 바로 전송할 수 있도록 Finder 통합에 복사/붙여넣기 기능을 추가합니다(CQ-4208158).
+* 새로운 기능 및 개선 사항: 데스크탑에서 AEM으로 바로 전송할 수 있도록 Finder 통합에 복사/붙여넣기 기능을 추가합니다(CQ-4208158).
 
 * 버그 수정:
 
@@ -276,7 +276,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
    * 파일을 InDesign에 처음 배치하면 업데이트 경고가 시작됩니다(CQ-4207454).
 
-링크 경고에 대한 참고 사항:Creative Cloud 응용 프로그램(예: InDesign)은 항목이 배치된 시점에 마지막으로 수정한 시간의 &quot;스냅샷&quot;을 만듭니다. 해당 날짜가 나중에 변경되면 Adobe Creative Cloud 앱에서는 링크가 오래된 것으로 보고합니다. 다음 두 가지 방법으로 보고됩니다.
+링크 경고에 대한 참고 사항: Creative Cloud 응용 프로그램(예: InDesign)은 항목이 배치된 시점에 마지막으로 수정한 시간의 &quot;스냅샷&quot;을 만듭니다. 해당 날짜가 나중에 변경되면 Adobe Creative Cloud 앱에서는 링크가 오래된 것으로 보고합니다. 다음 두 가지 방법으로 보고됩니다.
 
 * Adobe Creative Cloud 앱이 실행되면 연결된 자산이 오래되었음을 사용자에게 알려주는 대화 상자가 표시되며, 사용자에게 조치를 취할 것을 표시합니다.
 
@@ -306,7 +306,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
 * Creative Cloud 앱에서 AEM 자산 열기, 배치 및 저장의 안정성이 개선되었습니다(CQ-4203968, CQ-4205511, CQ-103543, CQ-4207141, CQ-90980).
 
-* 향상된 지원 기능:캐시 지우기를 위한 옵션(CQ-4202541), 로그에 쉽게 액세스할 수 있는 옵션(CQ-4202340, CQ-4204673).
+* 향상된 지원 기능: 캐시 지우기를 위한 옵션(CQ-4202541), 로그에 쉽게 액세스할 수 있는 옵션(CQ-4202340, CQ-4204673).
 
 * 기타 수정 사항:
    * 이름/비영어 설정에서 일본어 문자가 포함된 자산 및 폴더에 대한 지원이 향상되었습니다(CQ-4195433, CQ-4205793, CQ-4199446).
@@ -319,7 +319,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 
    * 환경 설정에서 AEM Assets URL을 더 잘 처리합니다(CQ-97388).
 
-### AEM 데스크탑 앱 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14} 이후 사용 가능한 개선 사항
+### AEM 데스크탑 앱 1.4 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Touch UI에서 새로운 만들기 > 폴더 업로드 작업을 통해 계층 폴더의 간소화된 업로드.
    * 작업이 데스크탑 앱에서 수행하는 폴더 업로드 작업을 시작합니다
@@ -331,7 +331,7 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 * 최신 OS 릴리스와의 호환성을 개선했습니다
 * 고객이 보고한 수정 사항
 
-### AEM 데스크탑 앱 1.3 {#Enhancements-Available-Since-AEM-Desktop-App-13} 이후 사용 가능한 개선 사항
+### AEM 데스크탑 앱 1.3 이후 사용 가능한 개선 사항 {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * 효율성 향상. 네트워크 작업이 완료되기를 기다리는 시간이 줄어듭니다.
 * 축소판 그림 등의 기능에 더 많은 안정성과 액세스를 제공하는 파인더 통합 기능이 향상되었습니다.
@@ -340,12 +340,12 @@ AEM 데스크탑 앱 1.8.1 패스트 팔로우 릴리스에 따라 AEM UI에서 
 * Mac OS와의 통합이 개선되었습니다(로컬 네트워크 드라이브 프로토콜이 WebDAV에서 보다 안정적인 SMB1로 변경됨).
 * 데스크탑 앱은 AEM 기본 HTTP RESTful 프로토콜을 사용하여 AEM 서버에 연결합니다.
 * 파일은 먼저 로컬에 저장된 다음 사전 정의된 시간(30초) 후 백그라운드에서 AEM으로 다시 업로드됩니다. 이렇게 하면 파일을 저장하는 시간이 줄어듭니다.
-* 중간 파일 작업을 사용하여 파일(부분 저장 및 임시 파일)을 저장하는 데스크탑 애플리케이션을 보다 효과적으로 처리하여 AEM Asset 타임라인에 올바른 버전 및 자산 업로드 정보를 표시할 수 있습니다.
+* 중간 파일 작업을 사용하여 파일(부분 저장 및 임시 파일)을 저장하는 데스크탑 애플리케이션을 보다 효과적으로 처리하여 AEM Asset 타임라인에서 올바른 버전 및 자산 업로드 정보를 표시할 수 있습니다.
 * 백그라운드 업로드 작업의 상태를 추적하기 위해 제공된 대화 상자입니다.
 
 ## 변경 사항 목록 {#list-of-changes}
 
-### Mac {#mount-point-on-mac}에 마운트 지점
+### Mac의 마운트 지점 {#mount-point-on-mac}
 
 MacOS 10.12(Sierra) 이후 Apple은 네트워크 드라이브 및 장치를 마운트하는 데 사용되는 /Volumes 폴더의 권한을 더 제한적으로 변경했습니다. 새 마운트 지점을 만들려면 관리 권한이 필요합니다. 이 문제는 MacOS 10.12.5에서 수정되었습니다.
 
@@ -359,7 +359,7 @@ MacOS 10.12(Sierra) 이후 Apple은 네트워크 드라이브 및 장치를 마�
    * OS X 데스크톱 통합을 위한 로컬 네트워크 드라이브 프로토콜이 WebDAV에서 SMB1로 변경되었습니다.
    * 데스크톱 앱에 마운트된 AEM 리포지토리는 WebDAV 드라이브 대신 Finder에서 &quot;smb&quot; 네트워크 드라이브로 표시됩니다.
 * Windows:
-   * Windows 데스크톱 통합을 위한 로컬 네트워크 드라이브 프로토콜 유지AEM은 WebDAV 공유로 마운트됩니다.
+   * Windows 데스크톱 통합을 위한 로컬 네트워크 드라이브 프로토콜 유지 AEM은 WebDAV 공유로 마운트됩니다.
 * 두 플랫폼 모두(Windows 및 Mac):
    * 자산을 액세스/다운로드하고 AEM에 대한 변경 사항을 업로드하기 위한 프로토콜이 HTTP 기반 RESTful 프로토콜인 기본 AEM 프로토콜으로 변경되었습니다. 네트워크 작업을 보다 효과적으로 제어할 수 있으며 네트워크 인프라와 더욱 호환됩니다.
 
@@ -396,7 +396,7 @@ MacOS 10.12(Sierra) 이후 Apple은 네트워크 드라이브 및 장치를 마�
 ## 알려진 문제 {#known-issues}
 
 * 일반:
-   * 경로(예:`http://server`, `https://server`, `http://server:port` 또는 `https://server:port`). /content/dam 이외의 컨텍스트 경로 및 하위 폴더는 지원되지 않습니다(CQ-89343, CQ-87272)
+   * 경로(예: `http://server`, `https://server`, `http://server:port` 또는 `https://server:port`)가 없는 서버를 가리키는 서버 URL은 필수입니다. /content/dam 이외의 컨텍스트 경로 및 하위 폴더는 지원되지 않습니다(CQ-89343, CQ-87272)
 * 파일 이름 / 로컬라이제이션:
    * 예약된 문자가 있는 파일 및 폴더 이름이 제대로 처리되지 않습니다. AEM 요구 사항에 맞는 파일 및 폴더 이름을 사용해야 합니다(CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
    * Adobe Illustrator과 같은 일부 애플리케이션은 AEM에서 지원되지 않는 이름을 사용하는 파일을 만들 수 있습니다. 예를 들어 파일을 변환한 후 `Converted`을 추가하면 업로드되지 않습니다(CQ-4216985)
@@ -408,11 +408,11 @@ MacOS 10.12(Sierra) 이후 Apple은 네트워크 드라이브 및 장치를 마�
    * 체크아웃 및 읽기 전용 상태는 Finder에서 독립적으로 보고됩니다. 이렇게 하면 사용자가 자산을 체크 아웃할 때 2개의 잠금 아이콘이 표시됩니다(CQ-89507)
 * Finder 통합:
    * 대용량 파일을 드래그/드롭할 때 백그라운드에서 파일이 전송되는 동안 Finder가 시간이 초과될 수 있습니다. 이 경우 `Error - 36`이 됩니다. 해결 방법은 자산을 다시 드래그/드롭하거나 여는 것입니다(CQ-4219628)
-   * 수동 폴더 재로드가 항상 작동하는 것은 아닙니다. 해결 방법: 대기   폴더를 자동으로 업데이트하려면 30초입니다. (CQ-97389)
+   * 수동 폴더 재로드가 항상 작동하는 것은 아닙니다. 해결 방법:  대기   폴더를 자동으로 업데이트하려면 30초입니다. (CQ-97389)
    * 추가 자산 정보...는 단일 파일 선택으로 제한됩니다(CQ-89542, CQ-87656)
    * AEM Assets에서 열기...는 단일 파일 및 폴더 선택으로 제한됩니다(CQ-83382)
    * 확장이 없는 자산의 이름을 변경하는 동안 오류가 발생했습니다(CQ-4218971).
-* 복사/붙여넣기 기능:클립보드에 복사한 자산이 없으면 붙여넣기를 사용할 수 있습니다
+* 복사/붙여넣기 기능: 클립보드에 복사한 자산이 없으면 붙여넣기를 사용할 수 있습니다
 * Windows:
    * 대체 데이터 스트림(ADS)이 있는 파일은 NTFS에서만 완전히 지원됩니다. 데스크톱 앱에서 제공하는 WebDAV 공유에 이러한 파일을 복사하면 사용자에게 새 위치에 복사할 수 없는 속성이 파일에 있다는 경고 대화 상자가 표시됩니다. 속성은 사용자의 데스크톱에 있는 특정 애플리케이션에만 해당되며 실제 파일 컨텐츠와는 관계가 없으므로 일반적으로 적합합니다(CQ-103770)(Win)
    * Windows의 데스크탑 앱은 해당 앱을 사용할 사용자가 설치해야 합니다(CQ-4216389)(win)
@@ -430,7 +430,7 @@ AEM 데스크탑 앱은 다양한 버전의 AEM에서 작동합니다. 지원되
 
 | 버전 | 개정 | 릴리스 날짜 | 호환성 |
 |--- |--- |--- |--- |
-| 1.10 | 1.10.0.3(Mac 및 Win) | 2018년 8월 31일 | AEM 6.5;AEM 6.4 SP1;AEM 6.3 SP2;AEM 6.2 SP1 CFP2+;AEM 6.1 SP2 CFP7+ |
-| 1.9 | 1.9.1.1(Mac 및 Win) | 2018년 6월 21일 | AEM 6.4;AEM 6.3 SP1;AEM 6.2 SP1 CFP2+;AEM 6.1 SP2 CFP7+ |
-| 1.8 | 1.8.1.0 (Mac 및 Win) | 2018년 3월 28일 | AEM 6.4;AEM 6.3 SP1;AEM 6.2 SP1 CFP2+;AEM 6.1 SP2 CFP7+ |
-| 1.7 | 1.7.0.3 (Mac 및 Win) | 2018년 1월 10일 | AEM 6.3 SP1;AEM 6.2 SP1 CFP2+;AEM 6.1 SP2 CFP7+ |
+| 1.10 | 1.10.0.3(Mac 및 Win) | 2018년 8월 31일 | AEM 6.5; AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.9 | 1.9.1.1(Mac 및 Win) | 2018년 6월 21일 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.8 | 1.8.1.0 (Mac 및 Win) | 2018년 3월 28일 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
+| 1.7 | 1.7.0.3 (Mac 및 Win) | 2018년 1월 10일 | AEM 6.3 SP1; AEM 6.2 SP1 CFP2+; AEM 6.1 SP2 CFP7+ |
