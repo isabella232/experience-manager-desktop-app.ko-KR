@@ -4,14 +4,14 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱에 대한 릴리
 mini-toc-levels: 1
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: d642a33c8e8c2f771a6f996a76167b7f6e42c1ce
+source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1648'
 ht-degree: 23%
 
 ---
 
-# [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트  {#release-notes-v2}
+# [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트 {#release-notes-v2}
 
 최신 데스크탑 앱 버전 2.1(2.1.3.1)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 6월 8일입니다.
 
@@ -33,7 +33,7 @@ ht-degree: 23%
 
 | 운영 체제 | [!DNL Experience Manager]로서의 [!DNL Cloud Service]  | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) |
+| macOS | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) |
 | Windows 64비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) |
 | Windows 32비트 | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
@@ -44,7 +44,7 @@ ht-degree: 23%
 <!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
 -->
 
-## 다른 자산 및 파일 유형 {#support-for-file-types} 지원
+## 다양한 자산 및 파일 유형 지원 {#support-for-file-types}
 
 기본 작업용 이진 파일을 나타내는 [!DNL Experience Manager]에 저장된 자산을 애플리케이션에서 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
@@ -80,7 +80,7 @@ ht-degree: 23%
 
 * (선택된 경우) 앱이 폴더 및 파일을 업로드하여 [!DNL Adobe Experience Manager]에서 생성된 해당 노드 이름이 로컬 파일 및 폴더 이름과 동일하도록 하는 옵션이 추가되었습니다.
 
-   이 동작은 데스크탑 앱 버전 1 의 기본 동작과 비슷합니다. 반면에 현재 버전에서는 옵션이 활성화되지 않으면 공백 및 폴더 이름의 `% ; # , + ? ^ { } "` 문자가 폴더 경로에서 대시로 대체됩니다. 또한 폴더 경로에서는 대문자가 소문자로 변환됩니다. 그러나 파일 이름에서 `# % { } ? &` 문자는 대시로 대체됩니다.하지만 공백과 케이스는 유지됩니다. 자세한 내용은 [앱 환경 설정](/help/install-upgrade.md#set-preferences) 및 [새 자산 업로드 및 추가](/help/using.md#upload-and-add-new-assets-to-aem)를 참조하십시오.
+   이 동작은 데스크탑 앱 버전 1 의 기본 동작과 비슷합니다. 반면에 현재 버전에서는 옵션이 활성화되지 않으면 공백 및 폴더 이름의 `% ; # , + ? ^ { } "` 문자가 폴더 경로에서 대시로 대체됩니다. 또한 폴더 경로에서는 대문자가 소문자로 변환됩니다. 그러나 파일 이름에서 `# % { } ? &` 문자는 대시로 대체됩니다. 하지만 공백과 케이스는 유지됩니다. 자세한 내용은 [앱 환경 설정](/help/install-upgrade.md#set-preferences) 및 [새 자산 업로드 및 추가](/help/using.md#upload-and-add-new-assets-to-aem)를 참조하십시오.
 
 **앱 v2.1.1.0에서 업데이트**
 
@@ -102,21 +102,21 @@ ht-degree: 23%
 
 * 이제 업로드 성능을 향상시키기 위해 업로드 가속 설정을 사용할 수 있습니다. 이 설정을 켜면 더 많은 로컬 CPU 스레드를 사용하여 앱을 더 빨리 업로드하고 리소스를 많이 사용합니다.
 
-* 파일 이름 또는 특정 GB18030 문자가 포함된 경로가 수정될 때 자산 업로드가 발생합니다.<!-- CQ-4283494 -->
+* 파일 이름 또는 특정 GB18030 문자가 포함된 경로가 수정될 때 자산 업로드가 발생합니다. <!-- CQ-4283494 -->
 
-* 검색 결과에서 다른 정렬 유형으로 전환한 후 관련성별로 정렬 옵션을 사용할 수 있습니다.<!-- CQ-4286874 -->
+* 검색 결과에서 다른 정렬 유형으로 전환한 후 관련성별로 정렬 옵션을 사용할 수 있습니다. <!-- CQ-4286874 -->
 
-* 이제 데스크탑 앱에 명시적으로 새로 고칠 필요 없이 하위 폴더가 나열됩니다.<!-- CQ-4285711 -->
+* 이제 데스크탑 앱에 명시적으로 새로 고칠 필요 없이 하위 폴더가 나열됩니다. <!-- CQ-4285711 -->
 
-* (Windows) 일부 Windows 시스템에서 사용할 수 없는 앱 인터페이스 문제가 해결되었습니다. 인터페이스 요소가 &#39;이동됨&#39; 사이드로의 클릭 영역으로 왜곡되어 표시되므로 사용자가 앱 인터페이스를 클릭할 수 없습니다.<!-- CQ-4280785 -->
+* (Windows) 일부 Windows 시스템에서 사용할 수 없는 앱 인터페이스 문제가 해결되었습니다. 인터페이스 요소가 &#39;이동됨&#39; 사이드로의 클릭 영역으로 왜곡되어 표시되므로 사용자가 앱 인터페이스를 클릭할 수 없습니다. <!-- CQ-4280785 -->
 
 **앱 v2.0.1의 업데이트**
 
 버그 수정 및 업데이트는 다음과 같습니다.
 
-* `%APPDATA%` 경로와 일치하도록 `%Temp%` 디렉터리를 구성하는 옵션을 허용합니다.<!-- CQ-4282665 -->
+* `%APPDATA%` 경로와 일치하도록 `%Temp%` 디렉터리를 구성하는 옵션을 허용합니다. <!-- CQ-4282665 -->
 
-* 사용자가 Okta SAML 인증을 통해 [!DNL Experience Manager] 작성자에 로그인할 수 있도록 허용합니다.<!-- CQ-4278134 -->
+* 사용자가 Okta SAML 인증을 통해 [!DNL Experience Manager] 작성자에 로그인할 수 있도록 허용합니다. <!-- CQ-4278134 -->
 
 ## 설치 지침 {#installation-instructions-v2}
 
@@ -154,9 +154,9 @@ ht-degree: 23%
 
 **사용자 인터페이스 문제:**
 
-* 데스크탑 앱의 인터페이스가 비어 있는 경우가 가끔 있습니다. 마우스 오른쪽 단추를 클릭하고 [!UICONTROL Refresh] 을 클릭하여 응용 프로그램을 다시 로드합니다. 새로 고침 후 DAM 저장소의 루트에서 시작합니다. 자산의 업데이트 또는 상태는 유지됩니다.<!-- CQ-4270267 -->
+* 데스크탑 앱의 인터페이스가 비어 있는 경우가 가끔 있습니다. 마우스 오른쪽 단추를 클릭하고 [!UICONTROL Refresh] 을 클릭하여 응용 프로그램을 다시 로드합니다. 새로 고침 후 DAM 저장소의 루트에서 시작합니다. 자산의 업데이트 또는 상태는 유지됩니다. <!-- CQ-4270267 -->
 
-* 트랙 패드 또는 마우스 포인터를 사용하지 않으면 폴더/검색 결과를 탐색하기 어렵습니다. 마우스 장치에 마우스 휠이 없으면 스크롤 막대가 표시되지 않을 수 있습니다.<!-- CQ-4269947 -->
+* 트랙 패드 또는 마우스 포인터를 사용하지 않으면 폴더/검색 결과를 탐색하기 어렵습니다. 마우스 장치에 마우스 휠이 없으면 스크롤 막대가 표시되지 않을 수 있습니다. <!-- CQ-4269947 -->
 
 * 자산 업로드가 변경될 때 진행률 표시줄이 제대로 표시되지 않는 경우가 가끔 있습니다.
 
@@ -166,7 +166,7 @@ ht-degree: 23%
 
 **CRUD(만들기, 읽기, 업데이트 및 삭제) 문제:**
 
-* 변경 내용을 주석과 함께 자산에 업로드할 때 주석이 자산과 함께 [!DNL Experience Manager]에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 [!DNL Experience Manager] 6.4.5 및 [!DNL Experience Manager] 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치하는 것이 좋습니다.<!-- CQ-4268990 -->
+* 변경 내용을 주석과 함께 자산에 업로드할 때 주석이 자산과 함께 [!DNL Experience Manager]에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 [!DNL Experience Manager] 6.4.5 및 [!DNL Experience Manager] 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치하는 것이 좋습니다. <!-- CQ-4268990 -->
 
 * 사용자가 자산 전송을 취소할 수 없습니다. 의도하지 않은 대용량 전송을 트리거한 경우 애플리케이션을 종료하고 다시 시작합니다. <!-- CQ-4278940 -->
 
