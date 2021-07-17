@@ -2,14 +2,14 @@
 title: 데스크탑 앱 버전 1.10 문제 해결.
 description: 설치, 업그레이드 및 구성과 관련된 간혹 문제를 해결하려면  [!DNL Adobe Experience Manager] 데스크탑 앱 버전 1.10 문제를 해결하십시오.
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
-source-git-commit: 78f18e68178f711d925d7e308822c657087d009a
+source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
 workflow-type: tm+mt
-source-wordcount: '3363'
+source-wordcount: '3350'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] 데스크탑 앱 v1.x {#troubleshoot-aem-desktop-app} 문제 해결
+# [!DNL Adobe Experience Manager] 데스크탑 앱 v1.x 문제 해결 {#troubleshoot-aem-desktop-app}
 
 설치, 업그레이드, 구성 등과 관련된 간혹 문제를 해결하려면 AEM 데스크탑 앱 문제를 해결하십시오.
 
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 데스크탑 앱에는 다음 구성 요소가 포함되어 있습니다.
 
-* **데스크탑 애플리케이션**:애플리케이션이 DAM을 원격 파일 시스템으로 마운트하거나 마운트 해제하며 로컬로 마운트된 네트워크 공유와 연결되는 원격 AEM 인스턴스 간에 파일 시스템 호출을 변환합니다.
-* **운영 체제 WebDAV/SMB 클라이언트**:Windows 탐색기/Finder와 데스크탑 앱 간의 통신을 처리합니다. 파일이 검색, 작성, 수정, 삭제, 이동 또는 복사된 경우 운영 체제(OS) WebDAV/SMB 클라이언트는 이 작업을 데스크탑 앱에 전달합니다. 통신을 받은 후 데스크탑 앱은 이를 기본 AEM 원격 API 호출로 변환합니다. 예를 들어, 사용자가 마운트된 디렉토리에 파일을 만들면 WebDAV/SMB 클라이언트가 요청을 시작하며 이 요청은 DAM에서 파일을 생성하는 HTTP 요청으로 해석됩니다. WebDAV/SMB 클라이언트는 OS에 내장된 구성 요소입니다. 어떤 식으로든 데스크탑 앱, AEM 또는 Adobe에 속하지 않습니다.
-* **Adobe Experience Manager 인스턴스**:AEM Assets DAM 저장소에 저장된 자산에 대한 액세스 권한을 제공합니다. 또한, 탑재된 네트워크 공유와 상호 작용하는 로컬 데스크탑 응용 프로그램을 대신하여 데스크탑 앱에서 요청한 작업을 수행합니다. target AEM 인스턴스는 AEM 버전 6.1 이상을 실행해야 합니다. 이전 AEM 버전을 실행하는 AEM 인스턴스에는 완전히 작동하려면 추가 기능 팩과 핫픽스가 설치되어 있어야 할 수 있습니다.
+* **데스크탑 애플리케이션**: 애플리케이션이 DAM을 원격 파일 시스템으로 마운트하거나 마운트 해제하며 로컬로 마운트된 네트워크 공유와 연결되는 원격 AEM 인스턴스 간에 파일 시스템 호출을 변환합니다.
+* **운영 체제 WebDAV/SMB 클라이언트**: Windows 탐색기/Finder와 데스크탑 앱 간의 통신을 처리합니다. 파일이 검색, 작성, 수정, 삭제, 이동 또는 복사된 경우 운영 체제(OS) WebDAV/SMB 클라이언트는 이 작업을 데스크탑 앱에 전달합니다. 통신을 받은 후 데스크탑 앱은 이를 기본 AEM 원격 API 호출로 변환합니다. 예를 들어, 사용자가 마운트된 디렉토리에 파일을 만들면 WebDAV/SMB 클라이언트가 요청을 시작하며 이 요청은 DAM에서 파일을 생성하는 HTTP 요청으로 해석됩니다. WebDAV/SMB 클라이언트는 OS에 내장된 구성 요소입니다. 어떤 식으로든 데스크탑 앱, AEM 또는 Adobe에 속하지 않습니다.
+* **Adobe Experience Manager 인스턴스**: AEM Assets DAM 저장소에 저장된 자산에 대한 액세스 권한을 제공합니다. 또한, 탑재된 네트워크 공유와 상호 작용하는 로컬 데스크탑 응용 프로그램을 대신하여 데스크탑 앱에서 요청한 작업을 수행합니다. target AEM 인스턴스는 AEM 버전 6.1 이상을 실행해야 합니다. 이전 AEM 버전을 실행하는 AEM 인스턴스에는 완전히 작동하려면 추가 기능 팩과 핫픽스가 설치되어 있어야 할 수 있습니다.
 
-## 의도한 AEM 데스크탑 앱 {#intended-use-cases-for-aem-desktop-app} 사용 사례
+## 의도한 AEM 데스크탑 앱 사용 사례 {#intended-use-cases-for-aem-desktop-app}
 
 AEM 데스크탑 앱에서는 네트워크 공유 기술을 사용하여 원격 AEM 저장소를 로컬 데스크탑에 매핑합니다. 그러나 사용자가 로컬 데스크탑에서 직접 디지털 자산 관리 작업을 수행하는 자산 보유 네트워크 공유를 대체하기 위한 것은 아닙니다. 여기에는 여러 파일 이동 또는 복사나 큰 폴더 구조를 파인더/탐색기에서 직접 AEM Assets 네트워크 공유로 드래그하는 작업이 포함됩니다.
 
@@ -64,7 +64,7 @@ AEM Desktop은 다음을 포함하되 이에 제한되지 않는 집중적인 �
 
 [!DNL Experience Manager] 데스크탑 앱에는 고정된 시간 간격 후 서버 [!DNL Experience Manager] 와 데스크탑 앱 간의 연결을 해제하는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후에 연결이 시간 초과되면 업로드 시간 제한을 높여 자산을 몇 번 다시 업로드합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
-## AEM {#caching-and-communication-with-aem}과의 캐싱 및 통신
+## AEM과의 캐싱 및 통신 {#caching-and-communication-with-aem}
 
 AEM 데스크탑 앱에서는 최종 사용자 환경을 개선하기 위해 내부 캐싱 및 백그라운드 업로드 기능을 제공합니다. 큰 파일을 저장할 때 먼저 로컬에 저장되므로 계속 작업할 수 있습니다. 잠시 후(현재 30초) 파일은 백그라운드에서 AEM 서버로 전송됩니다.
 
@@ -96,7 +96,7 @@ AEM 데스크탑 앱에서 캐싱을 수행하는 방법은 다음과 같습니�
 
 Adobe은 개별 사용자의 업로드 속도가 10Mbps에 가깝도록 권장합니다. 무선 연결의 경우 여러 사용자 간에 대역폭을 공유하는 경우가 많습니다. 여러 사용자가 네트워크 대역폭을 사용하는 작업을 동시에 수행하면 성능이 더 저하될 수 있습니다. 이러한 문제를 방지하려면 유선 연결을 사용하십시오.
 
-## Windows 관련 구성 {#windows-specific-configurations}
+## Windows 특정 구성 {#windows-specific-configurations}
 
 Windows에서 Experience Manager을 사용하는 경우 WebDAV 클라이언트의 성능을 향상시키기 위해 Windows를 구성할 수 있습니다. 자세한 내용은 [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570)로 이동하십시오.
 
@@ -129,7 +129,7 @@ Windows 7에서 IE 설정을 수정하면 WebDAV의 성능이 향상됩니다. �
 
 DAM 자산 업데이트 워크플로우에 대해 임시 워크플로우를 활성화하여 AEM 측에서 성능을 향상시킬 수 있습니다. 임시 워크플로우를 활성화하면 AEM에서 자산을 만들거나 수정할 때 자산을 업데이트하는 데 필요한 처리 능력이 줄어듭니다.
 
-1. 구성할 AEM 인스턴스의 `/miscadmin`(예: `http://[Server]:[Port]/miscadmin`)으로 이동합니다.
+1. Experience Manager 인스턴스(`https://[aem_server]:[port]/miscadmin`)에서 `/miscadmin`으로 이동합니다.
 1. 탐색 트리에서 **도구** > **워크플로우** > **모델** > **dam**&#x200B;을 확장합니다.
 1. **DAM 자산 업데이트**&#x200B;를 두 번 클릭합니다.
 1. 부동 도구 패널에서 **페이지** 탭으로 전환한 다음 **페이지 속성**&#x200B;을 클릭합니다.
@@ -139,9 +139,9 @@ DAM 자산 업데이트 워크플로우에 대해 임시 워크플로우를 활�
 
 AEM 성능을 향상시키는 또 다른 방법은 Granite Transient Workflow 큐 작업에 대한 최대 병렬 작업 값을 구성하는 것입니다. 권장되는 값은 서버에서 사용할 수 있는 CPU 수의 약 절반입니다. 값을 조정하려면 다음 단계를 수행합니다.
 
-1. 구성할 AEM 인스턴스에서 */system/console/configMgr* 로 이동합니다(예: `http://[aem_server]:[port]/system/console/configMgr`).
-1. **QueueConfiguration**&#x200B;을 검색하고 **Granite Transient Workflow 큐** 작업을 찾을 때까지 각 작업을 클릭하여 엽니다. 옆에 있는 편집 을 클릭합니다.
-1. **최대 병렬 작업** 값을 변경하고 **저장**&#x200B;을 클릭합니다.
+1. 구성할 AEM 인스턴스의 `/system/console/configMgr`(예: `https://[aem_server]:[port]/system/console/configMgr`)으로 이동합니다.
+1. `QueueConfiguration`을(를) 검색하고 **Granite Transient Workflow Queue** 작업을 찾을 때까지 각 작업을 클릭하여 열고 **편집**&#x200B;을 클릭합니다.
+1. `Maximum Parallel Jobs` 값을 변경하고 **저장**&#x200B;을 클릭합니다.
 
 ## AWS 구성 {#aws-configuration}
 
@@ -254,7 +254,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## 다른 사용자가 체크 아웃한 파일 저장 {#saving-a-file-checked-out-by-others}
+## 다른 사람이 체크 아웃한 파일 저장 {#saving-a-file-checked-out-by-others}
 
 운영 체제의 기술적 한계로 인해 다른 사용자가 체크 아웃한 파일을 덮어쓸때 사용자가 일관된 경험을 유지할 수 없습니다. 경험은 체크 아웃된 파일을 편집하는 데 사용되는 애플리케이션에 따라 달라집니다. 디스크 쓰기 실패를 나타내는 오류 메시지를 표시하거나 관련 없는 오류 또는 일반 오류를 표시하는 경우가 있습니다. 다른 경우에는 오류 메시지가 표시되지 않고 작업이 성공적으로 수행된 것으로 나타납니다.
 
@@ -262,7 +262,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 동작 여부에 관계없이 체크 인할 때 파일은 변경되지 않은 상태로 유지됩니다. 파일의 다른 버전이 표시되더라도 변경 사항은 AEM에 동기화되지 않습니다.
 
-## 파일 이동 문제 해결 {#troubleshooting-problems-around-moving-files}
+## 파일 이동 관련 문제 해결 {#troubleshooting-problems-around-moving-files}
 
 서버 API를 사용하려면 이동 및 복사 작업이 작동하도록 추가 헤더, X-Destination, X-Depth 및 X-Overwrite가 필요합니다. 디스패처가 기본적으로 이러한 헤더를 전달하지 않으므로 이러한 작업이 실패합니다. 자세한 내용은 [Dispatcher 뒤의 AEM에 연결](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)을 참조하십시오.
 
@@ -274,7 +274,7 @@ SSO 지원(SAML) AEM 인스턴스에 연결하는 AEM Desktop과 관련된 문�
 
 1. 웹 브라우저를 엽니다.
 1. 주소 표시줄에서 URL `/content/dam.json`을 지정합니다.
-1. URL을 target AEM 인스턴스로 바꿉니다(예: `http://localhost:4502/content/dam.json`).
+1. URL을 target AEM 인스턴스로 바꿉니다(예: `https://localhost:4502/content/dam.json`).
 1. AEM에 로그온합니다.
 1. 로그인한 후 주소 표시줄에서 브라우저의 현재 주소를 확인합니다. 처음 입력한 URL과 일치해야 합니다.
 1. `/content/dam.json` 앞의 모든 값이 AEM Desktop에 구성된 target AEM 값과 일치하는지 확인합니다.
@@ -283,13 +283,13 @@ SSO 지원(SAML) AEM 인스턴스에 연결하는 AEM Desktop과 관련된 문�
 
 AEM 데스크탑 앱에서 HTTP 통신에 사용하는 라이브러리는 엄격한 SSL 적용을 사용합니다. 때때로 브라우저를 사용하여 연결이 성공하지만 AEM 데스크탑 앱을 사용하는 데 실패합니다. SSL을 적절하게 구성하려면 Apache에서 누락된 중간 인증서를 설치합니다. Apache](https://access.redhat.com/solutions/43575)에서 중간 CA 인증서를 설치하는 방법 을 참조하십시오.[
 
-## AEM Desktop에서 디스패처 {#using-aem-desktop-with-dispatcher} 사용
+## AEM Desktop과 Dispatcher 사용 {#using-aem-desktop-with-dispatcher}
 
 AEM Desktop은 Dispatcher 뒤에서 AEM 배포과 함께 작동합니다. 이것은 AEM 서버에 대한 기본 및 권장 구성입니다. AEM 작성 환경 앞의 AEM 디스패처는 일반적으로 DAM 자산 캐싱을 건너뛰도록 구성됩니다. 따라서 디스패처는 AEM Desktop의 관점에서 추가 캐싱을 제공하지 않습니다. AEM Desktop에서 디스패처 구성이 작동하도록 조정되었는지 확인합니다. 자세한 내용은 [Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher) 뒤의 AEM에 연결 을 참조하십시오.
 
-## 로그 파일 확인 중 {#checking-for-log-files}
+## 로그 파일 확인 {#checking-for-log-files}
 
 운영 체제에 따라 다음 위치에서 AEM Desktop용 로그 파일을 찾을 수 있습니다.
 
 * Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-* Mac:`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
