@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱에 대한 릴리
 mini-toc-levels: 1
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 56596ade6e7aca5020af6df485289c5902417594
+source-git-commit: d83f04fb4757bb8025489da7866d36a51ddfe374
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1668'
 ht-degree: 23%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 23%
 
 **앱 v2.1.3.2의 업데이트**
 
-새로운 버전의 애플리케이션에는 몇 가지 주요 수정 사항이 포함되어 있습니다.
+새 버전의 애플리케이션에서 버그 수정 기능을 제공합니다.
 
 **앱 v2.1.3.1의 업데이트**
 
