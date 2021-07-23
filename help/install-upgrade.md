@@ -3,14 +3,14 @@ title: 데스크탑 앱 설치 및 구성
 description: '서버를 설치 및 구성하고 로컬 파일 시스템에 자산을 다운로드합니다. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 1%
+source-wordcount: '1410'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] 데스크탑 앱 {#install-app-v2} 설치
+# [!DNL Adobe Experience Manager] 데스크탑 앱 설치 {#install-app-v2}
 
 [!DNL Adobe Experience Manager] 데스크탑 앱을 사용하면 로컬 데스크탑에서 [!DNL Experience Manager] 내의 자산을 쉽게 사용할 수 있으며 모든 기본 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산을 미리 보고 기본 데스크탑 응용 프로그램에서 열고 다른 문서에 배치하기 위해 Mac Finder 또는 Windows 탐색기에 표시하고 로컬로 변경할 수 있습니다. 업로드하고 리포지토리에 새 버전을 만들 때 변경 사항이 다시 [!DNL Experience Manager]에 저장됩니다.
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 자세한 내용은 [[!DNL Experience Manager] 데스크탑 앱 릴리스 노트](release-notes.md)를 참조하십시오.
 
-## 이전 버전 {#upgrade-from-previous-version}에서 업그레이드
+## 이전 버전에서 업그레이드 {#upgrade-from-previous-version}
 
 데스크탑 앱의 v1.x 사용자인 경우 이전 버전과 최신 앱 버전의 차이점과 유사점을 파악합니다. [데스크탑 앱의 새로운 기능](introduction.md#whats-new-v2) 및 [앱 작동 방식](release-notes.md#how-app-works)을 참조하십시오
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 1. 다른 버전의 앱에서 업그레이드하는 경우 [데스크탑 앱 업그레이드](#upgrade-from-previous-version)를 참조하십시오.
 
-1. [!DNL Experience Manager] 을 [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 이상 또는 [!DNL Experience Manager] 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. [!DNL Experience Manager] 설정이 [릴리스 노트](release-notes.md)에 언급된 호환성 요구 사항을 충족하는지 확인합니다. 필요한 경우 해당 [호환성 패키지](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)를 다운로드하고 [!DNL Experience Manager] 패키지 관리자를 [!DNL Experience Manager] 관리자로 사용하여 설치합니다. 패키지를 설치하려면 [패키지 사용 방법](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)을 참조하십시오.
+1. [!DNL Experience Manager] 을 [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 이상 또는 [!DNL Experience Manager] 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. [!DNL Experience Manager] 설정이 [릴리스 노트](release-notes.md)에 언급된 호환성 요구 사항을 충족하는지 확인합니다. 필요한 경우 해당 [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)를 다운로드하고 [!DNL Experience Manager] 패키지 관리자를 [!DNL Experience Manager] 관리자로 사용하여 설치합니다. 패키지를 설치하려면 [패키지 사용 방법](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)을 참조하십시오.
 
 1. 설치 관리자 바이너리를 실행하고 화면 지침에 따라 설치합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
    ![데스크탑 앱의 연결 화면과 입력 서버 주소](assets/connect_da2.png)
 
-   *그림:입력 서버 주소에 대한 연결 화면입니다.*
+   *그림: 입력 서버 주소에 대한 연결 화면입니다.*
 
    >[!CAUTION]
    >
@@ -84,7 +84,7 @@ ht-degree: 1%
 
    ![로그인하면 앱에 DAM 콘텐츠가 표시됩니다](assets/firstview_da2.png)
 
-   *그림:애플리케이션은 로그인 후 DAM 컨텐츠를 표시합니다*
+   *그림: 애플리케이션은 로그인 후 DAM 컨텐츠를 표시합니다*
 
 1. ([!DNL Experience Manager] 6.5.1 이상) [!DNL Experience Manager] 6.5.1 이상에서 데스크탑 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [Azure 커넥터](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) 또는 [S3 커넥터](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store)를 참조하십시오.
 
@@ -98,29 +98,29 @@ ht-degree: 1%
 
 * [!UICONTROL Show window when application starts].
 
-* **[!UICONTROL Cache Directory]**:앱의 로컬 캐시 위치(로컬로 다운로드한 자산이 들어 있음).
+* **[!UICONTROL Cache Directory]**: 앱의 로컬 캐시 위치(로컬로 다운로드한 자산이 들어 있음).
 
-* **[!UICONTROL Network Drive Letter]**:DAM에 매핑하는 데 사용되는 드라이브  [!DNL Experience Manager] 문자입니다. 확실하지 않은 경우 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자를 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 문자의 자산을 배치하면 서로 다른 문자로 배치된 자산을 볼 수 없습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(INDD)에 남아 있으며 제거되지 않습니다. 이 앱에는 사용 가능한 모든 드라이브 문자가 나열되며 기본적으로 마지막으로 사용할 수 있는 문자(일반적으로 `Z`)가 사용됩니다.
+* **[!UICONTROL Network Drive Letter]**: DAM에 매핑하는 데 사용되는 드라이브  [!DNL Experience Manager] 문자입니다. 확실하지 않은 경우 변경하지 마십시오. 이 앱은 Windows의 모든 드라이브 문자를 매핑할 수 있습니다. 두 사용자가 서로 다른 드라이브 문자의 자산을 배치하면 서로 다른 문자로 배치된 자산을 볼 수 없습니다. 자산의 경로가 변경됩니다. 자산은 바이너리 파일(INDD)에 남아 있으며 제거되지 않습니다. 이 앱에는 사용 가능한 모든 드라이브 문자가 나열되며 기본적으로 마지막으로 사용할 수 있는 문자(일반적으로 `Z`)가 사용됩니다.
 
-* **[!UICONTROL Maximum Cache Size]**:로컬로 다운로드된 자산을 저장하는 데 사용되는 GB의 하드 디스크에서 허용되는 캐시.
+* **[!UICONTROL Maximum Cache Size]**: 로컬로 다운로드된 자산을 저장하는 데 사용되는 GB의 하드 디스크에서 허용되는 캐시.
 
-* **[!UICONTROL Current cache size]**:로컬로 다운로드한 자산의 저장소 크기입니다. 이 정보는 앱을 사용하여 자산을 다운로드한 후에만 표시됩니다.
+* **[!UICONTROL Current cache size]**: 로컬로 다운로드한 자산의 저장소 크기입니다. 이 정보는 앱을 사용하여 자산을 다운로드한 후에만 표시됩니다.
 
-* **[!UICONTROL Automatically download linked assets]**:지원되는 기본 Creative Cloud 앱에 배치된 자산을 원래 파일을 다운로드할 경우 자동으로 가져옵니다.
+* **[!UICONTROL Automatically download linked assets]**: 지원되는 기본 Creative Cloud 앱에 배치된 자산을 원래 파일을 다운로드할 경우 자동으로 가져옵니다.
 
-* **[!UICONTROL Maximum number of downloads]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 자산을 처음 다운로드할 때(표시, 열기, 편집, 다운로드 또는 유사한 옵션을 통해) 배치에 이 수보다 작은 경우에만 자산이 다운로드됩니다. 기본값은 50입니다. 확실하지 않은 경우 변경하지 마십시오. 값을 늘리면 대기 시간이 길어지고 값을 줄이면 필요한 자산이나 폴더를 한 번에 다운로드하지 못할 수 있습니다.
+* **[!UICONTROL Maximum number of downloads]**:  ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 자산을 처음 다운로드할 때(표시, 열기, 편집, 다운로드 또는 유사한 옵션을 통해) 배치에 이 수보다 작은 경우에만 자산이 다운로드됩니다. 기본값은 50입니다. 확실하지 않은 경우 변경하지 마십시오. 값을 늘리면 대기 시간이 길어지고 값을 줄이면 필요한 자산이나 폴더를 한 번에 다운로드하지 못할 수 있습니다.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 이 설정을 사용하여 폴더를 업로드할 때 앱에서 v1.10 앱 동작을 에뮬레이션할 수 있습니다. v1.10에서 리포지토리에서 생성된 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 따릅니다. 그러나 앱의 v2.1에서는 폴더 이름에 있는 추가 공백이 대시로 변환됩니다. 예를 들어, `New Folder` 또는 `new   folder` 업로드는 옵션이 선택되어 있지 않고 v2.1의 기본 동작이 유지되는 경우 저장소에 동일한 노드를 만듭니다. 이 옵션을 선택하면 위의 두 폴더에 대한 저장소에 다른 노드가 만들어지고 v1.10 앱의 동작과 일치합니다.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**:  ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 이 설정을 사용하여 폴더를 업로드할 때 앱에서 v1.10 앱 동작을 에뮬레이션할 수 있습니다. v1.10에서 리포지토리에서 생성된 노드 이름은 사용자가 제공하는 폴더 이름의 공백 및 대소문자를 따릅니다. 그러나 앱의 v2.1에서는 폴더 이름에 있는 추가 공백이 대시로 변환됩니다. 예를 들어, `New Folder` 또는 `new   folder` 업로드는 옵션이 선택되어 있지 않고 v2.1의 기본 동작이 유지되는 경우 저장소에 동일한 노드를 만듭니다. 이 옵션을 선택하면 위의 두 폴더에 대한 저장소에 다른 노드가 만들어지고 v1.10 앱의 동작과 일치합니다.
 
    v2.1의 기본 동작은 동일하게 유지됩니다. 즉, 폴더 이름의 여러 공백을 저장소 노드 이름의 대시로 바꾸고 소문자 노드 이름으로 변환합니다.
 
-* **[!UICONTROL Upload Acceleration]**: ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 자산을 업로드할 때 애플리케이션에서 동시 업로드를 사용하여 업로드 속도를 향상시킬 수 있습니다. 슬라이더를 오른쪽으로 이동하여 업로드의 동시성을 늘릴 수 있습니다. 맨 왼쪽에 있는 슬라이더는 동시 실행 없음(단일 스레드 업로드)을 의미하며 중간 위치는 10개의 동시 스레드에 해당하며 맨 오른쪽에 있는 최대 제한은 20개의 동시 스레드에 해당합니다. 더 높은 동시 시청 제한은 리소스를 많이 사용합니다.
+* **[!UICONTROL Upload Acceleration]**:  ![주의 ](assets/do-not-localize/caution-icon.png) 아이콘주의하여 변경합니다. 자산을 업로드할 때 애플리케이션에서 동시 업로드를 사용하여 업로드 속도를 향상시킬 수 있습니다. 슬라이더를 오른쪽으로 이동하여 업로드의 동시성을 늘릴 수 있습니다. 맨 왼쪽에 있는 슬라이더는 동시 실행 없음(단일 스레드 업로드)을 의미하며 중간 위치는 10개의 동시 스레드에 해당하며 맨 오른쪽에 있는 최대 제한은 20개의 동시 스레드에 해당합니다. 더 높은 동시 시청 제한은 리소스를 많이 사용합니다.
 
 사용할 수 없는 환경 설정을 업데이트하려면 [!DNL Experience Manager] 서버에서 로그아웃한 다음 업데이트하십시오. 환경 설정을 업데이트한 후 ![환경 설정 저장](assets/do-not-localize/save_preferences_da2.png)을 클릭합니다.
 
 ![데스크탑 앱 환경 설정 및 설정](assets/preferences_da2.png)
 
-*그림:데스크탑 앱 환경 설정.*
+*그림: 데스크탑 앱 환경 설정.*
 
 ### 프록시 지원 {#proxy-support}
 
