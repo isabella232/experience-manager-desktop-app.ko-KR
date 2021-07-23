@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱에 대한 릴리
 mini-toc-levels: 1
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: d83f04fb4757bb8025489da7866d36a51ddfe374
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 23%
+source-wordcount: '1675'
+ht-degree: 22%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 23%
 * [!DNL Experience Manager] Adobe Managed Services(AMS) 또는 On-Premise에서 6.4.4 이상 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ko-KR)를 참조하십시오.
 * [!DNL Experience Manager] 6.4.0 - 6.4.3( [호환성 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) 패키지가 Adobe Managed Services(AMS) 또는 On-Premise에 설치됨)
 * [!DNL Experience Manager] 6.3(호환성 패키지 포함)
-* [!DNL Experience Manager] 6.3.3.1 이상( [호환성 패키지 설치 ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) ) 데스크탑 앱은 [!DNL Experience Manager] 6.3.3.0 또는 이전 버전에서 지원되지 않습니다.
+* [!DNL Experience Manager] 6.3.3.1 이상( [호환성 패키지 설치 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) ) 데스크탑 앱은 [!DNL Experience Manager] 6.3.3.0 또는 이전 버전에서 지원되지 않습니다.
 
 [!DNL Adobe Experience Manager] 데스크탑 앱은 다음  **운영 체제에서 사용할 수 있습니다**.
 
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 지원되는 OS의 **다운로드 URL**&#x200B;은 다음과 같습니다.
 
-| 운영 체제 | [!DNL Experience Manager]로서의 [!DNL Cloud Service]  | [!DNL Experience Manager] 6.x |
+| 운영 체제 | [!DNL Cloud Service]로서의 [!DNL Experience Manager] | [!DNL Experience Manager] 6.x |
 |---|---|---|
 | macOS(v2.1.3.2) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) |
 | Windows 64비트(v2.1.3.2) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.2.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.2.exe) |
