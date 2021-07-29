@@ -4,16 +4,16 @@ description: ' [!DNL Adobe Experience Manager] 데스크탑 앱에 대한 릴리
 mini-toc-levels: 1
 feature: 데스크탑 앱, 릴리스 정보
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
+source-git-commit: a7a504d80891d68a0895dcf12d5b3734d7a584ec
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1681'
 ht-degree: 22%
 
 ---
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트 {#release-notes-v2}
 
-최신 데스크탑 앱 버전 2.1(2.1.3.2)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 7월 19일입니다.
+최신 데스크탑 앱 버전 2.1(2.1.3.3)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 7월 29일입니다.
 
 지원되는 **버전**&#x200B;은 다음과 같습니다.[!DNL Experience Manager]
 
@@ -33,8 +33,8 @@ ht-degree: 22%
 
 | 운영 체제 | [!DNL Cloud Service]로서의 [!DNL Experience Manager] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS(v2.1.3.2) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) |
-| Windows 64비트(v2.1.3.2) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.2.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.2.exe) |
+| macOS(v2.1.3.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
+| Windows 64비트(v2.1.3.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
 | Windows 32비트(v2.1.3.1) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
@@ -68,13 +68,17 @@ ht-degree: 22%
 
 자세한 내용은 [v2.0의 새로운 기능](introduction.md#whats-new-v2)을 참조하십시오.
 
-**앱 v2.1.3.2의 업데이트**
+**앱 v2.1.3.3의 업데이트**
 
 새 버전의 애플리케이션에서 버그 수정 기능을 제공합니다.
 
+**앱 v2.1.3.2의 업데이트**
+
+이 버전의 애플리케이션에서 버그 수정을 제공했습니다.
+
 **앱 v2.1.3.1의 업데이트**
 
-현재 버전에서 해결된 버그는 다음과 같습니다.
+이 버전에서 수정되었습니다.
 
 * 자산이 많은 경우에도 자산 업로드 및 다운로드 속도가 향상되었습니다. 이 릴리스에서는 매우 큰 파일이 업로드되었을 때 [!DNL desktop app]을(를) 사용한 자산 업로드가 때로 실패하던 문제를 해결했습니다.
 
