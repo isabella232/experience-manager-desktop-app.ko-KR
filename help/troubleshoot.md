@@ -2,7 +2,7 @@
 title: '데스크탑 앱 및 문제 해결 우수 사례 [!DNL Adobe Experience Manager] '
 description: 모범 사례 및 문제 해결을 따라 설치, 업그레이드, 구성 등과 관련된 간혹 문제가 해결됩니다.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
 workflow-type: tm+mt
 source-wordcount: '2260'
 ht-degree: 0%
@@ -19,27 +19,27 @@ ht-degree: 0%
 
 몇 가지 일반적인 문제와 문제 해결을 방지하려면 다음 우수 사례를 따르십시오.
 
-* **데스크탑 앱 작동 방식 이해**:애플리케이션 사용을 시작하기 전에 앱이 작동하는 방식을 알아 보려면 잠시 시간을 할애하십시오. [!DNL Experience Manager] 웹 인터페이스와 데스크탑 간 연결, 저장소 매핑, 자산 캐싱, 로컬로 저장 및 백그라운드에서 업로드에 대해 알아봅니다. [작동 방식](release-notes.md#how-app-works)을 참조하십시오.
+* **데스크탑 앱 작동 방식 이해**: 애플리케이션 사용을 시작하기 전에 앱이 작동하는 방식을 알아 보려면 잠시 시간을 할애하십시오. [!DNL Experience Manager] 웹 인터페이스와 데스크탑 간 연결, 저장소 매핑, 자산 캐싱, 로컬로 저장 및 백그라운드에서 업로드에 대해 알아봅니다. [작동 방식](release-notes.md#how-app-works)을 참조하십시오.
 
-* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**.폴더를 만들거나 업로드할 때 공백 및 잘못된 문자를 사용하지 마십시오. [폴더 만들기 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)에서 문자 목록을 참조하십시오. 일부 [!DNL Experience Manager] 사용 사례는 폴더 이름에 지원되지 않는 문자가 영향을 받을 수 있습니다.
+* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**. 폴더를 만들거나 업로드할 때 공백 및 잘못된 문자를 사용하지 마십시오. [폴더 만들기 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)에서 문자 목록을 참조하십시오. 일부 [!DNL Experience Manager] 사용 사례는 폴더 이름에 지원되지 않는 문자가 영향을 받을 수 있습니다.
 
-* **충돌을 방지하기 위한 우수 사례**:여러 자산을 공동 작업할 때 발생할 수 있는 충돌을 방지하려면  [편집 충돌 방지](using.md#adv-workflow-collaborate-avoid-conflicts)를 참조하십시오.
+* **충돌을 방지하기 위한 우수 사례**: 여러 자산을 공동 작업할 때 발생할 수 있는 충돌을 방지하려면  [편집 충돌 방지](using.md#adv-workflow-collaborate-avoid-conflicts)를 참조하십시오.
 
-* **크고 계층적인 폴더에 대해 폴더 업로드 사용**:Assets 웹 인터페이스나 다른 방법을 사용하는 대신  [!DNL Experience Manager] 데스크탑 앱을 사용하여 큰 폴더를 업로드합니다. 이 앱에서는 로깅 및 모니터링을 사용하여 자산을 백그라운드에서 업로드합니다. [자산 일괄 업로드](using.md#bulk-upload-assets)를 참조하십시오.
+* **크고 계층적인 폴더에 대해 폴더 업로드 사용**: Assets 웹 인터페이스나 다른 방법을 사용하는 대신  [!DNL Experience Manager] 데스크탑 앱을 사용하여 큰 폴더를 업로드합니다. 이 앱에서는 로깅 및 모니터링을 사용하여 자산을 백그라운드에서 업로드합니다. [자산 일괄 업로드](using.md#bulk-upload-assets)를 참조하십시오.
 
-* **최신 버전 사용**:새 앱 버전을 설치하기 전에 또는 최신 버전으로 업그레이드하기 전에 최신 앱 버전을 사용하고 항상 호환성을  [!DNL Experience Manager] 확인하십시오. [릴리스 노트](release-notes.md)를 참조하십시오.
+* **최신 버전 사용**: 새 앱 버전을 설치하기 전에 또는 최신 버전으로 업그레이드하기 전에 최신 앱 버전을 사용하고 항상 호환성을  [!DNL Experience Manager] 확인하십시오. [릴리스 노트](release-notes.md)를 참조하십시오.
 
-* **같은 드라이브 문자 사용**:조직에 있는 동일한 드라이브 문자를 사용하여 DAM에  [!DNL Experience Manager] 매핑합니다. 다른 사용자가 배치한 자산을 보려면 경로가 동일해야 합니다. 동일한 드라이브 문자를 사용하면 DAM 자산의 경로를 일관되게 확인할 수 있습니다. 다른 사용자가 다른 드라이브 문자를 사용하더라도 자산이 배치된 상태로 유지되며 제거되지 않습니다.
+* **같은 드라이브 문자 사용**: 조직에 있는 동일한 드라이브 문자를 사용하여 DAM에  [!DNL Experience Manager] 매핑합니다. 다른 사용자가 배치한 자산을 보려면 경로가 동일해야 합니다. 동일한 드라이브 문자를 사용하면 DAM 자산의 경로를 일관되게 확인할 수 있습니다. 다른 사용자가 다른 드라이브 문자를 사용하더라도 자산이 배치된 상태로 유지되며 제거되지 않습니다.
 
-* **네트워크** 주의:네트워크 성능은  [!DNL Experience Manager] 데스크탑 앱 성능에 매우 중요합니다. 파일 전송 또는 대량 작업에 대한 응답 속도가 느려지면 네트워크 트래픽이 많을 수 있는 기능을 끄십시오.
+* **네트워크** 주의: 네트워크 성능은  [!DNL Experience Manager] 데스크탑 앱 성능에 매우 중요합니다. 파일 전송 또는 대량 작업에 대한 응답 속도가 느려지면 네트워크 트래픽이 많을 수 있는 기능을 끄십시오.
 
-* **데스크탑 앱에 대해 지원되지 않는 사용 사례**:자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구가 필요).대량의 DAM 작업(대용량 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용하여 파일 찾기 등)동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기화와 같은 동기화 클라이언트와 다릅니다.)
+* **데스크탑 앱에 대해 지원되지 않는 사용 사례**: 자산의 마이그레이션에 앱을 사용하지 마십시오(계획 및 기타 도구가 필요). 대량의 DAM 작업(대용량 폴더 이동, 대용량 업로드, 고급 메타데이터 검색을 사용하여 파일 찾기 등) 동기화 클라이언트로(디자인 원칙 및 사용 패턴은 Microsoft OneDrive 또는 Adobe Creative Cloud 데스크탑 동기처럼 동기화 중인 클라이언트와 다릅니다.)
 
-* **시간 제한**:현재 데스크탑 앱에는 고정된 시간 간격 후 서버 [!DNL Experience Manager] 와 데스크탑 앱 간의 연결을 해제하는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후에 연결이 시간 초과되면 업로드 시간 제한을 높여 자산을 몇 번 다시 업로드합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
+* **시간 제한**: 현재 데스크탑 앱에는 고정된 시간 간격 후 서버 [!DNL Experience Manager] 와 데스크탑 앱 간의 연결을 해제하는 구성 가능한 시간 초과 값이 없습니다. 큰 자산을 업로드할 때 잠시 후에 연결이 시간 초과되면 업로드 시간 제한을 높여 자산을 몇 번 다시 업로드합니다. 기본 시간 초과 설정을 변경하는 권장 방법은 없습니다.
 
 ## 문제 해결 방법 {#troubleshooting-prep}
 
-데스크탑 앱 문제를 해결하려면 다음 정보를 참조하십시오. 또한 지원을 원하는 경우 고객 지원 센터에 문제를 보다 잘 전달할 수 있도록 준비합니다.
+데스크탑 앱 문제를 해결하려면 다음 정보를 참조하십시오. 또한 지원을 원하는 경우 고객 지원 Adobe에 문제를 더 잘 전달할 수 있도록 준비합니다.
 
 ### 로그 파일 위치 {#check-log-files-v2}
 
@@ -47,13 +47,13 @@ ht-degree: 0%
 
 Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-Mac의 경우:`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+Mac에서: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 많은 자산을 업로드할 때 일부 파일을 업로드하지 못하면 `backend.log` 파일을 참조하여 실패한 업로드를 식별하십시오.
 
 >[!NOTE]
 >
->지원 요청 또는 티켓에서 Adobe 고객 지원 팀과 작업할 때 고객 지원 센터에서 문제를 이해하는 데 도움이 되도록 로그 파일을 공유하도록 요청할 수 있습니다. 전체 `Logs` 폴더를 보관하고 고객 지원 팀과 공유합니다.
+>지원 요청 또는 티켓에서 Adobe 고객 지원 팀과 작업할 때 고객 지원 팀에서 문제를 이해하는 데 도움이 되도록 로그 파일을 공유하도록 요청할 수 있습니다. 전체 `Logs` 폴더를 보관하고 고객 지원 담당자와 공유합니다.
 
 ### 로그 파일의 세부 정보 수준 변경 {#level-of-details-in-log}
 
@@ -71,7 +71,7 @@ Mac의 경우:`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
    set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
    ```
 
-   Mac 시스템의 경우:
+   Mac 시스템에서:
 
    1. 터미널 창을 엽니다.
 
@@ -165,9 +165,9 @@ Windows에서 디버그 모드를 활성화하려면
 
 ### macOS에서 업그레이드할 때 발생하는 문제 {#issues-when-upgrading-on-macos}
 
-macOS에서 [!DNL Experience Manager] 데스크탑 앱을 업그레이드할 때 가끔 문제가 발생할 수 있습니다. 이 문제는 [!DNL Experience Manager] 데스크탑 앱의 기존 시스템 폴더가 있기 때문에 새 버전의 [!DNL Experience Manager] 데스크탑 앱이 올바르게 로드되지 않습니다. 이 문제를 해결하려면 다음 폴더와 파일을 수동으로 제거할 수 있습니다.
+macOS에서 [!DNL Experience Manager] 데스크탑 앱을 업그레이드할 때 간혹 문제가 발생할 수 있습니다. 이 문제는 [!DNL Experience Manager] 데스크탑 앱의 기존 시스템 폴더가 있기 때문에 새 버전의 [!DNL Experience Manager] 데스크탑 앱이 올바르게 로드되지 않습니다. 이 문제를 해결하려면 다음 폴더와 파일을 수동으로 제거할 수 있습니다.
 
-다음 단계를 실행하기 전에, macOS Applications 폴더의 `Adobe Experience Manager Desktop` 애플리케이션을 휴지통으로 드래그합니다. 그런 다음 터미널을 열고 다음 명령을 실행하고 메시지가 표시되면 암호를 입력합니다.
+다음 단계를 실행하기 전에, macOS 애플리케이션 폴더의 `Adobe Experience Manager Desktop` 애플리케이션을 휴지통으로 드래그합니다. 그런 다음 터미널을 열고 다음 명령을 실행하고 메시지가 표시되면 암호를 입력합니다.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -258,7 +258,7 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 1. 선택한 편집기를 사용하여 응용 프로그램의 JavaScript 구성 파일을 편집합니다. 이 파일은 기본적으로 운영 체제에 따라 다음 위치에 있습니다.
 
-   Mac의 경우:`/Applications/Adobe Experience Manager Desktop.app/Contents/Resources/javascript/lib-smb/config.json`
+   Mac에서: `/Applications/Adobe Experience Manager Desktop.app/Contents/Resources/javascript/lib-smb/config.json`
 
    Windows: `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop\javascript\config.json`
 
@@ -303,7 +303,7 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 [!DNL Experience Manager] 사용자 인터페이스 내에서 자산을 검색할 때 만료된 자산이 표시되지 않습니다. 데스크탑 앱 및 자산 링크에서 자산을 검색할 때 만료된 자산을 보고, 검색하고, 가져올 수 없도록 관리자는 다음 구성을 수행할 수 있습니다. 구성은 관리자 권한에 관계없이 모든 사용자에 대해 작동합니다.
 
 * [만료된 자산을 숨기도록 Experience Manager 6.5에서 구성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api).
-* [만료된 자산을 숨기도록 Experience Manager에서 Cloud Service으로 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api).
+* [만료된 자산을 숨기도록 Experience Manager as a Cloud Service에서 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
@@ -326,5 +326,5 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [알려진 문제](release-notes.md#known-issues-v2)
-* [편집 충돌 방지](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [편집 충돌 방지](using.md#adv-workflow-collaborate-avoid-conflicts)
 

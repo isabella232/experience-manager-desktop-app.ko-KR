@@ -1,11 +1,11 @@
 ---
 title: 데스크탑 앱 설치 및 구성
 description: '서버를 설치 및 구성하고 로컬 파일 시스템에 자산을 다운로드합니다. [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] '
-feature: 데스크탑 앱, 릴리스 정보
+feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 시스템을 다시 시작합니다.
 
-1. [](release-notes.md) 최신 앱 [](#install-v2) 을 다운로드하여 설치합니다. 아래 지침을 따르십시오.
+1. [](release-notes.md) 최신  [](#install-v2) 앱을 다운로드하여 설치합니다. 아래 지침을 따르십시오.
 
 ##  설치 {#install-v2}
 
