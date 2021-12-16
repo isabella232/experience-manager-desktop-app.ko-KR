@@ -4,16 +4,16 @@ description: 용 릴리스 세부 정보, 향상된 기능, 새로운 기능, �
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 9b7cb9c7114c1518f9b6c2e4c9ed9771f4a1716d
+source-git-commit: 88d74bb9bff7ec5d454600d383f27dcd5dbbe775
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1711'
 ht-degree: 22%
 
 ---
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트 {#release-notes-v2}
 
-최신 데스크탑 앱 버전 2.1(2.1.3.4)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 11월 4일입니다.
+최신 데스크탑 앱 버전 2.1(2.1.4.0)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2021년 12월 16일입니다.
 
 다음 **지원 [!DNL Experience Manager] 버전** 입니다.
 
@@ -65,6 +65,10 @@ ht-degree: 22%
 
 자세한 내용은 [v2.0의 새로운 기능](introduction.md#whats-new-v2).
 
+**앱 v2.1.4.0의 업데이트**
+
+새 버전의 애플리케이션에서 버그 수정 기능을 제공합니다.
+
 **앱 v2.1.3.4의 업데이트**
 
 새 버전의 애플리케이션에서 버그 수정 기능을 제공합니다.
@@ -89,7 +93,7 @@ ht-degree: 22%
 
 * (선택된 경우) 앱에서 생성된 해당 노드 이름이 되도록 폴더 및 파일을 업로드할 수 있는 옵션이 추가되었습니다 [!DNL Adobe Experience Manager] 로컬 파일 및 폴더 이름과 동일합니다.
 
-   이 동작은 데스크탑 앱 버전 1 의 기본 동작과 비슷합니다. 반면에 현재 버전에서는 옵션이 활성화되어 있지 않으면 공백 및 문자를 `% ; # , + ? ^ { } "` 폴더 이름에서 폴더 경로의 대시로 대체됩니다. 또한 폴더 경로에서는 대문자가 소문자로 변환됩니다. 그러나 파일 이름에서 문자는 다음과 같습니다 `# % { } ? &` 대시로 대체됩니다. 하지만 공백과 케이스는 유지됩니다. 자세한 내용은 다음을 참조하십시오. [앱 환경 설정](/help/install-upgrade.md#set-preferences) 및 [새 자산 업로드 및 추가](/help/using.md#upload-and-add-new-assets-to-aem).
+   이 동작은 데스크탑 앱 버전 1 의 기본 동작과 비슷합니다. 반면에 현재 버전에서는 옵션이 활성화되어 있지 않으면 공백 및 문자 `% ; # , + ? ^ { } "` 폴더 이름에서 폴더 경로의 대시로 대체됩니다. 또한 폴더 경로에서는 대문자가 소문자로 변환됩니다. 그러나 파일 이름에서 문자는 다음과 같습니다 `# % { } ? &` 대시로 대체됩니다. 하지만 공백과 케이스는 유지됩니다. 자세한 내용은 다음을 참조하십시오. [앱 환경 설정](/help/install-upgrade.md#set-preferences) 및 [새 자산 업로드 및 추가](/help/using.md#upload-and-add-new-assets-to-aem).
 
 **앱 v2.1.1.0에서 업데이트**
 
@@ -171,7 +175,7 @@ ht-degree: 22%
 
 * 필터를 적용하고 제거하여 로컬에서 편집한 모든 자산을 찾으면 사용자가 시작한 검색 결과 또는 폴더 보기로 앱에서 이동하지 않습니다. DAM 저장소의 루트 폴더를 앱에서 표시합니다.
 
-* 가 없는 URL에 연결할 때 [!DNL Experience Manager] 서버를 실행하면 connect 화면이 응답하지 않습니다. 애플리케이션을 종료하고 다시 시작합니다.
+* 가 없는 URL에 연결할 때 [!DNL Experience Manager] 서버를 실행하면 연결 화면이 응답하지 않습니다. 애플리케이션을 종료하고 다시 시작합니다.
 
 **CRUD(만들기, 읽기, 업데이트 및 삭제) 문제:**
 
