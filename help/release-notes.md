@@ -4,9 +4,9 @@ description: 용 릴리스 세부 정보, 향상된 기능, 새로운 기능, �
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 88d74bb9bff7ec5d454600d383f27dcd5dbbe775
+source-git-commit: c0a429a965d117ccd2db231c1b68f97616a3c384
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1710'
 ht-degree: 22%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 22%
 
 **앱 v2.1.4.0의 업데이트**
 
-새 버전의 애플리케이션에서 버그 수정 기능을 제공합니다.
+새로운 버전의 애플리케이션에서는 버그 수정 사항을 제공합니다.
 
 **앱 v2.1.3.4의 업데이트**
 
