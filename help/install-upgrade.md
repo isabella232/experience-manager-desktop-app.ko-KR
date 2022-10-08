@@ -3,9 +3,9 @@ title: 데스크탑 앱 설치 및 구성
 description: 설치 및 구성 [!DNL Adobe Experience Manager] 데스크탑 앱 [!DNL Adobe Experience Manager Assets] 서버 및 로컬 파일 시스템에서 자산을 다운로드합니다.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 7b884d89c34a6e45f49d4cacb0f5d537dc769742
+source-git-commit: 5b5970cec02d4a605bd7d826d1daa71fe228b0d9
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,8 @@ ht-degree: 0%
    ![데스크탑 앱의 연결 화면과 입력 서버 주소](assets/connect_da2.png)
 
    *그림: 입력 서버 주소에 대한 연결 화면입니다.*
+
+   선택 **[!UICONTROL Remember Connection]** 데스크탑 앱에 로그온할 때마다 연결 세부 사항을 입력하지 않도록 합니다.
 
    >[!CAUTION]
    >

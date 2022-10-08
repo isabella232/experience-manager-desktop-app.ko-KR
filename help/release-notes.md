@@ -1,19 +1,25 @@
 ---
-title: '"[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트"'
+title: "[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트"
 description: 용 릴리스 세부 정보, 향상된 기능, 새로운 기능, 호환성 및 다운로드 링크 [!DNL Adobe Experience Manager] 데스크탑 앱.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 34803cd261c88f6fbe8aa283c057518217a1785e
+source-git-commit: 1167ca53c603b94b298f702d6cbb3231e318e4cd
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 19%
+source-wordcount: '2201'
+ht-degree: 17%
 
 ---
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트 {#release-notes-v2}
 
-최신 데스크탑 앱 버전 2.1(2.1.5.0)의 릴리스 정보는 아래에 나와 있습니다. 릴리스 날짜는 2022년 6월 14일입니다.
+최신 데스크탑 앱 버전 2.2.0의 릴리스 정보는 아래에 있습니다. 릴리스 날짜는 2022년 10월 7일입니다.
+
+최신 버전의 데스크탑 앱에는 다음과 같은 향상된 기능이 포함되어 있습니다.
+
+* Apple Silicon(M1)을 지원합니다.
+
+* 데스크탑 앱에 로그온하는 동안 연결 문자열을 기억하는 기능.
 
 다음 **지원 [!DNL Experience Manager] 버전** 입니다.
 
@@ -33,6 +39,9 @@ ht-degree: 19%
 
 | 운영 체제 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v2.2.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
+| macOS Apple 실리콘(M1)(v2.2.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
+| Windows 64비트(v2.2.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
 | macOS (v2.1.5.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) |
 | Windows 64비트(v2.1.5.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) |
 | Windows 32비트(v2.1.5.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) |
