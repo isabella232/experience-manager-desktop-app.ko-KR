@@ -4,9 +4,9 @@ description: 용 릴리스 세부 정보, 향상된 기능, 새로운 기능, �
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 1167ca53c603b94b298f702d6cbb3231e318e4cd
+source-git-commit: 2f49c1e952202e627e60fa9ad7998a4927aa817c
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2188'
 ht-degree: 17%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 17%
 
 [!DNL Adobe Experience Manager] 데스크탑 앱은 다음 경우에 사용할 수 있습니다 **운영 체제**:
 
-* macOS X 10.14 이상(최신 버그 수정 포함) [Apple 실리콘을 사용한 Mac 컴퓨터](https://support.apple.com/en-us/HT211814) 아직 지원되지 않습니다.
+* macOS X 10.14 이상(최신 버그 수정 포함)
 * Windows 10(최신 서비스 팩 및 버그 수정 포함)
 
 다음 **다운로드 URL** 지원되는 OS의 경우
