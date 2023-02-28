@@ -6,12 +6,12 @@ user-guide-title: Experience Manager 데스크탑 앱 안내서
 breadcrumb-title: 데스크탑 앱 안내서
 user-guide-description: Experience Manager 데스크탑 앱을 통해 저장소와 데스크탑 애플리케이션을 연결하여 리소스를 신속하게 이용하고 작업 과정을 간소화하는 방법을 알아봅니다.
 feature-set: Experience Manager Assets,Experience Manager
-feature: 데스크탑 앱
+feature: Desktop App
 role: User, Admin
 source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 90%
+source-wordcount: '63'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 # Adobe 데스크탑 앱 안내서 {#using}
 
 + [개요](introduction.md)
-+ [릴리스 노트](release-notes.md)
++ [릴리스 정보](release-notes.md)
 + [설치 또는 업그레이드](install-upgrade.md)
 + [앱 사용](using.md)
 + [문제 해결](troubleshoot.md)
