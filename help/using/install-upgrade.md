@@ -3,9 +3,9 @@ title: 데스크탑 앱 설치 및 구성
 description: 설치 및 구성 [!DNL Adobe Experience Manager] 작업할 데스크탑 앱 [!DNL Adobe Experience Manager Assets] 로컬 파일 시스템에 있는 자산을 다운로드합니다.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 0f366e07b9d220cf04286b24e4bb45ce0b385e5c
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,10 @@ ht-degree: 0%
    >[!CAUTION]
    >
    >주소 앞이나 뒤에 선행 또는 후행 공백이 없는지 확인합니다. [!DNL Experience Manager] 서버입니다. 그렇지 않으면 앱에서 [!DNL Experience Manager] 서버입니다.
+
+1. 클릭 **[!UICONTROL I want to connect a different way]** 및 클릭 **[!UICONTROL Adobe login]** Adobe Identity Management 서비스(IMS)를 사용하여 Experience Manager Assets 서버에 로그온합니다. IMS 로그인을 사용하면 데스크탑 앱에서 액세스 토큰 새로 고침을 자동으로 수행하여 사용자가 최대 14일 동안 로그인 상태를 유지할 수 있습니다. 클릭 **[!UICONTROL Direct login]** 에 로그온하려면 [!DNL Experience Manager] 자격 증명을 사용하는 서버입니다.
+
+   ![Adobe 로그인](assets/adobe-login.png)
 
 1. 연결에 성공하면 의 루트 폴더에서 사용할 수 있는 폴더 및 에셋 목록을 볼 수 있습니다. [!DNL Experience Manager] DAM. 앱 내에서 폴더를 검색할 수 있습니다.
 
