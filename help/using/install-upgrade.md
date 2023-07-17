@@ -3,9 +3,9 @@ title: 데스크탑 앱 설치 및 구성
 description: 설치 및 구성 [!DNL Adobe Experience Manager] 작업할 데스크탑 앱 [!DNL Adobe Experience Manager Assets] 로컬 파일 시스템에 있는 자산을 다운로드합니다.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: e51547496b03ac42d13e7bee5e2e3d20e520d0ad
+source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
