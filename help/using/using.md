@@ -4,7 +4,7 @@ description: 사용 [!DNL Adobe Experience Manager] 데스크탑 앱, 작업 대
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
 workflow-type: tm+mt
 source-wordcount: '4054'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 사용 [!DNL Adobe Experience Manager] 데스크탑 앱 {#use-aem-desktop-app-v2}
 
-사용 [!DNL Adobe Experience Manager] 데스크탑 앱: 저장된 디지털 자산에 쉽게 액세스 [!DNL Adobe Experience Manager] 로컬 데스크탑의 DAM 저장소를 사용하여 모든 데스크탑 애플리케이션에서 이러한 자산을 사용합니다. 데스크탑 애플리케이션에서 자산을 열고 자산을 로컬로 편집할 수 있습니다. 변경 사항을 다시 업로드하십시오. [!DNL Experience Manager] 버전 제어로 다른 사용자와 업데이트를 공유할 수 있습니다. 새 파일 및 폴더 계층을 업로드할 수도 있습니다. [!DNL Experience Manager], 폴더 만들기 및 자산 또는 폴더 삭제 [!DNL Experience Manager] DAM.
+사용 [!DNL Adobe Experience Manager] 데스크탑 앱: 저장된 디지털 자산에 쉽게 액세스 [!DNL Adobe Experience Manager] 로컬 데스크탑의 DAM 저장소를 사용하여 모든 데스크탑 애플리케이션에서 이러한 에셋을 사용합니다. 데스크탑 애플리케이션에서 자산을 열고 자산을 로컬로 편집할 수 있습니다. 변경 사항을 다시 업로드하십시오. [!DNL Experience Manager] 버전 제어로 다른 사용자와 업데이트를 공유할 수 있습니다. 새 파일 및 폴더 계층을 업로드할 수도 있습니다. [!DNL Experience Manager], 폴더 만들기 및 자산 또는 폴더 삭제 [!DNL Experience Manager] DAM.
 
 통합을 통해 조직에서 다양한 역할이 의 자산을 중앙에서 관리할 수 있습니다. [!DNL Experience Manager Assets] Windows 또는 Mac OS의 기본 애플리케이션에서 로컬 데스크탑의 자산에 액세스할 수 있습니다.
 
@@ -22,6 +22,7 @@ ht-degree: 0%
 를 사용하여 수행하는 주요 작업 [!DNL Adobe Experience Manager] 데스크탑 앱은 다음과 같습니다.
 
 ![을 사용하여 수행할 수 있는 워크플로 및 작업 [!DNL Experience Manager] 데스크탑 앱](assets/aem_desktop_app_usecases_v2.png "을 사용하여 수행할 수 있는 워크플로 및 작업 [!DNL Adobe Experience Manager] 데스크탑 앱")
+
 다운로드 [이](assets/aem_desktop_app_usecases_print.pdf) 인쇄 준비 PDF 파일입니다.
 
 ## 데스크탑 앱 작동 방식 {#how-app-works2}
@@ -165,7 +166,7 @@ ht-degree: 0%
 
 공동 편집에 대한 우수 사례는 을 참조하십시오. [고급 워크플로우: 동일한 파일에 대해 공동 작업하고 편집 충돌 방지](#adv-workflow-collaborate-avoid-conflicts).
 
-다음과 같은 경우 로컬 자산에 대한 변경 사항 및 편집 내용을 취소할 수 있습니다. 클릭 **[!UICONTROL Discard Changes]**.
+다음과 같은 경우 로컬 자산에 대한 변경 사항 및 편집 내용을 취소할 수 있습니다. **[!UICONTROL Discard Changes]**&#x200B;를 클릭합니다.
 
 * 에서 로컬 변경 사항을 저장하지 않으려면 [!DNL Experience Manager].
 * 일부 변경 내용을 저장한 후 원래 에셋에서 변경 작업을 시작합니다.
