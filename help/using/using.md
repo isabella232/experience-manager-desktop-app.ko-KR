@@ -4,9 +4,9 @@ description: 사용 [!DNL Adobe Experience Manager] 데스크탑 앱, 작업 대
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
+source-git-commit: 1139b3359042a134d86900e3b7b7f03d8d920cdc
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4032'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->앱은 자산의 제목이나 파일 이름뿐만 아니라 여러 메타데이터 필드에서 검색 기준을 일치시켜 자산을 표시합니다.
+>이 앱은 에셋의 제목이나 파일 이름뿐만 아니라 여러 메타데이터 필드에서 검색 기준을 일치시켜 에셋을 표시합니다.
 
 ## 자산 다운로드 {#download-assets}
 
@@ -217,11 +217,11 @@ ht-degree: 0%
 
 | 문자 ‡ | 앱의 이전 환경 설정 | 파일 이름에 발생할 때 | 폴더 이름에서 발생하는 경우 | 예 |
 |---|---|---|---|---|
-| `. / : [ ] | *` | 활성화 또는 비활성화 | (으)로 대체됨 `-` (하이픈). A `.` 파일 이름 확장자의 (점)은 그대로 유지됩니다. | (으)로 대체됨 `-` (하이픈). | `myimage.jpg` 있는 그대로 및 로 유지 `my.image.jpg` 변경 사항 `my-image.jpg`. |
+| `. / : [ ] \| *` | 활성화 또는 비활성화 | (으)로 대체됨 `-` (하이픈). A `.` 파일 이름 확장자의 (점)은 그대로 유지됩니다. | (으)로 대체됨 `-` (하이픈). | `myimage.jpg` 있는 그대로 및 로 유지 `my.image.jpg` 변경 사항 `my-image.jpg`. |
 | `% ; # , + ? ^ { } "` 및 공백 | ![선택 해제 아이콘](assets/do-not-localize/deselect-icon.png) 비활성화됨 | 공백은 유지됩니다 | (으)로 대체됨 `-` (하이픈). | `My Folder.` 변경 사항 `my-folder-`. |
-| `# % { } ? & .` | ![선택 해제 아이콘](assets/do-not-localize/deselect-icon.png) 비활성화됨 | (으)로 대체됨 `-` (하이픈). | NA. | `#My New File.` 변경 사항 `-My New File-`. |
+| `# % { } ? & .` | ![선택 해제 아이콘](assets/do-not-localize/deselect-icon.png) 비활성화됨 | (으)로 대체됨 `-` (하이픈). | 나. | `#My New File.` 변경 사항 `-My New File-`. |
 | 대문자 | ![선택 해제 아이콘](assets/do-not-localize/deselect-icon.png) 비활성화됨 | 케이스는 그대로 유지됩니다. | 소문자로 변경되었습니다. | `My New Folder` 변경 사항 `my-new-folder`. |
-| 대문자 | ![선택 확인 아이콘](assets/do-not-localize/selection-checked-icon.png) 활성화됨 | 케이스는 그대로 유지됩니다. | 케이스는 그대로 유지됩니다. | NA. |
+| 대문자 | ![선택 확인 아이콘](assets/do-not-localize/selection-checked-icon.png) 활성화됨 | 케이스는 그대로 유지됩니다. | 케이스는 그대로 유지됩니다. | 나. |
 
 ‡ 문자 목록은 공백으로 구분된 목록입니다.
 
@@ -349,7 +349,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 ![자산을 원격으로 수정할 때 충돌을 해결하는 옵션](assets/modified_remotely_dialog_da2.png "자산을 원격으로 수정할 때 충돌을 해결하는 옵션")
 
-로컬에서 편집 중인 자산이 서버에서도 사용자 모르게 업데이트되면 앱에 **[!UICONTROL Editing Conflict]** 상태. 한 세트의 변경 사항을 유지할 수 있습니다. 업데이트(클릭) **[!UICONTROL Keep Mine]**) 다른 사용자의 편집을 삭제 하거나 다른 사용자의 업데이트를 존중하고 자신의 업데이트를 삭제(**[!UICONTROL Overwrite Mine]**).
+로컬에서 편집 중인 자산이 서버에서도 사용자 모르게 업데이트되면 앱에 **[!UICONTROL Editing Conflict]** 상태. 한 세트의 변경 사항을 유지할 수 있습니다. 업데이트(클릭) **[!UICONTROL Keep Mine]**) 다른 사용자의 편집 내용을 삭제하거나 다른 사용자의 업데이트를 준수하며 내 업데이트를 삭제합니다(**[!UICONTROL Overwrite Mine]**).
 
 ![편집 충돌 해결 옵션](assets/editing_conflict_dialog_da2.png "편집 충돌 해결 옵션")
 
